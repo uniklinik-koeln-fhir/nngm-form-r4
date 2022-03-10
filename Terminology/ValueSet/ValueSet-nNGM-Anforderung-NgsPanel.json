@@ -1,0 +1,34 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-Anforderung-NgsPanel",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-ngsPanel",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_Anforderung_NgsPanel",
+    "title": "ValueSet - nNGM - Anforderung NgsPanel",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-ngsPanel",
+                "concept": [
+                    {
+                        "code": "ngsPanel",
+                        "display": "NGS Panel"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "9ce5c132-f7aa-4b47-80d9-128de8cea5d4",
+        "timestamp": "2020-10-15T12:34:08+00:00",
+        "total": 1,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-ngsPanel",
+                "code": "ngsPanel",
+                "display": "NGS Panel"
+            }
+        ]
+    }
+  }

@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-ECOG",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ecog",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_ECOG",
+  "title": "nNGM: ValueSet ECOG",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA9622-7",
+            "display": "Fully active, able to carry on all pre-disease performance without restriction"
+          },
+          {
+            "code": "LA9623-5",
+            "display": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+          },
+          {
+            "code": "LA9624-3",
+            "display": "Ambulatory and capable of all selfcare but unable to carry out any work activities. Up and about more than 50% of waking hours"
+          },
+          {
+            "code": "LA9625-0",
+            "display": "Capable of only limited selfcare, confined to bed or chair more than 50% of waking hours"
+          },
+          {
+            "code": "LA9626-8",
+            "display": "Completely disabled. Cannot carry on any selfcare. Totally confined to bed or chair"
+          },
+          {
+            "code": "LA9627-6",
+            "display": "Dead"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "concept": [
+          {
+            "code": "unknown",
+            "display": "Unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "916e4031-a9a0-4f80-b4cf-7659964d88c2",
+    "timestamp": "2020-10-15T12:49:51+00:00",
+    "total": 7,
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9622-7",
+        "display": "Fully active, able to carry on all pre-disease performance without restriction"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA9623-5",
+        "display": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA9624-3",
+        "display": "Ambulatory and capable of all selfcare but unable to carry out any work activities. Up and about more than 50% of waking hours"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA9625-0",
+        "display": "Capable of only limited selfcare, confined to bed or chair more than 50% of waking hours"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA9626-8",
+        "display": "Completely disabled. Cannot carry on any selfcare. Totally confined to bed or chair"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "LA9627-6",
+        "display": "Dead"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "code": "unknown",
+        "display": "Unknown"
+      }
+    ]
+  }
+}

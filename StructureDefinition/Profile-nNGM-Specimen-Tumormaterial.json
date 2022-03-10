@@ -1,0 +1,148 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Specimen-Tumormaterial",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Specimen",
+  "version": "1.0.0",
+  "name": "Profile_nNGM_Specimen_Tumormaterial",
+  "title": "Profil - nNGM - Specimen - Tumormaterial",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Specimen",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Specimen.extension:entnahmeKontext",
+        "path": "Specimen.extension",
+        "sliceName": "entnahmeKontext",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/aufenthaltsart"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:entnahmeKontext.value[x]",
+        "path": "Specimen.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Entnahmekontext"
+      },
+      {
+        "id": "Specimen.identifier",
+        "path": "Specimen.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.identifier:biopsieID",
+        "path": "Specimen.identifier",
+        "sliceName": "biopsieID",
+        "patternIdentifier": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "code": "SID"
+              }
+            ]
+          }
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type",
+        "path": "Specimen.type",
+        "short": "Materialtyp",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding",
+        "path": "Specimen.type.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding:ncit",
+        "path": "Specimen.type.coding",
+        "sliceName": "ncit",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/MaterialTyp"
+        }
+      },
+      {
+        "id": "Specimen.subject",
+        "path": "Specimen.subject",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection",
+        "path": "Specimen.collection",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.collected[x]",
+        "path": "Specimen.collection.collected[x]",
+        "short": "Entnahmedatum",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

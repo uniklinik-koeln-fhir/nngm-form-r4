@@ -1,0 +1,113 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-ConsentPolicy",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_ConsentPolicy",
+  "title": "ValueSet - nNGM - Consent Policy",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "184d207f-3236-4083-a153-b693417ebe57",
+    "timestamp": "2020-10-13T09:01:27+00:00",
+    "total": 15,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "1a",
+        "display": "Teil 1a: Molekularpathologische Diagnostik im nNGM"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "1b",
+        "display": "Teil 1b: Überregionale Beratung und Studiensuche im nNGM"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "2",
+        "display": "Teil 2: Forschung im nNGM"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "TE",
+        "display": "TeilnahmeerklärungBesondereVersorgung"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "DS",
+        "display": "DatenschutzerklärungBesondereVersorgung"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "MD",
+        "display": "Molekularpathologische Diagnostik im nNGM (Behandlungskontext)"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "ST",
+        "display": "Überregionale Beratung und Studiensuche im nNGM (Behandlungskontext)"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "WPI",
+        "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) innerhalb des nNGM und an kooperierende Partner"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "WP",
+        "display": "Weitergabe von MDAT und Resttumorproben innerhalb des nNGM und an kooperierende Partner"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "WD",
+        "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) in ein Drittland"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "WR",
+        "display": "Weitergabe von MDAT und Resttumorproben in ein Drittland"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "WPK",
+        "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) zur kommerziellen Nutzung"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "WK",
+        "display": "Weitergabe von MDAT und Resttumorproben zur kommerziellen Nutzung"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "KW",
+        "display": "Kontaktaufnahme des nNGM-Zentrums zu einem späteren Zeitpunkt zur Gewinnung weiterer Informationen über den Behandlungsverlauf"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "KE",
+        "display": "Kontaktaufnahme des nNGM-Zentrums zum Zweck des Einschlusses in eine mögliche infrage kommende neue Studie"
+      }
+    ]
+  }
+}

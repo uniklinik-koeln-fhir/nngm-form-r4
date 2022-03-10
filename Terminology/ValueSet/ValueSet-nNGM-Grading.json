@@ -1,0 +1,106 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Grading",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/grading",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Grading",
+  "title": "ValueSet - nNGM - Grading",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "concept": [
+          {
+            "code": "G0",
+            "display": "Grading nicht vorgesehen"
+          },
+          {
+            "code": "G1",
+            "display": "gut differenziert"
+          },
+          {
+            "code": "G2",
+            "display": "mäßig differenziert"
+          },
+          {
+            "code": "G3",
+            "display": "schlecht / gering differenziert"
+          },
+          {
+            "code": "G4",
+            "display": "undifferenzierter Tumor mit sehr hohem Malignitätsgrad"
+          },
+          {
+            "code": "GX",
+            "display": "nicht bestimmbar"
+          },
+          {
+            "code": "U",
+            "display": "unbekannt"
+          },
+          {
+            "code": "T",
+            "display": "trifft nicht zu"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "uk-koeln-work-grading-1",
+    "timestamp": "2018-10-31",
+    "total": 10,
+    "contains": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "G0",
+        "display": "Grading nicht vorgesehen"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "G1",
+        "display": "gut differenziert"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "G2",
+        "display": "mäßig differenziert"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "G3",
+        "display": "schlecht / gering differenziert"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "G4",
+        "display": "undifferenzierter Tumor mit sehr hohem Malignitätsgrad"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "GX",
+        "display": "nicht bestimmbar"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "U",
+        "display": "unbekannt"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "version": "8",
+        "code": "T",
+        "display": "trifft nicht zu"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "de.uk-koeln.nngm.form",
+  "version": "0.1.0",
+  "dependencies": {
+    "de.basisprofil.r4": "1.1.0"
+  },
+  "fhirVersions": [
+    "4.0.1"
+  ]
+}

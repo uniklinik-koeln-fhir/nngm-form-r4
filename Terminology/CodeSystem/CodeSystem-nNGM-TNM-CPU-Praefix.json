@@ -1,0 +1,29 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-TNM-CPU-Praefix",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
+    "version": "1.0.0",
+    "name": "CodeSystem_nNGM_TNM_CPU_Praefix",
+    "title": "CodeSystem - nNGM - TNM - CPU - Praefix",
+    "status": "active",
+    "description": "TNM c/p/u Praefix",
+    "caseSensitive": true,
+    "compositional": false,
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-cpu-praefix",
+    "content": "complete",
+    "count": 3,
+    "concept": [
+        {
+            "code": "c",
+            "display": "klinisch gesichert"
+        },
+        {
+            "code": "p",
+            "display": "histopathologisch gesichert"
+        },
+        {
+            "code": "u",
+            "display": "Ultraschalldiagnostik"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-Raucherstatus",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/raucherstatus",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_Raucherstatus",
+    "title": "ValueSet - nNGM - Raucherstatus",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://loinc.org",
+                "concept": [
+                    {
+                        "code": "LA15920-4",
+                        "display": "Former smoker"
+                    },
+                    {
+                        "code": "LA18978-9",
+                        "display": "Never smoker"
+                    },
+                    {
+                        "code": "LA18979-7",
+                        "display": "Smoker, current status unknown"
+                    }
+                ]
+            },
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+                "concept": [
+                    {
+                        "code": "unknown",
+                        "display": "Unknown"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "b7125d1d-b6a2-4adc-bb96-11f73bc1d6e3",
+        "timestamp": "2022-03-092T13:22:09+00:00",
+        "total": 4,
+        "contains": [
+            {
+                "system": "http://loinc.org",
+                "code": "LA15920-4",
+                "display": "Former smoker"
+            },
+            {
+                "system": "http://loinc.org",
+                "code": "LA18978-9",
+                "display": "Never smoker"
+            },
+            {
+                "system": "http://loinc.org",
+                "code": "LA18979-7",
+                "display": "Smoker, current status unknown"
+            },
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+                "version": "2018-08-12",
+                "code": "unknown",
+                "display": "Unknown"
+            }
+        ]
+    }
+}

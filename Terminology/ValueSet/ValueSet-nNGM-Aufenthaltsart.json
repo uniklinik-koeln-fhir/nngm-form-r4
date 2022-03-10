@@ -1,0 +1,60 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Aufenthaltsart",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/aufenthaltsart",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Aufenthaltsart",
+  "title": "ValueSet - nNGM - Aufenthaltsart",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "concept": [
+                  {
+                      "code": "AMB",
+                      "display": "ambulatory"
+                  },
+                  {
+                      "code": "IMP",
+                      "display": "inpatient encounter"
+                  }
+              ]
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+              "concept": [
+                  {
+                      "code": "unknown",
+                      "display": "Unknown"
+                  }
+              ]
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "072a2c6f-57cb-4a66-b2d6-1515ba7a10bb",
+      "timestamp": "2020-10-13T10:05:08+00:00",
+      "total": 3,
+      "contains": [
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "version": "2016-11-11",
+              "code": "IMP",
+              "display": "inpatient encounter"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "version": "2016-11-11",
+              "code": "AMB",
+              "display": "ambulatory"
+          },
+          {
+              "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+              "version": "2018-08-12",
+              "code": "unknown",
+              "display": "Unknown"
+          }
+      ]
+  }
+}

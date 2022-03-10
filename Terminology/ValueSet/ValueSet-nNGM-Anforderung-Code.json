@@ -1,0 +1,52 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-Anforderungscode",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-code",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_Anforderungscode",
+    "title": "ValueSet - nNGM - Anforderungscode",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-code",
+                "concept": [
+                    {
+                        "code": "Komplette Gewebediagnostik",
+                        "display": "Komplette Gewebediagnostik"
+                    },
+                    {
+                        "code": "Einzelgewebediagnostik",
+                        "display": "Einzelgewebediagnostik"
+                    },
+                    {
+                        "code": "Liquid Biopsy",
+                        "display": "Liquid Biopsy"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "c20d9185-9c36-4260-9efd-5b39e5ba1883",
+        "timestamp": "2020-11-12T12:30:04+00:00",
+        "total": 3,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-code",
+                "code": "Komplette Gewebediagnostik",
+                "display": "Komplette Gewebediagnostik"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-code",
+                "code": "Einzelgewebediagnostik",
+                "display": "Einzelgewebediagnostik"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-code",
+                "code": "Liquid Biopsy",
+                "display": "Liquid Biopsy"
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Anforderung-LiquidBiopsy",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-liquidBiopsy",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Anforderung_LiquidBiopsy",
+  "title": "ValueSet - nNGM - Anforderung Liquid Biopsy",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "concept": [
+                  {
+                      "code": "C41546",
+                      "display": "Resistance Process"
+                  },
+                  {
+                      "code": "C45576",
+                      "display": "Mutation Abnormality"
+                  }
+              ]
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "9ce5c132-f7aa-4b47-80d9-128de8cea5d4",
+      "timestamp": "2020-10-15T12:34:08+00:00",
+      "total": 2,
+      "contains": [
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "code": "C41546",
+              "display": "Resistance Process"
+          },
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "code": "C45576",
+              "display": "Mutation Abnormality"
+          }
+      ]
+  }
+}

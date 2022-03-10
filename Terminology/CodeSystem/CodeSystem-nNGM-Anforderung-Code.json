@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-Anforderungscode",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-code",
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-code",
+    "version": "1.0.0",
+    "title": "CodeSystem - nNGM - Anforderungscode",
+    "name": "CodeSystem_nNGM_Anforderungscode",
+    "status": "active",
+    "compositional": false, 
+    "caseSensitive": true,
+    "content": "complete",
+    "count": "4",
+    "concept": [
+        {
+            "code": "Komplette Gewebediagnostik",
+            "display": "Komplette Gewebediagnostik"
+        },
+        {
+            "code": "Einzelgewebediagnostik",
+            "display": "Einzelgewebediagnostik"
+        },
+        {
+            "code": "Liquid Biopsy",
+            "display": "Liquid Biopsy"
+        },
+        {
+            "code": "Tumorblock",
+            "display": "Tumorblock"
+        }
+    ]
+}

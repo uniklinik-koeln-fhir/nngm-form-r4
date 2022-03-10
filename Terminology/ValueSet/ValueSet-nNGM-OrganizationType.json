@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-OrganizationType",
+  "url": "http://uk-koeln.de/fhir/ValueSet/OrganizationType/nNGM",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_OrganizationType",
+  "title": "ValueSet - nNGM - OrganizationType",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "440655000",
+            "display": "Outpatient environment (environment)"
+          },
+          {
+            "code": "285201006",
+            "display": "Hospital environment (environment)"
+          },
+          {
+            "code": "309912009",
+            "display": "Medical department (environment)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "b0e60188-6f46-4f5b-8f95-7c99a1441854",
+    "timestamp": "2020-10-13T08:57:22+00:00",
+    "total": 10,
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "440655000",
+        "display": "Outpatient environment (environment)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "285201006",
+        "display": "Hospital environment (environment)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309912009",
+        "display": "Medical department (environment)"
+      }
+    ]
+  }
+}

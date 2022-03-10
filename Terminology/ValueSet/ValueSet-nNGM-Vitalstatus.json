@@ -1,0 +1,58 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-Vitalstatus",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/Vitalstatus",
+    "version": "1.0.0",
+    "title": "ValueSet - nNGM - Vitalstatus",
+    "name": "ValueSet_nNGM_Vitalstatus",
+    "status": "active",
+    "compose": {
+        "include":  [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus"
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "7bde33c5-7559-4c5a-88d1-880c4309d517",
+        "timestamp": "2020-10-15T12:33:42+00:00",
+        "total": 7,
+        "contains": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "L",
+                "display": "Patient lebt"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "T",
+                "display": "Patient verstorben"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "A",
+                "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "N",
+                "display": "unbekannt, Betreuung/Nachsorge nicht mehr nötig"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "B",
+                "display": "unbekannt, Patient ist anderenorts in Betreuung"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "V",
+                "display": "unbekannt, Patient verweigert weitere Betreuung"
+            },
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
+                "code": "X",
+                "display": "unbekannt"
+            }
+        ]
+    }
+}

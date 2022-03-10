@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-Informationsquelle-des-Todesdatums",
+  "name": "CodeSystem_nNGM_Informationsquelle_des_Todesdatums",
+  "title": "CodeSystem - nNGM . Informationsquelle des Todesdatums",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/izt",
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/izt",
+  "version": "1.0.0",
+  "status": "active",
+  "compositional": false,
+  "caseSensitive": true,
+  "content": "complete",
+  "count": "10",
+  "concept": [
+    {
+      "code": "Arztbrief",
+      "definition": "Arztbrief",
+      "display": "Arztbrief"
+    },
+    {
+      "code": "Kontakt Krankenkasse",
+      "display": "Kontakt Krankenkasse",
+      "definition": "Kontakt Krankenkasse"
+    },
+    {
+      "code": "Kontakt Behandler",
+      "display": "Kontakt Behandler",
+      "definition": "Kontakt Behandler"
+    },
+    {
+      "code": "Kontakt Angehoerige",
+      "display": "Kontakt Angehoerige",
+      "definition": "Kontakt Angehoerige"
+    },
+    {
+      "code": "Internet (Todesanzeigen)",
+      "display": "Internet (Todesanzeigen)",
+      "definition": "Internet (Todesanzeigen)"
+    },
+    {
+      "code": "Krebsregister",
+      "display": "Krebsregister",
+      "definition": "Krebsregister"
+    },
+    {
+      "code": "Dokumentar",
+      "display": "Dokumentar",
+      "definition": "Dokumentar"
+    },
+    {
+      "code": "Krankenhausinformationssystem",
+      "display": "Krankenhausinformationssystem",
+      "definition": "Krankenhausinformationssystem"
+    },
+    {
+      "code": "Kontakt Angehörige",
+      "display": "Kontakt Angehörige",
+      "definition": "Kontakt Angehörige"
+    },
+    {
+      "code": "Andere hausinterne Datenbanken",
+      "display": "Andere hausinterne Datenbanken",
+      "definition": "Andere hausinterne Datenbanken"
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-Krankenkassen",
+  "name": "CodeSystem_nNGM_Krankenkassen",
+  "title": "CodeSystem - nNGM - Krankenkassen",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkasse",
+  "version": "1.0.0",
+  "status": "active",
+  "compositional": false,
+  "caseSensitive": true,
+  "content": "complete",
+  "count": "201",
+  "concept": [
+    {
+      "code": "actimonda krankenkasse",
+      "display": "actimonda krankenkasse"
+    },
+    {
+      "code": "Allianz Private Krankenversicherung",
+      "display": "Allianz Private Krankenversicherung"
+    },
+    {
+      "code": "Alte Oldenburger Krankenversicherung",
+      "display": "Alte Oldenburger Krankenversicherung"
+    },
+    {
+      "code": "AOK Baden-Württemberg",
+      "display": "AOK Baden-Württemberg"
+    },
+    {
+      "code": "AOK Bayern",
+      "display": "AOK Bayern"
+    },
+    {
+      "code": "AOK Bremen/Bremerhaven",
+      "display": "AOK Bremen/Bremerhaven"
+    },
+    {
+      "code": "AOK Nordost",
+      "display": "AOK Nordost"
+    },
+    {
+      "code": "AOK PLUS",
+      "display": "AOK PLUS"
+    },
+    {
+      "code": "AOK Rheinland-Pfalz/Saarland",
+      "display": "AOK Rheinland-Pfalz/Saarland"
+    },
+    {
+      "code": "AOK Sachsen-Anhalt",
+      "display": "AOK Sachsen-Anhalt"
+    },
+    {
+      "code": "ARAG Allgemeine Versicherungs-AG",
+      "display": "ARAG Allgemeine Versicherungs-AG"
+    },
+    {
+      "code": "Atlas BKK",
+      "display": "Atlas BKK"
+    },
+    {
+      "code": "Axa Krankenversicherung",
+      "display": "Axa Krankenversicherung"
+    },
+    {
+      "code": "BAHN-BKK",
+      "display": "BAHN-BKK"
+    },
+    {
+      "code": "Barmenia",
+      "display": "Barmenia"
+    },
+    {
+      "code": "Bayerische Beamtenkrankenkasse",
+      "display": "Bayerische Beamtenkrankenkasse"
+    },
+    {
+      "code": "Berufsgenossenschaft Bauwirtschaft",
+      "display": "Berufsgenossenschaft Bauwirtschaft"
+    },
+    {
+      "code": "Berufsgenossenschaft Energie, Textil, Elektro und Medienerzeugnisse",
+      "display": "Berufsgenossenschaft Energie, Textil, Elektro und Medienerzeugnisse"
+    },
+    {
+      "code": "Berufsgenossenschaft Holz und Metall",
+      "display": "Berufsgenossenschaft Holz und Metall"
+    },
+    {
+      "code": "Berufsgenossenschaft Rohstoffe und chemische Industrie",
+      "display": "Berufsgenossenschaft Rohstoffe und chemische Industrie"
+    },
+    {
+      "code": "BG Energie, Textil, Elektro Medienerzeugnisse",
+      "display": "BG Energie, Textil, Elektro Medienerzeugnisse"
+    },
+    {
+      "code": "BGHW",
+      "display": "BGHW"
+    },
+    {
+      "code": "BKK 24",
+      "display": "BKK 24"
+    },
+    {
+      "code": "BKK A.T.U",
+      "display": "BKK A.T.U"
+    },
+    {
+      "code": "BKK Achenbach Buschhütten",
+      "display": "BKK Achenbach Buschhütten"
+    },
+    {
+      "code": "BKK advita",
+      "display": "BKK advita"
+    },
+    {
+      "code": "BKK Aesculap",
+      "display": "BKK Aesculap"
+    },
+    {
+      "code": "BKK Akzo Nobel Bayern",
+      "display": "BKK Akzo Nobel Bayern"
+    },
+    {
+      "code": "BKK Audi",
+      "display": "BKK Audi"
+    },
+    {
+      "code": "aufe",
+      "display": "aufe"
+    },
+    {
+      "code": "BKK Basell",
+      "display": "BKK Basell"
+    },
+    {
+      "code": "BKK Beiersdorf AG",
+      "display": "BKK Beiersdorf AG"
+    },
+    {
+      "code": "BKK Bertelsmann",
+      "display": "BKK Bertelsmann"
+    },
+    {
+      "code": "BKK BJB GmbH & Co. KG",
+      "display": "BKK BJB GmbH & Co. KG"
+    },
+    {
+      "code": "BKK BMW",
+      "display": "BKK BMW"
+    },
+    {
+      "code": "BKK Bosch",
+      "display": "BKK Bosch"
+    },
+    {
+      "code": "BKK BPW Bergische Achsen KG, Wiehl",
+      "display": "BKK BPW Bergische Achsen KG, Wiehl"
+    },
+    {
+      "code": "BKK Braun-Gillette",
+      "display": "BKK Braun-Gillette"
+    },
+    {
+      "code": "BKK Continentale",
+      "display": "BKK Continentale"
+    },
+    {
+      "code": "BKK Debeka",
+      "display": "BKK Debeka"
+    },
+    {
+      "code": "BKK DEMAG KRAUSS-MAFFEI",
+      "display": "BKK DEMAG KRAUSS-MAFFEI"
+    },
+    {
+      "code": "BKK Deutsche Bank AG",
+      "display": "BKK Deutsche Bank AG"
+    },
+    {
+      "code": "BKK Diakonie",
+      "display": "BKK Diakonie"
+    },
+    {
+      "code": "BKK Dürkopp Adler",
+      "display": "BKK Dürkopp Adler"
+    },
+    {
+      "code": "BKK Essanelle",
+      "display": "BKK Essanelle"
+    },
+    {
+      "code": "BKK EUREGIO",
+      "display": "BKK EUREGIO"
+    },
+    {
+      "code": "BKK evm",
+      "display": "BKK evm"
+    },
+    {
+      "code": "BKK EWE",
+      "display": "BKK EWE"
+    },
+    {
+      "code": "BKK exklusiv",
+      "display": "BKK exklusiv"
+    },
+    {
+      "code": "BKK Faber-Castell & Partner",
+      "display": "BKK Faber-Castell & Partner"
+    },
+    {
+      "code": "BKK firmus",
+      "display": "BKK firmus"
+    },
+    {
+      "code": "BKK Freudenberg",
+      "display": "BKK Freudenberg"
+    },
+    {
+      "code": "BKK Gildemeister + Seidensticker",
+      "display": "BKK Gildemeister + Seidensticker"
+    },
+    {
+      "code": "BKK Grillo Werke",
+      "display": "BKK Grillo Werke"
+    },
+    {
+      "code": "BKK Groz-Beckertasse",
+      "display": "BKK Groz-Beckertasse"
+    },
+    {
+      "code": "BKK HENSCHEL Plus",
+      "display": "BKK HENSCHEL Plus"
+    },
+    {
+      "code": "BKK Herford Minden Ravensberg",
+      "display": "BKK Herford Minden Ravensberg"
+    },
+    {
+      "code": "BKK Herkules",
+      "display": "BKK Herkules"
+    },
+    {
+      "code": "BKK IHV",
+      "display": "BKK IHV"
+    },
+    {
+      "code": "BKK KARL MAYER",
+      "display": "BKK KARL MAYER"
+    },
+    {
+      "code": "BKK Kassana",
+      "display": "BKK Kassana"
+    },
+    {
+      "code": "BKK KBA",
+      "display": "BKK KBA"
+    },
+    {
+      "code": "BKK KEVAG KOBLENZ",
+      "display": "BKK KEVAG KOBLENZ"
+    },
+    {
+      "code": "BKK Krones",
+      "display": "BKK Krones"
+    },
+    {
+      "code": "BKK Linde",
+      "display": "BKK Linde"
+    },
+    {
+      "code": "BKK MAHLE",
+      "display": "BKK MAHLE"
+    },
+    {
+      "code": "BKK MEDICUS",
+      "display": "BKK MEDICUS"
+    },
+    {
+      "code": "BKK Melitta Plus",
+      "display": "BKK Melitta Plus"
+    },
+    {
+      "code": "BKK MEM",
+      "display": "BKK MEM"
+    },
+    {
+      "code": "BKK MERCK",
+      "display": "BKK MERCK"
+    },
+    {
+      "code": "BKK mhplus",
+      "display": "BKK mhplus"
+    },
+    {
+      "code": "BKK Miele",
+      "display": "BKK Miele"
+    },
+    {
+      "code": "BKK Mobil Oil AG",
+      "display": "BKK Mobil Oil AG"
+    },
+    {
+      "code": "BKK MTU",
+      "display": "BKK MTU"
+    },
+    {
+      "code": "BKK PFAFF AG",
+      "display": "BKK PFAFF AG"
+    },
+    {
+      "code": "BKK Pfalz",
+      "display": "BKK Pfalz"
+    },
+    {
+      "code": "BKK PricewaterhouseCoopers",
+      "display": "BKK PricewaterhouseCoopers"
+    },
+    {
+      "code": "BKK provita",
+      "display": "BKK provita"
+    },
+    {
+      "code": "BKK R+V Versicherung",
+      "display": "BKK R+V Versicherung"
+    },
+    {
+      "code": "BKK Rieker.Ricosta.Weisser",
+      "display": "BKK Rieker.Ricosta.Weisser"
+    },
+    {
+      "code": "BKK RWE",
+      "display": "BKK RWE"
+    },
+    {
+      "code": "BKK S-H",
+      "display": "BKK S-H"
+    },
+    {
+      "code": "BKK Salus",
+      "display": "BKK Salus"
+    },
+    {
+      "code": "BKK SBH",
+      "display": "BKK SBH"
+    },
+    {
+      "code": "BKK Scheufelen",
+      "display": "BKK Scheufelen"
+    },
+    {
+      "code": "BKK Schwenninger",
+      "display": "BKK Schwenninger"
+    },
+    {
+      "code": "BKK SECURVITA",
+      "display": "BKK SECURVITA"
+    },
+    {
+      "code": "BKK SIEMAG",
+      "display": "BKK SIEMAG"
+    },
+    {
+      "code": "BKK SKD",
+      "display": "BKK SKD"
+    },
+    {
+      "code": "BKK STADT AUGSBURG",
+      "display": "BKK STADT AUGSBURG"
+    },
+    {
+      "code": "BKK Technoform",
+      "display": "BKK Technoform"
+    },
+    {
+      "code": "BKK Textilgruppe Hof",
+      "display": "BKK Textilgruppe Hof"
+    },
+    {
+      "code": "BKK Thüringer Energieversorgung",
+      "display": "BKK Thüringer Energieversorgung"
+    },
+    {
+      "code": "BKK Vaillant",
+      "display": "BKK Vaillant"
+    },
+    {
+      "code": "BKK VDN",
+      "display": "BKK VDN"
+    },
+    {
+      "code": "BKK VerbundPlus",
+      "display": "BKK VerbundPlus"
+    },
+    {
+      "code": "BKK Victoria-DAS",
+      "display": "BKK Victoria-DAS"
+    },
+    {
+      "code": "BKK VITAL",
+      "display": "BKK VITAL"
+    },
+    {
+      "code": "BKK vor Ort",
+      "display": "BKK vor Ort"
+    },
+    {
+      "code": "BKK Voralb HELLER*LEUZE*TRAUB",
+      "display": "BKK Voralb HELLER*LEUZE*TRAUB"
+    },
+    {
+      "code": "BKK Werra-Meissner",
+      "display": "BKK Werra-Meissner"
+    },
+    {
+      "code": "BKK Wieland-Werke AG",
+      "display": "BKK Wieland-Werke AG"
+    },
+    {
+      "code": "BKK Wirtschaft & Finanzen",
+      "display": "BKK Wirtschaft & Finanzen"
+    },
+    {
+      "code": "BKK WMF",
+      "display": "BKK WMF"
+    },
+    {
+      "code": "BKK Würth",
+      "display": "BKK Würth"
+    },
+    {
+      "code": "BKK ZF & Partner",
+      "display": "BKK ZF & Partner"
+    },
+    {
+      "code": "Brandenburgische BKK",
+      "display": "Brandenburgische BKK"
+    },
+    {
+      "code": "Central Krankenversicherung",
+      "display": "Central Krankenversicherung"
+    },
+    {
+      "code": "Cigna Global Health Options",
+      "display": "Cigna Global Health Options"
+    },
+    {
+      "code": "Concordia Krankenversicherung",
+      "display": "Concordia Krankenversicherung"
+    },
+    {
+      "code": "Continentale Krankenversicherung",
+      "display": "Continentale Krankenversicherung"
+    },
+    {
+      "code": "Daimler BKK",
+      "display": "Daimler BKK"
+    },
+    {
+      "code": "DBV Deutsche Beamtenversicherung Krankenversicherung",
+      "display": "DBV Deutsche Beamtenversicherung Krankenversicherung"
+    },
+    {
+      "code": "Debeka",
+      "display": "Debeka"
+    },
+    {
+      "code": "Deutsche Familienversicherung",
+      "display": "Deutsche Familienversicherung"
+    },
+    {
+      "code": "Deutscher Ring",
+      "display": "Deutscher Ring"
+    },
+    {
+      "code": "DEVK",
+      "display": "DEVK"
+    },
+    {
+      "code": "Die Bayerische",
+      "display": "Die Bayerische"
+    },
+    {
+      "code": "DIE BERGISCHE KRANKENKASSE",
+      "display": "DIE BERGISCHE KRANKENKASSE"
+    },
+    {
+      "code": "DKV Deutsche Krankenversicherung",
+      "display": "DKV Deutsche Krankenversicherung"
+    },
+    {
+      "code": "E.ON BKK",
+      "display": "E.ON BKK"
+    },
+    {
+      "code": "energie-BKK",
+      "display": "energie-BKK"
+    },
+    {
+      "code": "ENVIVAS Krankenversicherung",
+      "display": "ENVIVAS Krankenversicherung"
+    },
+    {
+      "code": "ERGO Versicherungsgruppe",
+      "display": "ERGO Versicherungsgruppe"
+    },
+    {
+      "code": "Ernst & Young BKK",
+      "display": "Ernst & Young BKK"
+    },
+    {
+      "code": "ESSO BKK",
+      "display": "ESSO BKK"
+    },
+    {
+      "code": "FREIE ARZT- UND MEDIZINKASSE",
+      "display": "FREIE ARZT- UND MEDIZINKASSE"
+    },
+    {
+      "code": "GBK Köln",
+      "display": "GBK Köln"
+    },
+    {
+      "code": "Gothaer Krankenversicherung",
+      "display": "Gothaer Krankenversicherung"
+    },
+    {
+      "code": "Hallesche Krankenversicherung",
+      "display": "Hallesche Krankenversicherung"
+    },
+    {
+      "code": "HanseMerkur",
+      "display": "HanseMerkur"
+    },
+    {
+      "code": "HEAG BKK",
+      "display": "HEAG BKK"
+    },
+    {
+      "code": "Heimat Krankenkasse",
+      "display": "Heimat Krankenkasse"
+    },
+    {
+      "code": "HEK  Hanseatische Krankenkasse",
+      "display": "HEK  Hanseatische Krankenkasse"
+    },
+    {
+      "code": "hkk - Handelskrankenkasse",
+      "display": "hkk - Handelskrankenkasse"
+    },
+    {
+      "code": "HUK-COBURG *1",
+      "display": "HUK-COBURG *1"
+    },
+    {
+      "code": "IKK classic",
+      "display": "IKK classic"
+    },
+    {
+      "code": "IKK gesund plus",
+      "display": "IKK gesund plus"
+    },
+    {
+      "code": "IKK Nord",
+      "display": "IKK Nord"
+    },
+    {
+      "code": "IKK Südwest",
+      "display": "IKK Südwest"
+    },
+    {
+      "code": "Inter Krankenversicherung",
+      "display": "Inter Krankenversicherung"
+    },
+    {
+      "code": "Knappschaft-Bahn-See [KBS]",
+      "display": "Knappschaft-Bahn-See [KBS]"
+    },
+    {
+      "code": "KRANKEN- & STERBEKASSE 'Mathilde'",
+      "display": "KRANKEN- & STERBEKASSE 'Mathilde'"
+    },
+    {
+      "code": "KUK der Berufsfeuerwehr Hannover",
+      "display": "KUK der Berufsfeuerwehr Hannover"
+    },
+    {
+      "code": "KV der Bundesbahnbeamten",
+      "display": "KV der Bundesbahnbeamten"
+    },
+    {
+      "code": "LIGA KV katholischer Priester",
+      "display": "LIGA KV katholischer Priester"
+    },
+    {
+      "code": "LKH Landeskrankenhilfe",
+      "display": "LKH Landeskrankenhilfe"
+    },
+    {
+      "code": "LKK Hessen, Rheinland-Pfalz, Saarland",
+      "display": "LKK Hessen, Rheinland-Pfalz, Saarland"
+    },
+    {
+      "code": "LKK Nordrhein-Westfalen",
+      "display": "LKK Nordrhein-Westfalen"
+    },
+    {
+      "code": "LVM Krankenversicherung",
+      "display": "LVM Krankenversicherung"
+    },
+    {
+      "code": "Mannheimer Krankenversicherung",
+      "display": "Mannheimer Krankenversicherung"
+    },
+    {
+      "code": "Mecklenburgische",
+      "display": "Mecklenburgische"
+    },
+    {
+      "code": "Metzinger BKK",
+      "display": "Metzinger BKK"
+    },
+    {
+      "code": "Münchener Verein",
+      "display": "Münchener Verein"
+    },
+    {
+      "code": "Nürnberger Krankenversicherung",
+      "display": "Nürnberger Krankenversicherung"
+    },
+    {
+      "code": "PAX-FAMILIENFÜRSORGE",
+      "display": "PAX-FAMILIENFÜRSORGE"
+    },
+    {
+      "code": "Postbeamtenkrankenkasse A",
+      "display": "Postbeamtenkrankenkasse A"
+    },
+    {
+      "code": "Postbeamtenkrankenkasse B",
+      "display": "Postbeamtenkrankenkasse B"
+    },
+    {
+      "code": "pronova BKK",
+      "display": "pronova BKK"
+    },
+    {
+      "code": "Provinzial",
+      "display": "Provinzial"
+    },
+    {
+      "code": "R+V Betriebskrankenkasse",
+      "display": "R+V Betriebskrankenkasse"
+    },
+    {
+      "code": "R+V Krankenversicherung",
+      "display": "R+V Krankenversicherung"
+    },
+    {
+      "code": "Schwenninger BKK",
+      "display": "Schwenninger BKK"
+    },
+    {
+      "code": "Selbstzahler",
+      "display": "Selbstzahler"
+    },
+    {
+      "code": "Shell BKK/LIFE",
+      "display": "Shell BKK/LIFE"
+    },
+    {
+      "code": "Signal Iduna",
+      "display": "Signal Iduna"
+    },
+    {
+      "code": "SONO Krankenversicherung",
+      "display": "SONO Krankenversicherung"
+    },
+    {
+      "code": "Sozialamt",
+      "display": "Sozialamt"
+    },
+    {
+      "code": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau [SVLFG]",
+      "display": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau [SVLFG]"
+    },
+    {
+      "code": "ST. MARTINUS Priesterverein",
+      "display": "ST. MARTINUS Priesterverein"
+    },
+    {
+      "code": "Süddeutsche Krankenversicherung",
+      "display": "Süddeutsche Krankenversicherung"
+    },
+    {
+      "code": "Südzucker-BKK",
+      "display": "Südzucker-BKK"
+    },
+    {
+      "code": "UKV Union Krankenversicherung",
+      "display": "UKV Union Krankenversicherung"
+    },
+    {
+      "code": "universa Krankenversicherung",
+      "display": "universa Krankenversicherung"
+    },
+    {
+      "code": "Vigo Krankenversicherung",
+      "display": "Vigo Krankenversicherung"
+    },
+    {
+      "code": "Württembergische Krankenversicherung",
+      "display": "Württembergische Krankenversicherung"
+    },
+    {
+      "code": "AOK Hessen",
+      "display": "AOK Hessen"
+    },
+    {
+      "code": "AOK Niedersachsen",
+      "display": "AOK Niedersachsen"
+    },
+    {
+      "code": "AOK Nordwest",
+      "display": "AOK Nordwest"
+    },
+    {
+      "code": "AOK Rheinland/Hamburg",
+      "display": "AOK Rheinland/Hamburg"
+    },
+    {
+      "code": "BARMER GEK",
+      "display": "BARMER GEK"
+    },
+    {
+      "code": "BIG - direkt gesund",
+      "display": "BIG - direkt gesund"
+    },
+    {
+      "code": "BKK Public",
+      "display": "BKK Public"
+    },
+    {
+      "code": "BKK Salzgitter",
+      "display": "BKK Salzgitter"
+    },
+    {
+      "code": "BKK TUI",
+      "display": "BKK TUI"
+    },
+    {
+      "code": "BKK VBU",
+      "display": "BKK VBU"
+    },
+    {
+      "code": "DAK-Gesundheit",
+      "display": "DAK-Gesundheit"
+    },
+    {
+      "code": "Deutsche BKK",
+      "display": "Deutsche BKK"
+    },
+    {
+      "code": "IKK Brandenburg und Berlin",
+      "display": "IKK Brandenburg und Berlin"
+    },
+    {
+      "code": "KKH",
+      "display": "KKH"
+    },
+    {
+      "code": "Novitas BKK",
+      "display": "Novitas BKK"
+    },
+    {
+      "code": "SBK - Siemens-Betriebskrankenkasse",
+      "display": "SBK - Siemens-Betriebskrankenkasse"
+    },
+    {
+      "code": "TK - Techniker Krankenkasse",
+      "display": "TK - Techniker Krankenkasse"
+    },
+    {
+      "code": "Vereinigte BKK",
+      "display": "Vereinigte BKK"
+    },
+    {
+      "code": "Viactiv Krankenkasse",
+      "display": "Viactiv Krankenkasse"
+    },
+    {
+      "code": "Unbekannt",
+      "display": "Unbekannt"
+    }
+  ]
+}

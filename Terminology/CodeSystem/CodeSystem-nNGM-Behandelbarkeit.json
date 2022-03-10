@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-Behandelbarkeit",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/behandelbarkeit",
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/behandelbarkeit",
+  "version": "1.0.0",
+  "title": "CodeSystem - nNGM - Behandelbarkeit",
+  "name": "CodeSystem_nNGM_Behandelbarkeit",
+  "status": "active",
+  "compositional": false, 
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "ko",
+      "display": "kurativ operabel"
+    },
+    {
+      "code": "nko",
+      "display": "nicht kurativ operabel"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-CompositionSectionType",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+    "version": "0.1",
+    "name": "CodeSystem_nNGM_CompositionSectionType",
+    "title": "CodeSystem - nNGM - CompositionSectionType",
+    "status": "active",
+    "caseSensitive": true,
+    "compositional": false,
+    "content": "complete",
+    "concept": [
+        {
+            "code": "CONSENT",
+            "display": "Consent",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Einwilligungserklärung"
+                }
+            ]
+        },
+        {
+            "code": "FIRST_DIAGNOSIS",
+            "display": "First Diagnosis of Tumor",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Erstdiagnose des Tumors"
+                }
+            ]
+        },
+        {
+            "code": "COVERAGE",
+            "display": "Health Insurance Coverage",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Krankenversicherungsschutz"
+                }
+            ]
+        },
+        {
+            "code": "TOBACCO_SMOKING",
+            "display": "Smoking Status",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Raucherstatus"
+                }
+            ]
+        },
+        {
+            "code": "VITAL_STATES",
+            "display": "Vital state",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Vitalstatus"
+                }
+            ]
+        },
+        {
+            "code": "ECOGS",
+            "display": "ECOGs",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "ECOGs"
+                }
+            ]
+        },
+        {
+            "code": "DIAGNOSTICS_REQUEST",
+            "display": "Diagnostics request",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Antrag auf Diagnostik"
+                }
+            ]
+        },
+        {
+            "code": "TUMOR_BLOCK_REQUEST",
+            "display": "Tumor block request",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Antrag auf Tumorblock"
+                }
+            ]
+        },
+        {
+            "code": "TKI_RESISTANCES",
+            "display": "TKI-Resistances",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "TKI-Resistenzen"
+                }
+            ]
+        },
+        {
+            "code": "TUMOR_PROGRESS_RECURRENCES",
+            "display": "Tumor progress and recurrences",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Tumor Progress und Rezidive"
+                }
+            ]
+        },
+        {
+            "code": "TUMOR_HISTOLOGIES",
+            "display": "Tumor histologies",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Tumor-Histologien"
+                }
+            ]
+        },
+        {
+            "code": "TUMOR_STAGES",
+            "display": "Tumor stage",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Tumor-Stadium"
+                }
+            ]
+        }
+    ]
+}

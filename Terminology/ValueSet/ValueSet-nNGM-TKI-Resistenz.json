@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-TKI-Resistenz",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/tki-resistenz",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_TKI_Resistenz",
+  "title": "ValueSet - nNGM - TKI Resistenz",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
+          {
+            "code": "C142114",
+            "display": "ALK Fusion Gene Positive"
+          },
+          {
+            "code": "C134501",
+            "display": "EGFR Positive "
+          },
+          {
+            "code": "C131071",
+            "display": "ROS1 Fusion Positive"
+          },
+          {
+            "code": "C147077",
+            "display": "BRAF Fusion Positive"
+          },
+          {
+            "code": "C136235",
+            "display": "MET Fusion Gene Positive"
+          },
+          {
+            "code": "C142134",
+            "display": "KRAS Positive"
+          },
+          {
+            "code": "C132244",
+            "display": "FGFR Gene Fusion Positive"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "e188451a-a1e2-4ba4-9e74-e75710a5a25e",
+    "timestamp": "2022-03-09T12:30:40+00:00",
+    "total": 7,
+    "contains": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C134501",
+        "display": "EGFR Positive"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C142114",
+        "display": "ALK Fusion Gene Positive"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C131071",
+        "display": "ROS1 Fusion Positive"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C147077",
+        "display": "BRAF Fusion Positive"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C136235",
+        "display": "MET Fusion Gene Positive"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C142134",
+        "display": "KRAS Positive"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C132244",
+        "display": "FGFR Gene Fusion Positive"
+      }
+    ]
+  }
+}

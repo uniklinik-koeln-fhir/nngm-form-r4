@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Anforderung-FastTrack",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-fastTrack",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Anforderung_FastTrack",
+  "title": "ValueSet - nNGM - Anforderung FastTrack",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "concept": [
+                  {
+                      "code": "C18363",
+                      "display": "BRAF Gene"
+                  },
+                  {
+                      "code": "C17757",
+                      "display": "EGFR Gene"
+                  },
+                  {
+                      "code": "C25785",
+                      "display": "KRAS Gene"
+                  }
+              ]
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "9ce5c132-f7aa-4b47-80d9-128de8cea5d4",
+      "timestamp": "2020-10-15T12:34:08+00:00",
+      "total": 3,
+      "contains": [
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "code": "C18363",
+              "display": "BRAF Gene"
+          },
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "code": "C17757",
+              "display": "EGFR Gene"
+          },
+          {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "code": "C25785",
+              "display": "KRAS Gene"
+          }
+      ]
+  }
+}

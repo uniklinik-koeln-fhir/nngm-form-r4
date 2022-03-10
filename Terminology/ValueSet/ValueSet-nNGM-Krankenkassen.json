@@ -1,0 +1,1199 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Krankenkassen",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkasse",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Krankenkassen",
+  "title": "ValueSet - nNGM - Krankenkassen",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse"
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "33296b15-25f7-4b61-840b-7ff9ebfd9434",
+      "timestamp": "2020-10-13T08:58:03+00:00",
+      "total": 196,
+      "contains": [
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "actimonda krankenkasse",
+              "display": "actimonda krankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Allianz Private Krankenversicherung",
+              "display": "Allianz Private Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Alte Oldenburger Krankenversicherung",
+              "display": "Alte Oldenburger Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Baden-Württemberg",
+              "display": "AOK Baden-Württemberg"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Bayern",
+              "display": "AOK Bayern"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Bremen/Bremerhaven",
+              "display": "AOK Bremen/Bremerhaven"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Nordost",
+              "display": "AOK Nordost"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK PLUS",
+              "display": "AOK PLUS"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Rheinland-Pfalz/Saarland",
+              "display": "AOK Rheinland-Pfalz/Saarland"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Sachsen-Anhalt",
+              "display": "AOK Sachsen-Anhalt"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "ARAG Allgemeine Versicherungs-AG",
+              "display": "ARAG Allgemeine Versicherungs-AG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Atlas BKK",
+              "display": "Atlas BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Axa Krankenversicherung",
+              "display": "Axa Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BAHN-BKK",
+              "display": "BAHN-BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Barmenia",
+              "display": "Barmenia"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Bayerische Beamtenkrankenkasse",
+              "display": "Bayerische Beamtenkrankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Berufsgenossenschaft Bauwirtschaft",
+              "display": "Berufsgenossenschaft Bauwirtschaft"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Berufsgenossenschaft Energie, Textil, Elektro und Medienerzeugnisse",
+              "display": "Berufsgenossenschaft Energie, Textil, Elektro und Medienerzeugnisse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Berufsgenossenschaft Holz und Metall",
+              "display": "Berufsgenossenschaft Holz und Metall"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Berufsgenossenschaft Rohstoffe und chemische Industrie",
+              "display": "Berufsgenossenschaft Rohstoffe und chemische Industrie"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BG Energie, Textil, Elektro Medienerzeugnisse",
+              "display": "BG Energie, Textil, Elektro Medienerzeugnisse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BGHW",
+              "display": "BGHW"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK 24",
+              "display": "BKK 24"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK A.T.U",
+              "display": "BKK A.T.U"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Achenbach Buschhütten",
+              "display": "BKK Achenbach Buschhütten"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK advita",
+              "display": "BKK advita"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Aesculap",
+              "display": "BKK Aesculap"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Akzo Nobel Bayern",
+              "display": "BKK Akzo Nobel Bayern"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Audi",
+              "display": "BKK Audi"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "aufe",
+              "display": "aufe"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Basell",
+              "display": "BKK Basell"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Beiersdorf AG",
+              "display": "BKK Beiersdorf AG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Bertelsmann",
+              "display": "BKK Bertelsmann"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK BJB GmbH & Co. KG",
+              "display": "BKK BJB GmbH & Co. KG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK BMW",
+              "display": "BKK BMW"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Bosch",
+              "display": "BKK Bosch"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK BPW Bergische Achsen KG, Wiehl",
+              "display": "BKK BPW Bergische Achsen KG, Wiehl"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Braun-Gillette",
+              "display": "BKK Braun-Gillette"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Continentale",
+              "display": "BKK Continentale"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Debeka",
+              "display": "BKK Debeka"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK DEMAG KRAUSS-MAFFEI",
+              "display": "BKK DEMAG KRAUSS-MAFFEI"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Deutsche Bank AG",
+              "display": "BKK Deutsche Bank AG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Diakonie",
+              "display": "BKK Diakonie"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Dürkopp Adler",
+              "display": "BKK Dürkopp Adler"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Essanelle",
+              "display": "BKK Essanelle"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK EUREGIO",
+              "display": "BKK EUREGIO"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK evm",
+              "display": "BKK evm"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK EWE",
+              "display": "BKK EWE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK exklusiv",
+              "display": "BKK exklusiv"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Faber-Castell & Partner",
+              "display": "BKK Faber-Castell & Partner"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK firmus",
+              "display": "BKK firmus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Freudenberg",
+              "display": "BKK Freudenberg"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Gildemeister + Seidensticker",
+              "display": "BKK Gildemeister + Seidensticker"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Grillo Werke",
+              "display": "BKK Grillo Werke"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Groz-Beckertasse",
+              "display": "BKK Groz-Beckertasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK HENSCHEL Plus",
+              "display": "BKK HENSCHEL Plus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Herford Minden Ravensberg",
+              "display": "BKK Herford Minden Ravensberg"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Herkules",
+              "display": "BKK Herkules"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK IHV",
+              "display": "BKK IHV"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK KARL MAYER",
+              "display": "BKK KARL MAYER"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Kassana",
+              "display": "BKK Kassana"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK KBA",
+              "display": "BKK KBA"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK KEVAG KOBLENZ",
+              "display": "BKK KEVAG KOBLENZ"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Krones",
+              "display": "BKK Krones"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Linde",
+              "display": "BKK Linde"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK MAHLE",
+              "display": "BKK MAHLE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK MEDICUS",
+              "display": "BKK MEDICUS"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Melitta Plus",
+              "display": "BKK Melitta Plus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK MEM",
+              "display": "BKK MEM"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK MERCK",
+              "display": "BKK MERCK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK mhplus",
+              "display": "BKK mhplus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Miele",
+              "display": "BKK Miele"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Mobil Oil AG",
+              "display": "BKK Mobil Oil AG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK MTU",
+              "display": "BKK MTU"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK PFAFF AG",
+              "display": "BKK PFAFF AG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Pfalz",
+              "display": "BKK Pfalz"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK PricewaterhouseCoopers",
+              "display": "BKK PricewaterhouseCoopers"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK provita",
+              "display": "BKK provita"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK R+V Versicherung",
+              "display": "BKK R+V Versicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Rieker.Ricosta.Weisser",
+              "display": "BKK Rieker.Ricosta.Weisser"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK RWE",
+              "display": "BKK RWE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK S-H",
+              "display": "BKK S-H"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Salus",
+              "display": "BKK Salus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK SBH",
+              "display": "BKK SBH"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Scheufelen",
+              "display": "BKK Scheufelen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Schwenninger",
+              "display": "BKK Schwenninger"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK SECURVITA",
+              "display": "BKK SECURVITA"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK SIEMAG",
+              "display": "BKK SIEMAG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK SKD",
+              "display": "BKK SKD"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK STADT AUGSBURG",
+              "display": "BKK STADT AUGSBURG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Technoform",
+              "display": "BKK Technoform"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Textilgruppe Hof",
+              "display": "BKK Textilgruppe Hof"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Thüringer Energieversorgung",
+              "display": "BKK Thüringer Energieversorgung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Vaillant",
+              "display": "BKK Vaillant"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK VDN",
+              "display": "BKK VDN"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK VerbundPlus",
+              "display": "BKK VerbundPlus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Victoria-DAS",
+              "display": "BKK Victoria-DAS"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK VITAL",
+              "display": "BKK VITAL"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK vor Ort",
+              "display": "BKK vor Ort"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Voralb HELLER*LEUZE*TRAUB",
+              "display": "BKK Voralb HELLER*LEUZE*TRAUB"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Werra-Meissner",
+              "display": "BKK Werra-Meissner"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Wieland-Werke AG",
+              "display": "BKK Wieland-Werke AG"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Wirtschaft & Finanzen",
+              "display": "BKK Wirtschaft & Finanzen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK WMF",
+              "display": "BKK WMF"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Würth",
+              "display": "BKK Würth"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK ZF & Partner",
+              "display": "BKK ZF & Partner"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Brandenburgische BKK",
+              "display": "Brandenburgische BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Central Krankenversicherung",
+              "display": "Central Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Cigna Global Health Options",
+              "display": "Cigna Global Health Options"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Concordia Krankenversicherung",
+              "display": "Concordia Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Continentale Krankenversicherung",
+              "display": "Continentale Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Daimler BKK",
+              "display": "Daimler BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "DBV Deutsche Beamtenversicherung Krankenversicherung",
+              "display": "DBV Deutsche Beamtenversicherung Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Debeka",
+              "display": "Debeka"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Deutsche Familienversicherung",
+              "display": "Deutsche Familienversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Deutscher Ring",
+              "display": "Deutscher Ring"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "DEVK",
+              "display": "DEVK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Die Bayerische",
+              "display": "Die Bayerische"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "DIE BERGISCHE KRANKENKASSE",
+              "display": "DIE BERGISCHE KRANKENKASSE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "DKV Deutsche Krankenversicherung",
+              "display": "DKV Deutsche Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "E.ON BKK",
+              "display": "E.ON BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "energie-BKK",
+              "display": "energie-BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "ENVIVAS Krankenversicherung",
+              "display": "ENVIVAS Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "ERGO Versicherungsgruppe",
+              "display": "ERGO Versicherungsgruppe"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Ernst & Young BKK",
+              "display": "Ernst & Young BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "ESSO BKK",
+              "display": "ESSO BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "FREIE ARZT- UND MEDIZINKASSE",
+              "display": "FREIE ARZT- UND MEDIZINKASSE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "GBK Köln",
+              "display": "GBK Köln"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Gothaer Krankenversicherung",
+              "display": "Gothaer Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Hallesche Krankenversicherung",
+              "display": "Hallesche Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "HanseMerkur",
+              "display": "HanseMerkur"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "HEAG BKK",
+              "display": "HEAG BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Heimat Krankenkasse",
+              "display": "Heimat Krankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "HEK  Hanseatische Krankenkasse",
+              "display": "HEK  Hanseatische Krankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "hkk - Handelskrankenkasse",
+              "display": "hkk - Handelskrankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "HUK-COBURG *1",
+              "display": "HUK-COBURG *1"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "IKK classic",
+              "display": "IKK classic"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "IKK gesund plus",
+              "display": "IKK gesund plus"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "IKK Nord",
+              "display": "IKK Nord"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "IKK Südwest",
+              "display": "IKK Südwest"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Inter Krankenversicherung",
+              "display": "Inter Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Knappschaft-Bahn-See [KBS]",
+              "display": "Knappschaft-Bahn-See [KBS]"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "KRANKEN- & STERBEKASSE 'Mathilde'",
+              "display": "KRANKEN- & STERBEKASSE 'Mathilde'"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "KUK der Berufsfeuerwehr Hannover",
+              "display": "KUK der Berufsfeuerwehr Hannover"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "KV der Bundesbahnbeamten",
+              "display": "KV der Bundesbahnbeamten"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "LIGA KV katholischer Priester",
+              "display": "LIGA KV katholischer Priester"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "LKH Landeskrankenhilfe",
+              "display": "LKH Landeskrankenhilfe"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "LKK Hessen, Rheinland-Pfalz, Saarland",
+              "display": "LKK Hessen, Rheinland-Pfalz, Saarland"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "LKK Nordrhein-Westfalen",
+              "display": "LKK Nordrhein-Westfalen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "LVM Krankenversicherung",
+              "display": "LVM Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Mannheimer Krankenversicherung",
+              "display": "Mannheimer Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Mecklenburgische",
+              "display": "Mecklenburgische"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Metzinger BKK",
+              "display": "Metzinger BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Münchener Verein",
+              "display": "Münchener Verein"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Nürnberger Krankenversicherung",
+              "display": "Nürnberger Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "PAX-FAMILIENFÜRSORGE",
+              "display": "PAX-FAMILIENFÜRSORGE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Postbeamtenkrankenkasse A",
+              "display": "Postbeamtenkrankenkasse A"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Postbeamtenkrankenkasse B",
+              "display": "Postbeamtenkrankenkasse B"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "pronova BKK",
+              "display": "pronova BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Provinzial",
+              "display": "Provinzial"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "R+V Betriebskrankenkasse",
+              "display": "R+V Betriebskrankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "R+V Krankenversicherung",
+              "display": "R+V Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Schwenninger BKK",
+              "display": "Schwenninger BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Selbstzahler",
+              "display": "Selbstzahler"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Shell BKK/LIFE",
+              "display": "Shell BKK/LIFE"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Signal Iduna",
+              "display": "Signal Iduna"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "SONO Krankenversicherung",
+              "display": "SONO Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Sozialamt",
+              "display": "Sozialamt"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau [SVLFG]",
+              "display": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau [SVLFG]"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "ST. MARTINUS Priesterverein",
+              "display": "ST. MARTINUS Priesterverein"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Süddeutsche Krankenversicherung",
+              "display": "Süddeutsche Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Südzucker-BKK",
+              "display": "Südzucker-BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "UKV Union Krankenversicherung",
+              "display": "UKV Union Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "universa Krankenversicherung",
+              "display": "universa Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Vigo Krankenversicherung",
+              "display": "Vigo Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Württembergische Krankenversicherung",
+              "display": "Württembergische Krankenversicherung"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Hessen",
+              "display": "AOK Hessen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Niedersachsen",
+              "display": "AOK Niedersachsen"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Nordwest",
+              "display": "AOK Nordwest"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "AOK Rheinland/Hamburg",
+              "display": "AOK Rheinland/Hamburg"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BARMER GEK",
+              "display": "BARMER GEK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BIG - direkt gesund",
+              "display": "BIG - direkt gesund"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Public",
+              "display": "BKK Public"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK Salzgitter",
+              "display": "BKK Salzgitter"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK TUI",
+              "display": "BKK TUI"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "BKK VBU",
+              "display": "BKK VBU"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "DAK-Gesundheit",
+              "display": "DAK-Gesundheit"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Deutsche BKK",
+              "display": "Deutsche BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "IKK Brandenburg und Berlin",
+              "display": "IKK Brandenburg und Berlin"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "KKH",
+              "display": "KKH"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Novitas BKK",
+              "display": "Novitas BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "SBK - Siemens-Betriebskrankenkasse",
+              "display": "SBK - Siemens-Betriebskrankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "TK - Techniker Krankenkasse",
+              "display": "TK - Techniker Krankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Vereinigte BKK",
+              "display": "Vereinigte BKK"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Viactiv Krankenkasse",
+              "display": "Viactiv Krankenkasse"
+          },
+          {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+              "version": "1.0.0",
+              "code": "Unbekannt",
+              "display": "Unbekannt"
+          }
+      ]
+  }
+}

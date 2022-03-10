@@ -1,0 +1,77 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-Consent-Policy",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy",
+  "version": "1.0.0",
+  "experimental": false,
+  "title": "CodeSystem - nNGM - Consent Policy",
+  "name": "CodeSystem_nNGM_Consent-Policy",
+  "status": "active",
+  "compositional": false,
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 15,
+  "concept": [
+    {
+      "code": "1a",
+      "display": "Teil 1a: Molekularpathologische Diagnostik im nNGM"
+    },
+    {
+      "display": "Teil 1b: Überregionale Beratung und Studiensuche im nNGM",
+      "code": "1b"
+    },
+    {
+      "display": "Teil 2: Forschung im nNGM",
+      "code": "2"
+    },
+    {
+      "display": "Teilnahmeerklärung",
+      "code": "TE"
+    },
+    {
+      "display": "Datenschutzerklärung",
+      "code": "DS"
+    },
+    {
+      "display": "Molekularpathologische Diagnostik im nNGM (Behandlungskontext)",
+      "code": "MD"
+    },
+    {
+      "display": "Überregionale Beratung und Studiensuche im nNGM (Behandlungskontext)",
+      "code": "ST"
+    },
+    {
+      "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) innerhalb des nNGM und an kooperierende Partner",
+      "code": "WPI"
+    },
+    {
+      "display": "Weitergabe von MDAT und Resttumorproben innerhalb des nNGM und an kooperierende Partner",
+      "code": "WP"
+    },
+    {
+      "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) in ein Drittland",
+      "code": "WD"
+    },
+    {
+      "display": "Weitergabe von MDAT und Resttumorproben in ein Drittland",
+      "code": "WR"
+    },
+    {
+      "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) zur kommerziellen Nutzung",
+      "code": "WPK"
+    },
+    {
+      "display": "Weitergabe von MDAT und Resttumorproben zur kommerziellen Nutzung",
+      "code": "WK"
+    },
+    {
+      "display": "Kontaktaufnahme des nNGM-Zentrums zu einem späteren Zeitpunkt zur Gewinnung weiterer Informationen über den Behandlungsverlauf",
+      "code": "KW"
+    },
+    {
+      "display": "Kontaktaufnahme des nNGM-Zentrums zum Zweck des Einschlusses in eine mögliche infrage kommende neue Studie",
+      "code": "KE"
+    }
+  ]
+}

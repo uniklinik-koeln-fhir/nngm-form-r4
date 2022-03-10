@@ -1,0 +1,79 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-TNM-M",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-m",
+    "version": "1.0.0",
+    "name": "ValueSet_nNGM_TNM-M",
+    "title": "ValueSet - nNGM - TNM-M",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "concept": [
+                    {
+                        "code": "M0",
+                        "display": "M0"
+                    },
+                    {
+                        "code": "M1",
+                        "display": "M1"
+                    },
+                    {
+                        "code": "M1a",
+                        "display": "M1a"
+                    },
+                    {
+                        "code": "M1b",
+                        "display": "M1b"
+                    },
+                    {
+                        "code": "M1c",
+                        "display": "M1c"
+                    },
+                    {
+                        "code": "M1d",
+                        "display": "M1d"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "2c93ebc6-ae7b-444c-9517-2e2ebe2abb1b",
+        "timestamp": "2020-10-15T12:49:38+00:00",
+        "total": 6,
+        "contains": [
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "code": "M0",
+                "display": "M0"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "code": "M1",
+                "display": "M1"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "code": "M1a",
+                "display": "M1a"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "code": "M1b",
+                "display": "M1b"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "code": "M1c",
+                "display": "M1c"
+            },
+            {
+                "system": "urn:oid:2.16.840.1.113883.15.16",
+                "code": "M1d",
+                "display": "M1d"
+            }
+        ]
+    }
+}

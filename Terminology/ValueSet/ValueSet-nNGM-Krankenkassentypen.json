@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Krankenkassentypen",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkassentypen",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Krankenkassentypen",
+  "title": "ValueSet - nNGM - Krankenkassentypen",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+              "concept": [
+                  {
+                      "code": "GKV",
+                      "display": "gesetzliche Krankenversicherung"
+                  },
+                  {
+                      "code": "PKV",
+                      "display": "private Krankenversicherung"
+                  }
+              ]
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "725d029f-7b76-4c16-bcdc-13be6125f9ec",
+      "timestamp": "2020-10-15T15:23:43+00:00",
+      "total": 2,
+      "contains": [
+          {
+              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+              "code": "GKV",
+              "display": "gesetzliche Krankenversicherung"
+          },
+          {
+              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+              "code": "PKV",
+              "display": "private Krankenversicherung"
+          }
+      ]
+  }
+}

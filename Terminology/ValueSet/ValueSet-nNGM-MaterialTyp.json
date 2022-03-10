@@ -1,0 +1,46 @@
+{
+    "resourceType": "ValueSet",
+    "id": "Valueset-nNGM-MaterialTyp",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/MaterialTyp",
+    "version": "1.0.0",
+    "title": "ValueSet - nNGM - MaterialTyp",
+    "name": "ValueSet_nNGM_Materialtyp",
+    "status": "active",
+    "description": "nNGM MaterialTyp (Gewebe/Blut)",
+    "compose": {
+        "include": [
+            {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "concept": [
+                    {
+                        "code": "C12434",
+                        "display": "Blood"
+                    },
+                    {
+                        "code": "C12801",
+                        "display": "Tissue"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "7bde33c5-7559-4c5a-88d1-880c4309d517",
+        "timestamp": "2020-10-15T12:33:42+00:00",
+        "total": 2,
+        "contains": [
+            {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "version": "20.02d",
+                "code": "C12434",
+                "display": "Blood"
+            },
+            {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "version": "20.02d",
+                "code": "C12801",
+                "display": "Tissue"
+            }
+        ]
+    }
+}

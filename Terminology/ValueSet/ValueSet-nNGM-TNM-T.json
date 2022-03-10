@@ -1,0 +1,277 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-TNM-T",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-t",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_TNM-T",
+  "title": "ValueSet - nNGM - TNM-T",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "concept": [
+                  {
+                      "code": "T0",
+                      "display": "T0"
+                  },
+                  {
+                      "code": "TX",
+                      "display": "TX"
+                  },
+                  {
+                      "code": "Tis",
+                      "display": "Tis"
+                  },
+                  {
+                      "code": "T1",
+                      "display": "T1"
+                  },
+                  {
+                      "code": "Ta",
+                      "display": "Ta"
+                  },
+                  {
+                      "code": "T1a",
+                      "display": "T1a"
+                  },
+                  {
+                      "code": "T1a1",
+                      "display": "T1a1"
+                  },
+                  {
+                      "code": "T1a2",
+                      "display": "T1a2"
+                  },
+                  {
+                      "code": "T1b",
+                      "display": "T1b"
+                  },
+                  {
+                      "code": "T1b1",
+                      "display": "T1b1"
+                  },
+                  {
+                      "code": "T1b2",
+                      "display": "T1b2"
+                  },
+                  {
+                      "code": "T1c",
+                      "display": "T1c"
+                  },
+                  {
+                      "code": "T1mi",
+                      "display": "T1mi"
+                  },
+                  {
+                      "code": "T2",
+                      "display": "T2"
+                  },
+                  {
+                      "code": "T2a",
+                      "display": "T2a"
+                  },
+                  {
+                      "code": "T2a1",
+                      "display": "T2a1"
+                  },
+                  {
+                      "code": "T2a2",
+                      "display": "T2a2"
+                  },
+                  {
+                      "code": "T2b",
+                      "display": "T2b"
+                  },
+                  {
+                      "code": "T2c",
+                      "display": "T2c"
+                  },
+                  {
+                      "code": "T3",
+                      "display": "T3"
+                  },
+                  {
+                      "code": "T3a",
+                      "display": "T3a"
+                  },
+                  {
+                      "code": "T3b",
+                      "display": "T3b"
+                  },
+                  {
+                      "code": "T3c",
+                      "display": "T3c"
+                  },
+                  {
+                      "code": "T4",
+                      "display": "T4"
+                  },
+                  {
+                      "code": "T4a",
+                      "display": "T4a"
+                  },
+                  {
+                      "code": "T4b",
+                      "display": "T4b"
+                  },
+                  {
+                      "code": "T4c",
+                      "display": "T4c"
+                  },
+                  {
+                      "code": "T4d",
+                      "display": "T4d"
+                  }
+              ]
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "c85b326d-7e39-4641-bd00-c5a67b62baf6",
+      "timestamp": "2020-10-15T12:48:57+00:00",
+      "total": 28,
+      "contains": [
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T0",
+              "display": "T0"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "TX",
+              "display": "TX"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "Tis",
+              "display": "Tis"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1",
+              "display": "T1"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "Ta",
+              "display": "Ta"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1a",
+              "display": "T1a"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1a1",
+              "display": "T1a1"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1a2",
+              "display": "T1a2"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1b",
+              "display": "T1b"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1b1",
+              "display": "T1b1"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1b2",
+              "display": "T1b2"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1c",
+              "display": "T1c"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T1mi",
+              "display": "T1mi"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T2",
+              "display": "T2"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T2a",
+              "display": "T2a"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T2a1",
+              "display": "T2a1"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T2a2",
+              "display": "T2a2"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T2b",
+              "display": "T2b"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T2c",
+              "display": "T2c"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T3",
+              "display": "T3"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T3a",
+              "display": "T3a"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T3b",
+              "display": "T3b"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T3c",
+              "display": "T3c"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T4",
+              "display": "T4"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T4a",
+              "display": "T4a"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T4b",
+              "display": "T4b"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T4c",
+              "display": "T4c"
+          },
+          {
+              "system": "urn:oid:2.16.840.1.113883.15.16",
+              "code": "T4d",
+              "display": "T4d"
+          }
+      ]
+  }
+}

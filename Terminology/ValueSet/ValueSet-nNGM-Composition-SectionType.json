@@ -1,0 +1,16 @@
+{
+    "resourceType": "ValueSet",
+    "id": "ValueSet-nNGM-CompositionSectionType",
+    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/CompositionSectionType",
+    "version": "1.0.0",
+    "title": "ValueSet - nNGM - CompositionSectionType",
+    "name": "ValueSet_nNGM_CompositionSectionType",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType"
+            }
+        ]
+    }
+}
