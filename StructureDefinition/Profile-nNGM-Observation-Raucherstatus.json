@@ -221,7 +221,8 @@
               "type": "type",
               "path": "$this"
             }
-          ]
+          ],
+          "rules": "open"
         },
         "short": "Pack years",
         "min": 1,

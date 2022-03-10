@@ -248,7 +248,8 @@
               "type": "type",
               "path": "$this"
             }
-          ]
+          ],
+          "rules": "open"
         },
         "mustSupport": true
       },
