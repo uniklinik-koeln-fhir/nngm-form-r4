@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Condition-FirstDiagnosis",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis",
   "name": "Profile_nNGM_Condition_FirstDiagnosis",
   "status": "active",
