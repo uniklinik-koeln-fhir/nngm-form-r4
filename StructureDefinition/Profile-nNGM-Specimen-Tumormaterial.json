@@ -40,8 +40,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/aufenthaltsart"
             ]
           }
-        ],
-        "mustSupport": true
+        ]
       },
       {
         "id": "Specimen.extension:entnahmeKontext.value[x]",
@@ -58,6 +57,13 @@
         "short": "Entnahmekontext"
       },
       {
+        "id": "Specimen.extension:entnahmeKontext.value[x]:valueCodeableConcept",
+        "path": "Specimen.extension.valueCodeableConcept",
+        "sliceName": "valueCodeableConcept",
+        "short": "Entnahmekontext",
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.identifier",
         "path": "Specimen.identifier",
         "slicing": {
@@ -68,13 +74,13 @@
             }
           ],
           "rules": "open"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Specimen.identifier:biopsieID",
         "path": "Specimen.identifier",
         "sliceName": "biopsieID",
+        "short": "Biopsie ID",
         "patternIdentifier": {
           "type": {
             "coding": [
@@ -90,9 +96,7 @@
       {
         "id": "Specimen.type",
         "path": "Specimen.type",
-        "short": "Materialtyp",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Specimen.type.coding",
@@ -106,13 +110,13 @@
           ],
           "rules": "open"
         },
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Specimen.type.coding:ncit",
         "path": "Specimen.type.coding",
         "sliceName": "ncit",
+        "short": "Materialtyp",
         "min": 1,
         "max": "1",
         "mustSupport": true,
@@ -124,12 +128,8 @@
       {
         "id": "Specimen.subject",
         "path": "Specimen.subject",
+        "short": "Patient",
         "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Specimen.collection",
-        "path": "Specimen.collection",
         "mustSupport": true
       },
       {
