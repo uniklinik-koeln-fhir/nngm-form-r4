@@ -108,6 +108,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "label": "Klassifikation",
         "slicing": {
           "discriminator": [
             {
@@ -154,6 +155,7 @@
       {
         "id": "Observation.specimen",
         "path": "Observation.specimen",
+        "label": "Tumormaterial",
         "mustSupport": true
       },
       {
@@ -275,7 +277,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
+        "label": "Wachstumsmuster bei Adenokarzinom azinär",
         "type": [
           {
             "code": "Quantity"
@@ -319,7 +321,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
+        "label": "Wachstumsmuster bei Adenokarzinom papillär",
         "type": [
           {
             "code": "Quantity"
@@ -363,7 +365,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
+        "label": "Wachstumsmuster bei Adenokarzinom mikropapillär",
         "type": [
           {
             "code": "Quantity"
@@ -407,7 +409,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaSolid.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
+        "label": "Wachstumsmuster bei Adenokarzinom solide",
         "type": [
           {
             "code": "Quantity"
@@ -451,7 +453,7 @@
       {
         "id": "Observation.component:percentageOfSignetRingCellCarcinoma.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
+        "label": "Anteil an Siegelringzellkarzinomen",
         "type": [
           {
             "code": "Quantity"
