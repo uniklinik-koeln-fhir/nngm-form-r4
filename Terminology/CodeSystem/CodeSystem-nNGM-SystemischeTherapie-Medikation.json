@@ -1,0 +1,366 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-SystemischeTherapie-Medikation",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/SystemischeTherapieMedikation",
+  "version": "1.0.0",
+  "name": "CodeSystem_nNGM_SystemischeTherapie_Medikation",
+  "title": "CodeSystem - nNGM - Systemische Therapie - Medikation",
+  "status": "draft",
+  "content": "complete",
+  "count": 88,
+  "concept": [
+    {
+      "code": "Afatinib",
+      "display": "Afatinib"
+    },
+    {
+      "code": "Alectinib",
+      "display": "Alectinib"
+    },
+    {
+      "code": "BGJ398",
+      "display": "BGJ398"
+    },
+    {
+      "code": "Brigatinib",
+      "display": "Brigatinib"
+    },
+    {
+      "code": "Cabmatinib",
+      "display": "Cabmatinib"
+    },
+    {
+      "code": "Cabozantinib",
+      "display": "Cabozantinib"
+    },
+    {
+      "code": "Crizotinib",
+      "display": "Crizotinib"
+    },
+    {
+      "code": "Ceritinib",
+      "display": "Ceritinib"
+    },
+    {
+      "code": "Dabrafenib",
+      "display": "Dabrafenib"
+    },
+    {
+      "code": "Dacomitinib",
+      "display": "Dacomitinib"
+    },
+    {
+      "code": "Entrectinib",
+      "display": "Entrectinib"
+    },
+    {
+      "code": "Erdafitinib",
+      "display": "Erdafitinib"
+    },
+    {
+      "code": "Erlotinib",
+      "display": "Erlotinib"
+    },
+    {
+      "code": "Gefitinib",
+      "display": "Gefitinib"
+    },
+    {
+      "code": "Lorlatinib",
+      "display": "Lorlatinib"
+    },
+    {
+      "code": "Nazartinib",
+      "display": "Nazartinib"
+    },
+    {
+      "code": "Osimertinib",
+      "display": "Osimertinib"
+    },
+    {
+      "code": "Rociletinib",
+      "display": "Rociletinib"
+    },
+    {
+      "code": "Trametinib",
+      "display": "Trametinib"
+    },
+    {
+      "code": "Vandetanib",
+      "display": "Vandetanib"
+    },
+    {
+      "code": "Vemurafenib",
+      "display": "Vemurafenib"
+    },
+    {
+      "code": "Atezolizumab",
+      "display": "Atezolizumab"
+    },
+    {
+      "code": "nab-PaclitaxelAtezolizumab",
+      "display": "nab-Paclitaxel Atezolizumab"
+    },
+    {
+      "code": "Avelumab",
+      "display": "Avelumab"
+    },
+    {
+      "code": "Durvalumab",
+      "display": "Durvalumab"
+    },
+    {
+      "code": "Ipilimumab",
+      "display": "Ipilimumab"
+    },
+    {
+      "code": "Nivolumab",
+      "display": "Nivolumab"
+    },
+    {
+      "code": "Pembrolizumab",
+      "display": "Pembrolizumab"
+    },
+    {
+      "code": "Spartalizumab",
+      "display": "Spartalizumab"
+    },
+    {
+      "code": "Carboplatin",
+      "display": "Carboplatin"
+    },
+    {
+      "code": "Cisplatin",
+      "display": "Cisplatin"
+    },
+    {
+      "code": "Docetaxel",
+      "display": "Docetaxel"
+    },
+    {
+      "code": "Etoposid",
+      "display": "Etoposid"
+    },
+    {
+      "code": "Gemcitabine",
+      "display": "Gemcitabine"
+    },
+    {
+      "code": "Ifosfamid",
+      "display": "Ifosfamid"
+    },
+    {
+      "code": "Paclitaxel",
+      "display": "Paclitaxel"
+    },
+    {
+      "code": "nab-Paclitaxel",
+      "display": "nab-Paclitaxel"
+    },
+    {
+      "code": "nab-PaclitaxelAtezolizumabBevacizumab",
+      "display": "nab-Paclitaxel Atezolizumab Bevacizumab"
+    },
+    {
+      "code": "AtezolizumabPemetrexed",
+      "display": "Atezolizumab Pemetrexed"
+    },
+    {
+      "code": "AtezolizumabBevacizumab",
+      "display": "Atezolizumab Bevacizumab"
+    },
+    {
+      "code": "Bevacizumabnab-Paclitaxel",
+      "display": "Bevacizumab nab-Paclitaxel"
+    },
+    {
+      "code": "Pemetrexed",
+      "display": "Pemetrexed"
+    },
+    {
+      "code": "Topotecan",
+      "display": "Topotecan"
+    },
+    {
+      "code": "Topotecan oral",
+      "display": "Topotecan oral"
+    },
+    {
+      "code": "Vinorelbine",
+      "display": "Vinorelbine"
+    },
+    {
+      "code": "Vinorelbine oral",
+      "display": "Vinorelbine oral"
+    },
+    {
+      "code": "Bevacizumab",
+      "display": "Bevacizumab"
+    },
+    {
+      "code": "BevacizumabPemetrexed",
+      "display": "Bevacizumab Pemetrexed"
+    },
+    {
+      "code": "BevacizumabPembrolizumab",
+      "display": "Bevacizumab Pembrolizumab"
+    },
+    {
+      "code": "BevacizumabPembrolizumabPemetrexed",
+      "display": "Bevacizumab Pembrolizumab Pemetrexed"
+    },
+    {
+      "code": "Cetuximab",
+      "display": "Cetuximab"
+    },
+    {
+      "code": "Nintedanib",
+      "display": "Nintedanib"
+    },
+    {
+      "code": "Necitumumab",
+      "display": "Necitumumab"
+    },
+    {
+      "code": "Ramucirumab",
+      "display": "Ramucirumab"
+    },
+    {
+      "code": "Sunitinib",
+      "display": "Sunitinib"
+    },
+    {
+      "code": "Sorafenib",
+      "display": "Sorafenib"
+    },
+    {
+      "code": "Axitinib",
+      "display": "Axitinib"
+    },
+    {
+      "code": "Interleukin 2",
+      "display": "Interleukin 2"
+    },
+    {
+      "code": "Carboplatin/Paclitaxel",
+      "display": "Carboplatin/Paclitaxel"
+    },
+    {
+      "code": "Carboplatin/Paclitaxel/Pembrolizumab",
+      "display": "Carboplatin/Paclitaxel/Pembrolizumab"
+    },
+    {
+      "code": "Carboplatin/nab-Paclitaxel/Pembrolizumab",
+      "display": "Carboplatin/nab-Paclitaxel/Pembrolizumab"
+    },
+    {
+      "code": "Carboplatin/nab-Paclitaxel",
+      "display": "Carboplatin/nab-Paclitaxel"
+    },
+    {
+      "code": "Carboplatin/Paclitaxel/Bevacizumab",
+      "display": "Carboplatin/Paclitaxel/Bevacizumab"
+    },
+    {
+      "code": "Carboplatin/nab-Paclitaxel/Bevacizumab",
+      "display": "Carboplatin/nab-Paclitaxel/Bevacizumab"
+    },
+    {
+      "code": "Carboplatin/Paclitaxel/Bevacizumab/Atezolizumab",
+      "display": "Carboplatin/Paclitaxel/Bevacizumab/Atezolizumab"
+    },
+    {
+      "code": "Carboplatin/nab-Paclitaxel/Bevacizumab/Atezolizumab",
+      "display": "Carboplatin/nab-Paclitaxel/Bevacizumab/Atezolizumab"
+    },
+    {
+      "code": "Carboplatin/Pemetrexed",
+      "display": "Carboplatin/Pemetrexed"
+    },
+    {
+      "code": "Carboplatin/Pemetrexed/Bevacizumab",
+      "display": "Carboplatin/Pemetrexed/Bevacizumab"
+    },
+    {
+      "code": "PemetrexedPembrolizumab",
+      "display": "Pemetrexed Pembrolizumab"
+    },
+    {
+      "code": "Carboplatin/Pemetrexed/Pembrolizumab",
+      "display": "Carboplatin/Pemetrexed/Pembrolizumab"
+    },
+    {
+      "code": "Carboplatin/Gemcitabine",
+      "display": "Carboplatin/Gemcitabine"
+    },
+    {
+      "code": "Carboplatin/Vinorelbine",
+      "display": "Carboplatin/Vinorelbine"
+    },
+    {
+      "code": "Carboplatin/Vinorelbine oral",
+      "display": "Carboplatin/Vinorelbine oral"
+    },
+    {
+      "code": "Carboplatin/Etoposid",
+      "display": "Carboplatin/Etoposid"
+    },
+    {
+      "code": "Cisplatin/Pemetrexed",
+      "display": "Cisplatin/Pemetrexed"
+    },
+    {
+      "code": "Cisplatin/Pemetrexed/Bevacizumab",
+      "display": "Cisplatin/Pemetrexed/Bevacizumab"
+    },
+    {
+      "code": "Cisplatin/Vinorelbine",
+      "display": "Cisplatin/Vinorelbine"
+    },
+    {
+      "code": "Cisplatin/Vinorelbine oral",
+      "display": "Cisplatin/Vinorelbine oral"
+    },
+    {
+      "code": "Cisplatin/Gemcitabine",
+      "display": "Cisplatin/Gemcitabine"
+    },
+    {
+      "code": "Cisplatin/Paclitaxel",
+      "display": "Cisplatin/Paclitaxel"
+    },
+    {
+      "code": "Cisplatin/nabPaclitaxel",
+      "display": "Cisplatin/nabPaclitaxel"
+    },
+    {
+      "code": "Docetaxel/Nintedanib",
+      "display": "Docetaxel/Nintedanib"
+    },
+    {
+      "code": "Docetaxel/Ramucirumab",
+      "display": "Docetaxel/Ramucirumab"
+    },
+    {
+      "code": "Dabrafenib/Trametinib",
+      "display": "Dabrafenib/Trametinib"
+    },
+    {
+      "code": "Nazartinib/Trametinib",
+      "display": "Nazartinib/Trametinib"
+    },
+    {
+      "code": "Nazartinib/Capmatinib",
+      "display": "Nazartinib/Capmatinib"
+    },
+    {
+      "code": "Afatinib/Cetuximab",
+      "display": "Afatinib/Cetuximab"
+    },
+    {
+      "code": "Nivolumab/Ipilimumab",
+      "display": "Nivolumab/Ipilimumab"
+    }
+  ]
+}
