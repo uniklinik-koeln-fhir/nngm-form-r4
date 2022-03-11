@@ -1,0 +1,43 @@
+{
+  "resourceRequested": "ValueSet",
+  "id": "ValueSet-nNGM-Anforderung-Diagnostic-Requested",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-requested",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Anforderung_Diagnostic_Requested",
+  "title": "ValueSet - nNGM - Diagnostic - Requested",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-requested",
+        "concept": [
+          {
+            "code": "complete",
+            "display": "Komplette Untersuchung"
+          },
+          {
+            "code": "single",
+            "display": "Einzeluntersuchung"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "486347ca-e34f-411e-9d62-e9ee4023c07e",
+    "timestamp": "2022-03-11T12:30:05+00:00",
+    "total": 2,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-requested",
+        "code": "complete",
+        "display": "Komplette Untersuchung"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-requested",
+        "code": "single",
+        "display": "Einzeluntersuchung"
+      }
+    ]
+  }
+}

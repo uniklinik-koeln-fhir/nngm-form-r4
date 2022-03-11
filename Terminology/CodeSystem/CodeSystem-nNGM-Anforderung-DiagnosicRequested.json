@@ -1,0 +1,24 @@
+{
+    "resourceRequested": "CodeSystem",
+    "id": "CodeSystem-nNGM-Anforderung-Diagnostic-Requested",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-requested",
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-requested",
+    "version": "1.0.0",
+    "title": "CodeSystem - nNGM - Diagnostic - Requested",
+    "name": "CodeSystem_nNGM_Diagnostic_Requested",
+    "status": "active",
+    "compositional": false, 
+    "caseSensitive": true,
+    "content": "complete",
+    "count": "2",
+    "concept": [
+        {
+            "code": "complete",
+            "display": "Komplette Untersuchung"
+        },
+        {
+            "code": "single",
+            "display": "Einzeluntersuchung"
+        }
+    ]
+}

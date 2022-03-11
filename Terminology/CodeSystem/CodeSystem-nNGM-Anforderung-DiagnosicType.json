@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-Anforderung-Diagnostic-Type",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-type",
+    "version": "1.0.0",
+    "title": "CodeSystem - nNGM - Diagnostic - Type",
+    "name": "CodeSystem_nNGM_Diagnostic_Type",
+    "status": "active",
+    "compositional": false, 
+    "caseSensitive": true,
+    "content": "complete",
+    "count": "4",
+    "concept": [
+        {
+            "code": "Gewebediagnostik",
+            "display": "Gewebediagnostik"
+        },
+        {
+            "code": "Liquid Biopsy",
+            "display": "Blutdiagnostik (Liquid Biopsy)"
+        }
+    ]
+}

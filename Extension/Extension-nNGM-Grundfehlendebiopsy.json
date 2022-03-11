@@ -1,0 +1,66 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "Extension-nNGM-GrundFehlendeBiopsy",
+	"url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/grundFehlendeBiopsy",
+	"version": "1.0.0",
+	"name": "Extension_nNGM_GrundFehlendeBiopsy",
+	"title": "Extension - nNGM - GrundFehlendeBiopsy",
+	"status": "active",
+	"fhirVersion": "4.0.1",
+	"kind": "complex-type",
+	"abstract": false,
+	"context": [
+		{
+			"type": "element",
+			"expression": "ServiceRequest"
+		}
+	],
+	"type": "Extension",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Extension.url",
+				"path": "Extension.url",
+				"type": [
+					{
+						"extension": [
+							{
+								"url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+								"valueUrl": "uri"
+							}
+						],
+						"code": "http://hl7.org/fhirpath/System.String"
+					}
+				],
+				"fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/grundFehlendeBiopsy"
+			},
+			{
+				"id": "Extension.value[x]",
+				"path": "Extension.value[x]",
+				"min": 1,
+				"type": [
+					{
+						"code": "CodeableConcept"
+					}
+				]
+			},
+			{
+				"id": "Extension.value[x]:valueCodeableConcept",
+				"path": "Extension.value[x]",
+				"sliceName": "valueCodeableConcept",
+				"type": [
+					{
+						"code": "CodeableConcept"
+					}
+				],
+				"min": 1,
+				"binding": {
+					"strength": "required",
+					"valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/grundFehlendeBiopsie"
+				}
+			}
+		]
+	}
+}

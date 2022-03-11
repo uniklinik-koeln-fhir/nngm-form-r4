@@ -62,6 +62,7 @@
         "path": "ServiceRequest.extension.valueCodeableConcept",
         "sliceName": "valueCodeableConcept",
         "label": "Patient war / ist zum Zeitpunkt dieser Anforderung",
+        "short": "Aufenthaltsart zum Zeitpunkt der Einreichung der Diagnostik",
         "mustSupport": true
       },
       {
@@ -84,6 +85,7 @@
       {
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]",
         "path": "ServiceRequest.extension.value[x]",
+        "label": "Grund für fehlende Biopsie",
         "slicing": {
           "discriminator": [
             {
@@ -92,26 +94,19 @@
             }
           ],
           "rules": "open"
-        },
-        "label": "Grund für fehlende Biopsie"
+        }
       },
       {
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]:valueCodeableConcept",
-        "path": "ServiceRequest.extension.valueCodeableConcept",
+        "path": "ServiceRequest.extension.value[x]",
         "sliceName": "valueCodeableConcept",
         "label": "Grund für fehlende Biopsie",
         "mustSupport": true
       },
       {
-        "id": "ServiceRequest.status",
-        "path": "ServiceRequest.status",
-        "mustSupport": true
-      },
-      {
         "id": "ServiceRequest.intent",
         "path": "ServiceRequest.intent",
-        "fixedCode": "proposal",
-        "mustSupport": true
+        "fixedCode": "proposal"
       },
       {
         "id": "ServiceRequest.code",
@@ -121,7 +116,8 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-code"
+          "description": "Die Angabe ob es sich um eine Gewebe oder Blutdiagnostik handelt kann anhand der Kodierung des Probentyps entnommen werden",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-type"
         }
       },
       {
@@ -137,6 +133,18 @@
           "rules": "open"
         },
         "mustSupport": false
+      },
+      {
+        "id": "ServiceRequest.orderDetail:diagnosticRequested",
+        "path": "ServiceRequest.orderDetail",
+        "sliceName": "diagnosticRequested",
+        "label": "Gewünschte Diagnostik",
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-requested"
+        }
       },
       {
         "id": "ServiceRequest.orderDetail:histologischeAbklaerung",
