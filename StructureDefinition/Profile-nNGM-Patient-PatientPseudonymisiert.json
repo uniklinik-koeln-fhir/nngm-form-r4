@@ -194,16 +194,6 @@
         "mustSupport": true
       },
       {
-        "id": "Patient.deceased[x]:deceasedDateTime",
-        "path": "Patient.deceased[x]",
-        "sliceName": "deceasedDateTime",
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ]
-      },
-      {
         "id": "Patient.deceased[x]:deceasedDateTime.extension",
         "path": "Patient.deceased[x].extension",
         "slicing": {
