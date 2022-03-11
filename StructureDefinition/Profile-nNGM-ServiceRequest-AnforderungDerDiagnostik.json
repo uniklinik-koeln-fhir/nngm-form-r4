@@ -111,7 +111,8 @@
       {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
-        "label": "Gewünschte Diagnostik",
+        "label": "Diagnostiktyp",
+        "short": "Ob es sich um eine Gewebe oder Blutdiagnostik handelt kann anhand der Kodierung des Probentyps entnommen werden",
         "min": 1,
         "mustSupport": true,
         "binding": {
@@ -205,6 +206,7 @@
       {
         "id": "ServiceRequest.subject",
         "path": "ServiceRequest.subject",
+        "label": "Patient",
         "mustSupport": true
       },
       {
