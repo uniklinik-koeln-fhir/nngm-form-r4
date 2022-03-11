@@ -32,7 +32,7 @@
         "id": "ServiceRequest.extension:aufenthaltsart",
         "path": "ServiceRequest.extension",
         "sliceName": "aufenthaltsart",
-        "short": "Patient war / ist zum Zeitpunkt dieser Anforderung",
+        "label": "Patient war / ist zum Zeitpunkt dieser Anforderung",
         "min": 0,
         "type": [
           {
@@ -61,14 +61,14 @@
         "id": "ServiceRequest.extension:aufenthaltsart.value[x]:valueCodeableConcept",
         "path": "ServiceRequest.extension.valueCodeableConcept",
         "sliceName": "valueCodeableConcept",
-        "short": "Patient war / ist zum Zeitpunkt dieser Anforderung",
+        "label": "Patient war / ist zum Zeitpunkt dieser Anforderung",
         "mustSupport": true
       },
       {
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy",
         "path": "ServiceRequest.extension",
         "sliceName": "GrundFehlendeBiopsy",
-        "short": "Grund für fehlende Biopsie",
+        "label": "Grund für fehlende Biopsie",
         "min": 0,
         "max": "1",
         "type": [
@@ -93,13 +93,13 @@
           ],
           "rules": "open"
         },
-        "short": "Grund für fehlende Biopsie"
+        "label": "Grund für fehlende Biopsie"
       },
       {
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]:valueCodeableConcept",
         "path": "ServiceRequest.extension.valueCodeableConcept",
         "sliceName": "valueCodeableConcept",
-        "short": "Grund für fehlende Biopsie",
+        "label": "Grund für fehlende Biopsie",
         "mustSupport": true
       },
       {
@@ -116,7 +116,7 @@
       {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
-        "short": "Gewünschte Diagnostik",
+        "label": "Gewünschte Diagnostik",
         "min": 1,
         "mustSupport": true,
         "binding": {
@@ -142,7 +142,7 @@
         "id": "ServiceRequest.orderDetail:histologischeAbklaerung",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "histologischeAbklaerung",
-        "short": "Histologische Abklärung",
+        "label": "Histologische Abklärung",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -153,7 +153,7 @@
         "id": "ServiceRequest.orderDetail:molekularpathologie",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "molekularpathologie",
-        "short": "Immunhistochemie",
+        "label": "Immunhistochemie",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -164,7 +164,7 @@
         "id": "ServiceRequest.orderDetail:ngsPanel",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "ngsPanel",
-        "short": "NGS Panel",
+        "label": "NGS Panel",
         "max": "1",
         "mustSupport": true,
         "binding": {
@@ -176,7 +176,7 @@
         "id": "ServiceRequest.orderDetail:fastTrack",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "fastTrack",
-        "short": "Fast Track",
+        "label": "Fast Track",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -187,7 +187,7 @@
         "id": "ServiceRequest.orderDetail:liquidBiopsy",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "liquidBiopsy",
-        "short": "Liquid Biopsy",
+        "label": "Liquid Biopsy",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -202,14 +202,14 @@
       {
         "id": "ServiceRequest.authoredOn",
         "path": "ServiceRequest.authoredOn",
-        "short": "Anforderungsdatum",
+        "label": "Anforderungsdatum",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "ServiceRequest.requester",
         "path": "ServiceRequest.requester",
-        "short": "Anforderndes nNGM Netzwerkzentrums oder Netzwerkpartners",
+        "label": "Anforderndes nNGM Netzwerkzentrums oder Netzwerkpartners",
         "min": 1,
         "type": [
           {
@@ -231,7 +231,7 @@
       {
         "id": "ServiceRequest.performer",
         "path": "ServiceRequest.performer",
-        "short": "Durchführende nNGM Netzwerkzentren",
+        "label": "Durchführende nNGM Netzwerkzentren",
         "min": 1,
         "type": [
           {
@@ -254,7 +254,7 @@
       {
         "id": "ServiceRequest.specimen",
         "path": "ServiceRequest.specimen",
-        "short": "Tumormaterialien",
+        "label": "Tumormaterialien",
         "min": 1,
         "type": [
           {

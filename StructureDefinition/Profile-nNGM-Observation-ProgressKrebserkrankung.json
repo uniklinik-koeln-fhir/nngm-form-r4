@@ -112,7 +112,7 @@
           ],
           "rules": "open"
         },
-        "short": "Datum",
+        "label": "Datum",
         "min": 1,
         "type": [
           {

@@ -122,7 +122,7 @@
           ],
           "rules": "open"
         },
-        "short": "Erhebungsdatum",
+        "label": "Erhebungsdatum",
         "type": [
           {
             "code": "dateTime"
@@ -224,7 +224,7 @@
           ],
           "rules": "open"
         },
-        "short": "Pack years",
+        "label": "Pack years",
         "min": 1,
         "type": [
           {
@@ -302,7 +302,7 @@
           ],
           "rules": "open"
         },
-        "short": "Nichtraucher seit",
+        "label": "Nichtraucher seit",
         "min": 1,
         "type": [
           {

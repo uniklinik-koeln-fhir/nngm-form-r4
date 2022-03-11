@@ -130,7 +130,7 @@
       {
         "id": "Observation.component:tkiTherapie.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "Therapie",
+        "label": "Therapie",
         "min": 1,
         "type": [
           {

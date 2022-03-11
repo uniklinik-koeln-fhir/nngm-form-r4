@@ -32,7 +32,7 @@
       {
         "id": "Observation.component:tkiTherapie.code",
         "path": "Observation.component.code",
-        "short": "Therapie"
+        "label": "Therapie"
       },
       {
         "id": "Observation.component:fusionPartner",

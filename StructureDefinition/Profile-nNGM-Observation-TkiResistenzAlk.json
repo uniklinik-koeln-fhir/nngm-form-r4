@@ -45,7 +45,7 @@
       {
         "id": "Observation.component:fusionPartner.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "Fusionspartner",
+        "label": "Fusionspartner",
         "min": 1,
         "type": [
           {

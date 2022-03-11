@@ -32,7 +32,7 @@
       {
         "id": "Observation.component:tkiTherapie.code",
         "path": "Observation.component.code",
-        "short": "Therapie"
+        "label": "Therapie"
       },
       {
         "id": "Observation.component:exon",
@@ -55,7 +55,7 @@
       {
         "id": "Observation.component:exon.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "Exon",
+        "label": "Exon",
         "min": 1,
         "type": [
           {
@@ -85,7 +85,7 @@
       {
         "id": "Observation.component:hgvsc.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "HGVS c. (Mutation cDNA)",
+        "label": "HGVS c. (Mutation cDNA)",
         "min": 1,
         "type": [
           {
@@ -114,7 +114,7 @@
       {
         "id": "Observation.component:hgvsp.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "HGVS p. (Mutation Protein)",
+        "label": "HGVS p. (Mutation Protein)",
         "type": [
           {
             "code": "string"

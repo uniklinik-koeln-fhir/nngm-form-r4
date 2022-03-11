@@ -137,7 +137,7 @@
         "id": "Observation.value[x]:valueCodeableConcept",
         "path": "Observation.value[x]",
         "sliceName": "valueCodeableConcept",
-        "short": "Klassifikation",
+        "label": "Klassifikation",
         "min": 1,
         "type": [
           {
@@ -152,7 +152,7 @@
       {
         "id": "Observation.bodySite",
         "path": "Observation.bodySite",
-        "short": "Lokalisation",
+        "label": "Lokalisation",
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
@@ -209,7 +209,7 @@
       {
         "id": "Observation.component:grading.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "Grading",
+        "label": "Grading",
         "type": [
           {
             "code": "CodeableConcept"

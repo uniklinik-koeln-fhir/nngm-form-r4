@@ -147,7 +147,7 @@
           ],
           "rules": "open"
         },
-        "short": "ECOG",
+        "label": "ECOG",
         "min": 1,
         "type": [
           {
