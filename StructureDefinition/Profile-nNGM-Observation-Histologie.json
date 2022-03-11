@@ -220,6 +220,280 @@
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/grading"
         }
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic",
+        "path": "Observation.component",
+        "sliceName": "growthPatternInAdenocarcinomaLepidic",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "112677002"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
+      }
+
+      ,
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar",
+        "path": "Observation.component",
+        "sliceName": "growthPatternInAdenocarcinomaAcinar",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "128703004"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "Wachstumsmuster bei Adenokarzinom azinär",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
+      }
+
+      ,
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary",
+        "path": "Observation.component",
+        "sliceName": "growthPatternInAdenocarcinomaPapillary",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "4797003"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "Wachstumsmuster bei Adenokarzinom papillär",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
+      }
+
+      ,
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary",
+        "path": "Observation.component",
+        "sliceName": "growthPatternInAdenocarcinomaMicropapillary",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "450895005"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "Wachstumsmuster bei Adenokarzinom mikropapillär",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
+      }
+
+      ,
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid",
+        "path": "Observation.component",
+        "sliceName": "growthPatternInAdenocarcinomaSolid",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "81920005"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "Wachstumsmuster bei Adenokarzinom solide",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
+      }
+
+      ,
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma",
+        "path": "Observation.component",
+        "sliceName": "percentageOfSignetRingCellCarcinoma",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "87737001"
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "Anteil an Siegelringzellkarzinomen",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "min": 1,
+        "fixedString": "%"
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
       }
     ]
   }
