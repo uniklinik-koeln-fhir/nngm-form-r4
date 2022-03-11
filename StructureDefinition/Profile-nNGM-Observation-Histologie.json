@@ -49,8 +49,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
-        "fixedCode": "final",
-        "mustSupport": true
+        "fixedCode": "final"
       },
       {
         "id": "Observation.category",
@@ -63,13 +62,7 @@
               "code": "laboratory"
             }
           ]
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.code.coding",
@@ -83,8 +76,7 @@
           ],
           "rules": "open"
         },
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Observation.code.coding:loinc",
@@ -94,12 +86,12 @@
         "patternCoding": {
           "system": "http://loinc.org",
           "code": "59847-4"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "label": "Patient",
         "min": 1,
         "mustSupport": true
       },
@@ -175,8 +167,7 @@
             }
           ],
           "rules": "open"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.component:grading",
@@ -264,9 +255,7 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
-      }
-
-      ,
+      },
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaAcinar",
         "path": "Observation.component",
@@ -286,7 +275,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom azinär",
+        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
         "type": [
           {
             "code": "Quantity"
@@ -310,9 +299,7 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
-      }
-
-      ,
+      },
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaPapillary",
         "path": "Observation.component",
@@ -332,7 +319,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom papillär",
+        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
         "type": [
           {
             "code": "Quantity"
@@ -356,9 +343,7 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
-      }
-
-      ,
+      },
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary",
         "path": "Observation.component",
@@ -378,7 +363,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom mikropapillär",
+        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
         "type": [
           {
             "code": "Quantity"
@@ -402,9 +387,7 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
-      }
-
-      ,
+      },
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaSolid",
         "path": "Observation.component",
@@ -424,7 +407,7 @@
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaSolid.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Wachstumsmuster bei Adenokarzinom solide",
+        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
         "type": [
           {
             "code": "Quantity"
@@ -448,9 +431,7 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
-      }
-
-      ,
+      },
       {
         "id": "Observation.component:percentageOfSignetRingCellCarcinoma",
         "path": "Observation.component",
@@ -470,7 +451,7 @@
       {
         "id": "Observation.component:percentageOfSignetRingCellCarcinoma.value[x]",
         "path": "Observation.component.value[x]",
-        "label": "Anteil an Siegelringzellkarzinomen",
+        "label": "Wachstumsmuster bei Adenokarzinom lepidisch",
         "type": [
           {
             "code": "Quantity"
