@@ -6,6 +6,7 @@
   "name": "Profile_nNGM_Observation_Ecog",
   "title": "Profile - nNGM - Observation - ECOG",
   "status": "active",
+  "description": "Dieses Profil beschreibt den ECOG-Status des Patienten zum Zeitpunkt der Diagnostik-Anforderung innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -45,8 +46,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
-        "fixedCode": "final",
-        "mustSupport": true
+        "fixedCode": "final"
       },
       {
         "id": "Observation.category",
@@ -75,13 +75,12 @@
               "code": "survey"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "mustSupport": true
+        "label": "Kodierung"
       },
       {
         "id": "Observation.code.coding",
@@ -95,29 +94,31 @@
           ],
           "rules": "open"
         },
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "label": "LOINC",
+        "short": "Zwingende LOINC-Kodierung zur Herstellung einer Interoperabilität zu nationalen und internationalen Projekten",
         "min": 1,
         "patternCoding": {
           "system": "http://loinc.org",
           "code": "89247-1"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "min": 1,
-        "mustSupport": true
+        "label": "Patient",
+        "short": "Ein Bezug zum Patienten muss stets gegeben sein",
+        "min": 1
       },
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "label": "Erhebungsdatum",
         "slicing": {
           "discriminator": [
             {
@@ -127,6 +128,7 @@
           ],
           "rules": "open"
         },
+        "short": "Das Untersuchungsdatum muss mindestens auf den Tag genau angegeben werden",
         "min": 1,
         "type": [
           {
@@ -138,6 +140,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "label": "ECOG",
         "slicing": {
           "discriminator": [
             {
@@ -147,7 +150,7 @@
           ],
           "rules": "open"
         },
-        "label": "ECOG",
+        "short": "Skala zur Klassifizeriung der symptombezogene Einschränkung der Aktivität, Selbstversorgung und Selbstbestimmung",
         "min": 1,
         "type": [
           {

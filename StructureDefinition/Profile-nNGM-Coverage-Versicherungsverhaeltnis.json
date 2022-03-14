@@ -6,6 +6,7 @@
   "name": "Profile_nNGM_Coverage_Versicherungsverhaeltnis",
   "title": "Profile - nNGM - Coverage - Versicherungsverhaeltnis",
   "status": "active",
+  "description": "Dieses Profil beschreibt ein Versicherungsverhältnis eines Patienten innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -143,6 +144,8 @@
       {
         "id": "Coverage.status",
         "path": "Coverage.status",
+        "label": "Versicherungsstatus",
+        "short": "Für die Übermittelung im Rahmen der Anforderung einer Diagnostik sind nur aktive Versicherungsverhältnisse zu übermitteln",
         "fixedCode": "active",
         "mustSupport": true
       },
@@ -158,17 +161,20 @@
       {
         "id": "Coverage.beneficiary",
         "path": "Coverage.beneficiary",
+        "label": "Patient",
+        "short": "Eine Verknüpfung mit dem Patienten muss stets gegeben sein",
         "mustSupport": true
       },
       {
         "id": "Coverage.payor",
         "path": "Coverage.payor",
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Coverage.payor.display",
         "path": "Coverage.payor.display",
+        "label": "Versicherer",
+        "short": "Nur zugelassene Krankenkassen dürfen übermittelt werden. Die Liste kann auf Anfrage bei der nNGM Geschäfststelle erweitert werden",
         "min": 1,
         "mustSupport": true,
         "binding": {

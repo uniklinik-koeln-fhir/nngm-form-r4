@@ -6,6 +6,7 @@
   "name": "Profile_nNGM_Observation_ProgressKrebserkrankung",
   "title": "Profile - nNGM - Observation - Progress/Rezidiv Krebserkrankung",
   "status": "active",
+  "description": "Dieses Profil beschreibt einen die Dokumentation eines Rezidiv/Progress innerhalb des nNGM Projektes",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -30,8 +31,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
-        "fixedCode": "final",
-        "mustSupport": true
+        "fixedCode": "final"
       },
       {
         "id": "Observation.category",
@@ -60,13 +60,11 @@
               "code": "survey"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.code",
-        "path": "Observation.code",
-        "mustSupport": true
+        "path": "Observation.code"
       },
       {
         "id": "Observation.code.coding",
@@ -80,8 +78,7 @@
           ],
           "rules": "open"
         },
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Observation.code.coding:loinc",
@@ -91,18 +88,17 @@
         "patternCoding": {
           "system": "http://loinc.org",
           "code": "97509-4"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "label": "Datum",
         "slicing": {
           "discriminator": [
             {
@@ -112,7 +108,7 @@
           ],
           "rules": "open"
         },
-        "label": "Datum",
+        "short": "Diagnosedatum sollte tagesgenau angegeben werden",
         "min": 1,
         "type": [
           {
@@ -124,6 +120,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "label": "Rezidiv/Progress",
         "slicing": {
           "discriminator": [
             {
@@ -133,6 +130,7 @@
           ],
           "rules": "open"
         },
+        "short": "Ja/Nein ob einb Progress oder Rezidiv vorliegt.",
         "type": [
           {
             "code": "boolean"

@@ -6,6 +6,7 @@
   "name": "Profile_nNGM_PractitionerRole_BehandlerRolle",
   "title": "Profile - nNGM - PractitionerRole - BehandlerRolle",
   "status": "active",
+  "description": "Dieses Profil beschreibt die Rolle eines Behandlers als Netzwerkpartner innerhalb eines Netzwerkzentrums und/oder einer Organization die am nNGM-Projekt teilnimmt (Einreichung von Anforderungen, Kooperation bei der Übersendung von Proben). Somit können die Kontaktdaten von Externe Onkologen, Netzwerkzentrum-interner Behandler und Pathologen für das Anforderungsformular erfasst werden.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -89,23 +90,30 @@
       {
         "id": "PractitionerRole.practitioner",
         "path": "PractitionerRole.practitioner",
+        "label": "Behandler",
+        "short": "Eine Verknüpfung zum Behandler muss stets gegeben sein",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "PractitionerRole.organization",
         "path": "PractitionerRole.organization",
+        "label": "Netzwerkzentrum",
+        "short": "Organisation für die die nNGM-Netzwerkpartner-Nr. ausgestellt wurde. Anstelle eines Verweises auf die verantwortlich Organisation kann auch ein Verweis auf eine untergeordnete Abteilung erfolgen.",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "PractitionerRole.specialty",
         "path": "PractitionerRole.specialty",
+        "label": "Spezialität",
+        "short": "Kodierung der Fachrichtung, dient zur Unterscheidung von externen Onkologen und Pathologen. Das ValueSet PracticeSettingCodeValueSet (preferred) kann verwendet werden.",
         "mustSupport": true
       },
       {
         "id": "PractitionerRole.telecom",
         "path": "PractitionerRole.telecom",
+        "label": "Kontaktdetails",
         "slicing": {
           "discriminator": [
             {
@@ -115,12 +123,14 @@
           ],
           "rules": "open"
         },
+        "short": "Alle Kontaktmöglichkeiten die bekannt sind sollten erfasst werden, sodass das ausführende nNGM-Netzwerkzentrum die Möglichkeit für Rückfragen ausüben kann",
         "mustSupport": true
       },
       {
         "id": "PractitionerRole.telecom:telefon",
         "path": "PractitionerRole.telecom",
         "sliceName": "telefon",
+        "label": "Nummer",
         "patternContactPoint": {
           "system": "phone"
         }
@@ -141,6 +151,7 @@
         "id": "PractitionerRole.telecom:fax",
         "path": "PractitionerRole.telecom",
         "sliceName": "fax",
+        "label": "Nummer",
         "patternContactPoint": {
           "system": "fax"
         },
@@ -162,6 +173,7 @@
         "id": "PractitionerRole.telecom:funk",
         "path": "PractitionerRole.telecom",
         "sliceName": "funk",
+        "label": "Nummer",
         "patternContactPoint": {
           "system": "pager"
         },
@@ -183,6 +195,7 @@
         "id": "PractitionerRole.telecom:email",
         "path": "PractitionerRole.telecom",
         "sliceName": "email",
+        "label": "Emailadresse",
         "patternContactPoint": {
           "system": "email"
         },

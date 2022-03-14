@@ -6,6 +6,7 @@
   "name": "Profile_nNGM_Patient_Patient",
   "title": "Profile - nNGM - Patient - Patient",
   "status": "active",
+  "description": "Dieses Profil beschreibt einen Patienten innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -71,6 +72,8 @@
       {
         "id": "Patient.name:Name.family",
         "path": "Patient.name.family",
+        "label": "Name",
+        "short": "Nur der aktuellen Name ist gefordert. Die Erfassung und Übermittelung des Geburtsnamen ist optional. Teil des Patienten-Matching der nNGM-Patientenliste.",
         "min": 1,
         "mustSupport": true
       },
@@ -112,6 +115,7 @@
       {
         "id": "Patient.name:Name.given",
         "path": "Patient.name.given",
+        "label": "Vorname",
         "min": 1,
         "mustSupport": true
       },
@@ -187,6 +191,8 @@
       {
         "id": "Patient.gender",
         "path": "Patient.gender",
+        "label": "Geschlecht",
+        "short": "Die Extension 'other-amtlich' und der Constraint pat-nngm-1 ist bei der Erfassung eines administrativen Geschlechts mit der Ausprägung 'divers' zu beachten.",
         "min": 1,
         "mustSupport": true
       },
@@ -236,6 +242,8 @@
       {
         "id": "Patient.birthDate",
         "path": "Patient.birthDate",
+        "label": "Geburtsdatum",
+        "short": "Teil des Patienten-Matching der nNGM-Patientenliste.",
         "min": 1,
         "mustSupport": true
       },
@@ -266,8 +274,10 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime",
-        "path": "Patient.deceased[x]",
+        "path": "Patient.deceasedDateTime",
         "sliceName": "deceasedDateTime",
+        "label": "Todesdatum",
+        "short": "Kodierung des Todeszeitpunkts. Optional kann auch die Informationsquelle zum Todesdatum angeben werden. deceasedBoolean ist wo möglich durch deceasedDateTime zu ersetzen, wenn PatientIn verstorben ist.",
         "type": [
           {
             "code": "dateTime"
@@ -290,7 +300,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTod",
-        "path": "Patient.deceased[x].extension",
+        "path": "Patient.deceasedDateTime.extension",
         "sliceName": "informationsquelleTod",
         "min": 0,
         "type": [
@@ -305,7 +315,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTod.value[x]",
-        "path": "Patient.deceased[x].extension.value[x]",
+        "path": "Patient.deceasedDateTime.extension.value[x]",
         "slicing": {
           "discriminator": [
             {
@@ -320,6 +330,7 @@
       {
         "id": "Patient.address",
         "path": "Patient.address",
+        "label": "Adresse",
         "slicing": {
           "discriminator": [
             {
@@ -329,6 +340,7 @@
           ],
           "rules": "open"
         },
+        "short": "Teil des Patienten-Matching der nNGM-Patientenliste.",
         "comment": "In order to differentiate between post box addresses and physical addresses, street names and house numbers, and to add city district names, vendors can opt to support the extensions as suggested in the German Address Base Profile http://fhir.de/StructureDefinition/address-de-basis.\nSuch differentiations are however not required within the scope of this specification.",
         "mustSupport": true
       },
@@ -368,7 +380,7 @@
         "path": "Patient.address.extension",
         "sliceName": "Stadtteil",
         "min": 0,
-        "mustSupport": false
+        "mustSupport": true
       },
       {
         "id": "Patient.address:Strassenanschrift.type",
