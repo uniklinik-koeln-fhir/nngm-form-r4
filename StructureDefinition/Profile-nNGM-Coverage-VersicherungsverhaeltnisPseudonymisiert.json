@@ -31,6 +31,7 @@
         "id": "Coverage.type",
         "path": "Coverage.type",
         "label": "Versicherungsart",
+        "short": "Ob es sich um eine GKV oder PKV Krankenversicherung handelt",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -58,6 +59,7 @@
         "id": "Coverage.payor.display",
         "path": "Coverage.payor.display",
         "label": "Versicherer",
+        "short": "Nur zugelassene Krankenkassen dürfen übermittelt werden. Die Liste kann auf Anfrage bei der nNGM Geschäfststelle erweitert werden",
         "definition": "Versicherer, der die Police ausgegeben hat oder Person/Organisation, die die Kosten übernimmt.",
         "min": 1,
         "mustSupport": true,
