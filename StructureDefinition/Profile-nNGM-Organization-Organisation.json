@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_Organization_Organisation",
   "title": "Profile - nNGM - Organization - Organisation",
+  "description": "Dieses Profil beschreibt ein Netzwerkzentrum, die Organisationszugehörigkeit (Organisation oder Abteilung) eines Behandlers und die Pathologien innerhalb des nNGM-Projektes.",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
