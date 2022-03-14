@@ -227,6 +227,8 @@
       {
         "id": "Patient.gender.extension:other-amtlich.value[x]",
         "path": "Patient.gender.extension.value[x]",
+        "label": "Anderes Geschlecht",
+        "short": "Gibt an ob das Geschlecht des Patienten divers oder unbestimmt ist",
         "mustSupport": true
       },
       {
@@ -258,13 +260,14 @@
             }
           ],
           "rules": "open"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Patient.deceased[x]:deceasedBoolean",
-        "path": "Patient.deceased[x]",
+        "path": "Patient.deceasedBoolean",
         "sliceName": "deceasedBoolean",
+        "label": "Verstorben",
+        "short": "Ob der Patient verstorben ist",
         "type": [
           {
             "code": "boolean"
@@ -282,7 +285,8 @@
           {
             "code": "dateTime"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension",
@@ -310,12 +314,12 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/izt"
             ]
           }
-        ],
-        "mustSupport": true
+        ]
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTod.value[x]",
         "path": "Patient.deceasedDateTime.extension.value[x]",
+        "label": "Informationsquelle des Todes",
         "slicing": {
           "discriminator": [
             {
@@ -325,6 +329,7 @@
           ],
           "rules": "open"
         },
+        "short": "Informationsquelle des Todes des Patienten",
         "mustSupport": true
       },
       {
