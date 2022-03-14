@@ -5,7 +5,8 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_Observation_Histologie",
   "title": "Profile - nNGM - Observation - Histologie",
-  "status": "draft",
+  "status": "active",
+  "description": "Dieses Profil beschreibt die Klassifikation (Morphologie), Topographie und die Histopathologische Differenzierung (Grading) der Tumorerkankung innerhalb des nNGM Projektes.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -92,6 +93,7 @@
         "id": "Observation.subject",
         "path": "Observation.subject",
         "label": "Patient",
+        "short": "Ein Bezug zum Patienten muss stets gegeben sein",
         "min": 1,
         "mustSupport": true
       },
@@ -109,36 +111,15 @@
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "label": "Klassifikation",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.value[x]:valueCodeableConcept",
-        "path": "Observation.value[x]",
-        "sliceName": "valueCodeableConcept",
-        "label": "Klassifikation",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "mustSupport": true,
         "binding": {
-          "strength": "extensible",
+          "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/histologie-klassifikation"
         }
       },

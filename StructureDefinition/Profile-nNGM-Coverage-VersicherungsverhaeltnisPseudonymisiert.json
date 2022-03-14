@@ -37,7 +37,9 @@
       {
         "id": "Coverage.beneficiary",
         "path": "Coverage.beneficiary",
-        "mustSupport": true
+        "label": "Patient",
+        "short": "Referenz muss auf einen pseudonymisierten Patienten verweisen",
+        "mustSupport": false
       },
       {
         "id": "Coverage.dependent",
@@ -48,11 +50,13 @@
         "id": "Coverage.payor",
         "path": "Coverage.payor",
         "max": "1",
-        "mustSupport": true
+        "mustSupport": false
       },
       {
         "id": "Coverage.payor.display",
         "path": "Coverage.payor.display",
+        "label": "Krankenkasse",
+        "short": "Name der Krankenkasse",
         "min": 1,
         "mustSupport": true,
         "binding": {
