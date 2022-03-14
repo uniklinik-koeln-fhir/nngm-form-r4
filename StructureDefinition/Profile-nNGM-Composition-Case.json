@@ -1,10 +1,11 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Profile-nNGM-Composition-Case",
-  "url": "https://medicalsyn.com/fhir/StructureDefinition/nNGM/Composition",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Composition",
   "name": "Profile_nNGM_Composition_Case",
   "title": "Profile - nNGM - Composition",
   "status": "active",
+  "description": "Dieses Profil beschreibt einen nNGM-Fall mit allen seinen zugehörigen Daten",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -60,7 +61,8 @@
               "contained"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Composition.author",
@@ -75,7 +77,8 @@
               "contained"
             ]
           }
-        ]
+        ],
+        "min": 1
       },
       {
         "id": "Composition.section",
@@ -95,8 +98,7 @@
         "path": "Composition.section",
         "sliceName": "consent",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:consent.code",
@@ -135,8 +137,7 @@
         "path": "Composition.section",
         "sliceName": "firstDiagnosis",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:firstDiagnosis.code",
@@ -169,6 +170,8 @@
             ]
           }
         ],
+        "label": "Erstdiagnose - Tumorerkrankung",
+        "short": "Die Erstdiagnose der Tumorerkrankung, für den der Fall angelegt wird",
         "mustSupport": true
       },
       {
@@ -176,8 +179,7 @@
         "path": "Composition.section",
         "sliceName": "coverage",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:coverage.code",
@@ -211,6 +213,8 @@
             ]
           }
         ],
+        "label": "Versicherungsverhältnis",
+        "short": "Krankenversicherungsverhältnis des Patienten zur Zeit der Anforderung",
         "mustSupport": true
       },
       {
@@ -218,8 +222,7 @@
         "path": "Composition.section",
         "sliceName": "tobaccoSmoking",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:tobaccoSmoking.title",
@@ -232,14 +235,6 @@
         "min": 1
       },
       {
-        "id": "Composition.section:tobaccoSmoking.code.coding",
-        "path": "Composition.section.code.coding",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://medicalsyn.com/fhir/ValueSet/nNGM/CompositionSectionType"
-        }
-      },
-      {
         "id": "Composition.section:tobaccoSmoking.code.coding.system",
         "path": "Composition.section.code.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType"
@@ -247,7 +242,7 @@
       {
         "id": "Composition.section:tobaccoSmoking.code.coding.code",
         "path": "Composition.section.code.coding.code",
-        "patternCode": "TOBACCO_SMOKING"
+        "fixedCode": "TOBACCO_SMOKING"
       },
       {
         "id": "Composition.section:tobaccoSmoking.entry",
@@ -264,6 +259,8 @@
             ]
           }
         ],
+        "label": "Raucherstatus",
+        "short": "Raucherstatus des Patienten zur Zeit der Anforderung",
         "mustSupport": true
       },
       {
@@ -271,8 +268,7 @@
         "path": "Composition.section",
         "sliceName": "vitalStates",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:vitalStates.code",
@@ -303,6 +299,8 @@
             ]
           }
         ],
+        "label": "Vitalstatus",
+        "short": "Vitalstatus des Patienten zur Zeit der Anforderung",
         "mustSupport": true
       },
       {
@@ -310,8 +308,7 @@
         "path": "Composition.section",
         "sliceName": "ecogs",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:ecogs.code",
@@ -357,8 +354,7 @@
         "path": "Composition.section",
         "sliceName": "diagnosticsRequest",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:diagnosticsRequest.code",
@@ -391,6 +387,8 @@
             ]
           }
         ],
+        "label": "Anforderung Diagnostik",
+        "short": "Die Anforderung der Diagnostik für den nNGM-Fall",
         "mustSupport": true
       },
       {
@@ -398,8 +396,7 @@
         "path": "Composition.section",
         "sliceName": "tkiResistances",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:tkiResistances.code",
@@ -436,6 +433,8 @@
             ]
           }
         ],
+        "label": "TKI-Resistenz",
+        "short": "Daten der TKI-Resistenz der Tumorerkrankung des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -443,8 +442,7 @@
         "path": "Composition.section",
         "sliceName": "tumorProgressRecurrences",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:tumorProgressRecurrences.code",
@@ -475,6 +473,8 @@
             ]
           }
         ],
+        "label": "Progress/Rezidiv",
+        "short": "Alle Beobachtungen von Progress oder Rezidiv für die Tumorerkrankung des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -482,8 +482,7 @@
         "path": "Composition.section",
         "sliceName": "tumorHistologies",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:tumorHistologies.code",
@@ -514,6 +513,8 @@
             ]
           }
         ],
+        "label": "Histologie",
+        "short": "Alle Histologie zu Tumormaterial des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -521,8 +522,7 @@
         "path": "Composition.section",
         "sliceName": "tumorStages",
         "min": 1,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Composition.section:tumorStages.code",
@@ -553,6 +553,8 @@
             ]
           }
         ],
+        "label": "Tumorstadium",
+        "short": "Alle Tumorstadien zu Tumormaterial des nNGM-Falls",
         "mustSupport": true
       }
     ]
