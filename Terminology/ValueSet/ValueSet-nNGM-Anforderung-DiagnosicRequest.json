@@ -1,5 +1,5 @@
 {
-  "resourceRequested": "ValueSet",
+  "resourceType": "ValueSet",
   "id": "ValueSet-nNGM-Anforderung-Diagnostic-Requested",
   "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-requested",
   "version": "1.0.0",

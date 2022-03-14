@@ -1,5 +1,5 @@
 {
-    "resourceRequested": "CodeSystem",
+    "resourceType": "CodeSystem",
     "id": "CodeSystem-nNGM-Anforderung-Diagnostic-Requested",
     "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-requested",
     "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-requested",
