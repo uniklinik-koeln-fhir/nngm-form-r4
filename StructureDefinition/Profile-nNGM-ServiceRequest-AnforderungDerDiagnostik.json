@@ -32,7 +32,6 @@
         "id": "ServiceRequest.extension:aufenthaltsart",
         "path": "ServiceRequest.extension",
         "sliceName": "aufenthaltsart",
-        "label": "Patient war / ist zum Zeitpunkt dieser Anforderung",
         "min": 0,
         "type": [
           {
@@ -41,8 +40,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/aufenthaltsart"
             ]
           }
-        ],
-        "mustSupport": false
+        ]
       },
       {
         "id": "ServiceRequest.extension:aufenthaltsart.value[x]",
@@ -62,14 +60,13 @@
         "path": "ServiceRequest.extension.valueCodeableConcept",
         "sliceName": "valueCodeableConcept",
         "label": "Patient war / ist zum Zeitpunkt dieser Anforderung",
-        "short": "Aufenthaltsart zum Zeitpunkt der Einreichung der Diagnostik",
+        "short": "Aufenthaltsart des Patienten zum Zeitpunkt der Einreichung der Diagnostik",
         "mustSupport": true
       },
       {
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy",
         "path": "ServiceRequest.extension",
-        "sliceName": "GrundFehlendeBiopsy",
-        "label": "Grund für fehlende Biopsie",
+        "sliceName": "GrundFehlendeBiopsy",        
         "min": 0,
         "max": "1",
         "type": [
@@ -85,7 +82,6 @@
       {
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]",
         "path": "ServiceRequest.extension.value[x]",
-        "label": "Grund für fehlende Biopsie",
         "slicing": {
           "discriminator": [
             {
@@ -100,7 +96,8 @@
         "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]:valueCodeableConcept",
         "path": "ServiceRequest.extension.value[x]",
         "sliceName": "valueCodeableConcept",
-        "label": "Grund für fehlende Biopsie",
+        "label": "Grund für Fehlende Biopsy",
+        "short": "Angabe des Grundes für eine fehlende Biopsie bei eine Blutdiagnostik",
         "mustSupport": true
       },
       {
@@ -140,6 +137,7 @@
         "path": "ServiceRequest.orderDetail",
         "sliceName": "diagnosticRequested",
         "label": "Gewünschte Diagnostik",
+        "short": "Ist eine Komplett oder Einzeluntersuchung gewünscht.",
         "max": "1",
         "mustSupport": true,
         "binding": {
@@ -152,6 +150,7 @@
         "path": "ServiceRequest.orderDetail",
         "sliceName": "histologischeAbklaerung",
         "label": "Histologische Abklärung",
+        "short": "Auf welche Expression hin soll die Probe getestet werden?",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -162,7 +161,8 @@
         "id": "ServiceRequest.orderDetail:molekularpathologie",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "molekularpathologie",
-        "label": "Immunhistochemie",
+        "label": "Molekularpathologie",
+        "short": "Welche Gene sollen auf Veränderungen geprüft werden?",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -174,6 +174,7 @@
         "path": "ServiceRequest.orderDetail",
         "sliceName": "ngsPanel",
         "label": "NGS Panel",
+        "short": "Soll ein NGS-Panel für die Diagnostik verwendet werden?",
         "max": "1",
         "mustSupport": true,
         "binding": {
@@ -185,7 +186,8 @@
         "id": "ServiceRequest.orderDetail:fastTrack",
         "path": "ServiceRequest.orderDetail",
         "sliceName": "fastTrack",
-        "label": "Fast Track",
+        "label": "Sollen bestimmte Gene im Fast Track Verfahren geprüft werden?",
+        "short": "Fast Track",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -197,6 +199,7 @@
         "path": "ServiceRequest.orderDetail",
         "sliceName": "liquidBiopsy",
         "label": "Liquid Biopsy",
+        "short": "Liquid Biopsy",
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -207,12 +210,14 @@
         "id": "ServiceRequest.subject",
         "path": "ServiceRequest.subject",
         "label": "Patient",
+        "short": "Ein Bezug zu den Proben muss stets gegeben sein",
         "mustSupport": true
       },
       {
         "id": "ServiceRequest.authoredOn",
         "path": "ServiceRequest.authoredOn",
         "label": "Anforderungsdatum",
+        "short": "Der zeitliche Bezug der Anforderung muss stets gegeben sein",
         "min": 1,
         "mustSupport": true
       },
@@ -220,6 +225,7 @@
         "id": "ServiceRequest.requester",
         "path": "ServiceRequest.requester",
         "label": "Anforderndes nNGM Netzwerkzentrums oder Netzwerkpartners",
+        "short": "Eindeutige Identifizierung des anfordernden nNGM Netzwerkzentrums oder Netzwerkpartners (kann auch ein externer Einsender sein!)",
         "min": 1,
         "type": [
           {
@@ -242,6 +248,7 @@
         "id": "ServiceRequest.performer",
         "path": "ServiceRequest.performer",
         "label": "Durchführende nNGM Netzwerkzentren",
+        "short": "Eindeutige Identifizierung des durchführenden nNGM Netzwerkzentrums",
         "min": 1,
         "type": [
           {
@@ -265,6 +272,7 @@
         "id": "ServiceRequest.specimen",
         "path": "ServiceRequest.specimen",
         "label": "Tumormaterialien",
+        "short": "Das Tumormaterial innerhalb des nNGM Falls",
         "min": 1,
         "type": [
           {
