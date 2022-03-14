@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Profile-nNGM-Observation-TkiResistenz-Ros1",
+  "id": "Profile-nNGM-Observation-TkiResistenzRos1",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-ros1",
   "version": "1.0.0",
   "name": "Profile_nNGM_Observation_TkiResistenzRos1",
