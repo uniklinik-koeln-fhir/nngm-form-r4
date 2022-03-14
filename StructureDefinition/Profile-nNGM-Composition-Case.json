@@ -62,6 +62,8 @@
             ]
           }
         ],
+        "label": "Patient",
+        "short": "Patient des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -130,6 +132,8 @@
             ]
           }
         ],
+        "label":"Einwilligungserklärungen",
+        "short":"Alle Einwilligungserklärungen des Patienten für das nNGM-Netzwerk",
         "mustSupport": true
       },
       {
@@ -347,6 +351,8 @@
             ]
           }
         ],
+        "label": "ECOG",
+        "short": "Alle erfassten ECOG des Patienten für die Anforderungen und Therapien",
         "mustSupport": true
       },
       {
