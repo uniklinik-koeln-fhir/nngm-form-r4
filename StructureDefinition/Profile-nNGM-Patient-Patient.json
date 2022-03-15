@@ -166,7 +166,8 @@
         ],
         "patternHumanName": {
           "use": "maiden"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Patient.name:Geburtsname.use",
@@ -264,7 +265,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedBoolean",
-        "path": "Patient.deceasedBoolean",
+        "path": "Patient.deceased[x]",
         "sliceName": "deceasedBoolean",
         "label": "Verstorben",
         "short": "Ob der Patient verstorben ist",
@@ -277,7 +278,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime",
-        "path": "Patient.deceasedDateTime",
+        "path": "Patient.deceased[x]",
         "sliceName": "deceasedDateTime",
         "label": "Todesdatum",
         "short": "Kodierung des Todeszeitpunkts. Optional kann auch die Informationsquelle zum Todesdatum angeben werden. deceasedBoolean ist wo möglich durch deceasedDateTime zu ersetzen, wenn PatientIn verstorben ist.",
@@ -287,6 +288,16 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Patient.deceased[x]:deceasedDateTime",
+        "path": "Patient.deceased[x]",
+        "sliceName": "deceasedDateTime",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension",
@@ -304,7 +315,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTod",
-        "path": "Patient.deceasedDateTime.extension",
+        "path": "Patient.deceased[x].extension",
         "sliceName": "informationsquelleTod",
         "min": 0,
         "type": [
@@ -318,7 +329,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTod.value[x]",
-        "path": "Patient.deceasedDateTime.extension.value[x]",
+        "path": "Patient.deceased[x].extension.value[x]",
         "label": "Informationsquelle des Todes",
         "slicing": {
           "discriminator": [

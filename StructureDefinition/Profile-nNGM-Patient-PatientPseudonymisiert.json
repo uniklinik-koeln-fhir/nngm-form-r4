@@ -196,7 +196,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension",
-        "path": "Patient.deceased[x].extension",
+        "path": "Patient.deceasedDateTime.extension",
         "slicing": {
           "discriminator": [
             {
@@ -210,7 +210,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTodesdatum",
-        "path": "Patient.deceased[x].extension",
+        "path": "Patient.deceasedDateTime.extension",
         "sliceName": "informationsquelleTodesdatum",
         "min": 0,
         "type": [
@@ -224,7 +224,7 @@
       },
       {
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTodesdatum.value[x]",
-        "path": "Patient.deceased[x].extension.value[x]",
+        "path": "Patient.deceasedDateTime.extension.value[x]",
         "label": "Informationsquelle des Todes",
         "slicing": {
           "discriminator": [
