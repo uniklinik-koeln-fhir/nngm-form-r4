@@ -80,6 +80,8 @@
       {
         "id": "PractitionerRole.identifier:nngm-netzwerkpartner-nr.value",
         "path": "PractitionerRole.identifier.value",
+        "label": "nNGM-Netzwerkpartner-Nr.",
+        "short": "nNGM-Netzwerkpartner-Nr.",
         "min": 1,
         "mustSupport": true
       },
@@ -100,7 +102,7 @@
       {
         "id": "PractitionerRole.specialty",
         "path": "PractitionerRole.specialty",
-        "label": "Spezialität",
+        "label": "Fachrichtung",
         "short": "Kodierung der Fachrichtung, dient zur Unterscheidung von externen Onkologen und Pathologen. Das ValueSet PracticeSettingCodeValueSet (preferred) kann verwendet werden.",
         "mustSupport": true
       },
@@ -136,6 +138,8 @@
       {
         "id": "PractitionerRole.telecom:telefon.value",
         "path": "PractitionerRole.telecom.value",
+        "label": "Telefonnummer",
+        "short": "Telefonnummer",
         "min": 1,
         "mustSupport": true
       },
@@ -156,6 +160,8 @@
       {
         "id": "PractitionerRole.telecom:fax.value",
         "path": "PractitionerRole.telecom.value",
+        "label": "Faxnummer",
+        "short": "Faxnummer",
         "min": 1,
         "mustSupport": true
       },
@@ -176,6 +182,8 @@
       {
         "id": "PractitionerRole.telecom:funk.value",
         "path": "PractitionerRole.telecom.value",
+        "label": "Mobilnummer",
+        "short": "Mobilnummer",
         "min": 1,
         "mustSupport": true
       },
@@ -196,6 +204,8 @@
       {
         "id": "PractitionerRole.telecom:email.value",
         "path": "PractitionerRole.telecom.value",
+        "label": "Mailadresse",
+        "short": "Mailadresse",
         "min": 1,
         "mustSupport": true
       }
