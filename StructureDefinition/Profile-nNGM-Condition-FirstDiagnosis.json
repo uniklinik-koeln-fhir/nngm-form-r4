@@ -4,7 +4,7 @@
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis",
   "name": "Profile_nNGM_Condition_FirstDiagnosis",
   "status": "active",
-  "description": "Erstdiagnose eines spezifischen Tumors",
+  "description": "Diese Profile beschreibt Erstdiagnose einer spezfischen Tumorerkrankung innerhalb des nNGM-Projektes, um diese für andere Fälle wiedererkennen zu können.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
