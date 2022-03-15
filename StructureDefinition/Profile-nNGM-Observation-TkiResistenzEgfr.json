@@ -61,7 +61,8 @@
           {
             "code": "string"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.component:hgvsc",
@@ -79,8 +80,7 @@
               "code": "48004-6"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.component:hgvsc.value[x]",
@@ -91,7 +91,8 @@
           {
             "code": "string"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.component:hgvsp",
@@ -108,18 +109,19 @@
               "code": "48005-3"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.component:hgvsp.value[x]",
         "path": "Observation.component.value[x]",
         "label": "HGVS p. (Mutation Protein)",
+        "min": 1,
         "type": [
           {
             "code": "string"
           }
-        ]
+        ],
+        "mustSupport": true
       }
     ]
   }
