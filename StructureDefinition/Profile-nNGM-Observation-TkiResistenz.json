@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_Observation_TkiResistenz",
   "title": "Profile - nNGM - Observation - Erfolgte TKI Therapie",
+  "description": "Diese Profile sind die Basis-Profile für die TKI-Resistenztestungen innerhalb des nNGM-Projektes.",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -62,6 +63,7 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "label": "Datum",
         "min": 1,
         "type": [
           {
