@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_Organization_Organisation",
   "title": "Profile - nNGM - Organization - Organisation",
-  "description": "Dieses Profil beschreibt ein Netzwerkzentrum, die Organisationszugehörigkeit (Organisation oder Abteilung) eines Behandlers und die Pathologien innerhalb des nNGM-Projektes.",
   "status": "active",
+  "description": "Dieses Profil beschreibt ein Netzwerkzentrum, die Organisationszugehörigkeit (Organisation oder Abteilung) eines Behandlers und die Pathologien innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -106,8 +106,7 @@
             }
           ],
           "rules": "open"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.telecom:telefon",
@@ -115,8 +114,7 @@
         "sliceName": "telefon",
         "patternContactPoint": {
           "system": "phone"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.telecom:telefon.system",
@@ -126,7 +124,8 @@
       {
         "id": "Organization.telecom:telefon.value",
         "path": "Organization.telecom.value",
-        "min": 1
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Organization.telecom:fax",
@@ -134,14 +133,12 @@
         "sliceName": "fax",
         "patternContactPoint": {
           "system": "fax"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.telecom:fax.system",
         "path": "Organization.telecom.system",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Organization.telecom:fax.value",
@@ -155,14 +152,12 @@
         "sliceName": "funk",
         "patternContactPoint": {
           "system": "pager"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.telecom:funk.system",
         "path": "Organization.telecom.system",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Organization.telecom:funk.value",
@@ -176,14 +171,12 @@
         "sliceName": "email",
         "patternContactPoint": {
           "system": "email"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.telecom:email.system",
         "path": "Organization.telecom.system",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Organization.telecom:email.value",
@@ -202,8 +195,7 @@
             }
           ],
           "rules": "open"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.address:Strassenanschrift",
@@ -222,31 +214,9 @@
         }
       },
       {
-        "id": "Organization.address:Strassenanschrift.extension",
-        "path": "Organization.address.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
-        "id": "Organization.address:Strassenanschrift.extension:Stadtteil",
-        "path": "Organization.address.extension",
-        "sliceName": "Stadtteil",
-        "min": 0,
-        "mustSupport": true
-      },
-      {
         "id": "Organization.address:Strassenanschrift.type",
         "path": "Organization.address.type",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Organization.address:Strassenanschrift.line",
@@ -272,21 +242,33 @@
         "id": "Organization.address:Strassenanschrift.line.extension:Strasse",
         "path": "Organization.address.line.extension",
         "sliceName": "Strasse",
-        "min": 0,
+        "min": 0
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Strasse.value[x]",
+        "path": "Organization.address.line.extension.value[x]",
         "mustSupport": true
       },
       {
         "id": "Organization.address:Strassenanschrift.line.extension:Hausnummer",
         "path": "Organization.address.line.extension",
         "sliceName": "Hausnummer",
-        "min": 0,
+        "min": 0
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Hausnummer.value[x]",
+        "path": "Organization.address.line.extension.value[x]",
         "mustSupport": true
       },
       {
         "id": "Organization.address:Strassenanschrift.line.extension:Adresszusatz",
         "path": "Organization.address.line.extension",
         "sliceName": "Adresszusatz",
-        "min": 0,
+        "min": 0
+      },
+      {
+        "id": "Organization.address:Strassenanschrift.line.extension:Adresszusatz.value[x]",
+        "path": "Organization.address.line.extension.value[x]",
         "mustSupport": true
       },
       {
@@ -328,35 +310,12 @@
         ],
         "patternAddress": {
           "type": "postal"
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Organization.address:Postfach.extension",
-        "path": "Organization.address.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
-        "id": "Organization.address:Postfach.extension:Stadtteil",
-        "path": "Organization.address.extension",
-        "sliceName": "Stadtteil",
-        "min": 0,
-        "mustSupport": true
+        }
       },
       {
         "id": "Organization.address:Postfach.type",
         "path": "Organization.address.type",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Organization.address:Postfach.line",
