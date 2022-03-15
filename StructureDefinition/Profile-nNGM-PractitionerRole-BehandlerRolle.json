@@ -48,8 +48,7 @@
             }
           ],
           "rules": "open"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "PractitionerRole.identifier:nngm-netzwerkpartner-nr",
@@ -92,16 +91,14 @@
         "path": "PractitionerRole.practitioner",
         "label": "Behandler",
         "short": "Eine Verknüpfung zum Behandler muss stets gegeben sein",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "PractitionerRole.organization",
         "path": "PractitionerRole.organization",
         "label": "Netzwerkzentrum",
         "short": "Organisation für die die nNGM-Netzwerkpartner-Nr. ausgestellt wurde. Anstelle eines Verweises auf die verantwortlich Organisation kann auch ein Verweis auf eine untergeordnete Abteilung erfolgen.",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "PractitionerRole.specialty",
@@ -123,8 +120,7 @@
           ],
           "rules": "open"
         },
-        "short": "Alle Kontaktmöglichkeiten die bekannt sind sollten erfasst werden, sodass das ausführende nNGM-Netzwerkzentrum die Möglichkeit für Rückfragen ausüben kann",
-        "mustSupport": true
+        "short": "Alle Kontaktmöglichkeiten die bekannt sind sollten erfasst werden, sodass das ausführende nNGM-Netzwerkzentrum die Möglichkeit für Rückfragen ausüben kann"
       },
       {
         "id": "PractitionerRole.telecom:telefon",
@@ -138,8 +134,7 @@
       {
         "id": "PractitionerRole.telecom:telefon.system",
         "path": "PractitionerRole.telecom.system",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "PractitionerRole.telecom:telefon.value",
@@ -154,14 +149,12 @@
         "label": "Nummer",
         "patternContactPoint": {
           "system": "fax"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "PractitionerRole.telecom:fax.system",
         "path": "PractitionerRole.telecom.system",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "PractitionerRole.telecom:fax.value",
@@ -176,14 +169,12 @@
         "label": "Nummer",
         "patternContactPoint": {
           "system": "pager"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "PractitionerRole.telecom:funk.system",
         "path": "PractitionerRole.telecom.system",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "PractitionerRole.telecom:funk.value",
@@ -198,8 +189,7 @@
         "label": "Emailadresse",
         "patternContactPoint": {
           "system": "email"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "PractitionerRole.telecom:email.system",
@@ -209,7 +199,8 @@
       {
         "id": "PractitionerRole.telecom:email.value",
         "path": "PractitionerRole.telecom.value",
-        "min": 1
+        "min": 1,
+        "mustSupport": true
       }
     ]
   }
