@@ -130,7 +130,7 @@
           ],
           "rules": "open"
         },
-        "short": "Ja/Nein ob einb Progress oder Rezidiv vorliegt.",
+        "short": "Ja/Nein ob ein Progress oder Rezidiv vorliegt.",
         "type": [
           {
             "code": "boolean"
