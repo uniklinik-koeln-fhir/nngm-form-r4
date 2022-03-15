@@ -18,7 +18,7 @@
         "id": "Composition.identifier",
         "path": "Composition.identifier",
         "label": "nNGM Fallnummer",
-        "definition": "Nummer des nNGM Falles",
+        "short": "Eindeutige Nummer des nNGM-Falls im Zentrum",
         "min": 1,
         "mustSupport": true
       },
@@ -49,6 +49,8 @@
       {
         "id": "Composition.subject",
         "path": "Composition.subject",
+        "label": "Patient",
+        "short": "Patient des nNGM-Falls",
         "min": 1,
         "type": [
           {
@@ -62,8 +64,6 @@
             ]
           }
         ],
-        "label": "Patient",
-        "short": "Patient des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -79,8 +79,7 @@
               "contained"
             ]
           }
-        ],
-        "min": 1
+        ]
       },
       {
         "id": "Composition.section",
@@ -120,6 +119,8 @@
       {
         "id": "Composition.section:consent.entry",
         "path": "Composition.section.entry",
+        "label": "Einwilligungserklärungen",
+        "short": "Alle Einwilligungserklärungen des Patienten für das nNGM-Netzwerk",
         "min": 1,
         "type": [
           {
@@ -132,8 +133,6 @@
             ]
           }
         ],
-        "label":"Einwilligungserklärungen",
-        "short":"Alle Einwilligungserklärungen des Patienten für das nNGM-Netzwerk",
         "mustSupport": true
       },
       {
@@ -161,6 +160,8 @@
       {
         "id": "Composition.section:firstDiagnosis.entry",
         "path": "Composition.section.entry",
+        "label": "Erstdiagnose - Tumorerkrankung",
+        "short": "Die Erstdiagnose der Tumorerkrankung, für den der Fall angelegt wird",
         "min": 1,
         "max": "1",
         "type": [
@@ -174,8 +175,6 @@
             ]
           }
         ],
-        "label": "Erstdiagnose - Tumorerkrankung",
-        "short": "Die Erstdiagnose der Tumorerkrankung, für den der Fall angelegt wird",
         "mustSupport": true
       },
       {
@@ -203,6 +202,8 @@
       {
         "id": "Composition.section:coverage.entry",
         "path": "Composition.section.entry",
+        "label": "Versicherungsverhältnis",
+        "short": "Krankenversicherungsverhältnis des Patienten zur Zeit der Anforderung",
         "min": 1,
         "max": "1",
         "type": [
@@ -217,8 +218,6 @@
             ]
           }
         ],
-        "label": "Versicherungsverhältnis",
-        "short": "Krankenversicherungsverhältnis des Patienten zur Zeit der Anforderung",
         "mustSupport": true
       },
       {
@@ -251,6 +250,8 @@
       {
         "id": "Composition.section:tobaccoSmoking.entry",
         "path": "Composition.section.entry",
+        "label": "Raucherstatus",
+        "short": "Raucherstatus des Patienten zur Zeit der Anforderung",
         "max": "1",
         "type": [
           {
@@ -263,8 +264,6 @@
             ]
           }
         ],
-        "label": "Raucherstatus",
-        "short": "Raucherstatus des Patienten zur Zeit der Anforderung",
         "mustSupport": true
       },
       {
@@ -292,6 +291,8 @@
       {
         "id": "Composition.section:vitalStates.entry",
         "path": "Composition.section.entry",
+        "label": "Vitalstatus",
+        "short": "Vitalstatus des Patienten zur Zeit der Anforderung",
         "type": [
           {
             "code": "Reference",
@@ -303,8 +304,6 @@
             ]
           }
         ],
-        "label": "Vitalstatus",
-        "short": "Vitalstatus des Patienten zur Zeit der Anforderung",
         "mustSupport": true
       },
       {
@@ -340,6 +339,8 @@
       {
         "id": "Composition.section:ecogs.entry",
         "path": "Composition.section.entry",
+        "label": "ECOG",
+        "short": "Alle erfassten ECOG des Patienten für die Anforderungen und Therapien",
         "type": [
           {
             "code": "Reference",
@@ -351,8 +352,6 @@
             ]
           }
         ],
-        "label": "ECOG",
-        "short": "Alle erfassten ECOG des Patienten für die Anforderungen und Therapien",
         "mustSupport": true
       },
       {
@@ -380,6 +379,8 @@
       {
         "id": "Composition.section:diagnosticsRequest.entry",
         "path": "Composition.section.entry",
+        "label": "Anforderung Diagnostik",
+        "short": "Die Anforderung der Diagnostik für den nNGM-Fall",
         "min": 1,
         "max": "1",
         "type": [
@@ -393,8 +394,6 @@
             ]
           }
         ],
-        "label": "Anforderung Diagnostik",
-        "short": "Die Anforderung der Diagnostik für den nNGM-Fall",
         "mustSupport": true
       },
       {
@@ -422,6 +421,8 @@
       {
         "id": "Composition.section:tkiResistances.entry",
         "path": "Composition.section.entry",
+        "label": "TKI-Resistenz",
+        "short": "Daten der TKI-Resistenz der Tumorerkrankung des nNGM-Falls",
         "type": [
           {
             "code": "Reference",
@@ -439,8 +440,6 @@
             ]
           }
         ],
-        "label": "TKI-Resistenz",
-        "short": "Daten der TKI-Resistenz der Tumorerkrankung des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -468,6 +467,8 @@
       {
         "id": "Composition.section:tumorProgressRecurrences.entry",
         "path": "Composition.section.entry",
+        "label": "Progress/Rezidiv",
+        "short": "Alle Beobachtungen von Progress oder Rezidiv für die Tumorerkrankung des nNGM-Falls",
         "type": [
           {
             "code": "Reference",
@@ -479,8 +480,6 @@
             ]
           }
         ],
-        "label": "Progress/Rezidiv",
-        "short": "Alle Beobachtungen von Progress oder Rezidiv für die Tumorerkrankung des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -508,6 +507,8 @@
       {
         "id": "Composition.section:tumorHistologies.entry",
         "path": "Composition.section.entry",
+        "label": "Histologie",
+        "short": "Alle Histologie zu Tumormaterial des nNGM-Falls",
         "type": [
           {
             "code": "Reference",
@@ -519,8 +520,6 @@
             ]
           }
         ],
-        "label": "Histologie",
-        "short": "Alle Histologie zu Tumormaterial des nNGM-Falls",
         "mustSupport": true
       },
       {
@@ -548,6 +547,8 @@
       {
         "id": "Composition.section:tumorStages.entry",
         "path": "Composition.section.entry",
+        "label": "Tumorstadium",
+        "short": "Alle Tumorstadien zu Tumormaterial des nNGM-Falls",
         "type": [
           {
             "code": "Reference",
@@ -559,8 +560,6 @@
             ]
           }
         ],
-        "label": "Tumorstadium",
-        "short": "Alle Tumorstadien zu Tumormaterial des nNGM-Falls",
         "mustSupport": true
       }
     ]
