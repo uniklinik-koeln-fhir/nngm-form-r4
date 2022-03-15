@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_ServiceRequest_AnforderungDerDiagnostik",
   "title": "Profile - nNGM - ServiceRequest - Anforderung der Diagnostik",
+  "description": "Dieses Profil beschreibt eine Anforderung einer Diagnostik innerhalb des nNGM-Projektes.",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",
