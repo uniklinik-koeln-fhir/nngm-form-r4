@@ -80,8 +80,8 @@
         "id": "Consent.provision.type",
         "path": "Consent.provision.type",
         "label": "Unterschrieben",
+        "short": "Ob die Einwilligung durch die Unterschrift des Patienten gegeben wurde",
         "min": 1,
-        "fixedCode": "Ob die Einwilligung durch die Unterschrift des Patienten gegeben wurde",
         "mustSupport": true
       }
     ]
