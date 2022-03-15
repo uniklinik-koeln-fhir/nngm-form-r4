@@ -53,6 +53,7 @@
       {
         "id": "Organization.type",
         "path": "Organization.type",
+        "label": "Organisationsart",
         "slicing": {
           "discriminator": [
             {
@@ -62,6 +63,7 @@
           ],
           "rules": "open"
         },
+        "short": "Organisationsart",
         "min": 2,
         "mustSupport": true
       },
@@ -69,6 +71,8 @@
         "id": "Organization.type:ZugehoerigkeitNetzwerkzentrum",
         "path": "Organization.type",
         "sliceName": "ZugehoerigkeitNetzwerkzentrum",
+        "label": "Netzwerkzentrum",
+        "short": "Netzwerkzentrum",
         "min": 1,
         "max": "1",
         "mustSupport": true,
@@ -81,6 +85,8 @@
         "id": "Organization.type:Organisationsart",
         "path": "Organization.type",
         "sliceName": "Organisationsart",
+        "label": "Organisationsart",
+        "short": "Organisationsart",
         "min": 1,
         "max": "1",
         "mustSupport": true,
@@ -92,6 +98,8 @@
       {
         "id": "Organization.name",
         "path": "Organization.name",
+        "label": "Name",
+        "short": "Name",
         "min": 1,
         "mustSupport": true
       },
@@ -124,6 +132,8 @@
       {
         "id": "Organization.telecom:telefon.value",
         "path": "Organization.telecom.value",
+        "label": "Telefonnummer",
+        "short": "Telefonnummer",
         "min": 1,
         "mustSupport": true
       },
@@ -143,6 +153,8 @@
       {
         "id": "Organization.telecom:fax.value",
         "path": "Organization.telecom.value",
+        "label": "Faxnummer",
+        "short": "Faxnummer",
         "min": 1,
         "mustSupport": true
       },
@@ -162,6 +174,8 @@
       {
         "id": "Organization.telecom:funk.value",
         "path": "Organization.telecom.value",
+        "label": "Mobilnummer",
+        "short": "Mobilnummer",
         "min": 1,
         "mustSupport": true
       },
@@ -181,6 +195,8 @@
       {
         "id": "Organization.telecom:email.value",
         "path": "Organization.telecom.value",
+        "label": "Mailadresse",
+        "short": "Mailadresse",
         "min": 1,
         "mustSupport": true
       },
@@ -247,6 +263,8 @@
       {
         "id": "Organization.address:Strassenanschrift.line.extension:Strasse.value[x]",
         "path": "Organization.address.line.extension.value[x]",
+        "label": "Straße",
+        "short": "Straße",
         "mustSupport": true
       },
       {
@@ -258,6 +276,8 @@
       {
         "id": "Organization.address:Strassenanschrift.line.extension:Hausnummer.value[x]",
         "path": "Organization.address.line.extension.value[x]",
+        "label": "Hausnummer",
+        "short": "Hausnummer",
         "mustSupport": true
       },
       {
@@ -269,6 +289,8 @@
       {
         "id": "Organization.address:Strassenanschrift.line.extension:Adresszusatz.value[x]",
         "path": "Organization.address.line.extension.value[x]",
+        "label": "Adresszusatz",
+        "short": "Adresszusatz",
         "mustSupport": true
       },
       {
@@ -281,18 +303,22 @@
       {
         "id": "Organization.address:Strassenanschrift.city",
         "path": "Organization.address.city",
+        "label": "Stadt",
+        "short": "Stadt",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Organization.address:Strassenanschrift.postalCode",
         "path": "Organization.address.postalCode",
+        "label": "Postleitzahl",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Organization.address:Strassenanschrift.country",
         "path": "Organization.address.country",
+        "label": "Staat",
         "min": 1,
         "mustSupport": true
       },
@@ -362,24 +388,29 @@
         "id": "Organization.address:Postfach.line.extension:Postfach",
         "path": "Organization.address.line.extension",
         "sliceName": "Postfach",
+        "label": "Postfach",
         "min": 0,
         "mustSupport": true
       },
       {
         "id": "Organization.address:Postfach.city",
         "path": "Organization.address.city",
+        "label": "Stadt",
+        "short": "Stadt",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Organization.address:Postfach.postalCode",
         "path": "Organization.address.postalCode",
+        "label": "Postleitzahl",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Organization.address:Postfach.country",
         "path": "Organization.address.country",
+        "label": "Staat",
         "min": 1,
         "mustSupport": true
       }
