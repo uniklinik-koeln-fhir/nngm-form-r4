@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_Specimen_Tumormaterial",
   "title": "Profil - nNGM - Specimen - Tumormaterial",
+  "description": "Diese Profile beschreibt das eingereichte Tumormaterial. Dabei handelt es sich explizit nicht um den Tumorblock, sondern die Gewebeprobe oder Liquid Biopsy",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

@@ -28,8 +28,7 @@
           "system": "http://terminology.hl7.org/CodeSystem/consentscope",
           "code": "patient-privacy",
           "display": "Privacy Consent"
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Consent.category.coding",
