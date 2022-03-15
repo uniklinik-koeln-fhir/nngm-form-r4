@@ -54,12 +54,16 @@
       {
         "id": "Practitioner.name:Name.use",
         "path": "Practitioner.name.use",
+        "label": "Zweck",
+        "short": "usual | official | temp | nickname | anonymous | old | maiden",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Practitioner.name:Name.family",
         "path": "Practitioner.name.family",
+        "label": "Familienname",
+        "short": "Familienname",
         "min": 1,
         "mustSupport": true
       },
@@ -81,6 +85,8 @@
         "id": "Practitioner.name:Name.family.extension:namenszusatz",
         "path": "Practitioner.name.family.extension",
         "sliceName": "namenszusatz",
+        "label": "Namenszusatz",
+        "short": "Namenszusatz gemäß VSDM",
         "min": 0,
         "mustSupport": true
       },
@@ -88,6 +94,8 @@
         "id": "Practitioner.name:Name.family.extension:nachname",
         "path": "Practitioner.name.family.extension",
         "sliceName": "nachname",
+        "label": "Nachname",
+        "short": "Nachname ohne Vor- und Zusätze",
         "min": 0,
         "mustSupport": true
       },
@@ -95,18 +103,24 @@
         "id": "Practitioner.name:Name.family.extension:vorsatzwort",
         "path": "Practitioner.name.family.extension",
         "sliceName": "vorsatzwort",
+        "label": "Vorsatzwort",
+        "short": "Vorsatzwort",
         "min": 0,
         "mustSupport": true
       },
       {
         "id": "Practitioner.name:Name.given",
         "path": "Practitioner.name.given",
+        "label": "Vorname",
+        "short": "Vorname",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Practitioner.name:Name.prefix",
         "path": "Practitioner.name.prefix",
+        "label": "Namensteile vor dem Vornamen",
+        "short": "Namensteile vor dem Vornamen",
         "mustSupport": true
       },
       {
@@ -150,12 +164,16 @@
       {
         "id": "Practitioner.name:Geburtsname.use",
         "path": "Practitioner.name.use",
+        "label": "Zweck",
+        "short": "usual | official | temp | nickname | anonymous | old | maiden",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Practitioner.name:Geburtsname.family",
         "path": "Practitioner.name.family",
+        "label": "Familienname",
+        "short": "Familienname",
         "min": 1,
         "mustSupport": true
       },
@@ -177,6 +195,8 @@
         "id": "Practitioner.name:Geburtsname.family.extension:namenszusatz",
         "path": "Practitioner.name.family.extension",
         "sliceName": "namenszusatz",
+        "label": "Namenszusatz",
+        "short": "Namenszusatz gemäß VSDM",
         "min": 0,
         "mustSupport": true
       },
@@ -184,6 +204,8 @@
         "id": "Practitioner.name:Geburtsname.family.extension:nachname",
         "path": "Practitioner.name.family.extension",
         "sliceName": "nachname",
+        "label": "Nachname",
+        "short": "Nachname ohne Vor- und Zusätze",
         "min": 0,
         "mustSupport": true
       },
@@ -191,6 +213,8 @@
         "id": "Practitioner.name:Geburtsname.family.extension:vorsatzwort",
         "path": "Practitioner.name.family.extension",
         "sliceName": "vorsatzwort",
+        "label": "Vorsatzwort",
+        "short": "Vorsatzwort",
         "min": 0,
         "mustSupport": true
       },
