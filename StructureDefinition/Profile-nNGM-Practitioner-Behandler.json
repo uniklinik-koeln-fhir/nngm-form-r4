@@ -55,7 +55,7 @@
         "id": "Practitioner.name:Name.use",
         "path": "Practitioner.name.use",
         "label": "Zweck",
-        "short": "usual | official | temp | nickname | anonymous | old | maiden",
+        "short": "Zweck",
         "min": 1,
         "mustSupport": true
       },
@@ -165,7 +165,7 @@
         "id": "Practitioner.name:Geburtsname.use",
         "path": "Practitioner.name.use",
         "label": "Zweck",
-        "short": "usual | official | temp | nickname | anonymous | old | maiden",
+        "short": "Zweck",
         "min": 1,
         "mustSupport": true
       },
