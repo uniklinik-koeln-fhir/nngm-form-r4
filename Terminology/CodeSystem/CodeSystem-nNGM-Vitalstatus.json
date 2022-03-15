@@ -10,7 +10,7 @@
     "compositional": false, 
     "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/Vitalstatus",
     "content": "complete",
-    "count": 7,
+    "count": 4,
     "concept":  [
         {
             "code": "L",
@@ -23,18 +23,6 @@
         {
             "code": "A",
             "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
-        },
-        {
-            "code": "N",
-            "display": "unbekannt, Betreuung/Nachsorge nicht mehr nötig"
-        },
-        {
-            "code": "B",
-            "display": "unbekannt, Patient ist anderenorts in Betreuung"
-        },
-        {
-            "code": "V",
-            "display": "unbekannt, Patient verweigert weitere Betreuung"
         },
         {
             "code": "X",

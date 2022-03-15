@@ -14,9 +14,9 @@
         ]
     },
     "expansion": {
-        "identifier": "7bde33c5-7559-4c5a-88d1-880c4309d517",
-        "timestamp": "2020-10-15T12:33:42+00:00",
-        "total": 7,
+        "identifier": "a8e78126-801f-4ecf-a611-aedae38704f0",
+        "timestamp": "2022-03-14T12:33:42+00:00",
+        "total": 4,
         "contains": [
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
@@ -32,22 +32,7 @@
                 "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
                 "code": "A",
                 "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "N",
-                "display": "unbekannt, Betreuung/Nachsorge nicht mehr nötig"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "B",
-                "display": "unbekannt, Patient ist anderenorts in Betreuung"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "V",
-                "display": "unbekannt, Patient verweigert weitere Betreuung"
-            },
+            },            
             {
                 "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
                 "code": "X",
