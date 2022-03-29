@@ -146,7 +146,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "code"
+              "path": "code.coding.code"
             }
           ],
           "rules": "open"
