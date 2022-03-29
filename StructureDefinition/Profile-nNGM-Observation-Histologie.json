@@ -159,18 +159,6 @@
         "max": "1"
       },
       {
-        "id": "Observation.component:grading.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-              "code": "????"
-            }
-          ]
-        }
-      },
-      {
         "id": "Observation.component:grading.code.coding.system",
         "path": "Observation.component.code.coding.system",
         "fixedUri": "http://loinc.org"
