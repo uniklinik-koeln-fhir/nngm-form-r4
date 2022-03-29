@@ -58,9 +58,6 @@
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
               "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -75,9 +72,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ]
@@ -128,9 +122,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -170,9 +161,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -213,9 +201,6 @@
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Coverage/nNGM/pseudonymisiert",
               "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Coverage"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -253,9 +238,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/raucherstatus"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -292,9 +274,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Vitalstatus"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -339,9 +318,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -380,9 +356,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/AnforderungDerDiagnostik"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -425,9 +398,6 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-kras",
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-met",
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-ros1"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -464,9 +434,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/progress-relapse"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -503,9 +470,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/histologie"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
@@ -542,9 +506,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium"
-            ],
-            "aggregation": [
-              "bundled"
             ]
           }
         ],
