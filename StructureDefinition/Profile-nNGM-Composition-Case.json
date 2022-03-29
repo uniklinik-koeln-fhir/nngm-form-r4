@@ -60,7 +60,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -69,6 +69,7 @@
       {
         "id": "Composition.author",
         "path": "Composition.author",
+        "max": "1",
         "type": [
           {
             "code": "Reference",
@@ -76,7 +77,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ]
@@ -129,7 +130,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -171,7 +172,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -214,7 +215,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Coverage"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -254,7 +255,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/raucherstatus"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -293,7 +294,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Vitalstatus"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -340,7 +341,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -381,7 +382,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/AnforderungDerDiagnostik"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -426,7 +427,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-ros1"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -465,7 +466,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/progress-relapse"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -504,7 +505,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/histologie"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
@@ -543,7 +544,7 @@
               "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium"
             ],
             "aggregation": [
-              "contained"
+              "bundled"
             ]
           }
         ],
