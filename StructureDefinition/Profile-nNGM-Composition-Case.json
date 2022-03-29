@@ -224,13 +224,7 @@
         "id": "Composition.section:tobaccoSmoking",
         "path": "Composition.section",
         "sliceName": "tobaccoSmoking",
-        "min": 1,
         "max": "1"
-      },
-      {
-        "id": "Composition.section:tobaccoSmoking.title",
-        "path": "Composition.section.title",
-        "fixedString": "Observations Section"
       },
       {
         "id": "Composition.section:tobaccoSmoking.code",
@@ -270,7 +264,6 @@
         "id": "Composition.section:vitalStates",
         "path": "Composition.section",
         "sliceName": "vitalStates",
-        "min": 1,
         "max": "1"
       },
       {
@@ -310,7 +303,6 @@
         "id": "Composition.section:ecogs",
         "path": "Composition.section",
         "sliceName": "ecogs",
-        "min": 1,
         "max": "1"
       },
       {
@@ -358,7 +350,6 @@
         "id": "Composition.section:diagnosticsRequest",
         "path": "Composition.section",
         "sliceName": "diagnosticsRequest",
-        "min": 1,
         "max": "1"
       },
       {
@@ -400,7 +391,6 @@
         "id": "Composition.section:tkiResistances",
         "path": "Composition.section",
         "sliceName": "tkiResistances",
-        "min": 1,
         "max": "1"
       },
       {
@@ -446,7 +436,6 @@
         "id": "Composition.section:tumorProgressRecurrences",
         "path": "Composition.section",
         "sliceName": "tumorProgressRecurrences",
-        "min": 1,
         "max": "1"
       },
       {
@@ -486,7 +475,6 @@
         "id": "Composition.section:tumorHistologies",
         "path": "Composition.section",
         "sliceName": "tumorHistologies",
-        "min": 1,
         "max": "1"
       },
       {
@@ -526,7 +514,6 @@
         "id": "Composition.section:tumorStages",
         "path": "Composition.section",
         "sliceName": "tumorStages",
-        "min": 1,
         "max": "1"
       },
       {
