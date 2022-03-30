@@ -104,6 +104,11 @@
         "mustSupport": true
       },
       {
+        "id": "Coverage.identifier:PKV-Identifier.value",
+        "path": "Coverage.identifier.value",
+        "mustSupport": true
+      },
+      {
         "id": "Coverage.status",
         "path": "Coverage.status",
         "label": "Versicherungsstatus",
