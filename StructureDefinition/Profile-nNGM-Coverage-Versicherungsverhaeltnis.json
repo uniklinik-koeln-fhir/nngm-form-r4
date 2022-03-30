@@ -73,17 +73,6 @@
         "mustSupport": true
       },
       {
-        "id": "Coverage.identifier:GKV-Identifier.assigner",
-        "path": "Coverage.identifier.assigner",
-        "min": 1
-      },
-      {
-        "id": "Coverage.identifier:GKV-Identifier.assigner.display",
-        "path": "Coverage.identifier.assigner.display",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Coverage.identifier:PKV-Identifier",
         "path": "Coverage.identifier",
         "sliceName": "PKV-Identifier",
@@ -112,16 +101,6 @@
         "id": "Coverage.identifier:PKV-Identifier.type",
         "path": "Coverage.identifier.type",
         "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Coverage.identifier:PKV-Identifier.value",
-        "path": "Coverage.identifier.value",
-        "mustSupport": true
-      },
-      {
-        "id": "Coverage.identifier:PKV-Identifier.assigner.display",
-        "path": "Coverage.identifier.assigner.display",
         "mustSupport": true
       },
       {
