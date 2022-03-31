@@ -17,10 +17,8 @@
       {
         "id": "Composition.identifier",
         "path": "Composition.identifier",
-        "label": "nNGM Fallnummer",
         "short": "Eindeutige Nummer des nNGM-Falls im Zentrum",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Composition.identifier.system",
@@ -28,6 +26,13 @@
         "min": 1,
         "fixedUri": "http://uk-koeln.de/fhir/sid/nngm-case-no",
         "mustSupport": false
+      },
+      {
+        "id": "Composition.identifier.value",
+        "path": "Composition.identifier.value",
+        "label": "nNGM Fallnummer",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Composition.status",
