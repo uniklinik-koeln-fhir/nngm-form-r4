@@ -7,37 +7,41 @@
   "title": "ValueSet - nNGM - GrundFehlendeBiopsie",
   "status": "active",
   "compose": {
-      "include": [
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie"
-          }
-      ]
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie"
+      }
+    ]
   },
   "expansion": {
-      "identifier": "ac4cebad-1959-43ba-906a-0ba2be9c9c2d",
-      "timestamp": "2022-03-11T08:56:29+00:00",
-      "total": 4,
-      "contains": [
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
-              "code": "FT",
-              "display": "Fehlende Tumormanifestation, die einer Biopsie zugänglich wäre"
-          },
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
-              "code": "RA",
-              "display": "Reduzierter Allgemeinzustand"
-          },
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
-              "code": "UR",
-              "display": "Unzumutbares Risikos einer Biopsie bzw. zu erwartende Komplikationen"
-          },
-          {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
-              "code": "AP",
-              "display": "Ablehnung seitens der Patientin / des Patienten"
-          }
-      ]
+    "identifier": "urn:uuid:695f6558-8643-4734-93f1-47bf61c10d8f",
+    "timestamp": "2022-08-23T15:20:31.2324573+02:00",
+    "total": 4,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
+        "version": "1.0.0",
+        "code": "FT",
+        "display": "Fehlende Tumormanifestation, die einer Biopsie zugänglich wäre"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
+        "version": "1.0.0",
+        "code": "RA",
+        "display": "Reduzierter Allgemeinzustand"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
+        "version": "1.0.0",
+        "code": "UR",
+        "display": "Unzumutbares Risikos einer Biopsie bzw. zu erwartende Komplikationen"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
+        "version": "1.0.0",
+        "code": "AP",
+        "display": "Ablehnung seitens der Patientin / des Patienten"
+      }
+    ]
   }
 }

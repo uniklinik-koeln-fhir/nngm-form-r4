@@ -1,43 +1,47 @@
 {
-    "resourceType": "ValueSet",
-    "id": "ValueSet-nNGM-Vitalstatus",
-    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/Vitalstatus",
-    "version": "1.0.0",
-    "title": "ValueSet - nNGM - Vitalstatus",
-    "name": "ValueSet_nNGM_Vitalstatus",
-    "status": "active",
-    "compose": {
-        "include":  [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus"
-            }
-        ]
-    },
-    "expansion": {
-        "identifier": "a8e78126-801f-4ecf-a611-aedae38704f0",
-        "timestamp": "2022-03-14T12:33:42+00:00",
-        "total": 4,
-        "contains": [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "L",
-                "display": "Patient lebt"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "T",
-                "display": "Patient verstorben"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "A",
-                "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
-            },            
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/Vitalstatus",
-                "code": "X",
-                "display": "unbekannt"
-            }
-        ]
-    }
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Vitalstatus",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/Vitalstatus",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Vitalstatus",
+  "title": "ValueSet - nNGM - Vitalstatus",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:2b4b0b20-c0ea-46c2-9ad2-89eef32eab19",
+    "timestamp": "2022-08-23T15:20:31.7722898+02:00",
+    "total": 4,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
+        "version": "1.0.0",
+        "code": "L",
+        "display": "Patient lebt"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
+        "version": "1.0.0",
+        "code": "T",
+        "display": "Patient verstorben"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
+        "version": "1.0.0",
+        "code": "A",
+        "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
+        "version": "1.0.0",
+        "code": "X",
+        "display": "unbekannt"
+      }
+    ]
+  }
 }

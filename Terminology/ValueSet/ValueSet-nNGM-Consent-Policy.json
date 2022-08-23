@@ -14,8 +14,8 @@
     ]
   },
   "expansion": {
-    "identifier": "184d207f-3236-4083-a153-b693417ebe57",
-    "timestamp": "2020-10-13T09:01:27+00:00",
+    "identifier": "urn:uuid:d1803df5-a423-4926-b54c-4778bb553e41",
+    "timestamp": "2022-08-23T15:20:26.8079965+02:00",
     "total": 15,
     "contains": [
       {
@@ -40,13 +40,13 @@
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
         "version": "1.0.0",
         "code": "TE",
-        "display": "TeilnahmeerklärungBesondereVersorgung"
+        "display": "Teilnahmeerklärung"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
         "version": "1.0.0",
         "code": "DS",
-        "display": "DatenschutzerklärungBesondereVersorgung"
+        "display": "Datenschutzerklärung"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",

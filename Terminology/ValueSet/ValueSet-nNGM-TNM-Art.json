@@ -3,14 +3,14 @@
   "id": "ValueSet-nNGM-TNM-Art",
   "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-art",
   "version": "1.0.0",
-  "title": "ValueSet - nNGM - TNM-Art",
   "name": "ValueSet_nNGM_TNM-Art",
+  "title": "ValueSet - nNGM - TNM-Art",
   "status": "active",
   "compose": {
     "include": [
       {
         "system": "http://loinc.org",
-        "concept":[
+        "concept": [
           {
             "code": "21908-9",
             "display": "Stage group.clinical Cancer"
@@ -24,8 +24,8 @@
     ]
   },
   "expansion": {
-    "identifier": "uni-koeln-work-tnm-art-1",
-    "timestamp": "2018-10-31",
+    "identifier": "urn:uuid:bac70652-a66e-4c68-be8b-dde963a8f551",
+    "timestamp": "2022-08-23T15:20:31.579997+02:00",
     "total": 2,
     "contains": [
       {

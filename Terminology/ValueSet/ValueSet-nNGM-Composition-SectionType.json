@@ -1,16 +1,95 @@
 {
-    "resourceType": "ValueSet",
-    "id": "ValueSet-nNGM-CompositionSectionType",
-    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/CompositionSectionType",
-    "version": "1.0.0",
-    "title": "ValueSet - nNGM - CompositionSectionType",
-    "name": "ValueSet_nNGM_CompositionSectionType",
-    "status": "active",
-    "compose": {
-        "include": [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType"
-            }
-        ]
-    }
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-CompositionSectionType",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/CompositionSectionType",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_CompositionSectionType",
+  "title": "ValueSet - nNGM - CompositionSectionType",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:fcb77593-3867-4264-a240-ab1b7c5ec5f4",
+    "timestamp": "2022-08-23T15:20:26.7809356+02:00",
+    "total": 12,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "CONSENT",
+        "display": "Consent"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "FIRST_DIAGNOSIS",
+        "display": "First Diagnosis of Tumor"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "COVERAGE",
+        "display": "Health Insurance Coverage"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "TOBACCO_SMOKING",
+        "display": "Smoking Status"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "VITAL_STATES",
+        "display": "Vital state"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "ECOGS",
+        "display": "ECOGs"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "DIAGNOSTICS_REQUEST",
+        "display": "Diagnostics request"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "TUMOR_BLOCK_REQUEST",
+        "display": "Tumor block request"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "TKI_RESISTANCES",
+        "display": "TKI-Resistances"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "TUMOR_PROGRESS_RECURRENCES",
+        "display": "Tumor progress and recurrences"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "TUMOR_HISTOLOGIES",
+        "display": "Tumor histologies"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "TUMOR_STAGES",
+        "display": "Tumor stage"
+      }
+    ]
+  }
 }

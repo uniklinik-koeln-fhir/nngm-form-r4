@@ -17,7 +17,7 @@
           },
           {
             "code": "C134501",
-            "display": "EGFR Positive "
+            "display": "EGFR Positive"
           },
           {
             "code": "C131071",
@@ -44,19 +44,19 @@
     ]
   },
   "expansion": {
-    "identifier": "e188451a-a1e2-4ba4-9e74-e75710a5a25e",
-    "timestamp": "2022-03-09T12:30:40+00:00",
+    "identifier": "urn:uuid:80d4d0e0-3dae-4446-b44e-a11058f3bb53",
+    "timestamp": "2022-08-23T15:20:31.5536563+02:00",
     "total": 7,
     "contains": [
       {
         "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "code": "C134501",
-        "display": "EGFR Positive"
+        "code": "C142114",
+        "display": "ALK Fusion Gene Positive"
       },
       {
         "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "code": "C142114",
-        "display": "ALK Fusion Gene Positive"
+        "code": "C134501",
+        "display": "EGFR Positive"
       },
       {
         "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",

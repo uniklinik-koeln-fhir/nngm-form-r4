@@ -7,54 +7,51 @@
   "title": "ValueSet - nNGM - Aufenthaltsart",
   "status": "active",
   "compose": {
-      "include": [
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "concept": [
           {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-              "concept": [
-                  {
-                      "code": "AMB",
-                      "display": "ambulatory"
-                  },
-                  {
-                      "code": "IMP",
-                      "display": "inpatient encounter"
-                  }
-              ]
+            "code": "AMB",
+            "display": "ambulatory"
           },
           {
-              "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-              "concept": [
-                  {
-                      "code": "unknown",
-                      "display": "Unknown"
-                  }
-              ]
+            "code": "IMP",
+            "display": "inpatient encounter"
           }
-      ]
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "concept": [
+          {
+            "code": "unknown",
+            "display": "Unknown"
+          }
+        ]
+      }
+    ]
   },
   "expansion": {
-      "identifier": "072a2c6f-57cb-4a66-b2d6-1515ba7a10bb",
-      "timestamp": "2020-10-13T10:05:08+00:00",
-      "total": 3,
-      "contains": [
-          {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-              "version": "2016-11-11",
-              "code": "IMP",
-              "display": "inpatient encounter"
-          },
-          {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-              "version": "2016-11-11",
-              "code": "AMB",
-              "display": "ambulatory"
-          },
-          {
-              "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-              "version": "2018-08-12",
-              "code": "unknown",
-              "display": "Unknown"
-          }
-      ]
+    "identifier": "urn:uuid:b3d353c2-d3b2-42c5-97f1-4ad5e0911c74",
+    "timestamp": "2022-08-23T15:20:26.6460253+02:00",
+    "total": 3,
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "AMB",
+        "display": "ambulatory"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "IMP",
+        "display": "inpatient encounter"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "code": "unknown",
+        "display": "Unknown"
+      }
+    ]
   }
 }

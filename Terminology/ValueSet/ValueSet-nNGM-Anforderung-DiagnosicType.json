@@ -1,43 +1,43 @@
 {
-    "resourceType": "ValueSet",
-    "id": "ValueSet-nNGM-Anforderung-Diagnostic-Type",
-    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-type",
-    "version": "1.0.0",
-    "name": "ValueSet_nNGM_Anforderung_Diagnostic_Type",
-    "title": "ValueSet - nNGM - Diagnostic - Type",
-    "status": "active",
-    "compose": {
-        "include": [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
-                "concept": [
-                    {
-                        "code": "Gewebediagnostik",
-                        "display": "Gewebediagnostik"
-                    },
-                    {
-                        "code": "Liquid Biopsy",
-                        "display": "Blutdiagnostik (Liquid Biopsy)"
-                    }
-                ]
-            }
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Anforderung-Diagnostic-Type",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-type",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Anforderung_Diagnostic_Type",
+  "title": "ValueSet - nNGM - Diagnostic - Type",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
+        "concept": [
+          {
+            "code": "Gewebediagnostik",
+            "display": "Gewebediagnostik"
+          },
+          {
+            "code": "Liquid Biopsy",
+            "display": "Blutdiagnostik (Liquid Biopsy)"
+          }
         ]
-    },
-    "expansion": {
-        "identifier": "f6947ce4-83de-4efb-87b8-ab3ef287e24b",
-        "timestamp": "2022-03-11T12:30:04+00:00",
-        "total": 2,
-        "contains": [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
-                "code": "Komplette Gewebediagnostik",
-                "display": "Komplette Gewebediagnostik"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
-                "code": "Liquid Biopsy",
-                "display": "Blutdiagnostik (Liquid Biopsy)"
-            }
-        ]
-    }
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:e8e8bb41-df50-4ea5-bb61-30d7d1b594ca",
+    "timestamp": "2022-08-23T15:20:26.5093592+02:00",
+    "total": 2,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
+        "code": "Gewebediagnostik",
+        "display": "Gewebediagnostik"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
+        "code": "Liquid Biopsy",
+        "display": "Blutdiagnostik (Liquid Biopsy)"
+      }
+    ]
+  }
 }

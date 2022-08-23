@@ -7,37 +7,37 @@
   "title": "ValueSet - nNGM - Krankenkassentypen",
   "status": "active",
   "compose": {
-      "include": [
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+        "concept": [
           {
-              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-              "concept": [
-                  {
-                      "code": "GKV",
-                      "display": "gesetzliche Krankenversicherung"
-                  },
-                  {
-                      "code": "PKV",
-                      "display": "private Krankenversicherung"
-                  }
-              ]
-          }
-      ]
-  },
-  "expansion": {
-      "identifier": "725d029f-7b76-4c16-bcdc-13be6125f9ec",
-      "timestamp": "2020-10-15T15:23:43+00:00",
-      "total": 2,
-      "contains": [
-          {
-              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-              "code": "GKV",
-              "display": "gesetzliche Krankenversicherung"
+            "code": "GKV",
+            "display": "gesetzliche Krankenversicherung"
           },
           {
-              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-              "code": "PKV",
-              "display": "private Krankenversicherung"
+            "code": "PKV",
+            "display": "private Krankenversicherung"
           }
-      ]
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:ee6ac2e4-2a3c-44da-9455-12f012afc868",
+    "timestamp": "2022-08-23T15:20:31.377266+02:00",
+    "total": 2,
+    "contains": [
+      {
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+        "code": "GKV",
+        "display": "gesetzliche Krankenversicherung"
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+        "code": "PKV",
+        "display": "private Krankenversicherung"
+      }
+    ]
   }
 }

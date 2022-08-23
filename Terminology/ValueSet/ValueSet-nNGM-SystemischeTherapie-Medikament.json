@@ -1,413 +1,551 @@
 {
-    "resourceType": "ValueSet",
-    "id": "ValueSet-nNGM-SystemischeTherapie-Medikament",
-    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/SystemischeTherapieMedikament",
-    "version": "1.0.0",
-    "title": "ValueSet - nNGM - Systemische Therapie - Medikament",
-    "name": "ValueSet_nNGM_SystemischeTherapie_Medikament",
-    "status": "active",
-    "compose": {
-        "include": [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation"
-            }
-        ]
-    },
-    "expansion": {
-        "identifier": "94dc9677-e00f-4865-aa52-4eee1e6093b9",
-        "timestamp": "2020-12-03T17:01:31.548+00:00",
-        "total": 78,
-        "contains": [
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Afatinib",
-                "display": "Afatinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Alectinib",
-                "display": "Alectinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "BGJ398",
-                "display": "BGJ398"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Brigatinib",
-                "display": "Brigatinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cabmatinib",
-                "display": "Cabmatinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cabozantinib",
-                "display": "Cabozantinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Crizotinib",
-                "display": "Crizotinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Ceritinib",
-                "display": "Ceritinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Dabrafenib",
-                "display": "Dabrafenib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Dacomitinib",
-                "display": "Dacomitinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Entrectinib",
-                "display": "Entrectinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Erdafitinib",
-                "display": "Erdafitinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Erlotinib",
-                "display": "Erlotinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Gefitinib",
-                "display": "Gefitinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Lorlatinib",
-                "display": "Lorlatinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nazartinib",
-                "display": "Nazartinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Osimertinib",
-                "display": "Osimertinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Rociletinib",
-                "display": "Rociletinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Trametinib",
-                "display": "Trametinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Vandetanib",
-                "display": "Vandetanib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Vemurafenib",
-                "display": "Vemurafenib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Atezolizumab",
-                "display": "Atezolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Avelumab",
-                "display": "Avelumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Durvalumab",
-                "display": "Durvalumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Ipilimumab",
-                "display": "Ipilimumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nivolumab",
-                "display": "Nivolumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Pembrolizumab",
-                "display": "Pembrolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Spartalizumab",
-                "display": "Spartalizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin",
-                "display": "Carboplatin"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin",
-                "display": "Cisplatin"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Docetaxel",
-                "display": "Docetaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Etoposid",
-                "display": "Etoposid"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Gemcitabine",
-                "display": "Gemcitabine"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Ifosfamid",
-                "display": "Ifosfamid"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Paclitaxel",
-                "display": "Paclitaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nab-Paclitaxel",
-                "display": "Nab-Paclitaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Pemetrexed",
-                "display": "Pemetrexed"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Topotecan",
-                "display": "Topotecan"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Topotecan oral",
-                "display": "Topotecan oral"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Vinorelbine",
-                "display": "Vinorelbine"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Vinorelbine oral",
-                "display": "Vinorelbine oral"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Bevacizumab",
-                "display": "Bevacizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cetuximab",
-                "display": "Cetuximab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nintedanib",
-                "display": "Nintedanib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Ramucirumab",
-                "display": "Ramucirumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Sunitinib",
-                "display": "Sunitinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Sorafenib",
-                "display": "Sorafenib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Axitinib",
-                "display": "Axitinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Interleukin 2",
-                "display": "Interleukin 2"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Paclitaxel",
-                "display": "Carboplatin/Paclitaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Paclitaxel/Pembrolizumab",
-                "display": "Carboplatin/Paclitaxel/Pembrolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/nab-Paclitaxel/Pembrolizumab",
-                "display": "Carboplatin/nab-Paclitaxel/Pembrolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/nab-Paclitaxel",
-                "display": "Carboplatin/nab-Paclitaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Paclitaxel/Bevacizumab",
-                "display": "Carboplatin/Paclitaxel/Bevacizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/nab-Paclitaxel/Bevacizumab",
-                "display": "Carboplatin/nab-Paclitaxel/Bevacizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Paclitaxel/Bevacizumab/Atezolizumab",
-                "display": "Carboplatin/Paclitaxel/Bevacizumab/Atezolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/nab-Paclitaxel/Bevacizumab/Atezolizumab",
-                "display": "Carboplatin/nab-Paclitaxel/Bevacizumab/Atezolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Pemetrexed",
-                "display": "Carboplatin/Pemetrexed"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Pemetrexed/Bevacizumab",
-                "display": "Carboplatin/Pemetrexed/Bevacizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Pemetrexed/Pembrolizumab",
-                "display": "Carboplatin/Pemetrexed/Pembrolizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Gemcitabine",
-                "display": "Carboplatin/Gemcitabine"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Vinorelbine",
-                "display": "Carboplatin/Vinorelbine"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Vinorelbine oral",
-                "display": "Carboplatin/Vinorelbine oral"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Carboplatin/Etoposid",
-                "display": "Carboplatin/Etoposid"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/Pemetrexed",
-                "display": "Cisplatin/Pemetrexed"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/Pemetrexed/Bevacizumab",
-                "display": "Cisplatin/Pemetrexed/Bevacizumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/Vinorelbine",
-                "display": "Cisplatin/Vinorelbine"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/Vinorelbine oral",
-                "display": "Cisplatin/Vinorelbine oral"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/Gemcitabine",
-                "display": "Cisplatin/Gemcitabine"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/Paclitaxel",
-                "display": "Cisplatin/Paclitaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Cisplatin/nabPaclitaxel",
-                "display": "Cisplatin/nabPaclitaxel"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Docetaxel/Nintedanib",
-                "display": "Docetaxel/Nintedanib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Docetaxel/Ramucirumab",
-                "display": "Docetaxel/Ramucirumab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Dabrafenib/Trametinib",
-                "display": "Dabrafenib/Trametinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nazartinib/Trametinib",
-                "display": "Nazartinib/Trametinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nazartinib/Capmatinib",
-                "display": "Nazartinib/Capmatinib"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Afatinib/Cetuximab",
-                "display": "Afatinib/Cetuximab"
-            },
-            {
-                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
-                "code": "Nivolumab/Ipilimumab",
-                "display": "Nivolumab/Ipilimumab"
-            }
-        ]
-    }
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-SystemischeTherapie-Medikament",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/SystemischeTherapieMedikament",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_SystemischeTherapie_Medikament",
+  "title": "ValueSet - nNGM - Systemische Therapie - Medikament",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:a3e1959a-1a83-423d-bd00-c4983939df6e",
+    "timestamp": "2022-08-23T15:20:31.5189084+02:00",
+    "total": 88,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Afatinib",
+        "display": "Afatinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Alectinib",
+        "display": "Alectinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "BGJ398",
+        "display": "BGJ398"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Brigatinib",
+        "display": "Brigatinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cabmatinib",
+        "display": "Cabmatinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cabozantinib",
+        "display": "Cabozantinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Crizotinib",
+        "display": "Crizotinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Ceritinib",
+        "display": "Ceritinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Dabrafenib",
+        "display": "Dabrafenib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Dacomitinib",
+        "display": "Dacomitinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Entrectinib",
+        "display": "Entrectinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Erdafitinib",
+        "display": "Erdafitinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Erlotinib",
+        "display": "Erlotinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Gefitinib",
+        "display": "Gefitinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Lorlatinib",
+        "display": "Lorlatinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Nazartinib",
+        "display": "Nazartinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Osimertinib",
+        "display": "Osimertinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Rociletinib",
+        "display": "Rociletinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Trametinib",
+        "display": "Trametinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Vandetanib",
+        "display": "Vandetanib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Vemurafenib",
+        "display": "Vemurafenib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Atezolizumab",
+        "display": "Atezolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "nab-PaclitaxelAtezolizumab",
+        "display": "nab-Paclitaxel Atezolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Avelumab",
+        "display": "Avelumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Durvalumab",
+        "display": "Durvalumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Ipilimumab",
+        "display": "Ipilimumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Nivolumab",
+        "display": "Nivolumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Pembrolizumab",
+        "display": "Pembrolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Spartalizumab",
+        "display": "Spartalizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin",
+        "display": "Carboplatin"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin",
+        "display": "Cisplatin"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Docetaxel",
+        "display": "Docetaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Etoposid",
+        "display": "Etoposid"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Gemcitabine",
+        "display": "Gemcitabine"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Ifosfamid",
+        "display": "Ifosfamid"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Paclitaxel",
+        "display": "Paclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "nab-Paclitaxel",
+        "display": "nab-Paclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "nab-PaclitaxelAtezolizumabBevacizumab",
+        "display": "nab-Paclitaxel Atezolizumab Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "AtezolizumabPemetrexed",
+        "display": "Atezolizumab Pemetrexed"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "AtezolizumabBevacizumab",
+        "display": "Atezolizumab Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Bevacizumabnab-Paclitaxel",
+        "display": "Bevacizumab nab-Paclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Pemetrexed",
+        "display": "Pemetrexed"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Topotecan",
+        "display": "Topotecan"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Topotecan oral",
+        "display": "Topotecan oral"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Vinorelbine",
+        "display": "Vinorelbine"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Vinorelbine oral",
+        "display": "Vinorelbine oral"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Bevacizumab",
+        "display": "Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "BevacizumabPemetrexed",
+        "display": "Bevacizumab Pemetrexed"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "BevacizumabPembrolizumab",
+        "display": "Bevacizumab Pembrolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "BevacizumabPembrolizumabPemetrexed",
+        "display": "Bevacizumab Pembrolizumab Pemetrexed"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cetuximab",
+        "display": "Cetuximab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Nintedanib",
+        "display": "Nintedanib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Necitumumab",
+        "display": "Necitumumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Ramucirumab",
+        "display": "Ramucirumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Sunitinib",
+        "display": "Sunitinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Sorafenib",
+        "display": "Sorafenib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Axitinib",
+        "display": "Axitinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Interleukin 2",
+        "display": "Interleukin 2"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Paclitaxel",
+        "display": "Carboplatin/Paclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Paclitaxel/Pembrolizumab",
+        "display": "Carboplatin/Paclitaxel/Pembrolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/nab-Paclitaxel/Pembrolizumab",
+        "display": "Carboplatin/nab-Paclitaxel/Pembrolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/nab-Paclitaxel",
+        "display": "Carboplatin/nab-Paclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Paclitaxel/Bevacizumab",
+        "display": "Carboplatin/Paclitaxel/Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/nab-Paclitaxel/Bevacizumab",
+        "display": "Carboplatin/nab-Paclitaxel/Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Paclitaxel/Bevacizumab/Atezolizumab",
+        "display": "Carboplatin/Paclitaxel/Bevacizumab/Atezolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/nab-Paclitaxel/Bevacizumab/Atezolizumab",
+        "display": "Carboplatin/nab-Paclitaxel/Bevacizumab/Atezolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Pemetrexed",
+        "display": "Carboplatin/Pemetrexed"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Pemetrexed/Bevacizumab",
+        "display": "Carboplatin/Pemetrexed/Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "PemetrexedPembrolizumab",
+        "display": "Pemetrexed Pembrolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Pemetrexed/Pembrolizumab",
+        "display": "Carboplatin/Pemetrexed/Pembrolizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Gemcitabine",
+        "display": "Carboplatin/Gemcitabine"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Vinorelbine",
+        "display": "Carboplatin/Vinorelbine"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Vinorelbine oral",
+        "display": "Carboplatin/Vinorelbine oral"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Carboplatin/Etoposid",
+        "display": "Carboplatin/Etoposid"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/Pemetrexed",
+        "display": "Cisplatin/Pemetrexed"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/Pemetrexed/Bevacizumab",
+        "display": "Cisplatin/Pemetrexed/Bevacizumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/Vinorelbine",
+        "display": "Cisplatin/Vinorelbine"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/Vinorelbine oral",
+        "display": "Cisplatin/Vinorelbine oral"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/Gemcitabine",
+        "display": "Cisplatin/Gemcitabine"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/Paclitaxel",
+        "display": "Cisplatin/Paclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Cisplatin/nabPaclitaxel",
+        "display": "Cisplatin/nabPaclitaxel"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Docetaxel/Nintedanib",
+        "display": "Docetaxel/Nintedanib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Docetaxel/Ramucirumab",
+        "display": "Docetaxel/Ramucirumab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Dabrafenib/Trametinib",
+        "display": "Dabrafenib/Trametinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Nazartinib/Trametinib",
+        "display": "Nazartinib/Trametinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Nazartinib/Capmatinib",
+        "display": "Nazartinib/Capmatinib"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Afatinib/Cetuximab",
+        "display": "Afatinib/Cetuximab"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikation",
+        "version": "1.0.0",
+        "code": "Nivolumab/Ipilimumab",
+        "display": "Nivolumab/Ipilimumab"
+      }
+    ]
+  }
 }

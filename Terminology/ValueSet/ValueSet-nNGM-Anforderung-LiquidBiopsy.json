@@ -7,37 +7,37 @@
   "title": "ValueSet - nNGM - Anforderung Liquid Biopsy",
   "status": "active",
   "compose": {
-      "include": [
+    "include": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "concept": [
           {
-              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-              "concept": [
-                  {
-                      "code": "C41546",
-                      "display": "Resistance Process"
-                  },
-                  {
-                      "code": "C45576",
-                      "display": "Mutation Abnormality"
-                  }
-              ]
-          }
-      ]
-  },
-  "expansion": {
-      "identifier": "9ce5c132-f7aa-4b47-80d9-128de8cea5d4",
-      "timestamp": "2020-10-15T12:34:08+00:00",
-      "total": 2,
-      "contains": [
-          {
-              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-              "code": "C41546",
-              "display": "Resistance Process"
+            "code": "C41546",
+            "display": "Resistance Process"
           },
           {
-              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-              "code": "C45576",
-              "display": "Mutation Abnormality"
+            "code": "C45576",
+            "display": "Mutation Abnormality"
           }
-      ]
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:be9f3d91-2cb0-41f9-986e-e1e4c54f1fd8",
+    "timestamp": "2022-08-23T15:20:26.5804485+02:00",
+    "total": 2,
+    "contains": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C41546",
+        "display": "Resistance Process"
+      },
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C45576",
+        "display": "Mutation Abnormality"
+      }
+    ]
   }
 }

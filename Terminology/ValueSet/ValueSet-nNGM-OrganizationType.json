@@ -28,9 +28,9 @@
     ]
   },
   "expansion": {
-    "identifier": "b0e60188-6f46-4f5b-8f95-7c99a1441854",
-    "timestamp": "2020-10-13T08:57:22+00:00",
-    "total": 10,
+    "identifier": "urn:uuid:164b4dee-5325-4901-a951-7dae78c5c476",
+    "timestamp": "2022-08-23T15:20:31.4495773+02:00",
+    "total": 3,
     "contains": [
       {
         "system": "http://snomed.info/sct",

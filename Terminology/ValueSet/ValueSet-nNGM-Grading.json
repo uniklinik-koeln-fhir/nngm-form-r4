@@ -49,9 +49,9 @@
     ]
   },
   "expansion": {
-    "identifier": "uk-koeln-work-grading-1",
-    "timestamp": "2018-10-31",
-    "total": 10,
+    "identifier": "urn:uuid:ac637246-8b84-43bb-b9e2-3ffcd3c143a3",
+    "timestamp": "2022-08-23T15:20:31.2098945+02:00",
+    "total": 8,
     "contains": [
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",

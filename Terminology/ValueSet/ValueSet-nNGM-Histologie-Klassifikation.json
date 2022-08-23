@@ -1,354 +1,327 @@
 {
-    "resourceType": "ValueSet",
-    "id": "ValueSet-nNGM-Klassifikation-Histologie",
-    "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/histologie-klassifikation",
-    "version": "1.0.0",
-    "title": "ValueSet - nNGM - Klassifikation (Histologie)",
-    "name": "ValueSet_nNGM_Klassifikation_Histologie",
-    "status": "active",
-    "compose": {
-        "include": [
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "concept": [
-                    {
-                        "code": "8140/3",
-                        "display": "Adenokarzinom o.n.A."
-                    },
-                    {
-                        "code": "8140/6",
-                        "display": "Adenokarzinom-Metastase o.n.A."
-                    },
-                    {
-                        "code": "8250/3",
-                        "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A."
-                    },
-                    {
-                        "code": "8551/3",
-                        "display": "Azinuszell-Zystadenokarzinom"
-                    },
-                    {
-                        "code": "8260/3",
-                        "display": "Papilläres Adenokarzinom o.n.A."
-                    },
-                    {
-                        "code": "8265/3",
-                        "display": "Mikropapilläres Karzinom o.n.A."
-                    },
-                    {
-                        "code": "8230/3",
-                        "display": "Solides Karzinom o.n.A."
-                    },
-                    {
-                        "code": "8253/3",
-                        "display": "Muzinöses bronchiolo-alveoläres Karzinom"
-                    },
-                    {
-                        "code": "8254/3",
-                        "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
-                    },
-                    {
-                        "code": "8480/3",
-                        "display": "Muzinöses Adenokarzinom"
-                    },
-                    {
-                        "code": "8333/3",
-                        "display": "Fetales Adenokarzinom"
-                    },
-                    {
-                        "code": "8144/3",
-                        "display": "Adenokarzinom vom intestinalen Typ"
-                    },
-                    {
-                        "code": "8070/3",
-                        "display": "Plattenepithelkarzinom o.n.A."
-                    },
-                    {
-                        "code": "8071/3",
-                        "display": "Verhornendes Plattenepithelkarzinom o.n.A."
-                    },
-                    {
-                        "code": "8072/3",
-                        "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
-                    },
-                    {
-                        "code": "8083/3",
-                        "display": "Basaloides Plattenepithelkarzinom"
-                    },
-                    {
-                        "code": "8041/3",
-                        "display": "Kleinzelliges Karzinom o.n.A."
-                    },
-                    {
-                        "code": "8045/3",
-                        "display": "Kombiniertes kleinzelliges Karzinom"
-                    },
-                    {
-                        "code": "8013/3",
-                        "display": "Großzelliges neuroendokrines Karzinom"
-                    },
-                    {
-                        "code": "8240/3",
-                        "display": "Karzinoidtumor o.n.A."
-                    },
-                    {
-                        "code": "8249/3",
-                        "display": "Atypischer Karzinoidtumor"
-                    },
-                    {
-                        "code": "8012/3",
-                        "display": "Großzelliges Karzinom o.n.A."
-                    },
-                    {
-                        "code": "8010/6",
-                        "display": "Karzinom-Metastase o.n.A."
-                    },
-                    {
-                        "code": "8560/3",
-                        "display": "Adenosquamöses Karzinom"
-                    },
-                    {
-                        "code": "8560/3",
-                        "display": "Pleomorphes Karzinom"
-                    },
-                    {
-                        "code": "8430/3",
-                        "display": "Mukoepidermoid-Karzinom"
-                    },
-                    {
-                        "code": "8200/3",
-                        "display": "Adenoid-zystisches Karzinom"
-                    },
-                    {
-                        "code": "8562/3",
-                        "display": "Epithelial-myoepitheliales Karzinom"
-                    },
-                    {
-                        "code": "8000/0",
-                        "display": "Benigne Neoplasie o.n.A."
-                    },
-                    {
-                        "code": "8000/1",
-                        "display": "Neoplasie fraglicher Dignität"
-                    },
-                    {
-                        "code": "8000/3",
-                        "display": "Maligne Neoplasie"
-                    },
-                    {
-                        "code": "8000/6",
-                        "display": "Neoplasie, Metastase"
-                    }
-                ]
-            },
-            {
-                "system": "http://ncit.nci.nih.gov",
-                "concept": [
-                    {
-                        "code": "C3812",
-                        "display": "Carcinoma of Unknown Primary"
-                    }
-                ]
-            }
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Klassifikation-Histologie",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/histologie-klassifikation",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Klassifikation_Histologie",
+  "title": "ValueSet - nNGM - Klassifikation (Histologie)",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "concept": [
+          {
+            "code": "8140/3",
+            "display": "Adenokarzinom o.n.A."
+          },
+          {
+            "code": "8140/6",
+            "display": "Adenokarzinom-Metastase o.n.A."
+          },
+          {
+            "code": "8250/3",
+            "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A."
+          },
+          {
+            "code": "8551/3",
+            "display": "Azinuszell-Zystadenokarzinom"
+          },
+          {
+            "code": "8260/3",
+            "display": "Papilläres Adenokarzinom o.n.A."
+          },
+          {
+            "code": "8265/3",
+            "display": "Mikropapilläres Karzinom o.n.A."
+          },
+          {
+            "code": "8230/3",
+            "display": "Solides Karzinom o.n.A."
+          },
+          {
+            "code": "8253/3",
+            "display": "Muzinöses bronchiolo-alveoläres Karzinom"
+          },
+          {
+            "code": "8254/3",
+            "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
+          },
+          {
+            "code": "8480/3",
+            "display": "Muzinöses Adenokarzinom"
+          },
+          {
+            "code": "8333/3",
+            "display": "Fetales Adenokarzinom"
+          },
+          {
+            "code": "8144/3",
+            "display": "Adenokarzinom vom intestinalen Typ"
+          },
+          {
+            "code": "8070/3",
+            "display": "Plattenepithelkarzinom o.n.A."
+          },
+          {
+            "code": "8071/3",
+            "display": "Verhornendes Plattenepithelkarzinom o.n.A."
+          },
+          {
+            "code": "8072/3",
+            "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
+          },
+          {
+            "code": "8083/3",
+            "display": "Basaloides Plattenepithelkarzinom"
+          },
+          {
+            "code": "8041/3",
+            "display": "Kleinzelliges Karzinom o.n.A."
+          },
+          {
+            "code": "8045/3",
+            "display": "Kombiniertes kleinzelliges Karzinom"
+          },
+          {
+            "code": "8013/3",
+            "display": "Großzelliges neuroendokrines Karzinom"
+          },
+          {
+            "code": "8240/3",
+            "display": "Karzinoidtumor o.n.A."
+          },
+          {
+            "code": "8249/3",
+            "display": "Atypischer Karzinoidtumor"
+          },
+          {
+            "code": "8012/3",
+            "display": "Großzelliges Karzinom o.n.A."
+          },
+          {
+            "code": "8010/6",
+            "display": "Karzinom-Metastase o.n.A."
+          },
+          {
+            "code": "8560/3",
+            "display": "Adenosquamöses Karzinom"
+          },
+          {
+            "code": "8560/3",
+            "display": "Pleomorphes Karzinom"
+          },
+          {
+            "code": "8430/3",
+            "display": "Mukoepidermoid-Karzinom"
+          },
+          {
+            "code": "8200/3",
+            "display": "Adenoid-zystisches Karzinom"
+          },
+          {
+            "code": "8562/3",
+            "display": "Epithelial-myoepitheliales Karzinom"
+          },
+          {
+            "code": "8000/0",
+            "display": "Benigne Neoplasie o.n.A."
+          },
+          {
+            "code": "8000/1",
+            "display": "Neoplasie fraglicher Dignität"
+          },
+          {
+            "code": "8000/3",
+            "display": "Maligne Neoplasie"
+          },
+          {
+            "code": "8000/6",
+            "display": "Neoplasie, Metastase"
+          }
         ]
-    },
-    "expansion": {
-        "identifier": "45890478-a881-42f6-91b3-f4a40bc2c364",
-        "timestamp": "2020-10-15T12:50:04+00:00",
-        "total": 29,
-        "contains": [
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8560/3",
-                "display": "Adenosquamöses Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8000/0",
-                "display": "Benigne Neoplasie o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8000/1",
-                "display": "Neoplasie fraglicher Dignität"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8000/3",
-                "display": "Maligne Neoplasie"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8000/6",
-                "display": "Neoplasie, Metastase"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8012/3",
-                "display": "Großzelliges Karzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8010/6",
-                "display": "Karzinom-Metastase o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8013/3",
-                "display": "Großzelliges neuroendokrines Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8041/3",
-                "display": "Kleinzelliges Karzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8045/3",
-                "display": "Kombiniertes kleinzelliges Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8070/3",
-                "display": "Plattenepithelkarzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8071/3",
-                "display": "Verhornendes Plattenepithelkarzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8072/3",
-                "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8083/3",
-                "display": "Basaloides Plattenepithelkarzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8140/3",
-                "display": "Adenokarzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8140/6",
-                "display": "Adenokarzinom-Metastase o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8144/3",
-                "display": "Adenokarzinom vom intestinalen Typ"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8200/3",
-                "display": "Adenoid-zystisches Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8230/3",
-                "display": "Solides Karzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8240/3",
-                "display": "Karzinoidtumor o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8249/3",
-                "display": "Atypischer Karzinoidtumor"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8250/3",
-                "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8253/3",
-                "display": "Muzinöses bronchiolo-alveoläres Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8254/3",
-                "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8260/3",
-                "display": "Papilläres Adenokarzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8265/3",
-                "display": "Mikropapilläres Karzinom o.n.A."
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8333/3",
-                "display": "Fetales Adenokarzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8430/3",
-                "display": "Mukoepidermoid-Karzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8480/3",
-                "display": "Muzinöses Adenokarzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8551/3",
-                "display": "Azinuszell-Zystadenokarzinom"
-            },
-            {
-                "system": "urn:oid:2.16.840.1.113883.6.43.1",
-                "version": "2014",
-                "code": "8562/3",
-                "display": "Epithelial-myoepitheliales Karzinom"
-            },
-            {
-                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-                "version": "20.02d",
-                "code": "C3812",
-                "display": "Carcinoma of Unknown Primary"
-            }
+      },
+      {
+        "system": "http://ncit.nci.nih.gov",
+        "concept": [
+          {
+            "code": "C3812",
+            "display": "Carcinoma of Unknown Primary"
+          }
         ]
-    }
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:4747b335-1c83-4b5e-9d8a-c420918fd29b",
+    "timestamp": "2022-08-23T15:20:31.2572855+02:00",
+    "total": 33,
+    "contains": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8140/3",
+        "display": "Adenokarzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8140/6",
+        "display": "Adenokarzinom-Metastase o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8250/3",
+        "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8551/3",
+        "display": "Azinuszell-Zystadenokarzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8260/3",
+        "display": "Papilläres Adenokarzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8265/3",
+        "display": "Mikropapilläres Karzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8230/3",
+        "display": "Solides Karzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8253/3",
+        "display": "Muzinöses bronchiolo-alveoläres Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8254/3",
+        "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8480/3",
+        "display": "Muzinöses Adenokarzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8333/3",
+        "display": "Fetales Adenokarzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8144/3",
+        "display": "Adenokarzinom vom intestinalen Typ"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8070/3",
+        "display": "Plattenepithelkarzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8071/3",
+        "display": "Verhornendes Plattenepithelkarzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8072/3",
+        "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8083/3",
+        "display": "Basaloides Plattenepithelkarzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8041/3",
+        "display": "Kleinzelliges Karzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8045/3",
+        "display": "Kombiniertes kleinzelliges Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8013/3",
+        "display": "Großzelliges neuroendokrines Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8240/3",
+        "display": "Karzinoidtumor o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8249/3",
+        "display": "Atypischer Karzinoidtumor"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8012/3",
+        "display": "Großzelliges Karzinom o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8010/6",
+        "display": "Karzinom-Metastase o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8560/3",
+        "display": "Adenosquamöses Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8560/3",
+        "display": "Pleomorphes Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8430/3",
+        "display": "Mukoepidermoid-Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8200/3",
+        "display": "Adenoid-zystisches Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8562/3",
+        "display": "Epithelial-myoepitheliales Karzinom"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8000/0",
+        "display": "Benigne Neoplasie o.n.A."
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8000/1",
+        "display": "Neoplasie fraglicher Dignität"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8000/3",
+        "display": "Maligne Neoplasie"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8000/6",
+        "display": "Neoplasie, Metastase"
+      },
+      {
+        "system": "http://ncit.nci.nih.gov",
+        "code": "C3812",
+        "display": "Carcinoma of Unknown Primary"
+      }
+    ]
+  }
 }

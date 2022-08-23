@@ -40,39 +40,39 @@
     ]
   },
   "expansion": {
-    "identifier": "fc6a2d0a-4551-4601-9c4c-c5a6a0a882dd",
-    "timestamp": "2022-03-09T12:51:52+00:00",
+    "identifier": "urn:uuid:496b4d21-2873-474d-8dce-edff6b3e2c19",
+    "timestamp": "2022-08-23T15:20:31.2879957+02:00",
     "total": 6,
     "contains": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.0",
-            "display": "C34.0 Malignant neoplasm: Main bronchus"
+        "display": "C34.0 Malignant neoplasm: Main bronchus"
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.1",
-            "display": "C34.1 Malignant neoplasm: Upper lobe, bronchus or lung"
+        "display": "C34.1 Malignant neoplasm: Upper lobe, bronchus or lung"
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.2",
-            "display": "C34.2 Malignant neoplasm: Middle lobe, bronchus or lung"
+        "display": "C34.2 Malignant neoplasm: Middle lobe, bronchus or lung"
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.3",
-            "display": "C34.3 Malignant neoplasm: Lower lobe, bronchus or lung"
+        "display": "C34.3 Malignant neoplasm: Lower lobe, bronchus or lung"
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.8",
-            "display": "C34.8 Malignant neoplasm: Overlapping lesion of bronchus and lung"
+        "display": "C34.8 Malignant neoplasm: Overlapping lesion of bronchus and lung"
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.9",
-            "display": "C34.9 Malignant neoplasm: Bronchus or lung, unspecified"
+        "display": "C34.9 Malignant neoplasm: Bronchus or lung, unspecified"
       }
     ]
   }
