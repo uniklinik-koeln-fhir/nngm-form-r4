@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "CodeSystem-nNGM-Grund-Fehlende-Biopsie",
-  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundfehlendeBiopsie",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
   "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/grundFehlendeBiopsie",
   "version": "1.0.0",
   "title": "CodeSystem - nNGM - Grund Fehlende Biopsie",
