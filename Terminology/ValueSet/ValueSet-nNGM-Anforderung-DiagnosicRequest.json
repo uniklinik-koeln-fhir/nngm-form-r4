@@ -1,15 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "id": "ValueSet-nNGM-Anforderung-Diagnostic-Requested",
-  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-requested",
+  "id": "ValueSet-nNGM-Anforderung-Diagnostic-Request",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-diagnostic-request",
   "version": "1.0.0",
-  "name": "ValueSet_nNGM_Anforderung_Diagnostic_Requested",
-  "title": "ValueSet - nNGM - Diagnostic - Requested",
+  "name": "ValueSet_nNGM_Anforderung_Diagnostic_Request",
+  "title": "ValueSet - nNGM - Diagnostic - Request",
   "status": "active",
   "compose": {
     "include": [
       {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-requested",
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-request",
         "concept": [
           {
             "code": "complete",
