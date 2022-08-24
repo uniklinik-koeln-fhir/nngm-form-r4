@@ -25,7 +25,7 @@
           },
           {
             "code": "40564-7",
-            "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stainActive"
+            "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stain"
           },
           {
             "code": "99085-3",
@@ -40,8 +40,8 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:5e62b5aa-1f9b-4db0-a810-1765648e0d88",
-    "timestamp": "2022-08-23T15:20:26.5511658+02:00",
+    "identifier": "urn:uuid:72d64d00-9ff3-4026-ba78-33ce1923cd46",
+    "timestamp": "2022-08-24T10:44:45.5946251+02:00",
     "total": 6,
     "contains": [
       {
@@ -62,7 +62,7 @@
       {
         "system": "http://loinc.org",
         "code": "40564-7",
-        "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stainActive"
+        "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stain"
       },
       {
         "system": "http://loinc.org",
