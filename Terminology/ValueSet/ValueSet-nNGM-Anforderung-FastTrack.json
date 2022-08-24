@@ -9,43 +9,44 @@
   "compose": {
     "include": [
       {
-        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept": [
-          {
-            "code": "C18363",
-            "display": "BRAF Gene"
-          },
-          {
-            "code": "C17757",
-            "display": "EGFR Gene"
-          },
-          {
-            "code": "C25785",
-            "display": "KRAS Gene"
-          }
-        ]
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack"
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:27959428-bfd8-408a-af74-92960b7a635d",
-    "timestamp": "2022-08-23T15:20:26.5299339+02:00",
-    "total": 3,
+    "identifier": "urn:uuid:9b91b84c-2cc7-4d55-be86-1bb4eef1ce0b",
+    "timestamp": "2022-08-24T13:39:59.7960146+02:00",
+    "total": 5,
     "contains": [
       {
-        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "code": "C18363",
-        "display": "BRAF Gene"
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+        "version": "1.0.0",
+        "code": "BRAF EXON 15",
+        "display": "BRAF EXON 15"
       },
       {
-        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "code": "C17757",
-        "display": "EGFR Gene"
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+        "version": "1.0.0",
+        "code": "EGFR EXON 19",
+        "display": "EGFR EXON 19"
       },
       {
-        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "code": "C25785",
-        "display": "KRAS Gene"
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+        "version": "1.0.0",
+        "code": "EGFR EXON 20",
+        "display": "EGFR EXON 20"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+        "version": "1.0.0",
+        "code": "EGFR EXON 21",
+        "display": "EGFR EXON 21"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+        "version": "1.0.0",
+        "code": "KRAS EXON 2",
+        "display": "KRAS EXON 2"
       }
     ]
   }

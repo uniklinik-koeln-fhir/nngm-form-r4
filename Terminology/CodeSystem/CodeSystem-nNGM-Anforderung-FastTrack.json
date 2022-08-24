@@ -1,0 +1,37 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "CodeSystem-nNGM-Anforderung-FastTrack",
+	"url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+	"version": "1.0.0",
+	"name": "CodeSystem_nNGM_TNM_CPU_Praefix",
+	"title": "CodeSystem - nNGM - Anforderung - FastTrack",
+	"status": "active",
+	"description": "Anforderung FastTrack",
+	"caseSensitive": true,
+	"compositional": false,
+	"valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/anforderung-fastTrack",
+	"content": "complete",
+	"count": 5,
+	"concept": [
+		{
+			"code": "BRAF EXON 15",
+			"display": "BRAF EXON 15"
+		},
+		{
+			"code": "EGFR EXON 19",
+			"display": "EGFR EXON 19"
+		},
+		{
+			"code": "EGFR EXON 20",
+			"display": "EGFR EXON 20"
+		},
+		{
+			"code": "EGFR EXON 21",
+			"display": "EGFR EXON 21"
+		},
+		{
+			"code": "KRAS EXON 2",
+			"display": "KRAS EXON 2"
+		}
+	]
+}
