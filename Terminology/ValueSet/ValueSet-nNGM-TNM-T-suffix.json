@@ -9,45 +9,30 @@
   "compose": {
     "include": [
       {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "version": "8",
-        "concept": [
-          {
-            "code": "m",
-            "display": "m - multiple Tumore der gleichen Region"
-          },
-          {
-            "code": "is",
-            "display": "is - Carcinoma in situ"
-          },
-          {
-            "code": "cy",
-            "display": "cy - zytologisch"
-          }
-        ]
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-suffix-t"
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:00e2d916-3c3f-4f83-85f8-bb6129726716",
-    "timestamp": "2022-08-23T15:20:31.7019689+02:00",
+    "identifier": "urn:uuid:31aeed93-33a5-4823-8361-30bb092a513a",
+    "timestamp": "2022-08-29T08:30:39.8567978+02:00",
     "total": 3,
     "contains": [
       {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "version": "8",
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-suffix-t",
+        "version": "1.0.0",
         "code": "m",
         "display": "m - multiple Tumore der gleichen Region"
       },
       {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "version": "8",
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-suffix-t",
+        "version": "1.0.0",
         "code": "is",
         "display": "is - Carcinoma in situ"
       },
       {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "version": "8",
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-suffix-t",
+        "version": "1.0.0",
         "code": "cy",
         "display": "cy - zytologisch"
       }

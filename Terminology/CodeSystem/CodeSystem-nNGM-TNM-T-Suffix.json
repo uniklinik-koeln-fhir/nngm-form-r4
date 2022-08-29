@@ -1,0 +1,29 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "CodeSystem-nNGM-TNM-CPU-Praefix",
+	"url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-suffix-t",
+	"version": "1.0.0",
+	"name": "CodeSystem_nNGM_TNM-Suffix-T",
+	"title": "CodeSystem - nNGM - TNM - Suffix - T",
+	"status": "active",
+	"description": "TNM T Suffix",
+	"caseSensitive": true,
+	"compositional": false,
+	"valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-suffix-t",
+	"content": "complete",
+	"count": 3,
+	"concept": [
+		{
+			"code": "m",
+			"display": "m - multiple Tumore der gleichen Region"
+		},
+		{
+			"code": "is",
+			"display": "is - Carcinoma in situ"
+		},
+		{
+			"code": "cy",
+			"display": "cy - zytologisch"
+		}
+	]
+}
