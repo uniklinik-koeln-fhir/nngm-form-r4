@@ -14,8 +14,8 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:695f6558-8643-4734-93f1-47bf61c10d8f",
-    "timestamp": "2022-08-23T15:20:31.2324573+02:00",
+    "identifier": "urn:uuid:dee672b4-f0c8-4b6c-bdd6-267eacf1ab77",
+    "timestamp": "2022-08-29T09:01:30.2261569+02:00",
     "total": 4,
     "contains": [
       {
@@ -40,7 +40,7 @@
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
         "version": "1.0.0",
         "code": "AP",
-        "display": "Ablehnung seitens der Patientin / des Patienten"
+        "display": "Ablehnung seitens Patient(in)"
       }
     ]
   }
