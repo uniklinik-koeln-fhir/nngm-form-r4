@@ -13,66 +13,174 @@
         "concept": [
           {
             "code": "40559-7",
-            "display": "Cytokeratin 7 Ag [Presence] in Tissue by Immune stain"
+            "display": "Cytokeratin 7 Ag [Presence] in Tissue by Immune stain",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "CK7"
+              }
+            ]
           },
           {
             "code": "33055-5",
-            "display": "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain"
+            "display": "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "MIB1"
+              }
+            ]
           },
           {
             "code": "10514-8",
-            "display": "Synaptophysin Ag [Presence] in Tissue by Immune stain"
+            "display": "Synaptophysin Ag [Presence] in Tissue by Immune stain",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Synaptophysin"
+              }
+            ]
           },
           {
             "code": "40564-7",
-            "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stain"
+            "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stain",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "TTF1"
+              }
+            ]
           },
           {
             "code": "99085-3",
-            "display": "Napsin A Ag [Presence] in Tissue by Immune stain"
+            "display": "Napsin A Ag [Presence] in Tissue by Immune stain",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Napsin A"
+              }
+            ]
           },
           {
             "code": "99086-1",
-            "display": "p40 Ag [Presence] in Tissue by Immune stain"
+            "display": "p40 Ag [Presence] in Tissue by Immune stain",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "P40"
+              }
+            ]
           }
         ]
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:72d64d00-9ff3-4026-ba78-33ce1923cd46",
-    "timestamp": "2022-08-24T10:44:45.5946251+02:00",
+    "identifier": "urn:uuid:e2fa4f85-0e0f-473f-bfba-693cd0e07b43",
+    "timestamp": "2022-08-30T14:29:05.3430883+02:00",
     "total": 6,
     "contains": [
       {
         "system": "http://loinc.org",
         "code": "40559-7",
-        "display": "Cytokeratin 7 Ag [Presence] in Tissue by Immune stain"
+        "display": "Cytokeratin 7 Ag [Presence] in Tissue by Immune stain",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "CK7"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "33055-5",
-        "display": "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain"
+        "display": "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "MIB1"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "10514-8",
-        "display": "Synaptophysin Ag [Presence] in Tissue by Immune stain"
+        "display": "Synaptophysin Ag [Presence] in Tissue by Immune stain",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Synaptophysin"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "40564-7",
-        "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stain"
+        "display": "Thyroid transcription factor 1 Ag [Presence] in Tissue by Immune stain",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "TTF1"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "99085-3",
-        "display": "Napsin A Ag [Presence] in Tissue by Immune stain"
+        "display": "Napsin A Ag [Presence] in Tissue by Immune stain",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Napsin A"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "99086-1",
-        "display": "p40 Ag [Presence] in Tissue by Immune stain"
+        "display": "p40 Ag [Presence] in Tissue by Immune stain",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "P40"
+          }
+        ]
       }
     ]
   }
