@@ -14,8 +14,8 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:dee672b4-f0c8-4b6c-bdd6-267eacf1ab77",
-    "timestamp": "2022-08-29T09:01:30.2261569+02:00",
+    "identifier": "urn:uuid:cfb86fa6-b8db-4b93-abfd-96b16a287a78",
+    "timestamp": "2022-08-30T14:29:05.3691173+02:00",
     "total": 4,
     "contains": [
       {
@@ -34,7 +34,7 @@
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
         "version": "1.0.0",
         "code": "UR",
-        "display": "Unzumutbares Risikos einer Biopsie bzw. zu erwartende Komplikationen"
+        "display": "Unzumutbares Risiko einer Biopsie bzw. zu erwartende Komplikationen"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/grundFehlendeBiopsie",
