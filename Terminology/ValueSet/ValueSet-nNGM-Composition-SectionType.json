@@ -14,81 +14,153 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:fcb77593-3867-4264-a240-ab1b7c5ec5f4",
-    "timestamp": "2022-08-23T15:20:26.7809356+02:00",
+    "identifier": "urn:uuid:f723439c-08e4-4282-b1fa-fb5552fbdf92",
+    "timestamp": "2022-08-30T14:29:05.3534897+02:00",
     "total": 12,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "CONSENT",
-        "display": "Consent"
+        "display": "Consent",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Einwilligungserklärung"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "FIRST_DIAGNOSIS",
-        "display": "First Diagnosis of Tumor"
+        "display": "First Diagnosis of Tumor",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Erstdiagnose des Tumors"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "COVERAGE",
-        "display": "Health Insurance Coverage"
+        "display": "Health Insurance Coverage",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Krankenversicherungsschutz"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "TOBACCO_SMOKING",
-        "display": "Smoking Status"
+        "display": "Smoking Status",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Raucherstatus"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "VITAL_STATES",
-        "display": "Vital state"
+        "display": "Vital state",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Vitalstatus"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "ECOGS",
-        "display": "ECOGs"
+        "display": "ECOGs",
+        "designation": [
+          {
+            "language": "de",
+            "value": "ECOGs"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "DIAGNOSTICS_REQUEST",
-        "display": "Diagnostics request"
+        "display": "Diagnostics request",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Antrag auf Diagnostik"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "TUMOR_BLOCK_REQUEST",
-        "display": "Tumor block request"
+        "display": "Tumor block request",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Antrag auf Tumorblock"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "TKI_RESISTANCES",
-        "display": "TKI-Resistances"
+        "display": "TKI-Resistances",
+        "designation": [
+          {
+            "language": "de",
+            "value": "TKI-Resistenzen"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "TUMOR_PROGRESS_RECURRENCES",
-        "display": "Tumor progress and recurrences"
+        "display": "Tumor progress and recurrences",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Tumor Progress und Rezidive"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "TUMOR_HISTOLOGIES",
-        "display": "Tumor histologies"
+        "display": "Tumor histologies",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Tumor-Histologien"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
         "version": "0.1",
         "code": "TUMOR_STAGES",
-        "display": "Tumor stage"
+        "display": "Tumor stage",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Tumor-Stadium"
+          }
+        ]
       }
     ]
   }
