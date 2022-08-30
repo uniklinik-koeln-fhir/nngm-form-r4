@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "name": "Profile_nNGM_ServiceRequest_AnforderungDerDiagnostik",
   "title": "Profile - nNGM - ServiceRequest - Anforderung der Diagnostik",
-  "description": "Dieses Profil beschreibt eine Anforderung einer Diagnostik innerhalb des nNGM-Projektes.",
   "status": "active",
+  "description": "Dieses Profil beschreibt eine Anforderung einer Diagnostik innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -58,16 +58,17 @@
       },
       {
         "id": "ServiceRequest.extension:aufenthaltsart.value[x]:valueCodeableConcept",
-        "path": "ServiceRequest.extension.valueCodeableConcept",
+        "path": "ServiceRequest.extension.value[x]",
         "sliceName": "valueCodeableConcept",
         "label": "Patient war / ist zum Zeitpunkt dieser Anforderung",
         "short": "Aufenthaltsart des Patienten zum Zeitpunkt der Einreichung der Diagnostik",
         "mustSupport": true
       },
       {
-        "id": "ServiceRequest.extension:GrundFehlendeBiopsy",
+        "id": "ServiceRequest.extension:GrundFehlendeBiopsie",
         "path": "ServiceRequest.extension",
-        "sliceName": "GrundFehlendeBiopsy",        
+        "sliceName": "GrundFehlendeBiopsie",
+        "label": "Grund für fehlende Biopsie",
         "min": 0,
         "max": "1",
         "type": [
@@ -81,7 +82,7 @@
         "mustSupport": false
       },
       {
-        "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]",
+        "id": "ServiceRequest.extension:GrundFehlendeBiopsie.value[x]",
         "path": "ServiceRequest.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -94,7 +95,7 @@
         }
       },
       {
-        "id": "ServiceRequest.extension:GrundFehlendeBiopsy.value[x]:valueCodeableConcept",
+        "id": "ServiceRequest.extension:GrundFehlendeBiopsie.value[x]:valueCodeableConcept",
         "path": "ServiceRequest.extension.value[x]",
         "sliceName": "valueCodeableConcept",
         "label": "Grund für Fehlende Biopsy",
@@ -134,9 +135,9 @@
         "mustSupport": false
       },
       {
-        "id": "ServiceRequest.orderDetail:diagnosticRequested",
+        "id": "ServiceRequest.orderDetail:diagnosticRequest",
         "path": "ServiceRequest.orderDetail",
-        "sliceName": "diagnosticRequested",
+        "sliceName": "diagnosticRequest",
         "label": "Gewünschte Diagnostik",
         "short": "Ist eine Komplett oder Einzeluntersuchung gewünscht.",
         "max": "1",
