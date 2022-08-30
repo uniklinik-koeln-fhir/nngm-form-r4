@@ -14,19 +14,15 @@
     "concept":  [
         {
             "code": "L",
-            "display": "Patient lebt"
+            "display": "lebt"
         },
         {
             "code": "T",
-            "display": "Patient verstorben"
+            "display": "verstorben"
         },
         {
             "code": "A",
-            "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
-        },
-        {
-            "code": "X",
-            "display": "unbekannt"
+            "display": "lost to follow-up"
         }
     ]
 }

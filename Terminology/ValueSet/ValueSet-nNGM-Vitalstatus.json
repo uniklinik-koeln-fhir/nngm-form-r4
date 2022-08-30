@@ -14,33 +14,27 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:2b4b0b20-c0ea-46c2-9ad2-89eef32eab19",
-    "timestamp": "2022-08-23T15:20:31.7722898+02:00",
-    "total": 4,
+    "identifier": "urn:uuid:e9977968-7c3c-455c-bc59-c7d9a697eeb4",
+    "timestamp": "2022-08-29T15:20:26.4150591+02:00",
+    "total": 3,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
         "version": "1.0.0",
         "code": "L",
-        "display": "Patient lebt"
+        "display": "lebt"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
         "version": "1.0.0",
         "code": "T",
-        "display": "Patient verstorben"
+        "display": "verstorben"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
         "version": "1.0.0",
         "code": "A",
-        "display": "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"
-      },
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
-        "version": "1.0.0",
-        "code": "X",
-        "display": "unbekannt"
+        "display": "lost to follow-up"
       }
     ]
   }
