@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-Designation-Use",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/designation-use",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_Designation-Use",
+  "title": "ValueSet - nNGM - Designation Use",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:0ec9c7bf-fbcb-4101-a845-36ed152ceb8c",
+    "timestamp": "2022-08-30T14:29:05.3636154+02:00",
+    "total": 1,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+        "version": "1.0.0",
+        "code": "nNGM-short",
+        "display": "nNGM Kurzbezeichnung"
+      }
+    ]
+  }
+}

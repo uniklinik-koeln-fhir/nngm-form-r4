@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-nNGM-Designation-Use",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+  "version": "1.0.0",
+  "name": "CodeSystem_nNGM_Designation-Use",
+  "title": "CodeSystem - nNGM - Designation Use",
+  "status": "active",
+  "caseSensitive": true,
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/designation-use",
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "nNGM-short",
+      "display": "nNGM Kurzbezeichnung"
+    }
+  ]
+}
