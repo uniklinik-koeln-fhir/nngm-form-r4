@@ -14,30 +14,66 @@
         "concept": [
           {
             "code": "C12434",
-            "display": "Blood"
+            "display": "Blood",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Blut"
+              }
+            ]
           },
           {
             "code": "C12801",
-            "display": "Tissue"
+            "display": "Tissue",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Gewebe"
+              }
+            ]
           }
         ]
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:05e3fecb-820d-4030-9e8d-8e7162ef6de1",
-    "timestamp": "2022-08-23T15:20:31.4009717+02:00",
+    "identifier": "urn:uuid:e038288f-5933-4469-9c62-793e4312f96b",
+    "timestamp": "2022-08-31T09:29:50.1846851+02:00",
     "total": 2,
     "contains": [
       {
         "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
         "code": "C12434",
-        "display": "Blood"
+        "display": "Blood",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Blut"
+          }
+        ]
       },
       {
         "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
         "code": "C12801",
-        "display": "Tissue"
+        "display": "Tissue",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Gewebe"
+          }
+        ]
       }
     ]
   }
