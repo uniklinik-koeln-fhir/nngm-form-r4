@@ -13,11 +13,29 @@
         "concept": [
           {
             "code": "AMB",
-            "display": "ambulatory"
+            "display": "ambulatory",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ambulant"
+              }
+            ]
           },
           {
             "code": "IMP",
-            "display": "inpatient encounter"
+            "display": "inpatient encounter",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "stationär"
+              }
+            ]
           }
         ]
       },
@@ -26,31 +44,67 @@
         "concept": [
           {
             "code": "unknown",
-            "display": "Unknown"
+            "display": "Unknown",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Unbekannt"
+              }
+            ]
           }
         ]
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:b3d353c2-d3b2-42c5-97f1-4ad5e0911c74",
-    "timestamp": "2022-08-23T15:20:26.6460253+02:00",
+    "identifier": "urn:uuid:318e103b-5a64-4032-99b7-70fbdffcadb6",
+    "timestamp": "2022-08-31T09:34:11.8323778+02:00",
     "total": 3,
     "contains": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
         "code": "AMB",
-        "display": "ambulatory"
+        "display": "ambulatory",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ambulant"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
         "code": "IMP",
-        "display": "inpatient encounter"
+        "display": "inpatient encounter",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "stationär"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
         "code": "unknown",
-        "display": "Unknown"
+        "display": "Unknown",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Unbekannt"
+          }
+        ]
       }
     ]
   }
