@@ -95,6 +95,14 @@
         "label": "Patient",
         "short": "Ein Bezug zum Patienten muss stets gegeben sein",
         "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -137,6 +145,14 @@
         "id": "Observation.specimen",
         "path": "Observation.specimen",
         "label": "Tumormaterial",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Specimen"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -184,6 +200,11 @@
         }
       },
       {
+        "id": "Observation.component:grading.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
+      },
+      {
         "id": "Observation.component:growthPatternInAdenocarcinomaLepidic",
         "path": "Observation.component",
         "sliceName": "growthPatternInAdenocarcinomaLepidic",
@@ -226,6 +247,11 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaLepidic.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       },
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaAcinar",
@@ -272,6 +298,11 @@
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
+        "id": "Observation.component:growthPatternInAdenocarcinomaAcinar.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
+      },
+      {
         "id": "Observation.component:growthPatternInAdenocarcinomaPapillary",
         "path": "Observation.component",
         "sliceName": "growthPatternInAdenocarcinomaPapillary",
@@ -314,6 +345,11 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:growthPatternInAdenocarcinomaPapillary.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       },
       {
         "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary",
@@ -360,6 +396,11 @@
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
+        "id": "Observation.component:growthPatternInAdenocarcinomaMicropapillary.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
+      },
+      {
         "id": "Observation.component:growthPatternInAdenocarcinomaSolid",
         "path": "Observation.component",
         "sliceName": "growthPatternInAdenocarcinomaSolid",
@@ -404,6 +445,11 @@
         "fixedUri": "http://unitsofmeasure.org"
       },
       {
+        "id": "Observation.component:growthPatternInAdenocarcinomaSolid.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
+      },
+      {
         "id": "Observation.component:percentageOfSignetRingCellCarcinoma",
         "path": "Observation.component",
         "sliceName": "percentageOfSignetRingCellCarcinoma",
@@ -446,6 +492,11 @@
         "path": "Observation.component.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:percentageOfSignetRingCellCarcinoma.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       }
     ]
   }
