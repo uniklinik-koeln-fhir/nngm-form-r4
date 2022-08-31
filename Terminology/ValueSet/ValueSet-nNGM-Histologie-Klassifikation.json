@@ -13,131 +13,419 @@
         "concept": [
           {
             "code": "8140/3",
-            "display": "Adenokarzinom o.n.A."
+            "display": "Adenokarzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8140/3 - Adenokarzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8140/6",
-            "display": "Adenokarzinom-Metastase o.n.A."
+            "display": "Adenokarzinom-Metastase o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8140/6 - Adenokarzinom-Metastase o.n.A."
+              }
+            ]
           },
           {
             "code": "8250/3",
-            "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A."
+            "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8250/3 - Bronchiolo-alveoläres Adenokarzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8551/3",
-            "display": "Azinuszell-Zystadenokarzinom"
+            "display": "Azinuszell-Zystadenokarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8551/3 - Azinuszell-Zystadenokarzinom"
+              }
+            ]
           },
           {
             "code": "8260/3",
-            "display": "Papilläres Adenokarzinom o.n.A."
+            "display": "Papilläres Adenokarzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8260/3 - Papilläres Adenokarzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8265/3",
-            "display": "Mikropapilläres Karzinom o.n.A."
+            "display": "Mikropapilläres Karzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8265/3 - Mikropapilläres Karzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8230/3",
-            "display": "Solides Karzinom o.n.A."
+            "display": "Solides Karzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8230/3 - Solides Karzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8253/3",
-            "display": "Muzinöses bronchiolo-alveoläres Karzinom"
+            "display": "Muzinöses bronchiolo-alveoläres Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8253/3 - Muzinöses bronchiolo-alveoläres Karzinom"
+              }
+            ]
           },
           {
             "code": "8254/3",
-            "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
+            "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8254/3 - Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
+              }
+            ]
           },
           {
             "code": "8480/3",
-            "display": "Muzinöses Adenokarzinom"
+            "display": "Muzinöses Adenokarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8480/3 - Muzinöses Adenokarzinom"
+              }
+            ]
           },
           {
             "code": "8333/3",
-            "display": "Fetales Adenokarzinom"
+            "display": "Fetales Adenokarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8333/3 - Fetales Adenokarzinom"
+              }
+            ]
           },
           {
             "code": "8144/3",
-            "display": "Adenokarzinom vom intestinalen Typ"
+            "display": "Adenokarzinom vom intestinalen Typ",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8144/3 - Adenokarzinom vom intestinalen Typ"
+              }
+            ]
           },
           {
             "code": "8070/3",
-            "display": "Plattenepithelkarzinom o.n.A."
+            "display": "Plattenepithelkarzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8070/3 - Plattenepithelkarzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8071/3",
-            "display": "Verhornendes Plattenepithelkarzinom o.n.A."
+            "display": "Verhornendes Plattenepithelkarzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8071/3 - Verhornendes Plattenepithelkarzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8072/3",
-            "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
+            "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8072/3 - Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8083/3",
-            "display": "Basaloides Plattenepithelkarzinom"
+            "display": "Basaloides Plattenepithelkarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8083/3 - Basaloides Plattenepithelkarzinom"
+              }
+            ]
           },
           {
             "code": "8041/3",
-            "display": "Kleinzelliges Karzinom o.n.A."
+            "display": "Kleinzelliges Karzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8041/3 - Kleinzelliges Karzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8045/3",
-            "display": "Kombiniertes kleinzelliges Karzinom"
+            "display": "Kombiniertes kleinzelliges Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8045/3 - Kombiniertes kleinzelliges Karzinom"
+              }
+            ]
           },
           {
             "code": "8013/3",
-            "display": "Großzelliges neuroendokrines Karzinom"
+            "display": "Großzelliges neuroendokrines Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8013/3 - Großzelliges neuroendokrines Karzinom"
+              }
+            ]
           },
           {
             "code": "8240/3",
-            "display": "Karzinoidtumor o.n.A."
+            "display": "Karzinoidtumor o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8240/3 - Karzinoidtumor o.n.A."
+              }
+            ]
           },
           {
             "code": "8249/3",
-            "display": "Atypischer Karzinoidtumor"
+            "display": "Atypischer Karzinoidtumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8249/3 - Atypischer Karzinoidtumor"
+              }
+            ]
           },
           {
             "code": "8012/3",
-            "display": "Großzelliges Karzinom o.n.A."
+            "display": "Großzelliges Karzinom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8012/3 - Großzelliges Karzinom o.n.A."
+              }
+            ]
           },
           {
             "code": "8010/6",
-            "display": "Karzinom-Metastase o.n.A."
+            "display": "Karzinom-Metastase o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8010/6 - Karzinom-Metastase o.n.A."
+              }
+            ]
           },
           {
             "code": "8560/3",
-            "display": "Adenosquamöses Karzinom"
+            "display": "Adenosquamöses Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8560/3 - Adenosquamöses Karzinom"
+              }
+            ]
           },
           {
             "code": "8560/3",
-            "display": "Pleomorphes Karzinom"
+            "display": "Pleomorphes Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8560/3 - Pleomorphes Karzinom"
+              }
+            ]
           },
           {
             "code": "8430/3",
-            "display": "Mukoepidermoid-Karzinom"
+            "display": "Mukoepidermoid-Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8430/3 - Mukoepidermoid-Karzinom"
+              }
+            ]
           },
           {
             "code": "8200/3",
-            "display": "Adenoid-zystisches Karzinom"
+            "display": "Adenoid-zystisches Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8200/3 - Adenoid-zystisches Karzinom"
+              }
+            ]
           },
           {
             "code": "8562/3",
-            "display": "Epithelial-myoepitheliales Karzinom"
+            "display": "Epithelial-myoepitheliales Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8562/3 - Epithelial-myoepitheliales Karzinom"
+              }
+            ]
           },
           {
             "code": "8000/0",
-            "display": "Benigne Neoplasie o.n.A."
+            "display": "Benigne Neoplasie o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8000/0 - Benigne Neoplasie o.n.A."
+              }
+            ]
           },
           {
             "code": "8000/1",
-            "display": "Neoplasie fraglicher Dignität"
+            "display": "Neoplasie fraglicher Dignität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8000/1 - Neoplasie fraglicher Dignität"
+              }
+            ]
           },
           {
             "code": "8000/3",
-            "display": "Maligne Neoplasie"
+            "display": "Maligne Neoplasie",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8000/3 - Maligne Neoplasie"
+              }
+            ]
           },
           {
             "code": "8000/6",
-            "display": "Neoplasie, Metastase"
+            "display": "Neoplasie, Metastase",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8000/6 - Neoplasie, Metastase"
+              }
+            ]
           }
         ]
       },
@@ -153,169 +441,457 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:4747b335-1c83-4b5e-9d8a-c420918fd29b",
-    "timestamp": "2022-08-23T15:20:31.2572855+02:00",
+    "identifier": "urn:uuid:5ec6ddc7-8361-4fb2-9aef-b2af83b8fef1",
+    "timestamp": "2022-08-31T18:05:37.1573773+02:00",
     "total": 33,
     "contains": [
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8140/3",
-        "display": "Adenokarzinom o.n.A."
+        "display": "Adenokarzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8140/3 - Adenokarzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8140/6",
-        "display": "Adenokarzinom-Metastase o.n.A."
+        "display": "Adenokarzinom-Metastase o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8140/6 - Adenokarzinom-Metastase o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8250/3",
-        "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A."
+        "display": "Bronchiolo-alveoläres Adenokarzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8250/3 - Bronchiolo-alveoläres Adenokarzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8551/3",
-        "display": "Azinuszell-Zystadenokarzinom"
+        "display": "Azinuszell-Zystadenokarzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8551/3 - Azinuszell-Zystadenokarzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8260/3",
-        "display": "Papilläres Adenokarzinom o.n.A."
+        "display": "Papilläres Adenokarzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8260/3 - Papilläres Adenokarzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8265/3",
-        "display": "Mikropapilläres Karzinom o.n.A."
+        "display": "Mikropapilläres Karzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8265/3 - Mikropapilläres Karzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8230/3",
-        "display": "Solides Karzinom o.n.A."
+        "display": "Solides Karzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8230/3 - Solides Karzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8253/3",
-        "display": "Muzinöses bronchiolo-alveoläres Karzinom"
+        "display": "Muzinöses bronchiolo-alveoläres Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8253/3 - Muzinöses bronchiolo-alveoläres Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8254/3",
-        "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
+        "display": "Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8254/3 - Gemischtes muzinöses und nichtmuzinöses bronchiolo-alveoläres Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8480/3",
-        "display": "Muzinöses Adenokarzinom"
+        "display": "Muzinöses Adenokarzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8480/3 - Muzinöses Adenokarzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8333/3",
-        "display": "Fetales Adenokarzinom"
+        "display": "Fetales Adenokarzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8333/3 - Fetales Adenokarzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8144/3",
-        "display": "Adenokarzinom vom intestinalen Typ"
+        "display": "Adenokarzinom vom intestinalen Typ",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8144/3 - Adenokarzinom vom intestinalen Typ"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8070/3",
-        "display": "Plattenepithelkarzinom o.n.A."
+        "display": "Plattenepithelkarzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8070/3 - Plattenepithelkarzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8071/3",
-        "display": "Verhornendes Plattenepithelkarzinom o.n.A."
+        "display": "Verhornendes Plattenepithelkarzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8071/3 - Verhornendes Plattenepithelkarzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8072/3",
-        "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
+        "display": "Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8072/3 - Großzelliges nichtverhornendes Plattenepithelkarzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8083/3",
-        "display": "Basaloides Plattenepithelkarzinom"
+        "display": "Basaloides Plattenepithelkarzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8083/3 - Basaloides Plattenepithelkarzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8041/3",
-        "display": "Kleinzelliges Karzinom o.n.A."
+        "display": "Kleinzelliges Karzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8041/3 - Kleinzelliges Karzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8045/3",
-        "display": "Kombiniertes kleinzelliges Karzinom"
+        "display": "Kombiniertes kleinzelliges Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8045/3 - Kombiniertes kleinzelliges Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8013/3",
-        "display": "Großzelliges neuroendokrines Karzinom"
+        "display": "Großzelliges neuroendokrines Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8013/3 - Großzelliges neuroendokrines Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8240/3",
-        "display": "Karzinoidtumor o.n.A."
+        "display": "Karzinoidtumor o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8240/3 - Karzinoidtumor o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8249/3",
-        "display": "Atypischer Karzinoidtumor"
+        "display": "Atypischer Karzinoidtumor",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8249/3 - Atypischer Karzinoidtumor"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8012/3",
-        "display": "Großzelliges Karzinom o.n.A."
+        "display": "Großzelliges Karzinom o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8012/3 - Großzelliges Karzinom o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8010/6",
-        "display": "Karzinom-Metastase o.n.A."
+        "display": "Karzinom-Metastase o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8010/6 - Karzinom-Metastase o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8560/3",
-        "display": "Adenosquamöses Karzinom"
+        "display": "Adenosquamöses Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8560/3 - Adenosquamöses Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8560/3",
-        "display": "Pleomorphes Karzinom"
+        "display": "Pleomorphes Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8560/3 - Pleomorphes Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8430/3",
-        "display": "Mukoepidermoid-Karzinom"
+        "display": "Mukoepidermoid-Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8430/3 - Mukoepidermoid-Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8200/3",
-        "display": "Adenoid-zystisches Karzinom"
+        "display": "Adenoid-zystisches Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8200/3 - Adenoid-zystisches Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8562/3",
-        "display": "Epithelial-myoepitheliales Karzinom"
+        "display": "Epithelial-myoepitheliales Karzinom",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8562/3 - Epithelial-myoepitheliales Karzinom"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8000/0",
-        "display": "Benigne Neoplasie o.n.A."
+        "display": "Benigne Neoplasie o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8000/0 - Benigne Neoplasie o.n.A."
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8000/1",
-        "display": "Neoplasie fraglicher Dignität"
+        "display": "Neoplasie fraglicher Dignität",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8000/1 - Neoplasie fraglicher Dignität"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8000/3",
-        "display": "Maligne Neoplasie"
+        "display": "Maligne Neoplasie",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8000/3 - Maligne Neoplasie"
+          }
+        ]
       },
       {
         "system": "urn:oid:2.16.840.1.113883.6.43.1",
         "code": "8000/6",
-        "display": "Neoplasie, Metastase"
+        "display": "Neoplasie, Metastase",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "8000/6 - Neoplasie, Metastase"
+          }
+        ]
       },
       {
         "system": "http://ncit.nci.nih.gov",
