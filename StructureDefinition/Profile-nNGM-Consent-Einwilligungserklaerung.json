@@ -18,7 +18,7 @@
       {
         "id": "Consent.status",
         "path": "Consent.status",
-        "fixedCode": "active"
+        "fixedCode": "draft"
       },
       {
         "id": "Consent.scope.coding",
@@ -83,6 +83,11 @@
         "short": "Ob die Einwilligung durch die Unterschrift des Patienten gegeben wurde",
         "min": 1,
         "mustSupport": true
+      },
+      {
+        "id": "Consent.provision.provision",
+        "path": "Consent.provision.provision",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision"
       }
     ]
   }
