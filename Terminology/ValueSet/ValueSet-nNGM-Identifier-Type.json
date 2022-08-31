@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-IdentifierType",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/IdentifierType",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_IdentifierType",
+  "title": "ValueSet - nNGM - IdentifierType",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:af86bec4-eae2-4ac1-89fe-6a48cd651fb9",
+    "timestamp": "2022-08-31T16:16:36.9946227+02:00",
+    "total": 3,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+        "version": "1.0",
+        "code": "pathologist",
+        "display": "Pathologe",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Pathologe"
+          },
+          {
+            "language": "en",
+            "value": "Pathologist"
+          }
+        ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+        "version": "1.0",
+        "code": "practitioner",
+        "display": "Behandler",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Behandler"
+          },
+          {
+            "language": "en",
+            "value": "Practitioner"
+          }
+        ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+        "version": "1.0",
+        "code": "location",
+        "display": "Standort",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Standort"
+          },
+          {
+            "language": "en",
+            "value": "Location"
+          }
+        ]
+      }
+    ]
+  }
+}
