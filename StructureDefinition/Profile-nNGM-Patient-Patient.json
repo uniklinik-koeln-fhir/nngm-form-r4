@@ -23,8 +23,7 @@
             "key": "pat-nngm-1",
             "severity": "error",
             "human": "Falls die Geschlechtsangabe 'other' gewählt wird, muss die amtliche Differenzierung per Extension angegeben werden",
-            "expression": "gender.exists() and gender='other' implies gender.extension('http://fhir.de/StructureDefinition/gender-amtlich-de').exists()",
-            "source": "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            "expression": "gender.exists() and gender='other' implies gender.extension('http://fhir.de/StructureDefinition/gender-amtlich-de').exists()"
           }
         ]
       },
@@ -281,18 +280,8 @@
         "path": "Patient.deceased[x]",
         "sliceName": "deceasedDateTime",
         "label": "Todesdatum",
-        "short": "Kodierung des Todeszeitpunkts. Optional kann auch die Informationsquelle zum Todesdatum angeben werden. deceasedBoolean ist wo möglich durch deceasedDateTime zu ersetzen, wenn PatientIn verstorben ist.",
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.deceased[x]:deceasedDateTime",
-        "path": "Patient.deceased[x]",
-        "sliceName": "deceasedDateTime",
+        "short": "Kodierung des Todeszeitpunkts",
+        "definition": "Kodierung des Todeszeitpunkts. Optional kann auch die Informationsquelle zum Todesdatum angeben werden. deceasedBoolean ist wo möglich durch deceasedDateTime zu ersetzen, wenn PatientIn verstorben ist.",
         "type": [
           {
             "code": "dateTime"
