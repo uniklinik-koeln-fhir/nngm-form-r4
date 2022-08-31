@@ -13,66 +13,903 @@
         "concept": [
           {
             "code": "C34.0",
-            "display": "C34.0 Malignant neoplasm: Main bronchus"
+            "display": "Hauptbronchus",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C34.0 - Hauptbronchus"
+              }
+            ]
           },
           {
             "code": "C34.1",
-            "display": "C34.1 Malignant neoplasm: Upper lobe, bronchus or lung"
+            "display": "Oberlappen (-Bronchus)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C34.1 - Oberlappen (-Bronchus)"
+              }
+            ]
           },
           {
             "code": "C34.2",
-            "display": "C34.2 Malignant neoplasm: Middle lobe, bronchus or lung"
+            "display": "Mittellappen (-Bronchus)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C34.2 - Mittellappen (-Bronchus)"
+              }
+            ]
           },
           {
             "code": "C34.3",
-            "display": "C34.3 Malignant neoplasm: Lower lobe, bronchus or lung"
+            "display": "Unterlappen (-Bronchus)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C34.3 - Unterlappen (-Bronchus)"
+              }
+            ]
           },
           {
             "code": "C34.8",
-            "display": "C34.8 Malignant neoplasm: Overlapping lesion of bronchus and lung"
+            "display": "Bronchus und Lunge, mehrere Teilbereiche überlappend",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C34.8 - Bronchus und Lunge, mehrere Teilbereiche überlappend"
+              }
+            ]
           },
           {
             "code": "C34.9",
-            "display": "C34.9 Malignant neoplasm: Bronchus or lung, unspecified"
+            "display": "Bronchus oder Lunge, nicht näher bezeichnet",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C34.9 - Bronchus oder Lunge, nicht näher bezeichnet"
+              }
+            ]
+          },
+          {
+            "code": "C22.0",
+            "display": "Leber",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C22.0 - Leber"
+              }
+            ]
+          },
+          {
+            "code": "C22.1",
+            "display": "Intrahepatische Gallengänge",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C22.1 - Intrahepatische Gallengänge"
+              }
+            ]
+          },
+          {
+            "code": "C42.2",
+            "display": "Milz",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C42.2 - Milz"
+              }
+            ]
+          },
+          {
+            "code": "C70.0",
+            "display": "Hirnhäute",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C70.0 - Hirnhäute"
+              }
+            ]
+          },
+          {
+            "code": "C70.1",
+            "display": "Rückenmarkhäute",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C70.1 - Rückenmarkhäute"
+              }
+            ]
+          },
+          {
+            "code": "C70.9",
+            "display": "Meningen o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C70.9 - Meningen o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C71.0",
+            "display": "Cerebrum",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.0 - Cerebrum"
+              }
+            ]
+          },
+          {
+            "code": "C71.1",
+            "display": "Frontallappen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.1 - Frontallappen"
+              }
+            ]
+          },
+          {
+            "code": "C71.2",
+            "display": "Temporallappen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.2 - Temporallappen"
+              }
+            ]
+          },
+          {
+            "code": "C71.3",
+            "display": "Parietallappen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.3 - Parietallappen"
+              }
+            ]
+          },
+          {
+            "code": "C71.4",
+            "display": "Okzipitallappen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.4 - Okzipitallappen"
+              }
+            ]
+          },
+          {
+            "code": "C71.5",
+            "display": "Ventrikel o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.5 - Ventrikel o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C71.6",
+            "display": "Kleinhirn o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.6 - Kleinhirn o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C71.7",
+            "display": "Hirnstamm",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.7 - Hirnstamm"
+              }
+            ]
+          },
+          {
+            "code": "C71.8",
+            "display": "Gehirn, mehrere Teilbereiche überlappend",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.8 - Gehirn, mehrere Teilbereiche überlappend"
+              }
+            ]
+          },
+          {
+            "code": "C71.9",
+            "display": "Gehirn o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C71.9 - Gehirn o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C72.0",
+            "display": "Rückenmark",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.0 - Rückenmark"
+              }
+            ]
+          },
+          {
+            "code": "C72.1",
+            "display": "Cauda equina",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.1 - Cauda equina"
+              }
+            ]
+          },
+          {
+            "code": "C72.2",
+            "display": "N. olfactorius",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.2 - N. olfactorius"
+              }
+            ]
+          },
+          {
+            "code": "C72.3",
+            "display": "N. opticus",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.3 - N. opticus"
+              }
+            ]
+          },
+          {
+            "code": "C72.4",
+            "display": "N. acusticus",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.4 - N. acusticus"
+              }
+            ]
+          },
+          {
+            "code": "C72.5",
+            "display": "Hirnnerven o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.5 - Hirnnerven o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C72.8",
+            "display": "Gehirn und andere Teile des Zentralnervensystems, mehrere Teilbereiche überlappend",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.8 - Gehirn und andere Teile des Zentralnervensystems, mehrere Teilbereiche überlappend"
+              }
+            ]
+          },
+          {
+            "code": "C72.9",
+            "display": "Nervensystem",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C72.9 - Nervensystem"
+              }
+            ]
+          },
+          {
+            "code": "C74.0",
+            "display": "Nebennierenrinde",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C74.0 - Nebennierenrinde"
+              }
+            ]
+          },
+          {
+            "code": "C74.1",
+            "display": "Nebennierenmark",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C74.1 - Nebennierenmark"
+              }
+            ]
+          },
+          {
+            "code": "C74.9",
+            "display": "Nebenniere o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C74.9 - Nebenniere o.n.A."
+              }
+            ]
           }
         ]
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:496b4d21-2873-474d-8dce-edff6b3e2c19",
-    "timestamp": "2022-08-23T15:20:31.2879957+02:00",
-    "total": 6,
+    "identifier": "urn:uuid:298143b9-d3e3-457f-9f99-45832ad84a6d",
+    "timestamp": "2022-08-31T18:57:25.7213828+02:00",
+    "total": 33,
     "contains": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.0",
-        "display": "C34.0 Malignant neoplasm: Main bronchus"
+        "display": "Hauptbronchus",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C34.0 - Hauptbronchus"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.1",
-        "display": "C34.1 Malignant neoplasm: Upper lobe, bronchus or lung"
+        "display": "Oberlappen (-Bronchus)",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C34.1 - Oberlappen (-Bronchus)"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.2",
-        "display": "C34.2 Malignant neoplasm: Middle lobe, bronchus or lung"
+        "display": "Mittellappen (-Bronchus)",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C34.2 - Mittellappen (-Bronchus)"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.3",
-        "display": "C34.3 Malignant neoplasm: Lower lobe, bronchus or lung"
+        "display": "Unterlappen (-Bronchus)",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C34.3 - Unterlappen (-Bronchus)"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.8",
-        "display": "C34.8 Malignant neoplasm: Overlapping lesion of bronchus and lung"
+        "display": "Bronchus und Lunge, mehrere Teilbereiche überlappend",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C34.8 - Bronchus und Lunge, mehrere Teilbereiche überlappend"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code": "C34.9",
-        "display": "C34.9 Malignant neoplasm: Bronchus or lung, unspecified"
+        "display": "Bronchus oder Lunge, nicht näher bezeichnet",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C34.9 - Bronchus oder Lunge, nicht näher bezeichnet"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C22.0",
+        "display": "Leber",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C22.0 - Leber"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C22.1",
+        "display": "Intrahepatische Gallengänge",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C22.1 - Intrahepatische Gallengänge"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C42.2",
+        "display": "Milz",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C42.2 - Milz"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C70.0",
+        "display": "Hirnhäute",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C70.0 - Hirnhäute"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C70.1",
+        "display": "Rückenmarkhäute",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C70.1 - Rückenmarkhäute"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C70.9",
+        "display": "Meningen o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C70.9 - Meningen o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.0",
+        "display": "Cerebrum",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.0 - Cerebrum"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.1",
+        "display": "Frontallappen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.1 - Frontallappen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.2",
+        "display": "Temporallappen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.2 - Temporallappen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.3",
+        "display": "Parietallappen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.3 - Parietallappen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.4",
+        "display": "Okzipitallappen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.4 - Okzipitallappen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.5",
+        "display": "Ventrikel o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.5 - Ventrikel o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.6",
+        "display": "Kleinhirn o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.6 - Kleinhirn o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.7",
+        "display": "Hirnstamm",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.7 - Hirnstamm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.8",
+        "display": "Gehirn, mehrere Teilbereiche überlappend",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.8 - Gehirn, mehrere Teilbereiche überlappend"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C71.9",
+        "display": "Gehirn o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C71.9 - Gehirn o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.0",
+        "display": "Rückenmark",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.0 - Rückenmark"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.1",
+        "display": "Cauda equina",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.1 - Cauda equina"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.2",
+        "display": "N. olfactorius",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.2 - N. olfactorius"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.3",
+        "display": "N. opticus",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.3 - N. opticus"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.4",
+        "display": "N. acusticus",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.4 - N. acusticus"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.5",
+        "display": "Hirnnerven o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.5 - Hirnnerven o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.8",
+        "display": "Gehirn und andere Teile des Zentralnervensystems, mehrere Teilbereiche überlappend",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.8 - Gehirn und andere Teile des Zentralnervensystems, mehrere Teilbereiche überlappend"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C72.9",
+        "display": "Nervensystem",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C72.9 - Nervensystem"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C74.0",
+        "display": "Nebennierenrinde",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C74.0 - Nebennierenrinde"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C74.1",
+        "display": "Nebennierenmark",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C74.1 - Nebennierenmark"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C74.9",
+        "display": "Nebenniere o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C74.9 - Nebenniere o.n.A."
+          }
+        ]
       }
     ]
   }
