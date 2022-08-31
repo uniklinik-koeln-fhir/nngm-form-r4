@@ -1,0 +1,56 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "CodeSystem-nNGM-Identifier-Type",
+	"url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+	"version": "1.0",
+	"name": "CodeSystem_nNGM_IdentifierType",
+	"title": "CodeSystem - nNGM - IdentifierType",
+	"status": "active",
+	"caseSensitive": true,
+	"compositional": false,
+	"content": "complete",
+	"concept": [
+		{
+			"code": "pathologist",
+			"display": "Pathologe",
+			"designation": [
+				{
+					"language": "de",
+					"value": "Pathologe"
+				},
+				{
+					"language": "en",
+					"value": "Pathologist"
+				}
+			]
+		},
+		{
+			"code": "practitioner",
+			"display": "Behandler",
+			"designation": [
+				{
+					"language": "de",
+					"value": "Behandler"
+				},
+				{
+					"language": "en",
+					"value": "Practitioner"
+				}
+			]
+		},
+		{
+			"code": "location",
+			"display": "Standort",
+			"designation": [
+				{
+					"language": "de",
+					"value": "Standort"
+				},
+				{
+					"language": "en",
+					"value": "Location"
+				}
+			]
+		}
+	]
+}
