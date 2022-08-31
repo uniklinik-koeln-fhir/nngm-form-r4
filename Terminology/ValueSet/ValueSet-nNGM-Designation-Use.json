@@ -14,15 +14,21 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:0ec9c7bf-fbcb-4101-a845-36ed152ceb8c",
-    "timestamp": "2022-08-30T14:29:05.3636154+02:00",
-    "total": 1,
+    "identifier": "urn:uuid:d1bd5a09-7aee-4496-bf00-1b9c9f4bbc44",
+    "timestamp": "2022-08-31T18:26:11.5849269+02:00",
+    "total": 2,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
         "version": "1.0.0",
         "code": "nNGM-short",
         "display": "nNGM Kurzbezeichnung"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+        "version": "1.0.0",
+        "code": "nNGM-long-with-code",
+        "display": "nNGM Langbezeichnung mit Code"
       }
     ]
   }
