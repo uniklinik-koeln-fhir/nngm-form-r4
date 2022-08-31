@@ -450,6 +450,7 @@
         ],
         "path": "Specimen.extension",
         "sliceName": "entnahmeKontext",
+        "label": "Entnahmekontext",
         "short": "Optional Extensions Element",
         "definition": "Optional Extension Element - found in all resources.",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
@@ -759,6 +760,7 @@
         ],
         "path": "Specimen.extension",
         "sliceName": "tumormaterialLagertBei",
+        "label": "Tumormaterial lagert bei",
         "short": "Optional Extensions Element",
         "definition": "Optional Extension Element - found in all resources.",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
@@ -3890,6 +3892,7 @@
         "id": "Specimen.extension:entnahmeKontext",
         "path": "Specimen.extension",
         "sliceName": "entnahmeKontext",
+        "label": "Entnahmekontext",
         "min": 0,
         "type": [
           {
@@ -3903,16 +3906,7 @@
       {
         "id": "Specimen.extension:entnahmeKontext.value[x]",
         "path": "Specimen.extension.value[x]",
-        "label": "Entnahmekontext",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        }
+        "label": "Entnahmekontext"
       },
       {
         "id": "Specimen.extension:entnahmeKontext.value[x]:valueCodeableConcept",
@@ -3925,8 +3919,8 @@
         "id": "Specimen.extension:tumormaterialLagertBei",
         "path": "Specimen.extension",
         "sliceName": "tumormaterialLagertBei",
+        "label": "Tumormaterial lagert bei",
         "min": 0,
-        "max": "1",
         "type": [
           {
             "code": "Extension",
