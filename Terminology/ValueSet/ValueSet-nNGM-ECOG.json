@@ -13,27 +13,81 @@
         "concept": [
           {
             "code": "LA9622-7",
-            "display": "Fully active, able to carry on all pre-disease performance without restriction"
+            "display": "Fully active, able to carry on all pre-disease performance without restriction",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ECOG 0 - normale, uneingeschränkte Aktivität, wie vor der Erkrankung"
+              }
+            ]
           },
           {
             "code": "LA9623-5",
-            "display": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+            "display": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ECOG 1 - Einschränkung bei körperlicher Anstrengung, gehfähig, leichte körperliche Arbeit möglich"
+              }
+            ]
           },
           {
             "code": "LA9624-3",
-            "display": "Ambulatory and capable of all selfcare but unable to carry out any work activities. Up and about more than 50% of waking hours"
+            "display": "Ambulatory and capable of all selfcare but unable to carry out any work activities. Up and about more than 50% of waking hours",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ECOG 2 - gefähig, Selbstversorgung möglich, aber nicht arbeitsfähig, kann mehr als 50% der Wachzeit aufstehen"
+              }
+            ]
           },
           {
             "code": "LA9625-0",
-            "display": "Capable of only limited selfcare, confined to bed or chair more than 50% of waking hours"
+            "display": "Capable of only limited selfcare, confined to bed or chair more than 50% of waking hours",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ECOG 3 - nur begrenzte Selbstversorgung möglich, 50% oder mehr der Wachzeit an Bett oder Stuhl gebunden"
+              }
+            ]
           },
           {
             "code": "LA9626-8",
-            "display": "Completely disabled. Cannot carry on any selfcare. Totally confined to bed or chair"
+            "display": "Completely disabled. Cannot carry on any selfcare. Totally confined to bed or chair",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ECOG 4 - völlig pflegebedürftig, keinerlei Selbstversorgung möglich, völlig an Bett oder Stuhl gebunden"
+              }
+            ]
           },
           {
             "code": "LA9627-6",
-            "display": "Dead"
+            "display": "Dead",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "ECOG 5 - tot"
+              }
+            ]
           }
         ]
       },
@@ -42,51 +96,123 @@
         "concept": [
           {
             "code": "unknown",
-            "display": "Unknown"
+            "display": "Unknown",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Unbekannt"
+              }
+            ]
           }
         ]
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:edbcfb4c-c86a-45de-afbf-1b6b3f4aeddc",
-    "timestamp": "2022-08-23T15:20:28.7167877+02:00",
+    "identifier": "urn:uuid:9a0f28fa-008a-4bb4-9051-e7de5d657eb8",
+    "timestamp": "2022-08-31T08:57:09.7990498+02:00",
     "total": 7,
     "contains": [
       {
         "system": "http://loinc.org",
         "code": "LA9622-7",
-        "display": "Fully active, able to carry on all pre-disease performance without restriction"
+        "display": "Fully active, able to carry on all pre-disease performance without restriction",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ECOG 0 - normale, uneingeschränkte Aktivität, wie vor der Erkrankung"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "LA9623-5",
-        "display": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work"
+        "display": "Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ECOG 1 - Einschränkung bei körperlicher Anstrengung, gehfähig, leichte körperliche Arbeit möglich"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "LA9624-3",
-        "display": "Ambulatory and capable of all selfcare but unable to carry out any work activities. Up and about more than 50% of waking hours"
+        "display": "Ambulatory and capable of all selfcare but unable to carry out any work activities. Up and about more than 50% of waking hours",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ECOG 2 - gefähig, Selbstversorgung möglich, aber nicht arbeitsfähig, kann mehr als 50% der Wachzeit aufstehen"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "LA9625-0",
-        "display": "Capable of only limited selfcare, confined to bed or chair more than 50% of waking hours"
+        "display": "Capable of only limited selfcare, confined to bed or chair more than 50% of waking hours",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ECOG 3 - nur begrenzte Selbstversorgung möglich, 50% oder mehr der Wachzeit an Bett oder Stuhl gebunden"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "LA9626-8",
-        "display": "Completely disabled. Cannot carry on any selfcare. Totally confined to bed or chair"
+        "display": "Completely disabled. Cannot carry on any selfcare. Totally confined to bed or chair",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ECOG 4 - völlig pflegebedürftig, keinerlei Selbstversorgung möglich, völlig an Bett oder Stuhl gebunden"
+          }
+        ]
       },
       {
         "system": "http://loinc.org",
         "code": "LA9627-6",
-        "display": "Dead"
+        "display": "Dead",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "ECOG 5 - tot"
+          }
+        ]
       },
       {
         "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
         "code": "unknown",
-        "display": "Unknown"
+        "display": "Unknown",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Unbekannt"
+          }
+        ]
       }
     ]
   }
