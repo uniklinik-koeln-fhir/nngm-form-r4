@@ -15,15 +15,42 @@
     "concept": [
         {
             "code": "c",
-            "display": "klinisch gesichert"
+            "display": "klinisch gesichert",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "c - klinisch gesichert"
+              }
+            ]
         },
         {
             "code": "p",
-            "display": "histopathologisch gesichert"
+            "display": "histopathologisch gesichert",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "p - histopathologisch gesichert"
+              }
+            ]
         },
         {
             "code": "u",
-            "display": "Ultraschalldiagnostik"
+            "display": "Ultraschalldiagnostik",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "Ultraschalldiagnostik"
+              }
+            ]
         }
     ]
 }

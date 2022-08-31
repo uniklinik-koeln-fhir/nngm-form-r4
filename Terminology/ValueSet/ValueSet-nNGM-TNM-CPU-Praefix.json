@@ -9,43 +9,59 @@
   "compose": {
     "include": [
       {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
-        "concept": [
-          {
-            "code": "c",
-            "display": "klinisch gesichert"
-          },
-          {
-            "code": "p",
-            "display": "histopathologisch gesichert"
-          },
-          {
-            "code": "u",
-            "display": "Ultraschalldiagnostik"
-          }
-        ]
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix"
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:30d120d7-04da-41d6-a54b-401a44c0efdc",
-    "timestamp": "2022-08-23T15:20:31.6029234+02:00",
+    "identifier": "urn:uuid:4e86138a-2833-41fe-a06c-a960f8d3cb8f",
+    "timestamp": "2022-08-31T11:56:15.0025067+02:00",
     "total": 3,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
+        "version": "1.0.0",
         "code": "c",
-        "display": "klinisch gesichert"
+        "display": "klinisch gesichert",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "c - klinisch gesichert"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
+        "version": "1.0.0",
         "code": "p",
-        "display": "histopathologisch gesichert"
+        "display": "histopathologisch gesichert",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "p - histopathologisch gesichert"
+          }
+        ]
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
+        "version": "1.0.0",
         "code": "u",
-        "display": "Ultraschalldiagnostik"
+        "display": "Ultraschalldiagnostik",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-short"
+            },
+            "value": "Ultraschalldiagnostik"
+          }
+        ]
       }
     ]
   }
