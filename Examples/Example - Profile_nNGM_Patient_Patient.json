@@ -1,0 +1,49 @@
+{
+  "resourceType": "Patient",
+  "id": "5bac5cba396a45d0b8de9e441a3209ef",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Müller",
+      "given": [
+        "Magdala"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1972-05-18",
+  "address": [
+    {
+      "line": [
+        "Nordstraße 34"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Nordstraße"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "34"
+            }
+          ]
+        }
+      ],
+      "city": "Stuttgart",
+      "postalCode": "93478"
+    }
+  ]
+}

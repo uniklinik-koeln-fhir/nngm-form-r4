@@ -1,0 +1,47 @@
+{
+  "resourceType": "Consent",
+  "id": "cf340877910947f28f9f75f526f5d64d",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
+    ]
+  },
+  "status": "draft",
+  "scope": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "code": "patient-privacy"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59284-0"
+        }
+      ]
+    }
+  ],
+  "patient": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "dateTime": "2022-07-19T00:00:00+02:00",
+  "policyRule": {
+    "coding": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "code": "KW"
+      }
+    ]
+  },
+  "provision": {
+    "type": "permit"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "Organization",
+  "id": "16e9a1beaeb649428c49b64bfde2b5b9",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "organization"
+          }
+        ],
+        "text": "test"
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/organization",
+      "value": "1000"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "261074009"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "285201006"
+        }
+      ]
+    }
+  ],
+  "name": "nNGM-Präsentationszentrum",
+  "telecom": [
+    {
+      "system": "email",
+      "value": "support@medicalsyn.com",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "type": "both",
+      "line": [
+        "Bertolt-Brecht-Allee 24"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Bertolt-Brecht-Allee"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "24"
+            }
+          ]
+        }
+      ],
+      "city": "Dresden",
+      "postalCode": "01309",
+      "country": "Germany"
+    }
+  ]
+}

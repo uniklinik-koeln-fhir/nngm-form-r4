@@ -1,0 +1,95 @@
+{
+  "resourceType": "Composition",
+  "id": "2a06b4ad53ed471892e0ad886ef08355",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Composition"
+    ]
+  },
+  "identifier": {
+    "system": "http://uk-koeln.de/fhir/sid/nngm-case-no",
+    "value": "031858-000"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11503-0"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "date": "2022-09-02T15:26:42+02:00",
+  "author": [
+    {
+      "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+    }
+  ],
+  "title": "Composition 2a06b4ad53ed471892e0ad886ef08355",
+  "section": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "CONSENT"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Consent/c622c46d4d5e41cc82f73297ab31a99f"
+        },
+        {
+          "reference": "Consent/9e814ef089064f0eb9a96f4754eb6a26"
+        },
+        {
+          "reference": "Consent/fbfb1074555e42cb8356aac3c676d40e"
+        },
+        {
+          "reference": "Consent/3b32d14b89684cd59d7dbac7b452ee58"
+        },
+        {
+          "reference": "Consent/ba9880baca9347219871920bab5ad020"
+        },
+        {
+          "reference": "Consent/cf340877910947f28f9f75f526f5d64d"
+        },
+        {
+          "reference": "Consent/1fe32039546a4650adc9b62a6c1b792f"
+        },
+        {
+          "reference": "Consent/d4cc0942c13f4e30b4e849548cc305ef"
+        },
+        {
+          "reference": "Consent/e1a9368d61a94e31af638cb107a57d12"
+        },
+        {
+          "reference": "Consent/c736061d985b4672a270ac696c013550"
+        },
+        {
+          "reference": "Consent/e24bb7acd0614f1ba7fbe47cdba73e82"
+        },
+        {
+          "reference": "Consent/a3e077a8bbbb4f7a8a7ddfb529e34746"
+        },
+        {
+          "reference": "Consent/86542e7bb5e64c0ebaedf8deebbad614"
+        },
+        {
+          "reference": "Consent/66731cf02123450a91bfff5c523273a0"
+        },
+        {
+          "reference": "Consent/9aa8afcadf06490a906e61b23e3c3b98"
+        }
+      ]
+    }
+  ]
+}
