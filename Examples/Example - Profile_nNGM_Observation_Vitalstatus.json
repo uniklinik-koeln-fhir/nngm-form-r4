@@ -1,0 +1,44 @@
+{
+  "resourceType": "Observation",
+  "id": "3019151b4ea44b87b62c7720bbfb24d0",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Vitalstatus"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "67162-8"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "effectiveDateTime": "2022-07-19",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
+        "code": "L"
+      }
+    ]
+  }
+}

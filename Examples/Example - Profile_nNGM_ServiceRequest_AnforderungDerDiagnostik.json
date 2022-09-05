@@ -1,0 +1,82 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "467e430ac04740fab594f9f9713cc195",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/AnforderungDerDiagnostik"
+    ]
+  },
+  "status": "completed",
+  "intent": "proposal",
+  "code": {
+    "coding": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
+        "code": "Gewebediagnostik"
+      }
+    ]
+  },
+  "orderDetail": [
+    {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-request",
+          "code": "single"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "33055-5"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code": "C18399"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+          "code": "EGFR EXON 19"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+          "code": "KRAS EXON 2"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "authoredOn": "2022-07-19",
+  "requester": {
+    "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+  },
+  "performer": [
+    {
+      "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+    }
+  ],
+  "specimen": [
+    {
+      "reference": "Specimen/540668b88d404f1fac816c2190c26993"
+    }
+  ]
+}

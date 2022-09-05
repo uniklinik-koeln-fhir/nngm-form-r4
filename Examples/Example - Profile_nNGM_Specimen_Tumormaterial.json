@@ -1,0 +1,55 @@
+{
+  "resourceType": "Specimen",
+  "id": "540668b88d404f1fac816c2190c26993",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Specimen"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/aufenthaltsart",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/specimen-tumormaterial-lagert-bei",
+      "valueIdentifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+              "code": "pathologist"
+            }
+          ]
+        },
+        "system": "http://uk-koeln.de/fhir/sid/nngm/pathologist",
+        "value": "PATHOLOGIST42"
+      }
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C12801"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "collection": {
+    "collectedDateTime": "2022-07-19"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resourceType": "Condition",
+  "id": "c9afe3af2047479eb58f0cc6134948c4",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.43.1",
+        "code": "8140/3"
+      }
+    ]
+  },
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code": "C34.0"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "onsetDateTime": "2022-05-05"
+}

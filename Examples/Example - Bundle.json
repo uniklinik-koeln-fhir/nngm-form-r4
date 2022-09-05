@@ -100,6 +100,126 @@
                 "reference": "Consent/9aa8afcadf06490a906e61b23e3c3b98"
               }
             ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "FIRST_DIAGNOSIS"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/c9afe3af2047479eb58f0cc6134948c4"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "COVERAGE"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "TOBACCO_SMOKING"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/3019151b4ea44b87b62c7720bbfb24d0"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "VITAL_STATES"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/3019151b4ea44b87b62c7720bbfb24d0"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "ECOGS"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "DIAGNOSTICS_REQUEST"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "ServiceRequest/467e430ac04740fab594f9f9713cc195"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "TKI_RESISTANCES"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "TUMOR_PROGRESS_RECURRENCES"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "TUMOR_HISTOLOGIES"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "TUMOR_STAGES"
+                }
+              ]
+            }
           }
         ]
       }
@@ -964,6 +1084,289 @@
         },
         "provision": {
           "type": "permit"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c9afe3af2047479eb58f0cc6134948c4",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.43.1",
+              "code": "8140/3"
+            }
+          ]
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                "code": "C34.0"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "identifier": {
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "031858"
+          }
+        },
+        "onsetDateTime": "2022-05-05"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3019151b4ea44b87b62c7720bbfb24d0",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Vitalstatus"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "67162-8"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "identifier": {
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "031858"
+          }
+        },
+        "effectiveDateTime": "2022-07-19",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/Vitalstatus",
+              "code": "L"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3019151b4ea44b87b62c7720bbfb24d0",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/raucherstatus"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "identifier": {
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "031858"
+          }
+        },
+        "effectiveDateTime": "2022-07-19",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA15920-4"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C124908"
+                }
+              ]
+            },
+            "valueDateTime": "2017"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "467e430ac04740fab594f9f9713cc195",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/AnforderungDerDiagnostik"
+          ]
+        },
+        "status": "completed",
+        "intent": "proposal",
+        "code": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-type",
+              "code": "Gewebediagnostik"
+            }
+          ]
+        },
+        "orderDetail": [
+          {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-diagnostic-request",
+                "code": "single"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "33055-5"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "code": "C18399"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+                "code": "EGFR EXON 19"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/anforderung-fastTrack",
+                "code": "KRAS EXON 2"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "identifier": {
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "031858"
+          }
+        },
+        "authoredOn": "2022-07-19",
+        "requester": {
+          "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+        },
+        "performer": [
+          {
+            "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "Specimen/540668b88d404f1fac816c2190c26993"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "540668b88d404f1fac816c2190c26993",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Specimen"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/aufenthaltsart",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                  "code": "AMB"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/specimen-tumormaterial-lagert-bei",
+            "valueIdentifier": {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+                    "code": "pathologist"
+                  }
+                ]
+              },
+              "system": "http://uk-koeln.de/fhir/sid/nngm/pathologist",
+              "value": "PATHOLOGIST42"
+            }
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+              "code": "C12801"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "identifier": {
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "031858"
+          }
+        },
+        "collection": {
+          "collectedDateTime": "2022-07-19"
         }
       }
     }

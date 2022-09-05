@@ -90,6 +90,126 @@
           "reference": "Consent/9aa8afcadf06490a906e61b23e3c3b98"
         }
       ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "FIRST_DIAGNOSIS"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Condition/c9afe3af2047479eb58f0cc6134948c4"
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "COVERAGE"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "TOBACCO_SMOKING"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Observation/3019151b4ea44b87b62c7720bbfb24d0"
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "VITAL_STATES"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Observation/3019151b4ea44b87b62c7720bbfb24d0"
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "ECOGS"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "DIAGNOSTICS_REQUEST"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "ServiceRequest/467e430ac04740fab594f9f9713cc195"
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "TKI_RESISTANCES"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "TUMOR_PROGRESS_RECURRENCES"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "TUMOR_HISTOLOGIES"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+            "code": "TUMOR_STAGES"
+          }
+        ]
+      }
     }
   ]
 }
