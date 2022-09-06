@@ -11,7 +11,7 @@
 	"content": "complete",
 	"concept": [
 		{
-			"code": "pathologist",
+			"code": "PAT",
 			"display": "Pathologe",
 			"designation": [
 				{
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			"code": "practitioner",
+			"code": "PRACT",
 			"display": "Behandler",
 			"designation": [
 				{
@@ -39,7 +39,7 @@
 			]
 		},
 		{
-			"code": "location",
+			"code": "LOC",
 			"display": "Standort",
 			"designation": [
 				{
@@ -49,6 +49,20 @@
 				{
 					"language": "en",
 					"value": "Location"
+				}
+			]
+		},
+		{
+			"code": "ORG",
+			"display": "Organization",
+			"designation": [
+				{
+					"language": "de",
+					"value": "Organisation"
+				},
+				{
+					"language": "en",
+					"value": "Organization"
 				}
 			]
 		}

@@ -290,10 +290,9 @@
               "coding": [
                 {
                   "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "organization"
+                  "code": "ORG"
                 }
-              ],
-              "text": "test"
+              ]
             },
             "system": "http://uk-koeln.de/fhir/sid/nNGM/organization",
             "value": "1000"
@@ -1362,7 +1361,7 @@
                 "coding": [
                   {
                     "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                    "code": "pathologist"
+                    "code": "PAT"
                   }
                 ]
               },

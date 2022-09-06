@@ -462,7 +462,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-              "code": "pathologist"
+              "code": "PAT"
             }
           ]
         },
@@ -827,7 +827,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-              "code": "pathologist"
+              "code": "PAT"
             }
           ]
         },

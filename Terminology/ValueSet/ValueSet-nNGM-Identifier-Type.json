@@ -14,14 +14,14 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:af86bec4-eae2-4ac1-89fe-6a48cd651fb9",
-    "timestamp": "2022-08-31T16:16:36.9946227+02:00",
-    "total": 3,
+    "identifier": "urn:uuid:d5483f27-bc4f-427d-9135-a4638d2854aa",
+    "timestamp": "2022-09-06T11:15:13.3980306+02:00",
+    "total": 4,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
         "version": "1.0",
-        "code": "pathologist",
+        "code": "PAT",
         "display": "Pathologe",
         "designation": [
           {
@@ -37,7 +37,7 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
         "version": "1.0",
-        "code": "practitioner",
+        "code": "PRACT",
         "display": "Behandler",
         "designation": [
           {
@@ -53,7 +53,7 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
         "version": "1.0",
-        "code": "location",
+        "code": "LOC",
         "display": "Standort",
         "designation": [
           {
@@ -63,6 +63,22 @@
           {
             "language": "en",
             "value": "Location"
+          }
+        ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+        "version": "1.0",
+        "code": "ORG",
+        "display": "Organization",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Organisation"
+          },
+          {
+            "language": "en",
+            "value": "Organization"
           }
         ]
       }
