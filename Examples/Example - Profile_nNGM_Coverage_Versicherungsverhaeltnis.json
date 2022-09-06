@@ -1,0 +1,44 @@
+{
+  "resourceType": "Coverage",
+  "id": "eb7ac37196714575a0b97f409a922e86",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Coverage"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "secondary",
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+            "code": "PKV"
+          }
+        ]
+      },
+      "value": "Bayerische Beamtenkrankenkasse"
+    }
+  ],
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+        "code": "PKV"
+      }
+    ]
+  },
+  "beneficiary": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "payor": [
+    {
+      "display": "Bayerische Beamtenkrankenkasse"
+    }
+  ]
+}

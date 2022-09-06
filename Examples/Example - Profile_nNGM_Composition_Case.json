@@ -114,7 +114,12 @@
             "code": "COVERAGE"
           }
         ]
-      }
+      },
+      "entry": [
+        {
+          "reference": "Coverage/eb7ac37196714575a0b97f409a922e86"
+        }
+      ]
     },
     {
       "code": {
@@ -154,7 +159,12 @@
             "code": "ECOGS"
           }
         ]
-      }
+      },
+      "entry": [
+        {
+          "reference": "Observation/76397fea55e44c088d3eed17a5d4974f"
+        }
+      ]
     },
     {
       "code": {
@@ -179,7 +189,12 @@
             "code": "TKI_RESISTANCES"
           }
         ]
-      }
+      },
+      "entry": [
+        {
+          "reference": "Observation/c5015be8dcc244d784e1d973a66910fc"
+        }
+      ]
     },
     {
       "code": {
@@ -189,7 +204,12 @@
             "code": "TUMOR_PROGRESS_RECURRENCES"
           }
         ]
-      }
+      },
+      "entry": [
+        {
+          "reference": "Observation/0205cb30b0974deaa706f93da503df92"
+        }
+      ]
     },
     {
       "code": {
@@ -199,7 +219,12 @@
             "code": "TUMOR_HISTOLOGIES"
           }
         ]
-      }
+      },
+      "entry": [
+        {
+          "reference": "Observation/8f534eaa51724777ae179dff36f961ab"
+        }
+      ]
     },
     {
       "code": {
@@ -209,7 +234,12 @@
             "code": "TUMOR_STAGES"
           }
         ]
-      }
+      },
+      "entry": [
+        {
+          "reference": "Observation/3950eea68c14453cb86897a75ef2aa50"
+        }
+      ]
     }
   ]
 }

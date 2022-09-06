@@ -1,0 +1,178 @@
+{
+  "resourceType": "Observation",
+  "id": "3950eea68c14453cb86897a75ef2aa50",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-kurativ-operabel",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-erstdiagnose",
+      "valueBoolean": false
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "260879005"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "identifier": {
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "031858"
+    }
+  },
+  "effectiveDateTime": "2022-07-18",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "code": "IVA"
+      }
+    ]
+  },
+  "component": [
+    {
+      "extension": [
+        {
+          "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+                "code": "c"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-suffix-t",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-suffix-t",
+                "code": "is"
+              }
+            ]
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78873005"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.15.16",
+            "code": "T1b"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+                "code": "c"
+              }
+            ]
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "277206009"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.15.16",
+            "code": "N2"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+                "code": "c"
+              }
+            ]
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "277208005"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.15.16",
+            "code": "M1a"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "399566009"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.15.16",
+            "code": "r"
+          }
+        ]
+      }
+    }
+  ]
+}
