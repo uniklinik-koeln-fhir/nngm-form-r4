@@ -9,62 +9,34 @@
   "compose": {
     "include": [
       {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis"
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+        "concept": [
+          {
+            "code": "GKV",
+            "display": "gesetzliche Krankenversicherung"
+          },
+          {
+            "code": "PKV",
+            "display": "private Krankenversicherung"
+          }
+        ]
       }
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:fa96190c-a867-469d-84b8-74c0cabbae67",
-    "timestamp": "2022-09-06T11:18:20.4306751+02:00",
-    "total": 8,
+    "identifier": "urn:uuid:ee6ac2e4-2a3c-44da-9455-12f012afc868",
+    "timestamp": "2022-08-23T15:20:31.377266+02:00",
+    "total": 2,
     "contains": [
       {
         "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
         "code": "GKV",
         "display": "gesetzliche Krankenversicherung"
       },
       {
         "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
         "code": "PKV",
         "display": "private Krankenversicherung"
-      },
-      {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
-        "code": "BG",
-        "display": "Berufsgenossenschaft"
-      },
-      {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
-        "code": "SEL",
-        "display": "Selbstzahler"
-      },
-      {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
-        "code": "SOZ",
-        "display": "Sozialamt"
-      },
-      {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
-        "code": "GPV",
-        "display": "gesetzliche Pflegeversicherung"
-      },
-      {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
-        "code": "PPV",
-        "display": "private Pflegeversicherung"
-      },
-      {
-        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
-        "version": "1.2.0",
-        "code": "BEI",
-        "display": "Beihilfe"
       }
     ]
   }
