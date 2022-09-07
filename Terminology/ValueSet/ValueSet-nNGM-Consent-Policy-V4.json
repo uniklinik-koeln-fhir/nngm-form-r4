@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-ConsentPolicy-V4",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4",
+  "version": "4",
+  "name": "ValueSet_nNGM_ConsentPolicy_V4",
+  "title": "ValueSet - nNGM - Consent Policy - V4",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:559e2bc6-d73b-4a5f-ac91-b186b5c84b56",
+    "timestamp": "2022-09-07T13:18:43.143257+02:00",
+    "total": 7,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "1",
+        "display": "Teil 1: Molekularpathologische Diagnostik und Beratung im nNGM (notwendig im Behandlungskontext)"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "2",
+        "display": "Teil 2: Forschung im Rahmen des nNGM (freiwillig zur Unterstützung der Forschung)"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "EVND",
+        "display": "Erhebung, Verarbeitung und wissenschaftliche Nutzung seiner Patientendaten"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "ÜNKKD",
+        "display": "Übertragung und wissenschaftliche Nutzung seiner Krankenkassendaten"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "GLNB",
+        "display": "Gewinnung, Lagerung und wissenschaftliche Nutzung seiner Biomaterialien"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "EKA",
+        "display": "Möglichkeit einer erneuten Kontaktaufnahme"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "DIGINET",
+        "display": "Einwilligungserklärung DigiNet: Zusatzinformation zu Teil 2 (Forschung im nNGM)"
+      }
+    ]
+  }
+}
