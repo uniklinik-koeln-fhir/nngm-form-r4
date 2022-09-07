@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Consent-Einwilligungserklaerung-V4",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4",
   "version": "1.0.0",
   "name": "Profile_nNGM_Consent_Einwilligungserklaerung_V4",
