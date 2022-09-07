@@ -346,39 +346,7 @@
             ]
           }
         ],
-        "name": "nNGM-Präsentationszentrum",
-        "telecom": [
-          {
-            "system": "email",
-            "value": "support@medicalsyn.com",
-            "use": "work"
-          }
-        ],
-        "address": [
-          {
-            "type": "both",
-            "line": [
-              "Bertolt-Brecht-Allee 24"
-            ],
-            "_line": [
-              {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
-                    "valueString": "Bertolt-Brecht-Allee"
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
-                    "valueString": "24"
-                  }
-                ]
-              }
-            ],
-            "city": "Dresden",
-            "postalCode": "01309",
-            "country": "Germany"
-          }
-        ]
+        "name": "nNGM-Präsentationszentrum"
       }
     },
     {
