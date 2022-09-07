@@ -2437,7 +2437,7 @@
           ],
           "strength": "required",
           "description": "Regulatory policy examples.",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4"
         },
         "mapping": [
           {
@@ -4383,7 +4383,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4"
         }
       },
       {

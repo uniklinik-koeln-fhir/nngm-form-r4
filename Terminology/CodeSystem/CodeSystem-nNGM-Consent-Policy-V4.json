@@ -3,75 +3,43 @@
   "id": "CodeSystem-nNGM-Consent-Policy-V4",
   "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
   "version": "4",
-  "name": "CodeSystem_nNGM_Consent-Policy",
-  "title": "CodeSystem - nNGM - Consent Policy",
+  "name": "CodeSystem_nNGM_Consent-Policy-V4",
+  "title": "CodeSystem - nNGM - Consent Policy - V4",
   "status": "active",
   "experimental": false,
   "caseSensitive": true,
   "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4",
   "compositional": false,
   "content": "complete",
-  "count": 15,
+  "count": 7,
   "concept": [
     {
-      "code": "1a",
-      "display": "Teil 1a: Molekularpathologische Diagnostik im nNGM"
-    },
-    {
-      "code": "1b",
-      "display": "Teil 1b: Überregionale Beratung und Studiensuche im nNGM"
+      "code": "1",
+      "display": "Teil 1: Molekularpathologische Diagnostik und Beratung im nNGM (notwendig im Behandlungskontext)"
     },
     {
       "code": "2",
-      "display": "Teil 2: Forschung im nNGM"
+      "display": "Teil 2: Forschung im Rahmen des nNGM (freiwillig zur Unterstützung der Forschung)"
     },
     {
-      "code": "TE",
-      "display": "Teilnahmeerklärung"
+      "code": "EVND",
+      "display": "Erhebung, Verarbeitung und wissenschaftliche Nutzung seiner Patientendaten"
     },
     {
-      "code": "DS",
-      "display": "Datenschutzerklärung"
+      "code": "ÜNKKD",
+      "display": "Übertragung und wissenschaftliche Nutzung seiner Krankenkassendaten"
     },
     {
-      "code": "MD",
-      "display": "Molekularpathologische Diagnostik im nNGM (Behandlungskontext)"
+      "code": "GLNB",
+      "display": "Gewinnung, Lagerung und wissenschaftliche Nutzung seiner Biomaterialien"
     },
     {
-      "code": "ST",
-      "display": "Überregionale Beratung und Studiensuche im nNGM (Behandlungskontext)"
+      "code": "EKA",
+      "display": "Möglichkeit einer erneuten Kontaktaufnahme"
     },
     {
-      "code": "WPI",
-      "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) innerhalb des nNGM und an kooperierende Partner"
-    },
-    {
-      "code": "WP",
-      "display": "Weitergabe von MDAT und Resttumorproben innerhalb des nNGM und an kooperierende Partner"
-    },
-    {
-      "code": "WD",
-      "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) in ein Drittland"
-    },
-    {
-      "code": "WR",
-      "display": "Weitergabe von MDAT und Resttumorproben in ein Drittland"
-    },
-    {
-      "code": "WPK",
-      "display": "Weitergabe pseudonymisierter krankheitsbezogener Daten (MDAT) zur kommerziellen Nutzung"
-    },
-    {
-      "code": "WK",
-      "display": "Weitergabe von MDAT und Resttumorproben zur kommerziellen Nutzung"
-    },
-    {
-      "code": "KW",
-      "display": "Kontaktaufnahme des nNGM-Zentrums zu einem späteren Zeitpunkt zur Gewinnung weiterer Informationen über den Behandlungsverlauf"
-    },
-    {
-      "code": "KE",
-      "display": "Kontaktaufnahme des nNGM-Zentrums zum Zweck des Einschlusses in eine mögliche infrage kommende neue Studie"
+      "code": "DIGINET",
+      "display": "Einwilligungserklärung DigiNet: Zusatzinformation zu Teil 2 (Forschung im nNGM)"
     }
   ]
 }
