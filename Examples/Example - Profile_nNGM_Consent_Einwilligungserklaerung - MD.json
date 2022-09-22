@@ -1,6 +1,6 @@
 {
   "resourceType": "Consent",
-  "id": "1fe32039546a4650adc9b62a6c1b792f",
+  "id": "Example_Consent_MD",
   "meta": {
     "profile": [
       "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -26,7 +26,7 @@
     }
   ],
   "patient": {
-    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "reference": "Patient/Example_Patient_MagdalaMüller",
     "identifier": {
       "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
       "value": "031858"

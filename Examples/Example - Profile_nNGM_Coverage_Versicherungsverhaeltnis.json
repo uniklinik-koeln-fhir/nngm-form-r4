@@ -1,6 +1,6 @@
 {
   "resourceType": "Coverage",
-  "id": "eb7ac37196714575a0b97f409a922e86",
+  "id": "Example_Coverage_Versicherungsverhältnis",
   "meta": {
     "profile": [
       "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Coverage"
@@ -30,7 +30,7 @@
     ]
   },
   "beneficiary": {
-    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "reference": "Patient/Example_Patient_MagdalaMüller",
     "identifier": {
       "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
       "value": "031858"

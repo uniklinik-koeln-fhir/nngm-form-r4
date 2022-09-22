@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "5bac5cba396a45d0b8de9e441a3209ef",
+  "id": "Example_Patient_MagdalaMüller",
   "meta": {
     "profile": [
       "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"

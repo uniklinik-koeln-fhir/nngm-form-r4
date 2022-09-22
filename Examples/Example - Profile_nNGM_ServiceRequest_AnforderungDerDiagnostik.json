@@ -1,6 +1,6 @@
 {
   "resourceType": "ServiceRequest",
-  "id": "467e430ac04740fab594f9f9713cc195",
+  "id": "Example_ServiceRequest_AnforderungDerDiagnostik",
   "meta": {
     "profile": [
       "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/AnforderungDerDiagnostik"
@@ -59,7 +59,7 @@
     }
   ],
   "subject": {
-    "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+    "reference": "Patient/Example_Patient_MagdalaMüller",
     "identifier": {
       "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
       "value": "031858"
@@ -67,16 +67,16 @@
   },
   "authoredOn": "2022-07-19",
   "requester": {
-    "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+    "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
   },
   "performer": [
     {
-      "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+      "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
     }
   ],
   "specimen": [
     {
-      "reference": "Specimen/540668b88d404f1fac816c2190c26993"
+      "reference": "Specimen/Example_Specimen_Tumormaterial"
     }
   ]
 }

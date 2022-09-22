@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "397deb72c7d54b1c845225fbaeba1d90"
+    "value": "BeispielBundle"
   },
   "type": "document",
   "timestamp": "2022-09-02T15:33:42+02:00",
@@ -10,7 +10,7 @@
     {
       "resource": {
         "resourceType": "Composition",
-        "id": "2a06b4ad53ed471892e0ad886ef08355",
+        "id": "Example_Composition_031858-000",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Composition"
@@ -30,7 +30,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -39,7 +39,7 @@
         "date": "2022-09-02T15:26:42+02:00",
         "author": [
           {
-            "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+            "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
           }
         ],
         "title": "Composition 2a06b4ad53ed471892e0ad886ef08355",
@@ -55,49 +55,49 @@
             },
             "entry": [
               {
-                "reference": "Consent/c622c46d4d5e41cc82f73297ab31a99f"
+                "reference": "Consent/Example_Consent_1a"
               },
               {
-                "reference": "Consent/9e814ef089064f0eb9a96f4754eb6a26"
+                "reference": "Consent/Example_Consent_1b"
               },
               {
-                "reference": "Consent/fbfb1074555e42cb8356aac3c676d40e"
+                "reference": "Consent/Example_Consent_2"
               },
               {
-                "reference": "Consent/3b32d14b89684cd59d7dbac7b452ee58"
+                "reference": "Consent/Example_Consent_DS"
               },
               {
-                "reference": "Consent/ba9880baca9347219871920bab5ad020"
+                "reference": "Consent/Example_Consent_KE"
               },
               {
-                "reference": "Consent/cf340877910947f28f9f75f526f5d64d"
+                "reference": "Consent/Example_Consent_KW"
               },
               {
-                "reference": "Consent/1fe32039546a4650adc9b62a6c1b792f"
+                "reference": "Consent/Example_Consent_MD"
               },
               {
-                "reference": "Consent/d4cc0942c13f4e30b4e849548cc305ef"
+                "reference": "Consent/Example_Consent_ST"
               },
               {
-                "reference": "Consent/e1a9368d61a94e31af638cb107a57d12"
+                "reference": "Consent/Example_Consent_TE"
               },
               {
-                "reference": "Consent/c736061d985b4672a270ac696c013550"
+                "reference": "Consent/Example_Consent_WD"
               },
               {
-                "reference": "Consent/e24bb7acd0614f1ba7fbe47cdba73e82"
+                "reference": "Consent/Example_Consent_WK"
               },
               {
-                "reference": "Consent/a3e077a8bbbb4f7a8a7ddfb529e34746"
+                "reference": "Consent/Example_Consent_WP"
               },
               {
-                "reference": "Consent/86542e7bb5e64c0ebaedf8deebbad614"
+                "reference": "Consent/Example_Consent_WPI"
               },
               {
-                "reference": "Consent/66731cf02123450a91bfff5c523273a0"
+                "reference": "Consent/Example_Consent_WPK"
               },
               {
-                "reference": "Consent/9aa8afcadf06490a906e61b23e3c3b98"
+                "reference": "Consent/Example_Consent_WR"
               }
             ]
           },
@@ -112,7 +112,7 @@
             },
             "entry": [
               {
-                "reference": "Condition/c9afe3af2047479eb58f0cc6134948c4"
+                "reference": "Condition/Example_Condition_Erstdiagnose"
               }
             ]
           },
@@ -127,7 +127,7 @@
             },
             "entry": [
               {
-                "reference": "Coverage/eb7ac37196714575a0b97f409a922e86"
+                "reference": "Coverage/Example_Coverage_Versicherungsverhältnis"
               }
             ]
           },
@@ -142,7 +142,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/3019151b4ea44b87b62c7720bbfb24d0"
+                "reference": "Observation/Example_Observation_Raucherstatus"
               }
             ]
           },
@@ -157,7 +157,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/3019151b4ea44b87b62c7720bbfb24d0"
+                "reference": "Observation/Example_Observation_Vitalstatus"
               }
             ]
           },
@@ -172,7 +172,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/76397fea55e44c088d3eed17a5d4974f"
+                "reference": "Observation/Example_Observation_ECOG"
               }
             ]
           },
@@ -187,7 +187,7 @@
             },
             "entry": [
               {
-                "reference": "ServiceRequest/467e430ac04740fab594f9f9713cc195"
+                "reference": "ServiceRequest/Example_ServiceRequest_AnforderungDerDiagnostik"
               }
             ]
           },
@@ -202,7 +202,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/c5015be8dcc244d784e1d973a66910fc"
+                "reference": "Observation/Example_Observation_TKI-Resistenz-ALK"
               }
             ]
           },
@@ -217,7 +217,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/0205cb30b0974deaa706f93da503df92"
+                "reference": "Observation/Example_Observation_Progress-Relapse"
               }
             ]
           },
@@ -232,7 +232,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/8f534eaa51724777ae179dff36f961ab"
+                "reference": "Observation/Example_Observation_Histologie"
               }
             ]
           },
@@ -247,7 +247,7 @@
             },
             "entry": [
               {
-                "reference": "Observation/3950eea68c14453cb86897a75ef2aa50"
+                "reference": "Observation/Example_Observation_Tumorstadium"
               }
             ]
           }
@@ -257,7 +257,7 @@
     {
       "resource": {
         "resourceType": "Patient",
-        "id": "5bac5cba396a45d0b8de9e441a3209ef",
+        "id": "Example_Patient_MagdalaMüller",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
@@ -308,7 +308,7 @@
     {
       "resource": {
         "resourceType": "Organization",
-        "id": "16e9a1beaeb649428c49b64bfde2b5b9",
+        "id": "Example_Organization_nNGM-Präsentationszentrum",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM"
@@ -352,7 +352,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "c622c46d4d5e41cc82f73297ab31a99f",
+        "id": "Example_Consent_1a",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -378,7 +378,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -401,7 +401,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "9e814ef089064f0eb9a96f4754eb6a26",
+        "id": "Example_Consent_1b",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -427,7 +427,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -450,7 +450,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "fbfb1074555e42cb8356aac3c676d40e",
+        "id": "Example_Consent_2",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -476,7 +476,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -499,7 +499,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "e1a9368d61a94e31af638cb107a57d12",
+        "id": "Example_Consent_TE",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -525,7 +525,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -548,7 +548,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "3b32d14b89684cd59d7dbac7b452ee58",
+        "id": "Example_Consent_DS",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -574,7 +574,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -597,7 +597,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "1fe32039546a4650adc9b62a6c1b792f",
+        "id": "Example_Consent_MD",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -623,7 +623,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -646,7 +646,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "d4cc0942c13f4e30b4e849548cc305ef",
+        "id": "Example_Consent_ST",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -672,7 +672,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -695,7 +695,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "86542e7bb5e64c0ebaedf8deebbad614",
+        "id": "Example_Consent_WPI",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -721,7 +721,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -744,7 +744,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "a3e077a8bbbb4f7a8a7ddfb529e34746",
+        "id": "Example_Consent_WP",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -770,7 +770,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -793,7 +793,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "c736061d985b4672a270ac696c013550",
+        "id": "Example_Consent_WD",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -819,7 +819,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -842,7 +842,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "9aa8afcadf06490a906e61b23e3c3b98",
+        "id": "Example_Consent_WR",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -868,7 +868,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -891,7 +891,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "66731cf02123450a91bfff5c523273a0",
+        "id": "Example_Consent_WPK",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -917,7 +917,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -940,7 +940,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "e24bb7acd0614f1ba7fbe47cdba73e82",
+        "id": "Example_Consent_WK",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -966,7 +966,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -989,7 +989,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "cf340877910947f28f9f75f526f5d64d",
+        "id": "Example_Consent_KW",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -1015,7 +1015,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1038,7 +1038,7 @@
     {
       "resource": {
         "resourceType": "Consent",
-        "id": "ba9880baca9347219871920bab5ad020",
+        "id": "Example_Consent_KE",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
@@ -1064,7 +1064,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1087,7 +1087,7 @@
     {
       "resource": {
         "resourceType": "Condition",
-        "id": "c9afe3af2047479eb58f0cc6134948c4",
+        "id": "Example_Condition_Erstdiagnose",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
@@ -1112,7 +1112,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1124,7 +1124,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "3019151b4ea44b87b62c7720bbfb24d0",
+        "id": "Example_Observation_Vitalstatus",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Vitalstatus"
@@ -1150,7 +1150,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1170,7 +1170,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "3019151b4ea44b87b62c7720bbfb24d0",
+        "id": "Example_Observation_Raucherstatus",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/raucherstatus"
@@ -1196,7 +1196,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1250,7 +1250,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "76397fea55e44c088d3eed17a5d4974f",
+        "id": "Example_Observation_ECOG",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog"
@@ -1258,7 +1258,7 @@
         },
         "partOf": [
           {
-            "reference": "ServiceRequest/467e430ac04740fab594f9f9713cc195"
+            "reference": "ServiceRequest/Example_ServiceRequest_AnforderungDerDiagnostik"
           }
         ],
         "status": "final",
@@ -1281,7 +1281,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1301,7 +1301,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "3950eea68c14453cb86897a75ef2aa50",
+        "id": "Example_Observation_Tumorstadium",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium"
@@ -1337,7 +1337,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1481,7 +1481,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "8f534eaa51724777ae179dff36f961ab",
+        "id": "Example_Observation_Histologie",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/histologie"
@@ -1507,7 +1507,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1651,7 +1651,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "0205cb30b0974deaa706f93da503df92",
+        "id": "Example_Observation_Progress-Relapse",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/progress-relapse"
@@ -1677,7 +1677,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1690,7 +1690,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "c5015be8dcc244d784e1d973a66910fc",
+        "id": "Example_Observation_TKI-Resistenz-ALK",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-alk"
@@ -1716,7 +1716,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1748,7 +1748,7 @@
     {
       "resource": {
         "resourceType": "ServiceRequest",
-        "id": "467e430ac04740fab594f9f9713cc195",
+        "id": "Example_ServiceRequest_AnforderungDerDiagnostik",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/ServiceRequest/nNGM/AnforderungDerDiagnostik"
@@ -1807,7 +1807,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1815,16 +1815,16 @@
         },
         "authoredOn": "2022-07-19",
         "requester": {
-          "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+          "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
         },
         "performer": [
           {
-            "reference": "Organization/16e9a1beaeb649428c49b64bfde2b5b9"
+            "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
           }
         ],
         "specimen": [
           {
-            "reference": "Specimen/540668b88d404f1fac816c2190c26993"
+            "reference": "Specimen/Example_Specimen_Tumormaterial"
           }
         ]
       }
@@ -1832,7 +1832,7 @@
     {
       "resource": {
         "resourceType": "Specimen",
-        "id": "540668b88d404f1fac816c2190c26993",
+        "id": "Example_Specimen_Tumormaterial",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Specimen"
@@ -1875,7 +1875,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
@@ -1889,7 +1889,7 @@
     {
       "resource": {
         "resourceType": "Coverage",
-        "id": "eb7ac37196714575a0b97f409a922e86",
+        "id": "Example_Coverage_Versicherungsverhältnis",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Coverage"
@@ -1906,7 +1906,7 @@
                 }
               ]
             },
-            "value": "Bayerische Beamtenkrankenkasse"
+            "value": "000000000"
           }
         ],
         "status": "active",
@@ -1919,7 +1919,7 @@
           ]
         },
         "beneficiary": {
-          "reference": "Patient/5bac5cba396a45d0b8de9e441a3209ef",
+          "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
             "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
