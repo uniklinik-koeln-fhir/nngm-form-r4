@@ -32,7 +32,7 @@
   "beneficiary": {
     "reference": "Patient/Example_Patient_MagdalaMüller",
     "identifier": {
-      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
       "value": "031858"
     }
   },

@@ -32,7 +32,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -265,7 +265,7 @@
         },
         "identifier": [
           {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         ],
@@ -380,7 +380,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -429,7 +429,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -478,7 +478,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -527,7 +527,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -576,7 +576,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -625,7 +625,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -674,7 +674,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -723,7 +723,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -772,7 +772,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -821,7 +821,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -870,7 +870,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -919,7 +919,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -968,7 +968,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1017,7 +1017,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1066,7 +1066,7 @@
         "patient": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1114,7 +1114,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1152,7 +1152,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1198,7 +1198,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1283,7 +1283,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1339,7 +1339,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1509,7 +1509,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1679,7 +1679,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1718,7 +1718,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1809,7 +1809,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1877,7 +1877,7 @@
         "subject": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
@@ -1921,7 +1921,7 @@
         "beneficiary": {
           "reference": "Patient/Example_Patient_MagdalaMüller",
           "identifier": {
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
             "value": "031858"
           }
         },
