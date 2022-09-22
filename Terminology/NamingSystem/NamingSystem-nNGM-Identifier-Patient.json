@@ -1,0 +1,27 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "NamingSystem-nNGM-Identifier-Patient",
+  "name": "NamingSystem-nNGM-Identifier-Patient",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2022-09-22",
+  "publisher": "Uniklinik Köln",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code": "MR"
+      }
+    ]
+  },
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://uk-koeln.de/fhir/sid/nngm/patient",
+      "preferred": true,
+      "period": {
+        "start": "2022-09-22"
+      }
+    }
+  ]
+}
