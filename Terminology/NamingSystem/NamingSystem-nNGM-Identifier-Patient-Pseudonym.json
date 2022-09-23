@@ -17,7 +17,7 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "http://uk-koeln.de/fhir/sid/nngm/patient-pseudonym",
+      "value": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
       "preferred": true,
       "period": {
         "start": "2022-09-22"

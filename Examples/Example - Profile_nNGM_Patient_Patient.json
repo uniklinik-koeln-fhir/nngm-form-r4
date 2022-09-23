@@ -8,7 +8,7 @@
   },
   "identifier": [
     {
-      "system": "http://uk-koeln.de/fhir/sid/nngm/patient",
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
       "value": "031858"
     }
   ],
