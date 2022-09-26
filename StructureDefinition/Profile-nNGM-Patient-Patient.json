@@ -28,6 +28,40 @@
         ]
       },
       {
+        "id": "Patient.identifier",
+        "path": "Patient.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "type.coding.system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.identifier:nNGM",
+        "path": "Patient.identifier",
+        "sliceName": "nNGM",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:nNGM.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type"
+      },
+      {
+        "id": "Patient.identifier:nNGM.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "fixedCode": "P"
+      },
+      {
+        "id": "Patient.identifier:nNGM.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "http://uk-koeln.de/fhir/sid/nNGM/patient"
+      },
+      {
         "id": "Patient.name",
         "path": "Patient.name",
         "slicing": {
@@ -320,15 +354,6 @@
         "id": "Patient.deceased[x]:deceasedDateTime.extension:informationsquelleTod.value[x]",
         "path": "Patient.deceased[x].extension.value[x]",
         "label": "Informationsquelle des Todes",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "short": "Informationsquelle des Todes des Patienten",
         "mustSupport": true
       },
