@@ -14,9 +14,9 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:d5483f27-bc4f-427d-9135-a4638d2854aa",
-    "timestamp": "2022-09-06T11:15:13.3980306+02:00",
-    "total": 4,
+    "identifier": "urn:uuid:eb3ede5b-9b6d-4f41-9641-9e4b8cee96c4",
+    "timestamp": "2022-09-26T12:16:44.1443708+02:00",
+    "total": 5,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
@@ -79,6 +79,22 @@
           {
             "language": "en",
             "value": "Organization"
+          }
+        ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+        "version": "1.0",
+        "code": "P",
+        "display": "Patient",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Patient"
+          },
+          {
+            "language": "en",
+            "value": "Patient"
           }
         ]
       }

@@ -65,6 +65,20 @@
 					"value": "Organization"
 				}
 			]
+		},
+		{
+			"code": "P",
+			"display": "Patient",
+			"designation": [
+				{
+					"language": "de",
+					"value": "Patient"
+				},
+				{
+					"language": "en",
+					"value": "Patient"
+				}
+			]
 		}
 	]
 }
