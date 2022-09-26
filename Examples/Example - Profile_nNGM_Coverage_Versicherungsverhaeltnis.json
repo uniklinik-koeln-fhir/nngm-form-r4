@@ -32,6 +32,14 @@
   "beneficiary": {
     "reference": "Patient/Example_Patient_MagdalaMüller",
     "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
       "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
       "value": "031858"
     }
