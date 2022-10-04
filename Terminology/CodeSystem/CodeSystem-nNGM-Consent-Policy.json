@@ -72,6 +72,10 @@
     {
       "display": "Kontaktaufnahme des nNGM-Zentrums zum Zweck des Einschlusses in eine mögliche infrage kommende neue Studie",
       "code": "KE"
+    },
+    {
+      "display": "Rückmeldung wichtiger gesundheitsrelevanter Ergebnisse (Zufallsfunde)",
+      "code": "RD"
     }
   ]
 }

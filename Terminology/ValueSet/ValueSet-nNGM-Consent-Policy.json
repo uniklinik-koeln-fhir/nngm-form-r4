@@ -14,9 +14,9 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:d1803df5-a423-4926-b54c-4778bb553e41",
-    "timestamp": "2022-08-23T15:20:26.8079965+02:00",
-    "total": 15,
+    "identifier": "urn:uuid:57369afd-bf2d-4d84-a45e-1c595d83ccaa",
+    "timestamp": "2022-10-04T10:10:35.6117922+02:00",
+    "total": 16,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
@@ -107,6 +107,12 @@
         "version": "1.0.0",
         "code": "KE",
         "display": "Kontaktaufnahme des nNGM-Zentrums zum Zweck des Einschlusses in eine mögliche infrage kommende neue Studie"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "1.0.0",
+        "code": "RD",
+        "display": "Rückmeldung wichtiger gesundheitsrelevanter Ergebnisse (Zufallsfunde)"
       }
     ]
   }

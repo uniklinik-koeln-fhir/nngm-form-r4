@@ -1,0 +1,56 @@
+{
+  "resourceType": "Consent",
+  "id": "Example_Consent_RD",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
+    ]
+  },
+  "status": "draft",
+  "scope": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "code": "patient-privacy"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59284-0"
+        }
+      ]
+    }
+  ],
+  "patient": {
+    "reference": "Patient/Example_Patient_MagdalaMüller",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
+      "value": "031858"
+    }
+  },
+  "dateTime": "2022-10-04T00:00:00+02:00",
+  "policyRule": {
+    "coding": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "v2.2",
+        "code": "RD"
+      }
+    ]
+  },
+  "provision": {
+    "type": "permit"
+  }
+}
