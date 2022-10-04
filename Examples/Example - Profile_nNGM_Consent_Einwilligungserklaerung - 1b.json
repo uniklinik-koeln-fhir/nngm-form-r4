@@ -45,6 +45,7 @@
     "coding": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+        "version": "v2.2",
         "code": "1b"
       }
     ]

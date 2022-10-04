@@ -1349,6 +1349,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "1a"
             }
           ]
@@ -1406,6 +1407,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "1b"
             }
           ]
@@ -1463,6 +1465,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "2"
             }
           ]
@@ -1520,6 +1523,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "TE"
             }
           ]
@@ -1577,6 +1581,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "DS"
             }
           ]
@@ -1634,6 +1639,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "MD"
             }
           ]
@@ -1691,6 +1697,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "ST"
             }
           ]
@@ -1748,6 +1755,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "WPI"
             }
           ]
@@ -1805,6 +1813,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "WP"
             }
           ]
@@ -1862,6 +1871,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "WD"
             }
           ]
@@ -1919,6 +1929,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "WR"
             }
           ]
@@ -1976,6 +1987,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "WPK"
             }
           ]
@@ -2033,6 +2045,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "WK"
             }
           ]
@@ -2090,6 +2103,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "KW"
             }
           ]
@@ -2147,6 +2161,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
+              "version": "v2.2",
               "code": "KE"
             }
           ]
