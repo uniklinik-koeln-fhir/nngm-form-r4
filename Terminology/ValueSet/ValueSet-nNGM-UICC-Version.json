@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-uiccVersion",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/uiccVersion",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_uiccVersion",
+  "title": "ValueSet - nNGM - uiccVersion",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:c4961c54-2017-4ef6-9898-2a5b36c052f7",
+    "timestamp": "2022-10-05T13:57:21.8120747+02:00",
+    "total": 3,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
+        "version": "1.0.0",
+        "code": "version7",
+        "display": "Version 7"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
+        "version": "1.0.0",
+        "code": "version8",
+        "display": "Version 8"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
+        "version": "1.0.0",
+        "code": "unknown",
+        "display": "unbekannt"
+      }
+    ]
+  }
+}

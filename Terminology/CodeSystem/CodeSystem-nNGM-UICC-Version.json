@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-uiccVersion",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
+    "version": "1.0.0",
+    "name": "CodeSystem_nNGM_Vitalstatus",
+    "title": "CodeSystem - nNGM - uiccVersion",
+    "status": "active",
+    "caseSensitive": true,
+    "compositional": false, 
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/uiccVersion",
+    "content": "complete",
+    "count": 4,
+    "concept":  [
+        {
+            "code": "version7",
+            "display": "Version 7"
+        },
+        {
+            "code": "version8",
+            "display": "Version 8"
+        },
+		{
+            "code": "unknown",
+            "display": "unbekannt"
+        }
+    ]
+}
