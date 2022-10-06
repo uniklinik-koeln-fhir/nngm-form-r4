@@ -29,13 +29,33 @@
       "code": "ÜNKKD",
       "display": "Übertragung und wissenschaftliche Nutzung seiner Krankenkassendaten"
     },
+	{
+      "code": "ÜVN",
+      "display": "Übermittlung Versicherungsnummer an die nNGM-Geschäftsstelle"
+    },
     {
       "code": "GLNB",
       "display": "Gewinnung, Lagerung und wissenschaftliche Nutzung seiner Biomaterialien"
     },
+	{
+      "code": "WDL",
+      "display": "Weitergabe krankheitsbezogener Daten (MDAT) für Forschungszwecke in ein Drittland"
+    },
     {
-      "code": "EKA",
-      "display": "Möglichkeit einer erneuten Kontaktaufnahme"
+      "code": "KNBM",
+      "display": "Kommerzielle Nutzung krankheitsbezogener Daten (MDAT) und von Biomaterialien für Forschungszwecke"
+    },
+    {
+      "code": "EKAZI",
+      "display": "Möglichkeit einer erneuten Kontaktaufnahme für zusätliche Informationen"
+    },
+    {
+      "code": "EKAZB",
+      "display": "Möglichkeit einer erneuten Kontaktaufnahme für Informationen über zusätzliche Befunde"
+    },
+	{
+      "code": "GDWR",
+      "display": "Geltungsdauer / Widerrufsrecht"
     },
     {
       "code": "DIGINET",

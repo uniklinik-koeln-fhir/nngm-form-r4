@@ -14,9 +14,9 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:559e2bc6-d73b-4a5f-ac91-b186b5c84b56",
-    "timestamp": "2022-09-07T13:18:43.143257+02:00",
-    "total": 7,
+    "identifier": "urn:uuid:885dd258-1164-4a00-bfad-e0be1fed48cb",
+    "timestamp": "2022-10-06T13:51:28.5140637+02:00",
+    "total": 12,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
@@ -45,14 +45,44 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
         "version": "4",
+        "code": "ÜVN",
+        "display": "Übermittlung Versicherungsnummer an die nNGM-Geschäftsstelle"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
         "code": "GLNB",
         "display": "Gewinnung, Lagerung und wissenschaftliche Nutzung seiner Biomaterialien"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
         "version": "4",
-        "code": "EKA",
-        "display": "Möglichkeit einer erneuten Kontaktaufnahme"
+        "code": "WDL",
+        "display": "Weitergabe krankheitsbezogener Daten (MDAT) für Forschungszwecke in ein Drittland"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "KNBM",
+        "display": "Kommerzielle Nutzung krankheitsbezogener Daten (MDAT) und von Biomaterialien für Forschungszwecke"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "EKAZI",
+        "display": "Möglichkeit einer erneuten Kontaktaufnahme für zusätliche Informationen"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "EKAZB",
+        "display": "Möglichkeit einer erneuten Kontaktaufnahme für Informationen über zusätzliche Befunde"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "4",
+        "code": "GDWR",
+        "display": "Geltungsdauer / Widerrufsrecht"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
