@@ -1,0 +1,77 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-UICC-Stage-V7",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-v7",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_UICC-Stage-V7",
+  "title": "ValueSet - nNGM -  UIIC-Stage-V7",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:3cad0dd0-db8f-463b-bbc4-160b2fe7dd01",
+    "timestamp": "2022-10-07T09:36:26.7580024+02:00",
+    "total": 9,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "0",
+        "display": "0"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IA",
+        "display": "IA"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IB",
+        "display": "IB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IIA",
+        "display": "IIA"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IIB",
+        "display": "IIB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IIIA",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IIIB",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "IV",
+        "display": "IV"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+        "version": "1.0.0",
+        "code": "unknown",
+        "display": "unknown"
+      }
+    ]
+  }
+}

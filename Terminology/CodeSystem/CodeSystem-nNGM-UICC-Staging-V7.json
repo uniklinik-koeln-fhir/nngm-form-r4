@@ -1,0 +1,51 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-uiccStagingV7",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV7",
+    "version": "1.0.0",
+    "name": "CodeSystem_nNGM_uiccStagingV7",
+    "title": "CodeSystem - nNGM - uiccStagingV7",
+    "status": "active",
+    "caseSensitive": true,
+    "compositional": false, 
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/uiccStagingV7",
+    "content": "complete",
+    "concept":  [
+        {
+            "code": "0",
+            "display": "0"
+        },
+        {
+            "code": "IA",
+            "display": "IA"
+        },
+        {
+            "code": "IB",
+            "display": "IB"
+        },
+        {
+            "code": "IIA",
+            "display": "IIA"
+        },
+        {
+            "code": "IIB",
+            "display": "IIB"
+        },
+        {
+            "code": "IIIA",
+            "display": "IIIA"
+        },
+        {
+            "code": "IIIB",
+            "display": "IIIB"
+        },
+        {
+            "code": "IV",
+            "display": "IV"
+        },
+        {
+            "code": "unknown",
+            "display": "unknown"
+        }
+    ]
+}

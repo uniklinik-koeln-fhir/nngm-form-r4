@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-UICC-Stage-V8",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-v8",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_UICC-Stage-V8",
+  "title": "ValueSet - nNGM -  UIIC-Stage-V8",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:b270d688-7e6b-4dbe-999a-129278c26a0b",
+    "timestamp": "2022-10-07T09:36:26.801289+02:00",
+    "total": 13,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "0",
+        "display": "0"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IA1",
+        "display": "IA1"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IA2",
+        "display": "IA2"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IA3",
+        "display": "IA3"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IB",
+        "display": "IB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IIA",
+        "display": "IIA"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IIB",
+        "display": "IIB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IIIA",
+        "display": "IIIA"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IIIB",
+        "display": "IIIB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IIIC",
+        "display": "IIIC"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IVA",
+        "display": "IVA"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "IVB",
+        "display": "IVB"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
+        "code": "unknown",
+        "display": "unknown"
+      }
+    ]
+  }
+}
