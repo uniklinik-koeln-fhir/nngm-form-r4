@@ -1,9 +1,9 @@
 {
   "resourceType": "Consent",
-  "id": "Example_Consent_KW",
+  "id": "Example_Consent_EKA",
   "meta": {
     "profile": [
-      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
     ]
   },
   "status": "draft",
@@ -40,13 +40,13 @@
       "value": "467314"
     }
   },
-  "dateTime": "2022-07-19T00:00:00+02:00",
+  "dateTime": "2022-10-06T00:00:00+02:00",
   "policyRule": {
     "coding": [
       {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
-        "version": "v2.2",
-        "code": "KW"
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "v4",
+        "code": "EKA"
       }
     ]
   },

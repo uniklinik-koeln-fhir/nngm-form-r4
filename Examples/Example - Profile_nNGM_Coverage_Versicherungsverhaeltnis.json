@@ -30,7 +30,7 @@
     ]
   },
   "beneficiary": {
-    "reference": "Patient/Example_Patient_MagdalaMüller",
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
     "identifier": {
       "type": {
         "coding": [
@@ -40,8 +40,8 @@
           }
         ]
       },
-      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
-      "value": "031858"
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
     }
   },
   "payor": [

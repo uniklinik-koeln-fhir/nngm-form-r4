@@ -1,9 +1,9 @@
 {
   "resourceType": "Consent",
-  "id": "Example_Consent_KW",
+  "id": "Example_Consent_GLNB",
   "meta": {
     "profile": [
-      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
     ]
   },
   "status": "draft",
@@ -26,7 +26,7 @@
     }
   ],
   "patient": {
-    "reference": "Patient/Example_Patient_MagdalaMüller",
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
     "identifier": {
       "type": {
         "coding": [
@@ -36,17 +36,17 @@
           }
         ]
       },
-      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
-      "value": "467314"
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
     }
   },
-  "dateTime": "2022-07-19T00:00:00+02:00",
+  "dateTime": "2022-10-06T00:00:00+02:00",
   "policyRule": {
     "coding": [
       {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy",
-        "version": "v2.2",
-        "code": "KW"
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
+        "version": "v4",
+        "code": "GLNB"
       }
     ]
   },

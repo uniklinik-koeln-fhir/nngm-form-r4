@@ -370,23 +370,10 @@
         "stage": [
           {
             "summary": {
-              "extension": [
-                {
-                  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/uiccVersion",
-                  "valueCodeableConcept": {
-                    "coding": [
-                      {
-                        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
-                        "code": "version7"
-                      }
-                    ]
-                  }
-                }
-              ],
               "coding": [
                 {
-                  "system": "urn:oid:2.16.840.1.113883.15.16",
-                  "code": "IB"
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+                  "code": "IVB"
                 }
               ]
             }
