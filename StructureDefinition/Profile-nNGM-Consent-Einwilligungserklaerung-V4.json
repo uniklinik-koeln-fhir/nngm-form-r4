@@ -693,7 +693,7 @@
             "code": "code"
           }
         ],
-        "fixedCode": "draft",
+        "fixedCode": "active",
         "condition": [
           "ele-1"
         ],
@@ -4924,7 +4924,7 @@
       {
         "id": "Consent.status",
         "path": "Consent.status",
-        "fixedCode": "draft"
+        "fixedCode": "active"
       },
       {
         "id": "Consent.scope.coding",
