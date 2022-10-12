@@ -13291,7 +13291,7 @@
         "sliceName": "diagnosticsRequest",
         "short": "Composition is broken into sections",
         "definition": "The root of the sections that make up the composition.",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Composition.section",
@@ -21285,6 +21285,7 @@
         "id": "Composition.section:diagnosticsRequest",
         "path": "Composition.section",
         "sliceName": "diagnosticsRequest",
+        "min": 1,
         "max": "1"
       },
       {
