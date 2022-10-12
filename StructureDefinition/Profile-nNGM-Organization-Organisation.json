@@ -1541,6 +1541,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": true,
         "isSummary": true,
         "mapping": [
           {
@@ -1598,6 +1599,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": true,
         "isSummary": true,
         "mapping": [
           {
@@ -9102,7 +9104,13 @@
       {
         "id": "Organization.identifier.system",
         "path": "Organization.identifier.system",
-        "fixedUri": "http://uk-koeln.de/fhir/sid/nNGM/organization"
+        "fixedUri": "http://uk-koeln.de/fhir/sid/nNGM/organization",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.identifier.value",
+        "path": "Organization.identifier.value",
+        "mustSupport": true
       },
       {
         "id": "Organization.type",
