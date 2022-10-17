@@ -1,5 +1,10 @@
 {
   "resourceType": "Bundle",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Bundle/nNGM"
+    ]
+  },
   "identifier": {
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
     "value": "Patient-567314-Pseudonym"
@@ -97,21 +102,6 @@
               },
               {
                 "reference": "Consent/Example_Consent_WDL"
-              }
-            ]
-          },
-          {
-            "code": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
-                  "code": "FIRST_DIAGNOSIS"
-                }
-              ]
-            },
-            "entry": [
-              {
-                "reference": "Condition/Example_Condition_Erstdiagnose"
               }
             ]
           },
@@ -249,6 +239,36 @@
                 "reference": "Observation/Example_Observation_Tumorstadium"
               }
             ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "FIRST_DIAGNOSIS"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/Example_Condition_Erstdiagnose"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+                  "code": "FIRST_DIAGNOSIS"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/Example_Condition_Erstdiagnose"
+              }
+            ]
           }
         ]
       }
@@ -322,63 +342,6 @@
           }
         ],
         "name": "nNGM-Präsentationszentrum"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Condition",
-        "id": "Example_Condition_Erstdiagnose",
-        "meta": {
-          "profile": [
-            "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
-          ]
-        },
-        "code": {
-          "coding": [
-            {
-              "system": "urn:oid:2.16.840.1.113883.6.43.1",
-              "code": "8140/3"
-            }
-          ]
-        },
-        "bodySite": [
-          {
-            "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
-                "code": "C34.0"
-              }
-            ]
-          }
-        ],
-        "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
-        },
-        "onsetDateTime": "2022-05-05",
-        "stage": [
-          {
-            "summary": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
-                  "code": "IVB"
-                }
-              ]
-            }
-          }
-        ]
       }
     },
     {
@@ -1298,7 +1261,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1356,7 +1319,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1414,7 +1377,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1472,7 +1435,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1530,7 +1493,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1588,7 +1551,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1646,7 +1609,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1704,7 +1667,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1762,7 +1725,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1820,7 +1783,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1878,7 +1841,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1936,7 +1899,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1983,6 +1946,120 @@
         "provision": {
           "type": "permit"
         }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "Example_Condition_Erstdiagnose",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.43.1",
+              "code": "8140/3"
+            }
+          ]
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                "code": "C34.0"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+                  "code": "P"
+                }
+              ]
+            },
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "567314"
+          }
+        },
+        "onsetDateTime": "2022-05-05",
+        "stage": [
+          {
+            "summary": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+                  "code": "IVB"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "Example_Condition_Erstdiagnose",
+        "meta": {
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.43.1",
+              "code": "8140/3"
+            }
+          ]
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                "code": "C34.1"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+                  "code": "P"
+                }
+              ]
+            },
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+            "value": "567314"
+          }
+        },
+        "onsetDateTime": "2022-06-06",
+        "stage": [
+          {
+            "summary": {
+              "coding": [
+                {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+                  "code": "IVA"
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   ]
