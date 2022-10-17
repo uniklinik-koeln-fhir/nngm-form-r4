@@ -79,6 +79,20 @@
 					"value": "Patient"
 				}
 			]
+		},
+		{
+			"code": "BUN",
+			"display": "Bundle",
+			"designation": [
+				{
+					"language": "de",
+					"value": "Bundle"
+				},
+				{
+					"language": "en",
+					"value": "Bundle"
+				}
+			]
 		}
 	]
 }

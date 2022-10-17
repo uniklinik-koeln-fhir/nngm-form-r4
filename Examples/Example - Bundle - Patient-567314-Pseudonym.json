@@ -6,6 +6,15 @@
     ]
   },
   "identifier": {
+    "use": "official",
+    "type": {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+          "code": "BUN"
+        }
+      ]
+    },
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
     "value": "Patient-567314-Pseudonym"
   },

@@ -14,9 +14,9 @@
     ]
   },
   "expansion": {
-    "identifier": "urn:uuid:eb3ede5b-9b6d-4f41-9641-9e4b8cee96c4",
-    "timestamp": "2022-09-26T12:16:44.1443708+02:00",
-    "total": 5,
+    "identifier": "urn:uuid:c4dd162a-800e-4bba-9a0f-300737a6afec",
+    "timestamp": "2022-10-17T13:29:46.8721605+02:00",
+    "total": 6,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
@@ -95,6 +95,22 @@
           {
             "language": "en",
             "value": "Patient"
+          }
+        ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+        "version": "1.0",
+        "code": "BUN",
+        "display": "Bundle",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Bundle"
+          },
+          {
+            "language": "en",
+            "value": "Bundle"
           }
         ]
       }

@@ -477,7 +477,7 @@
         "definition": "The purpose of this identifier.",
         "comment": "Applications can assume that an identifier is permanent unless it explicitly says that it is temporary.",
         "requirements": "Allows the appropriate identifier for a particular context of use to be selected from among a set of identifiers.",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Identifier.use",
@@ -489,6 +489,7 @@
             "code": "code"
           }
         ],
+        "fixedCode": "official",
         "condition": [
           "ele-1"
         ],
@@ -560,6 +561,14 @@
             "code": "CodeableConcept"
           }
         ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+              "code": "BUN"
+            }
+          ]
+        },
         "condition": [
           "ele-1"
         ],
@@ -585,9 +594,9 @@
               "valueBoolean": true
             }
           ],
-          "strength": "extensible",
+          "strength": "required",
           "description": "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/identifier-type"
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/IdentifierType"
         },
         "mapping": [
           {
@@ -623,7 +632,7 @@
         "definition": "Establishes the namespace for the value - that is, a URL that describes a set values that are unique.",
         "comment": "Identifier.system is always case sensitive.",
         "requirements": "There are many sets  of identifiers.  To perform matching of two identifiers, we need to know what set we're dealing with. The system identifies a particular set of unique identifiers.",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Identifier.system",
@@ -681,7 +690,7 @@
         "short": "The value that is unique",
         "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.",
         "comment": "If the value is a full URI, then the system SHALL be urn:ietf:rfc:3986.  The value's primary purpose is computational mapping.  As a result, it may be normalized for comparison purposes (e.g. removing non-significant whitespace, dashes, etc.)  A value formatted for human display can be conveyed using the [Rendered Value extension](extension-rendered-value.html). Identifier.value is to be treated as case sensitive unless knowledge of the Identifier.system allows the processer to be confident that non-case-sensitive processing is safe.",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Identifier.value",
@@ -3077,9 +3086,37 @@
         "min": 1
       },
       {
+        "id": "Bundle.identifier.use",
+        "path": "Bundle.identifier.use",
+        "min": 1,
+        "fixedCode": "official"
+      },
+      {
+        "id": "Bundle.identifier.type",
+        "path": "Bundle.identifier.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+              "code": "BUN"
+            }
+          ]
+        },
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/IdentifierType"
+        }
+      },
+      {
         "id": "Bundle.identifier.system",
         "path": "Bundle.identifier.system",
+        "min": 1,
         "fixedUri": "http://uk-koeln.de/fhir/sid/bundle-identifier"
+      },
+      {
+        "id": "Bundle.identifier.value",
+        "path": "Bundle.identifier.value",
+        "min": 1
       },
       {
         "id": "Bundle.type",
