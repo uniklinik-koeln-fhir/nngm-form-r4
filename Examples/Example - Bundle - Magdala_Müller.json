@@ -1,8 +1,22 @@
 {
   "resourceType": "Bundle",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Bundle/nNGM"
+    ]
+  },
   "identifier": {
+    "use": "official",
+    "type": {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+          "code": "BUN"
+        }
+      ]
+    },
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "Magdala_Müller"
+    "value": "Patient-031858-Pseudonym"
   },
   "type": "document",
   "timestamp": "2022-09-02T15:33:42+02:00",
@@ -30,7 +44,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -268,10 +282,10 @@
     {
       "resource": {
         "resourceType": "Patient",
-        "id": "Example_Patient_MagdalaMüller",
+        "id": "Example_Patient_Patient-031858-Pseudonym",
         "meta": {
           "profile": [
-            "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert"
           ]
         },
         "identifier": [
@@ -284,44 +298,12 @@
                 }
               ]
             },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
             "value": "031858"
           }
         ],
-        "name": [
-          {
-            "use": "official",
-            "family": "Müller",
-            "given": [
-              "Magdala"
-            ]
-          }
-        ],
         "gender": "female",
-        "birthDate": "1972-05-18",
-        "address": [
-          {
-            "line": [
-              "Nordstraße 34"
-            ],
-            "_line": [
-              {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
-                    "valueString": "Nordstraße"
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
-                    "valueString": "34"
-                  }
-                ]
-              }
-            ],
-            "city": "Stuttgart",
-            "postalCode": "93478"
-          }
-        ]
+        "birthDate": "1970-04-05"
       }
     },
     {
@@ -396,7 +378,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -442,7 +424,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -496,7 +478,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -589,7 +571,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -653,7 +635,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -831,7 +813,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1009,7 +991,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1056,7 +1038,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1155,7 +1137,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1231,7 +1213,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1283,7 +1265,7 @@
           ]
         },
         "beneficiary": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1333,7 +1315,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1391,7 +1373,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1449,7 +1431,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1507,7 +1489,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1565,7 +1547,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1623,7 +1605,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1681,7 +1663,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1739,7 +1721,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1797,7 +1779,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1855,7 +1837,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1913,7 +1895,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -1971,7 +1953,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -2029,7 +2011,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -2087,7 +2069,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -2145,7 +2127,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
@@ -2203,7 +2185,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_MagdalaMüller",
+          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
           "identifier": {
             "type": {
               "coding": [
