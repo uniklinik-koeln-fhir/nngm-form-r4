@@ -1,22 +1,8 @@
 {
   "resourceType": "Bundle",
-  "meta": {
-    "profile": [
-      "http://uk-koeln.de/fhir/StructureDefinition/Bundle/nNGM"
-    ]
-  },
   "identifier": {
-    "use": "official",
-    "type": {
-      "coding": [
-        {
-          "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-          "code": "BUN"
-        }
-      ]
-    },
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "Patient-567314-Pseudonym"
+    "value": "Herbert_Schmidt"
   },
   "type": "document",
   "timestamp": "2022-09-02T15:33:42+02:00",
@@ -44,19 +30,8 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
+          
         },
         "date": "2022-09-02T15:26:42+02:00",
         "author": [
@@ -270,28 +245,46 @@
     {
       "resource": {
         "resourceType": "Patient",
-        "id": "Example_Patient_Patient-567314-Pseudonym",
+        "id": "Example_Patient_54781014",
         "meta": {
           "profile": [
-            "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert"
+            "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
           ]
         },
-        "identifier": [
+        "name": [
           {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
+            "use": "official",
+            "family": "Schmidt",
+            "given": [
+              "Herbert"
+            ]
           }
         ],
-        "gender": "female",
-        "birthDate": "1972-05-18"
+        "gender": "male",
+        "birthDate": "1954-11-21",
+        "address": [
+          {
+            "line": [
+              "Brückstraße 43"
+            ],
+            "_line": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                    "valueString": "Brückstraße"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                    "valueString": "43"
+                  }
+                ]
+              }
+            ],
+            "city": "Hamburg",
+            "postalCode": "20095"
+          }
+        ]
       }
     },
     {
@@ -367,7 +360,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -438,7 +431,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -531,7 +524,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -595,7 +588,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -773,7 +766,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -951,7 +944,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -998,7 +991,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1097,7 +1090,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1173,7 +1166,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1212,7 +1205,7 @@
                 }
               ]
             },
-            "value": "000000000"
+            "value": "445900012"
           }
         ],
         "status": "active",
@@ -1225,7 +1218,7 @@
           ]
         },
         "beneficiary": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1275,7 +1268,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1333,7 +1326,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1391,7 +1384,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1449,7 +1442,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1507,7 +1500,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1565,7 +1558,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1623,7 +1616,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1681,7 +1674,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1739,7 +1732,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1797,7 +1790,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1855,7 +1848,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1913,7 +1906,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [
@@ -1970,7 +1963,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+          "reference": "Patient/Example_Patient_54781014",
           "identifier": {
             "type": {
               "coding": [

@@ -2,10 +2,10 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "Patient-031858-Pseudonym"
+    "value": "Denise_Fischer"
   },
   "type": "document",
-  "timestamp": "2022-09-02T15:33:42+02:00",
+  "timestamp": "2022-10-03T14:13:40+02:00",
   "entry": [
     {
       "resource": {
@@ -30,19 +30,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "031858"
-          }
+          "reference": "Patient/Example_Patient_6234252"
         },
         "date": "2022-09-02T15:26:42+02:00",
         "author": [
@@ -268,28 +256,46 @@
     {
       "resource": {
         "resourceType": "Patient",
-        "id": "Example_Patient_Patient-031858-Pseudonym",
+        "id": "Example_Patient_6234252",
         "meta": {
           "profile": [
-            "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert"
+            "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
           ]
         },
-        "identifier": [
+        "name": [
           {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "031858"
+            "use": "official",
+            "family": "Fischer",
+            "given": [
+              "Denise"
+            ]
           }
         ],
         "gender": "female",
-        "birthDate": "1972-05-18"
+        "birthDate": "1980-11-03",
+        "address": [
+          {
+            "line": [
+              "Goetheallee 120"
+            ],
+            "_line": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                    "valueString": "Goetheallee"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                    "valueString": "120"
+                  }
+                ]
+              }
+            ],
+            "city": "Augsburg",
+            "postalCode": "86157"
+          }
+        ]
       }
     },
     {
@@ -364,7 +370,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -410,7 +416,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -464,7 +470,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -557,7 +563,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -621,7 +627,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -799,7 +805,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -977,7 +983,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1024,7 +1030,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1123,7 +1129,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1199,7 +1205,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1238,7 +1244,7 @@
                 }
               ]
             },
-            "value": "000000000"
+            "value": "852961002"
           }
         ],
         "status": "active",
@@ -1251,7 +1257,7 @@
           ]
         },
         "beneficiary": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1301,7 +1307,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1359,7 +1365,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1417,7 +1423,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1475,7 +1481,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1533,7 +1539,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1591,7 +1597,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1649,7 +1655,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1707,7 +1713,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1765,7 +1771,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1823,7 +1829,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1881,7 +1887,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1939,7 +1945,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -1997,7 +2003,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -2055,7 +2061,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -2113,7 +2119,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
@@ -2171,7 +2177,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_Patient-031858-Pseudonym",
+          "reference": "Patient/Example_Patient_6234252",
           "identifier": {
             "type": {
               "coding": [
