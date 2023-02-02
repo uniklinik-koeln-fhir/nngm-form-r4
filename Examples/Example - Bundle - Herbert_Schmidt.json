@@ -360,19 +360,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-19",
         "valueCodeableConcept": {
@@ -431,19 +419,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-19",
         "valueCodeableConcept": {
@@ -524,19 +500,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-19",
         "valueCodeableConcept": {
@@ -588,19 +552,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-18",
         "valueCodeableConcept": {
@@ -766,19 +718,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-17",
         "valueCodeableConcept": {
@@ -944,19 +884,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-17",
         "valueBoolean": true
@@ -991,19 +919,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "effectiveDateTime": "2022-07-19",
         "dataAbsentReason": {
@@ -1090,19 +1006,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "authoredOn": "2022-07-19",
         "requester": {
@@ -1166,19 +1070,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "collection": {
           "collectedDateTime": "2022-07-19"
@@ -1218,19 +1110,7 @@
           ]
         },
         "beneficiary": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "payor": [
           {
@@ -1268,19 +1148,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1326,19 +1194,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1384,19 +1240,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1442,19 +1286,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1500,19 +1332,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1558,19 +1378,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1616,19 +1424,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1674,19 +1470,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1732,19 +1516,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1790,19 +1562,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1848,19 +1608,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1906,19 +1654,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "dateTime": "2022-10-06T00:00:00+02:00",
         "policyRule": {
@@ -1963,19 +1699,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/Example_Patient_54781014",
-          "identifier": {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "P"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
-            "value": "567314"
-          }
+          "reference": "Patient/Example_Patient_54781014"
         },
         "onsetDateTime": "2022-05-05",
         "stage": [
