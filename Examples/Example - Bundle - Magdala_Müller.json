@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "Magdala_Müller"
+    "value": "710014441"
   },
   "type": "document",
   "timestamp": "2022-09-02T15:33:42+02:00",

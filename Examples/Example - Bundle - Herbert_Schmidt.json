@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "Herbert_Schmidt"
+    "value": "846279513"
   },
   "type": "document",
   "timestamp": "2022-09-02T15:33:42+02:00",

@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "http://uk-koeln.de/fhir/sid/bundle-identifier",
-    "value": "Denise_Fischer"
+    "value": "154843123"
   },
   "type": "document",
   "timestamp": "2022-10-03T14:13:40+02:00",
