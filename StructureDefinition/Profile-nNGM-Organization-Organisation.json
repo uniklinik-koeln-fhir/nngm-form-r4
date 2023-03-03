@@ -215,16 +215,6 @@
       },
       {
         "id": "Organization.implicitRules",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Organization.implicitRules",
         "short": "A set of rules under which this content was created",
         "definition": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.",
@@ -266,16 +256,6 @@
       },
       {
         "id": "Organization.language",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Organization.language",
         "short": "Language of the resource content",
         "definition": "The base language in which the resource is written.",
@@ -1800,16 +1780,6 @@
       },
       {
         "id": "Organization.active",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Organization.active",
         "short": "Whether the organization's record is still in active use",
         "definition": "Whether the organization's record is still in active use.",
@@ -1880,21 +1850,11 @@
           }
         ],
         "path": "Organization.type",
-        "label": "Organisationsart",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "short": "Organisationsart",
+        "short": "Kind of organization",
         "definition": "The kind(s) of organization that this is.",
         "comment": "Organizations can be corporations, wards, sections, clinical teams, government departments, etc. Note that code is generally a classifier of the type of organization; in many applications, codes are used to identity a particular organization (say, ward) as opposed to another of the same type - these are identifiers, not codes\n\nWhen considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.\n\nWe expect that some jurisdictions will profile this optionality to be a single cardinality.",
         "requirements": "Need to be able to track the kind of organization that this is - different organization types have different uses.",
-        "min": 2,
+        "min": 0,
         "max": "*",
         "base": {
           "path": "Organization.type",
@@ -1919,7 +1879,6 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
-        "mustSupport": true,
         "isSummary": true,
         "binding": {
           "extension": [
@@ -1968,208 +1927,13 @@
         ]
       },
       {
-        "id": "Organization.type:ZugehoerigkeitNetzwerkzentrum",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Organization.type",
-        "sliceName": "ZugehoerigkeitNetzwerkzentrum",
-        "label": "Netzwerkzentrum",
-        "short": "Netzwerkzentrum",
-        "definition": "The kind(s) of organization that this is.",
-        "comment": "Organizations can be corporations, wards, sections, clinical teams, government departments, etc. Note that code is generally a classifier of the type of organization; in many applications, codes are used to identity a particular organization (say, ward) as opposed to another of the same type - these are identifiers, not codes\n\nWhen considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.\n\nWe expect that some jurisdictions will profile this optionality to be a single cardinality.",
-        "requirements": "Need to be able to track the kind of organization that this is - different organization types have different uses.",
-        "min": 1,
-        "max": "1",
-        "base": {
-          "path": "Organization.type",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "condition": [
-          "ele-1"
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
-            "source": "http://hl7.org/fhir/StructureDefinition/Element"
-          }
-        ],
-        "mustSupport": true,
-        "isSummary": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "OrganizationType"
-            }
-          ],
-          "strength": "required",
-          "description": "Used to categorize the organization.",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/OrganizationType/nNGM/ZugehoerigkeitNetzwerkzentrum"
-        },
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          },
-          {
-            "identity": "v2",
-            "map": "CE/CNE/CWE"
-          },
-          {
-            "identity": "rim",
-            "map": "CD"
-          },
-          {
-            "identity": "orim",
-            "map": "fhir:CodeableConcept rdfs:subClassOf dt:CD"
-          },
-          {
-            "identity": "w5",
-            "map": "FiveWs.class"
-          },
-          {
-            "identity": "v2",
-            "map": "No equivalent in v2"
-          },
-          {
-            "identity": "rim",
-            "map": ".code"
-          },
-          {
-            "identity": "servd",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Organization.type:Organisationsart",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
-        "path": "Organization.type",
-        "sliceName": "Organisationsart",
-        "label": "Organisationsart",
-        "short": "Organisationsart",
-        "definition": "The kind(s) of organization that this is.",
-        "comment": "Organizations can be corporations, wards, sections, clinical teams, government departments, etc. Note that code is generally a classifier of the type of organization; in many applications, codes are used to identity a particular organization (say, ward) as opposed to another of the same type - these are identifiers, not codes\n\nWhen considering if multiple types are appropriate, you should evaluate if child organizations would be a more appropriate use of the concept, as different types likely are in different sub-areas of the organization. This is most likely to be used where type values have orthogonal values, such as a religious, academic and medical center.\n\nWe expect that some jurisdictions will profile this optionality to be a single cardinality.",
-        "requirements": "Need to be able to track the kind of organization that this is - different organization types have different uses.",
-        "min": 1,
-        "max": "1",
-        "base": {
-          "path": "Organization.type",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "condition": [
-          "ele-1"
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
-            "source": "http://hl7.org/fhir/StructureDefinition/Element"
-          }
-        ],
-        "mustSupport": true,
-        "isSummary": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "OrganizationType"
-            }
-          ],
-          "strength": "required",
-          "description": "Used to categorize the organization.",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/OrganizationType/nNGM"
-        },
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          },
-          {
-            "identity": "v2",
-            "map": "CE/CNE/CWE"
-          },
-          {
-            "identity": "rim",
-            "map": "CD"
-          },
-          {
-            "identity": "orim",
-            "map": "fhir:CodeableConcept rdfs:subClassOf dt:CD"
-          },
-          {
-            "identity": "w5",
-            "map": "FiveWs.class"
-          },
-          {
-            "identity": "v2",
-            "map": "No equivalent in v2"
-          },
-          {
-            "identity": "rim",
-            "map": ".code"
-          },
-          {
-            "identity": "servd",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
         "id": "Organization.name",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Organization.name",
-        "label": "Name",
-        "short": "Name",
+        "short": "Name used for the organization",
         "definition": "A name associated with the organization.",
         "comment": "If the name of an organization changes, consider putting the old name in the alias column so that it can still be located through searches.",
         "requirements": "Need to use the name as the label of the organization.",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "base": {
           "path": "Organization.name",
@@ -2195,7 +1959,6 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
-        "mustSupport": true,
         "isSummary": true,
         "mapping": [
           {
@@ -2218,16 +1981,6 @@
       },
       {
         "id": "Organization.alias",
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode": "normative"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-            "valueCode": "4.0.0"
-          }
-        ],
         "path": "Organization.alias",
         "short": "A list of alternate names that the organization is known as, or was known as in the past",
         "definition": "A list of alternate names that the organization is known as, or was known as in the past.",
@@ -3169,59 +2922,6 @@
       {
         "id": "Organization.identifier.value",
         "path": "Organization.identifier.value",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Organization.type",
-        "path": "Organization.type",
-        "label": "Organisationsart",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "short": "Organisationsart",
-        "min": 2,
-        "mustSupport": true
-      },
-      {
-        "id": "Organization.type:ZugehoerigkeitNetzwerkzentrum",
-        "path": "Organization.type",
-        "sliceName": "ZugehoerigkeitNetzwerkzentrum",
-        "label": "Netzwerkzentrum",
-        "short": "Netzwerkzentrum",
-        "min": 1,
-        "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/OrganizationType/nNGM/ZugehoerigkeitNetzwerkzentrum"
-        }
-      },
-      {
-        "id": "Organization.type:Organisationsart",
-        "path": "Organization.type",
-        "sliceName": "Organisationsart",
-        "label": "Organisationsart",
-        "short": "Organisationsart",
-        "min": 1,
-        "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/OrganizationType/nNGM"
-        }
-      },
-      {
-        "id": "Organization.name",
-        "path": "Organization.name",
-        "label": "Name",
-        "short": "Name",
         "min": 1,
         "mustSupport": true
       },
