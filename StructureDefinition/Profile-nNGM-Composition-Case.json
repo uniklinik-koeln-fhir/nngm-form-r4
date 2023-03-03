@@ -4254,7 +4254,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "section.code.coding.code"
+              "path": "code.coding.code"
             }
           ],
           "rules": "open"
@@ -13522,7 +13522,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
-              "code": "89247-1"
+              "code": "ECOGS"
             }
           ]
         },
@@ -22892,7 +22892,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "section.code.coding.code"
+              "path": "code.coding.code"
             }
           ],
           "rules": "open"
@@ -23129,7 +23129,7 @@
           "coding": [
             {
               "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
-              "code": "89247-1"
+              "code": "ECOGS"
             }
           ]
         }
