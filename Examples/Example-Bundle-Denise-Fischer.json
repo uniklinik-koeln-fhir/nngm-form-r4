@@ -1105,7 +1105,7 @@
         "type": {
           "coding": [
             {
-              "system": "http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkassentypen",
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkassentypen",
               "code": "PKV"
             }
           ]
