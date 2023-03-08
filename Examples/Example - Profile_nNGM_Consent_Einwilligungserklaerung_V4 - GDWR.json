@@ -6,7 +6,7 @@
       "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4"
     ]
   },
-  "status": "draft",
+  "status": "active",
   "scope": {
     "coding": [
       {

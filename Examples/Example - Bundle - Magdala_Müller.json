@@ -1129,7 +1129,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1175,7 +1175,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1221,7 +1221,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1267,7 +1267,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1313,7 +1313,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1359,7 +1359,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1405,7 +1405,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1451,7 +1451,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1497,7 +1497,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1543,7 +1543,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1589,7 +1589,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1635,7 +1635,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1681,7 +1681,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1727,7 +1727,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1773,7 +1773,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {
@@ -1819,7 +1819,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent"
           ]
         },
-        "status": "draft",
+        "status": "active",
         "scope": {
           "coding": [
             {

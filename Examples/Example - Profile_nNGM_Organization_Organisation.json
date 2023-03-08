@@ -1,6 +1,6 @@
 {
   "resourceType": "Organization",
-  "id": "Example_Organization_nNGM-Präsentationszentrum",
+  "id": "Example_Organization_Universitaetsklinikum_Koeln",
   "meta": {
     "profile": [
       "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM"
@@ -8,35 +8,9 @@
   },
   "identifier": [
     {
-      "type": {
-        "coding": [
-          {
-            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-            "code": "ORG"
-          }
-        ]
-      },
-      "system": "http://uk-koeln.de/fhir/sid/nNGM/organization",
-      "value": "0003"
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/nms-organization",
+      "value": "SZ-00002"
     }
-  ],
-  "type": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "261074009"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "285201006"
-        }
-      ]
-    }
-  ],
-  "name": "nNGM-Präsentationszentrum"
+  ],  
+  "name": "Universitätsklinikum Köln"
 }
