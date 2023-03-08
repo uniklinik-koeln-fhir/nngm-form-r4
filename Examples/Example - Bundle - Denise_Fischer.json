@@ -572,7 +572,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+                      "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
                       "code": "c"
                     }
                   ]
@@ -614,7 +614,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+                      "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
                       "code": "c"
                     }
                   ]
@@ -645,7 +645,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix",
+                      "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/tnm-cpu-praefix",
                       "code": "c"
                     }
                   ]

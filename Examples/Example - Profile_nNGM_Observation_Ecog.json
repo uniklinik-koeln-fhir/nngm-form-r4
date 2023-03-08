@@ -6,7 +6,7 @@
       "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog"
     ]
   },
-  "partOf": [
+  "basedOn": [
     {
       "reference": "ServiceRequest/Example_ServiceRequest_AnforderungDerDiagnostik"
     }
