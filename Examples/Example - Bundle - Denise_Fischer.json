@@ -35,7 +35,7 @@
         "date": "2022-09-02T15:26:42+02:00",
         "author": [
           {
-            "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
+            "reference": "Organization/Example_Organization_Universitätsklinikum_Koeln"
           }
         ],
         "title": "Composition 2a06b4ad53ed471892e0ad886ef08355",
@@ -301,7 +301,7 @@
     {
       "resource": {
         "resourceType": "Organization",
-        "id": "Example_Organization_nNGM-Präsentationszentrum",
+        "id": "Example_Organization_Universitätsklinikum_Koeln",
         "meta": {
           "profile": [
             "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM"
@@ -309,37 +309,11 @@
         },
         "identifier": [
           {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-                  "code": "ORG"
-                }
-              ]
-            },
-            "system": "http://uk-koeln.de/fhir/sid/nNGM/organization",
-            "value": "1000"
+            "system": "http://uk-koeln.de/fhir/sid/nNGM/nms-organization",
+            "value": "SZ-00002"
           }
-        ],
-        "type": [
-          {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "code": "261074009"
-              }
-            ]
-          },
-          {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "code": "285201006"
-              }
-            ]
-          }
-        ],
-        "name": "nNGM-Präsentationszentrum"
+        ],        
+        "name": "Universitätsklinikum Köln"
       }
     },
     {
@@ -502,7 +476,7 @@
             "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog"
           ]
         },
-        "partOf": [
+        "basedOn": [
           {
             "reference": "ServiceRequest/Example_ServiceRequest_AnforderungDerDiagnostik"
           }
@@ -1037,11 +1011,11 @@
         },
         "authoredOn": "2022-07-19",
         "requester": {
-          "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
+          "reference": "Organization/Example_Organization_Universitätsklinikum_Koeln"
         },
         "performer": [
           {
-            "reference": "Organization/Example_Organization_nNGM-Präsentationszentrum"
+            "reference": "Organization/Example_Organization_Universitätsklinikum_Koeln"
           }
         ],
         "specimen": [
@@ -1131,7 +1105,7 @@
         "type": {
           "coding": [
             {
-              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+              "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
               "code": "PKV"
             }
           ]
