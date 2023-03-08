@@ -1078,7 +1078,7 @@
         "type": {
           "coding": [
             {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkassentypen",
+              "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
               "code": "PKV"
             }
           ]
