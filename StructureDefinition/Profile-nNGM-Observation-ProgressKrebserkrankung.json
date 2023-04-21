@@ -23,8 +23,7 @@
             "key": "obs-nngm-1",
             "severity": "error",
             "human": "Falls kein Messwert verfügbar ist, muss eine dataAbsentReason angegeben werden",
-            "expression": "value.exists().not() implies dataAbsentReason.exists()",
-            "source": "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/progress-relapse"
+            "expression": "value.exists().not() implies dataAbsentReason.exists()"
           }
         ]
       },
@@ -61,10 +60,6 @@
             }
           ]
         }
-      },
-      {
-        "id": "Observation.code",
-        "path": "Observation.code"
       },
       {
         "id": "Observation.code.coding",
@@ -157,6 +152,28 @@
         "id": "Observation.device",
         "path": "Observation.device",
         "max": "0"
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "short": "Resistenztestungen",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-alk",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-braf",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-egfr",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-fgfr",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-kras",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-met",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-ros1"
+            ],
+            "aggregation": [
+              "referenced"
+            ]
+          }
+        ]
       },
       {
         "id": "Observation.component",
