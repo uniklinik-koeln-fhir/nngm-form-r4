@@ -53,13 +53,21 @@
       "code": "EKAZB",
       "display": "Möglichkeit einer erneuten Kontaktaufnahme für Informationen über zusätzliche Befunde"
     },
-	{
+	  {
       "code": "GDWR",
       "display": "Geltungsdauer / Widerrufsrecht"
     },
     {
       "code": "DIGINET",
       "display": "Einwilligungserklärung DigiNet: Zusatzinformation zu Teil 2 (Forschung im nNGM)"
+    },
+    {
+      "code": "PTEU",
+      "display": "Der Patient hat eine Teilnahmeerklärung unterschrieben."
+    },
+    {
+      "code": "PBVU",
+      "display": "Der Patient hat einen Behandlungsvertrag unterschrieben."
     }
   ]
 }
