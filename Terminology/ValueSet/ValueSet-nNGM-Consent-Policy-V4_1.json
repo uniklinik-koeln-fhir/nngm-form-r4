@@ -16,7 +16,7 @@
   "expansion": {
     "identifier": "urn:uuid:885dd258-1164-4a00-bfad-e0be1fed48cb",
     "timestamp": "2022-10-06T13:51:28.5140637+02:00",
-    "total": 12,
+    "total": 13,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-consent-policy-v4",
