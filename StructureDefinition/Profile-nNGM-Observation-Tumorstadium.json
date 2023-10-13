@@ -82,6 +82,28 @@
         "short": "Ob es sich um die Erstdiagnose handelt",
         "mustSupport": true
       },
+	  {
+        "id": "Observation.extension:uicc-version",
+        "path": "Observation.extension",
+        "sliceName": "uicc-version",
+        "label": "Uicc Version",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/uiccVersion"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.extension:uicc-version.value[x]",
+        "path": "Observation.extension.value[x]",
+        "label": "Uicc Version",
+        "short": "Welche Version UICC Kriterien verwendet werden soll",
+        "mustSupport": true
+      },
       {
         "id": "Observation.status",
         "path": "Observation.status",
