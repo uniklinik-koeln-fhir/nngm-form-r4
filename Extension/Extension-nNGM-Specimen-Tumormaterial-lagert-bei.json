@@ -35,33 +35,18 @@
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
         "label": "Tumormaterial lagert bei",
-        "short": "Lagerung Tumormaterial",
+        "short": "Eindeutige Identifizierung des pathologen, bei dem das Tumormaterial lagert",
         "min": 1,
         "type": [
           {
-            "code": "Identifier"
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/PractitionerRole"
+            ]
           }
         ],
         "mustSupport": true,
         "isModifier": false
-      },
-      {
-        "id": "Extension.value[x].type",
-        "path": "Extension.value[x].type",
-        "short": "Type of nNGM identifier",
-        "min": 1,
-        "fixedCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
-              "code": "PAT"
-            }
-          ]
-        },
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/IdentifierType"
-        }
       }
     ]
   }
