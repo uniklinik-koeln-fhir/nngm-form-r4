@@ -453,8 +453,8 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
         "version": "1.0.0",
-        "code": "BKK Mobil Oil AG",
-        "display": "BKK Mobil Oil AG"
+        "code": "Mobil Krankenkasse",
+        "display": "Mobil Krankenkasse"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
@@ -929,6 +929,12 @@
         "version": "1.0.0",
         "code": "Mecklenburgische",
         "display": "Mecklenburgische"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+        "version": "1.0.0",
+        "code": "Mercedes-Benz BKK",
+        "display": "Mercedes-Benz BKK"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
