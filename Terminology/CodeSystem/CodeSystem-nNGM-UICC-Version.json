@@ -3,7 +3,7 @@
     "id": "CodeSystem-nNGM-uiccVersion",
     "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
     "version": "1.0.0",
-    "name": "CodeSystem_nNGM_Vitalstatus",
+    "name": "CodeSystem_nNGM_uiccVersion",
     "title": "CodeSystem - nNGM - uiccVersion",
     "status": "active",
     "caseSensitive": true,
