@@ -819,8 +819,8 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
         "version": "1.0.0",
-        "code": "HEK  Hanseatische Krankenkasse",
-        "display": "HEK  Hanseatische Krankenkasse"
+        "code": "HEK - Hanseatische Krankenkasse",
+        "display": "HEK - Hanseatische Krankenkasse"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
@@ -999,8 +999,8 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
         "version": "1.0.0",
-        "code": "Schwenninger BKK",
-        "display": "Schwenninger BKK"
+        "code": "Vivida BKK",
+        "display": "Vivida BKK"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
