@@ -16,7 +16,7 @@
   "expansion": {
     "identifier": "urn:uuid:c4961c54-2017-4ef6-9898-2a5b36c052f7",
     "timestamp": "2022-10-05T13:57:21.8120747+02:00",
-    "total": 3,
+    "total": 2,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",

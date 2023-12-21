@@ -11,7 +11,7 @@
   "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4",
   "compositional": false,
   "content": "complete",
-  "count": 7,
+  "count": 14,
   "concept": [
     {
       "code": "1",
