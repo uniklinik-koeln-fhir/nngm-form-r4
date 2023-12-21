@@ -29,12 +29,6 @@
         "version": "1.0.0",
         "code": "version8",
         "display": "Version 8"
-      },
-      {
-        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccVersion",
-        "version": "1.0.0",
-        "code": "unknown",
-        "display": "unbekannt"
       }
     ]
   }
