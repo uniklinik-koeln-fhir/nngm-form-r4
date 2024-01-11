@@ -831,8 +831,8 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
         "version": "1.0.0",
-        "code": "HUK-COBURG *1",
-        "display": "HUK-COBURG *1"
+        "code": "HUK-COBURG",
+        "display": "HUK-COBURG"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
