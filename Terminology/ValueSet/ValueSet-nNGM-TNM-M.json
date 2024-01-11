@@ -12,6 +12,10 @@
         "system": "urn:oid:2.16.840.1.113883.15.16",
         "concept": [
           {
+            "code": "MX",
+            "display": "MX"
+          },
+          {
             "code": "M0",
             "display": "M0"
           },
@@ -42,8 +46,13 @@
   "expansion": {
     "identifier": "urn:uuid:111e6ad4-827c-406a-a2a9-2d77b9913436",
     "timestamp": "2022-08-23T15:20:31.6270175+02:00",
-    "total": 6,
+    "total": 7,
     "contains": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "code": "MX",
+        "display": "MX"
+      },
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
         "code": "M0",
