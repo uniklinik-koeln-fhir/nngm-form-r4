@@ -477,8 +477,8 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
         "version": "1.0.0",
-        "code": "BKK PricewaterhouseCoopers",
-        "display": "BKK PricewaterhouseCoopers"
+        "code": "BKK PricewaterhouseCoopers (PwC)",
+        "display": "BKK PricewaterhouseCoopers (PwC)"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
