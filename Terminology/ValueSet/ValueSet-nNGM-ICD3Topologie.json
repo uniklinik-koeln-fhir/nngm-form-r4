@@ -439,7 +439,21 @@
                 "value": "C74.9 - Nebenniere o.n.A."
               }
             ]
+          },
+          {
+            "code": "C77.0",
+            "display": "Lymphknoten des Kopfes, des Gesichtes und des Halses",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.0 - Lymphknoten des Kopfes, des Gesichtes und des Halses"
+              }
+            ]
           }
+          
         ]
       }
     ]
@@ -908,6 +922,20 @@
               "code": "nNGM-long-with-code"
             },
             "value": "C74.9 - Nebenniere o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.0",
+        "display": "Lymphknoten des Kopfes, des Gesichtes und des Halses",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.0 - Lymphknoten des Kopfes, des Gesichtes und des Halses"
           }
         ]
       }
