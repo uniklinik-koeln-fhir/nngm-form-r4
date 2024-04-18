@@ -1,8 +1,12 @@
 {
-  "updated": "2023-10-13T22:28:48.7865195+02:00",
+  "updated": "2024-04-08T10:18:14.6565355+02:00",
   "dependencies": {
-    "de.basisprofil.r4": "1.2.0",
-    "hl7.fhir.r4.core": "4.0.1"
+    "hl7.fhir.r4.core": "4.0.1",
+    "de.medizininformatikinitiative.kerndatensatz.molgen": "1.0.0",
+    "hl7.terminology.r4": "5.0.0",
+    "de.basisprofil.r4": "1.4.0",
+    "hl7.fhir.uv.genomics-reporting": "2.0.0",
+    "de.medizininformatikinitiative.kerndatensatz.meta": "1.0.3"
   },
   "missing": {}
 }

@@ -95,8 +95,7 @@
       {
         "id": "Bundle.entry.link",
         "path": "Bundle.entry.link",
-        "max": "0",
-        "contentReference": "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link"
+        "max": "0"
       },
       {
         "id": "Bundle.entry.fullUrl",
