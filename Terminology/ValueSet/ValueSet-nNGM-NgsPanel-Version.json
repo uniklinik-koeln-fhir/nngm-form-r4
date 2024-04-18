@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-NgsPanel-Verssion",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngspanel-version",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_NgsPanel-Version",
+  "title": "ValueSet - nNGM - NgsPanel-Version",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/ngspanel-version",
+        "concept": [
+          {
+            "code": "ngspanel20",
+            "display": "nNGM Panel 2.0"
+          },
+          {
+            "code": "ngspanel30",
+            "display": "nNGM Panel 3.0"
+          },
+          {
+            "code": "ngspanel31",
+            "display": "nNGM Panel 3.1"
+          },
+          {
+            "code": "ngspanel32",
+            "display": "nNGM Panel 3.2"
+          },
+          {
+            "code": "agilent hs2",
+            "display": "Agilent HS2-Lung Assay"
+          },
+          {
+            "code": "amoydx classic",
+            "display": "AmoyDx Classic Panel"
+          },
+          {
+            "code": "pan cancer",
+            "display": "Pan Cancer Panel (Qiagen)"
+          },
+          {
+            "code": "tso 500",
+            "display": "TSO 500 (Illumina)"
+          },
+          {
+            "code": "tst 170",
+            "display": "TST 170 (Illumina)"
+          }
+        ]
+      }
+    ]
+  }
+}

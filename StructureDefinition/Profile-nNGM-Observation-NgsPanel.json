@@ -1,0 +1,33 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/Profile-nNGM-Observation-NgsPanel",
+  "name": "Profile-nNGM-Observation-NgsPanel",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential":{
+    "element": [
+      {
+        "id": "Observation.component:ngspanelversion.value[x]",
+        "path": "Observation.component.value[x]",
+        "label": "NgsPanel-Version",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/ngspanel-version"
+        }
+      }
+    ]
+
+  }
+}
