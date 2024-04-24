@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "url": "https://example.org/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_Variante",
-  "name": "Profile-nNGM_MII_PR_MolGen_Variante",
+  "name": "Profile_nNGM_MII_PR_MolGen_Variante",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",
