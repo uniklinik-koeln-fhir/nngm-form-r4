@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Extension-nNGM-analysispossible",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/analysispossible",
-  "name": "Extension-nNGM-analysispossible",
+  "name": "Extension_nNGM_analysispossible",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "primitive-type",

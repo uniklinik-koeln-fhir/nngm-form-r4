@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Extension-nNGM-ngspanelversion",
-  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ngspanelversion",
-  "name": "Extension_nNGM_NgsPanelVersion",
+  "id": "Extension-nNGM-completlyEvaluable",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/completlyEvaluable",
+  "name": "Extension_nNGM_completlyEvaluable",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "primitive-type",
@@ -21,7 +21,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ngspanelversion"
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/completlyEvaluable"
       },
       {
         "id": "Extension.value[x]",
@@ -29,7 +29,7 @@
         "min": 0,
         "type": [
           {
-            "code": "string"
+            "code": "boolean"
           }
         ]
       }

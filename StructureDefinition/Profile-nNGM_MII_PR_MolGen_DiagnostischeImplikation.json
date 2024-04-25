@@ -8,45 +8,5 @@
   "abstract": false,
   "type": "Observation",
   "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-molgen/StructureDefinition/diagnostische-implikation",
-  "derivation": "constraint",
-  "differential": {
-    "element": [
-      {
-        "id": "Observation.component:conclusion-string",
-        "path": "Observation.component",
-        "sliceName": "conclusion-string",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:evidence-level",
-        "path": "Observation.component",
-        "sliceName": "evidence-level",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:prognosis",
-        "path": "Observation.component",
-        "sliceName": "prognosis",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:predicted-phenotype",
-        "path": "Observation.component",
-        "sliceName": "predicted-phenotype",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:mode-of-inheritance",
-        "path": "Observation.component",
-        "sliceName": "mode-of-inheritance",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:functional-effect",
-        "path": "Observation.component",
-        "sliceName": "functional-effect",
-        "mustSupport": false
-      }
-    ]
-  }
+  "derivation": "constraint"
 }

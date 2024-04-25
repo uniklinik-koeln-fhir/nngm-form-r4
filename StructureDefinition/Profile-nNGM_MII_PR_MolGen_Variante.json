@@ -12,136 +12,25 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.component:conclusion-string",
-        "path": "Observation.component",
-        "sliceName": "conclusion-string",
-        "mustSupport": false
+        "id": "DiagnosticReport.extension:completlyEvaluable",
+        "path": "DiagnosticReport.extension",
+        "sliceName": "completly-evaluable",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/completlyEvaluable"
+            ]
+          }
+        ]
       },
       {
-        "id": "Observation.component:cytogenetic-location",
-        "path": "Observation.component",
-        "sliceName": "cytogenetic-location",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:genomic-hgvs",
-        "path": "Observation.component",
-        "sliceName": "genomic-hgvs",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:cytogenomic-nomenclature",
-        "path": "Observation.component",
-        "sliceName": "cytogenomic-nomenclature",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:genomic-ref-seq",
-        "path": "Observation.component",
-        "sliceName": "genomic-ref-seq",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:exact-start-end",
-        "path": "Observation.component",
-        "sliceName": "exact-start-end",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:inner-start-end",
-        "path": "Observation.component",
-        "sliceName": "inner-start-end",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:outer-start-end",
-        "path": "Observation.component",
-        "sliceName": "outer-start-end",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:coordinate-system",
-        "path": "Observation.component",
-        "sliceName": "coordinate-system",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:coding-change-type",
-        "path": "Observation.component",
-        "sliceName": "coding-change-type",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:genomic-source-class",
-        "path": "Observation.component",
-        "sliceName": "genomic-source-class",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:sample-allelic-frequency",
-        "path": "Observation.component",
-        "sliceName": "sample-allelic-frequency",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:allelic-state",
-        "path": "Observation.component",
-        "sliceName": "allelic-state",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:variant-inheritance",
-        "path": "Observation.component",
-        "sliceName": "variant-inheritance",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:variation-code",
-        "path": "Observation.component",
-        "sliceName": "variation-code",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:amino-acid-change-type",
-        "path": "Observation.component",
-        "sliceName": "amino-acid-change-type",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:molecular-consequence",
-        "path": "Observation.component",
-        "sliceName": "molecular-consequence",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:copy-number",
-        "path": "Observation.component",
-        "sliceName": "copy-number",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:variant-confidence-status",
-        "path": "Observation.component",
-        "sliceName": "variant-confidence-status",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:dna-region",
-        "path": "Observation.component",
-        "sliceName": "dna-region",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:gene-fusion",
-        "path": "Observation.component",
-        "sliceName": "gene-fusion",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.component:detection-limit",
-        "path": "Observation.component",
-        "sliceName": "detection-limit",
-        "mustSupport": false
+        "id": "DiagnosticReport.extension:completlyEvaluable",
+        "path": "DiagnosticReport.extension.value[x]",
+        "label": "Vollstaendig auswertbar",
+        "short": "Gibt an, ob das Panel vollstaendig auswertbar ist",
+        "mustSupport": true
       }
     ]
   }

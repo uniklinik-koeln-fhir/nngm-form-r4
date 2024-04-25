@@ -52,6 +52,27 @@
         "label": "Analyse moeglich",
         "short": "Gibt an, ob die Analyse moeglich ist",
         "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.extension:analysisimpossiblereason",
+        "path": "DiagnosticReport.extension",
+        "sliceName": "analysis-impossible-reason",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/analysisimpossiblereason"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport.extension:analysisimpossiblereason",
+        "path": "DiagnosticReport.extension.value[x]",
+        "label": "Analysis impossible reason",
+        "short": "Gibt an, warum die Analyse nicht moeglich ist",
+        "mustSupport": true
       }
     ]
   }
