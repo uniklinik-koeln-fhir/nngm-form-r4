@@ -129,6 +129,16 @@
                     "value": "Tumor-Stadium"
                 }
             ]
+        },
+        {
+            "code": "MOLPATHO_RESULT",
+            "display": "Molecular genetic analysis result",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Molekulargenetischer Befundbericht"
+                }
+            ]
         }
     ]
 }

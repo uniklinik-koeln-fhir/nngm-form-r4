@@ -161,6 +161,18 @@
             "value": "Tumor-Stadium"
           }
         ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType",
+        "version": "0.1",
+        "code": "MOLPATHO_RESULT",
+        "display": "Molecular genetic analysis result",
+        "designation": [
+          {
+            "language": "de",
+            "value": "Molekulargenetischer Befundbericht"
+          }
+        ]
       }
     ]
   }

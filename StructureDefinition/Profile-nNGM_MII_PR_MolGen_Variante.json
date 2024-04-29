@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_Variante",
+  "name": "Profile_nNGM_MII_PR_MolGen_Variante",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-molgen/StructureDefinition/variante",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.extension:completlyEvaluable",
+        "path": "Observation.extension",
+        "sliceName": "completly-evaluable",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/completlyEvaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.extension:completlyEvaluable",
+        "path": "Observation.extension.value[x]",
+        "label": "Vollstaendig auswertbar",
+        "short": "Gibt an, ob das Panel vollstaendig auswertbar ist",
+        "mustSupport": true
+      }
+    ]
+  }
+}
