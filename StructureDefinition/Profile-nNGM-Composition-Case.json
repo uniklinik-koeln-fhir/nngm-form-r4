@@ -550,6 +550,43 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Composition.section:molpathoResult",
+        "path": "Composition.section",
+        "sliceName": "molpathoResult",
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:molpathoResult.code",
+        "path": "Composition.section.code",
+        "min": 1
+      },
+      {
+        "id": "Composition.section:molpathoResult.code.coding.system",
+        "path": "Composition.section.code.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/CompositionSectionType"
+      },
+      {
+        "id": "Composition.section:molpathoResult.code.coding.code",
+        "path": "Composition.section.code.coding.code",
+        "fixedCode": "MOLPATHO_RESULT"
+      },
+      {
+        "id": "Composition.section:molpathoResult.entry",
+        "path": "Composition.section.entry",
+        "label": "Molekulargenetischer Befundbericht",
+        "short": "Molekulargenetischer Befundbericht des Patienten",
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_MolekulargenetischerBefundbericht"
+            ]
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

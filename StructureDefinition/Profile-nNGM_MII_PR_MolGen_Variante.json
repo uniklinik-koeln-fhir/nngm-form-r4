@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_Variante",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_Variante",
   "name": "Profile_nNGM_MII_PR_MolGen_Variante",
   "status": "active",
   "fhirVersion": "4.0.1",
@@ -12,8 +12,8 @@
   "differential": {
     "element": [
       {
-        "id": "DiagnosticReport.extension:completlyEvaluable",
-        "path": "DiagnosticReport.extension",
+        "id": "Observation.extension:completlyEvaluable",
+        "path": "Observation.extension",
         "sliceName": "completly-evaluable",
         "min": 0,
         "type": [
@@ -26,8 +26,8 @@
         ]
       },
       {
-        "id": "DiagnosticReport.extension:completlyEvaluable",
-        "path": "DiagnosticReport.extension.value[x]",
+        "id": "Observation.extension:completlyEvaluable",
+        "path": "Observation.extension.value[x]",
         "label": "Vollstaendig auswertbar",
         "short": "Gibt an, ob das Panel vollstaendig auswertbar ist",
         "mustSupport": true
