@@ -29,9 +29,13 @@
         "min": 0,
         "type": [
           {
-            "code": "string"
+            "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/analysisimpossiblereason"
+        }
       }
     ]
   }
