@@ -32,6 +32,10 @@
         "system": "http://uk-koeln.de/fhir/sid/nngm/pathologist",
         "value": "PATHOLOGIST42"
       }
+    },
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tumorzellgehalt",
+      "valueInteger" : 20
     }
   ],
   "type": {

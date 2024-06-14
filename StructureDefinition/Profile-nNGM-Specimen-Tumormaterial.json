@@ -151,6 +151,27 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:tumorzellgehalt",
+        "path": "Specimen.extension",
+        "sliceName": "tumorzellgehalt",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tumorzellgehalt"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Specimen.extension:ngspanelversion",
+        "path": "Specimen.extension.value[x]",
+        "label": "Tumorzellgehalt",
+        "short": "Gibt den Tumorzellgehalt in % an",
+        "mustSupport": true
       }
     ]
   }

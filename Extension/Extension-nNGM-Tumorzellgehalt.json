@@ -1,0 +1,38 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Extension-nNGM-Tumorzellgehalt",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tumorzellgehalt",
+  "name": "Extension_nNGM_Tumorzellgehalt",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "primitive-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Specimen"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tumorzellgehalt"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 0,
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      }
+    ]
+  }
+}
