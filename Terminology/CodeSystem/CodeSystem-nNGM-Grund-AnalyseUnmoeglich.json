@@ -1,0 +1,24 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-analysisimpossiblereason",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/analysisimpossiblereason",
+    "version": "1.0.0",
+    "name": "CodeSystem_nNGM_analysisimpossiblereason",
+    "title": "CodeSystem - nNGM - analysisimpossiblereason",
+    "status": "active",
+    "caseSensitive": true,
+    "compositional": false, 
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/analysisimpossiblereason",
+    "content": "complete",
+    "count": 2,
+    "concept":  [
+        {
+            "code": "insufficient",
+            "display": "Tumormaterial nicht ausreichend/geeignet"
+        },
+        {
+            "code": "other",
+            "display": "Anderes"
+        }
+    ]
+}

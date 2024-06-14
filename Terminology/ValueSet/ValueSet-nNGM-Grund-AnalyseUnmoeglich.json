@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-nNGM-analysisimpossiblereason",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/analysisimpossiblereason",
+  "version": "1.0.0",
+  "name": "ValueSet_nNGM_analysisimpossiblereason",
+  "title": "ValueSet - nNGM - analysisimpossiblereason",
+  "status": "active",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/analysisimpossible"
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:c4961c54-2017-4ef6-9998-2a5b46c052f7",
+    "timestamp": "2024-05-05T13:21:21.8120746+02:00",
+    "total": 2,
+    "contains": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/analysisimpossiblereason",
+        "version": "1.0.0",
+        "code": "insufficient",
+        "display": "Tumormaterial nicht ausreichend/geeignet"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/analysisimpossiblereason",
+        "version": "1.0.0",
+        "code": "other",
+        "display": "Anderes"
+      }
+    ]
+  }
+}
