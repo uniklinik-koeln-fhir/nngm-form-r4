@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-MII-PR-MolGen-MolekulargenetischerBefundbericht",
   "url": "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_MolekulargenetischerBefundbericht",
   "name": "Profile_nNGM_MII_PR_MolGen_MolekulargenetischerBefundbericht",
   "status": "active",
