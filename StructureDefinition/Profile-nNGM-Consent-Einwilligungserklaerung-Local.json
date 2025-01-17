@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Profile-nNGM-Consent-Einwilligungserklaerung-V4-1",
-  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4-1",
+  "id": "Profile-nNGM-Consent-Einwilligungserklaerung",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent-Local",
   "version": "1.0.0",
-  "name": "Profile_nNGM_Consent_Einwilligungserklaerung_V4_1",
-  "title": "Profile - nNGM - Consent - Einwilligungserklärung - V4.1",
+  "name": "Profile_nNGM_Consent_Einwilligungserklaerung",
+  "title": "Profile - nNGM - Consent - Einwilligungserklärung",
   "status": "active",
   "description": "Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
@@ -89,18 +89,6 @@
         "mustSupport": true
       },
       {
-        "id": "Consent.policyRule",
-        "path": "Consent.policyRule",
-        "label": "Name der Einwilligungserklärung",
-        "short": "Name der Einwilligungserklärung, die unterschrieben wird",
-        "min": 1,
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4-1"
-        }
-      },
-      {
         "id": "Consent.provision",
         "path": "Consent.provision",
         "min": 1,
@@ -113,6 +101,48 @@
         "short": "Ob die Einwilligung durch die Unterschrift des Patienten gegeben wurde",
         "min": 1,
         "mustSupport": true
+      },
+      {
+        "id": "Consent.extension:validityDuration",
+        "path": "Consent.extension",
+        "sliceName": "validityDuration",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ValidityDuration"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Consent.extension:revokeDate",
+        "path": "Consent.extension",
+        "sliceName": "revokeDate",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/RevokeDate"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Consent.extension:localConsentName",
+        "path": "Consent.extension",
+        "sliceName": "localConsentName",
+        "min": 0,
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/LocalConsentName"
+            ]
+          }
+        ]
       }
     ]
   }

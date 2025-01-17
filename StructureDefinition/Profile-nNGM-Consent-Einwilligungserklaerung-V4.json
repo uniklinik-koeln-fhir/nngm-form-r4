@@ -6,7 +6,7 @@
   "name": "Profile_nNGM_Consent_Einwilligungserklaerung_V4",
   "title": "Profile - nNGM - Consent - Einwilligungserklärung - V4",
   "status": "active",
-  "description": "Dieses Profil beschreibt den Einwilligungserklärung innerhalb des nNGM-Projektes.",
+  "description": "Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projektes.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
