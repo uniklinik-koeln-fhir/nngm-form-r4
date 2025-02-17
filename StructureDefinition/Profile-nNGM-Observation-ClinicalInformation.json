@@ -6,7 +6,7 @@
     "name": "Profile_nNGM-Observation_ClinicalInformation",
     "title": "Profile - nNGM - Observation - Klinische Information",
     "status": "active",
-    "description": "Dieses Profil beschreibt einen die Dokumentation der klinischen Information innerhalb des nNGM Projektes",
+    "description": "Dieses Profil beschreibt die Dokumentation der klinischen Information innerhalb des nNGM Projektes",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
