@@ -1,0 +1,45 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "Observation-CustomProfile",
+    "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/clinical-information",
+    "version": "1.0.0",
+    "name": "Profile_nNGM-Observation_ClinicalInformation",
+    "title": "Profile - nNGM - Observation - Klinische Information",
+    "status": "active",
+    "description": "Dieses Profil beschreibt einen die Dokumentation der klinischen Information innerhalb des nNGM Projektes",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Observation",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Observation.effectiveDateTime",
+          "path": "Observation.effectiveDateTime",
+          "short": "Creation Date",
+          "definition": "The date when the archive code was created.",
+          "type": [
+            {
+              "code": "dateTime"
+            }
+          ],
+          "mustSupport": true
+        },
+        {
+          "id": "Observation.note",
+          "path": "Observation.note",
+          "short": "Archive Code",
+          "definition": "A free text field to store an archive code.",
+          "type": [
+            {
+              "code": "Annotation"
+            }
+          ],
+          "mustSupport": true
+        }
+      ]
+    }
+  }
+  

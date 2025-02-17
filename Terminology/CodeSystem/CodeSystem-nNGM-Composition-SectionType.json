@@ -139,6 +139,16 @@
                     "value": "Molekulargenetischer Befundbericht"
                 }
             ]
+        },
+        {
+            "code": "CLINICAL_INFORMATION",
+            "display": "Klinische Information",
+            "designation": [
+                {
+                    "language": "de",
+                    "value": "Klinische Information"
+                }
+            ]
         }
     ]
 }
