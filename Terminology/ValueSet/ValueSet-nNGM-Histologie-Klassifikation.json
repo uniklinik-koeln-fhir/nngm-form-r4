@@ -426,6 +426,2541 @@
                 "value": "8000/6 - Neoplasie, Metastase"
               }
             ]
+          },
+          {
+            "code": "8973/3",
+            "display": "Pleuropulmonales Blastom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8973/3 - Pleuropulmonales Blastom"
+              }
+            ]
+          },
+          {
+            "code": "9090/0",
+            "display": "Struma ovarii o.n.A.C56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9090/0 - Struma ovarii o.n.A.C56.9"
+              }
+            ]
+          },
+          {
+            "code": "9811/3",
+            "display": "B-lymphoblastische/s Leukämie/Lymphom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9811/3 - B-lymphoblastische/s Leukämie/Lymphom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8959/1",
+            "display": "Zystisches partiell differenziertes NephroblastomC64.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8959/1 - Zystisches partiell differenziertes NephroblastomC64.9"
+              }
+            ]
+          },
+          {
+            "code": "8723/3",
+            "display": "Malignes Melanom in RegressionC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8723/3 - Malignes Melanom in RegressionC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8810/0",
+            "display": "Fibrom o.n.A. (Exkl.: Sehnenscheide8813/0)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8810/0 - Fibrom o.n.A. (Exkl.: Sehnenscheide8813/0)"
+              }
+            ]
+          },
+          {
+            "code": "8170/3",
+            "display": "Hepatozelluläres Karzinom o.n.A.C22.0",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8170/3 - Hepatozelluläres Karzinom o.n.A.C22.0"
+              }
+            ]
+          },
+          {
+            "code": "9738/3",
+            "display": "HHV8-positives diffuses großzelliges B-Zell-Lymphom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9738/3 - HHV8-positives diffuses großzelliges B-Zell-Lymphom"
+              }
+            ]
+          },
+          {
+            "code": "8380/1",
+            "display": "Endometrioides Adenom mit Borderline-Malignität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8380/1 - Endometrioides Adenom mit Borderline-Malignität"
+              }
+            ]
+          },
+          {
+            "code": "9312/0",
+            "display": "Odontogener Plattenepitheltumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9312/0 - Odontogener Plattenepitheltumor"
+              }
+            ]
+          },
+          {
+            "code": "9860/3",
+            "display": "Myeloische Leukämie o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9860/3 - Myeloische Leukämie o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8096/0",
+            "display": "Intraepidermales Epitheliom Typ Borst-JadassohnC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8096/0 - Intraepidermales Epitheliom Typ Borst-JadassohnC44.-"
+              }
+            ]
+          },
+          {
+            "code": "9667/3",
+            "display": "Hodgkin-Lymphom, nodulär-sklerosierender Typ, Grad II",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9667/3 - Hodgkin-Lymphom, nodulär-sklerosierender Typ, Grad II"
+              }
+            ]
+          },
+          {
+            "code": "9424/3",
+            "display": "Pleomorphes Xanthoastrozytom o.n.A.C71.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9424/3 - Pleomorphes Xanthoastrozytom o.n.A.C71.-"
+              }
+            ]
+          },
+          {
+            "code": "9124/3",
+            "display": "Kupffer-Zell-SarkomC22.0",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9124/3 - Kupffer-Zell-SarkomC22.0"
+              }
+            ]
+          },
+          {
+            "code": "8402/3",
+            "display": "Malignes noduläres HidradenomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8402/3 - Malignes noduläres HidradenomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8300/0",
+            "display": "Basophiles AdenomC75.1",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8300/0 - Basophiles AdenomC75.1"
+              }
+            ]
+          },
+          {
+            "code": "8543/3",
+            "display": "M. Paget mit intraduktalem KarzinomC50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8543/3 - M. Paget mit intraduktalem KarzinomC50.-"
+              }
+            ]
+          },
+          {
+            "code": "8581/3",
+            "display": "Thymom vom Typ AC37.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8581/3 - Thymom vom Typ AC37.9"
+              }
+            ]
+          },
+          {
+            "code": "8810/1",
+            "display": "Zellreiches FibromC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8810/1 - Zellreiches FibromC56.9"
+              }
+            ]
+          },
+          {
+            "code": "9423/3",
+            "display": "Polares SpongioblastomC71.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9423/3 - Polares SpongioblastomC71.-"
+              }
+            ]
+          },
+          {
+            "code": "8801/3",
+            "display": "Spindelzellsarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8801/3 - Spindelzellsarkom"
+              }
+            ]
+          },
+          {
+            "code": "8720/0",
+            "display": "Pigmentierter Nävus o.n.A.C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8720/0 - Pigmentierter Nävus o.n.A.C44.-"
+              }
+            ]
+          },
+          {
+            "code": "8346/3",
+            "display": "Gemischtzelliges medullär-follikuläres KarzinomC73.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8346/3 - Gemischtzelliges medullär-follikuläres KarzinomC73.9"
+              }
+            ]
+          },
+          {
+            "code": "9184/3",
+            "display": "Osteosarkom in Paget-KnochenkrankheitC40.-C41.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9184/3 - Osteosarkom in Paget-KnochenkrankheitC40.-C41.-"
+              }
+            ]
+          },
+          {
+            "code": "9503/3",
+            "display": "Neuroepitheliom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9503/3 - Neuroepitheliom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "9688/3",
+            "display": "T-Zell-reiches/histiozytenreiches großzelliges B-Zell-Lymphom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9688/3 - T-Zell-reiches/histiozytenreiches großzelliges B-Zell-Lymphom"
+              }
+            ]
+          },
+          {
+            "code": "8880/0",
+            "display": "Hibernom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8880/0 - Hibernom"
+              }
+            ]
+          },
+          {
+            "code": "8827/1",
+            "display": "Peribronchialer MyofibroblastentumorC34.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8827/1 - Peribronchialer MyofibroblastentumorC34.-"
+              }
+            ]
+          },
+          {
+            "code": "9425/3",
+            "display": "Pilomyxoides Astrozytom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9425/3 - Pilomyxoides Astrozytom"
+              }
+            ]
+          },
+          {
+            "code": "8102/3",
+            "display": "TricholemmkarzinomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8102/3 - TricholemmkarzinomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8406/3",
+            "display": "Syringocystadenocarcinoma papilliferum",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8406/3 - Syringocystadenocarcinoma papilliferum"
+              }
+            ]
+          },
+          {
+            "code": "8313/3",
+            "display": "Klarzelliges AdenokarzinofibromC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8313/3 - Klarzelliges AdenokarzinofibromC56.9"
+              }
+            ]
+          },
+          {
+            "code": "9100/1",
+            "display": "Invasive BlasenmoleC58.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9100/1 - Invasive BlasenmoleC58.9"
+              }
+            ]
+          },
+          {
+            "code": "8560/0",
+            "display": "Gemischtes squamös-glanduläres Papillom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8560/0 - Gemischtes squamös-glanduläres Papillom"
+              }
+            ]
+          },
+          {
+            "code": "9673/1",
+            "display": "In situ Mantelzell-Neoplasie",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9673/1 - In situ Mantelzell-Neoplasie"
+              }
+            ]
+          },
+          {
+            "code": "8153/3",
+            "display": "Gastrinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8153/3 - Gastrinom"
+              }
+            ]
+          },
+          {
+            "code": "8040/1",
+            "display": "Tumorlet o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8040/1 - Tumorlet o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8161/3",
+            "display": "Gallengangs-ZystadenokarzinomC22.1C24.0",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8161/3 - Gallengangs-ZystadenokarzinomC22.1C24.0"
+              }
+            ]
+          },
+          {
+            "code": "8576/3",
+            "display": "Hepatoides Adenokarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8576/3 - Hepatoides Adenokarzinom"
+              }
+            ]
+          },
+          {
+            "code": "9363/0",
+            "display": "Pigmentierter neuroektodermaler Tumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9363/0 - Pigmentierter neuroektodermaler Tumor"
+              }
+            ]
+          },
+          {
+            "code": "8443/0",
+            "display": "Klarzelliges ZystadenomC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8443/0 - Klarzelliges ZystadenomC56.9"
+              }
+            ]
+          },
+          {
+            "code": "9174/1",
+            "display": "Lymphangioleiomyomatose",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9174/1 - Lymphangioleiomyomatose"
+              }
+            ]
+          },
+          {
+            "code": "8330/3",
+            "display": "Follikuläres Karzinom o.n.A.C73.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8330/3 - Follikuläres Karzinom o.n.A.C73.9"
+              }
+            ]
+          },
+          {
+            "code": "8860/0",
+            "display": "Angiomyolipom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8860/0 - Angiomyolipom"
+              }
+            ]
+          },
+          {
+            "code": "8131/3",
+            "display": "Mikropapilläres UrothelkarzinomC67.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8131/3 - Mikropapilläres UrothelkarzinomC67.-"
+              }
+            ]
+          },
+          {
+            "code": "9131/0",
+            "display": "Kapilläres Hämangiom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9131/0 - Kapilläres Hämangiom"
+              }
+            ]
+          },
+          {
+            "code": "8818/0",
+            "display": "Fibröse Dysplasie",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8818/0 - Fibröse Dysplasie"
+              }
+            ]
+          },
+          {
+            "code": "8322/3",
+            "display": "Wasserklares AdenokarzinomC75.0",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8322/3 - Wasserklares AdenokarzinomC75.0"
+              }
+            ]
+          },
+          {
+            "code": "9260/0",
+            "display": "Aneurysmatische Knochenzyste",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9260/0 - Aneurysmatische Knochenzyste"
+              }
+            ]
+          },
+          {
+            "code": "9550/0",
+            "display": "Plexiformes Neurofibrom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9550/0 - Plexiformes Neurofibrom"
+              }
+            ]
+          },
+          {
+            "code": "9016/0",
+            "display": "RiesenfibroadenomC50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9016/0 - RiesenfibroadenomC50.-"
+              }
+            ]
+          },
+          {
+            "code": "8152/3",
+            "display": "Glukagonom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8152/3 - Glukagonom"
+              }
+            ]
+          },
+          {
+            "code": "9970/1",
+            "display": "Lymphoproliferative Erkrankung o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9970/1 - Lymphoproliferative Erkrankung o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "9652/3",
+            "display": "Hodgkin-Lymphom, gemischtzellige Form o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9652/3 - Hodgkin-Lymphom, gemischtzellige Form o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "9521/3",
+            "display": "Olfaktorius-NeurozytomC30.0",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9521/3 - Olfaktorius-NeurozytomC30.0"
+              }
+            ]
+          },
+          {
+            "code": "9678/3",
+            "display": "Primary effusion lymphoma",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9678/3 - Primary effusion lymphoma"
+              }
+            ]
+          },
+          {
+            "code": "9290/0",
+            "display": "Ameloblastisches Fibro-Odontom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9290/0 - Ameloblastisches Fibro-Odontom"
+              }
+            ]
+          },
+          {
+            "code": "9251/3",
+            "display": "Maligner Riesenzelltumor der Weichteile",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9251/3 - Maligner Riesenzelltumor der Weichteile"
+              }
+            ]
+          },
+          {
+            "code": "9103/0",
+            "display": "Partielle BlasenmoleC58.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9103/0 - Partielle BlasenmoleC58.9"
+              }
+            ]
+          },
+          {
+            "code": "8360/1",
+            "display": "Multiple endokrine Adenome",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8360/1 - Multiple endokrine Adenome"
+              }
+            ]
+          },
+          {
+            "code": "8244/3",
+            "display": "Gemischtes adeno-neuroendokrines Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8244/3 - Gemischtes adeno-neuroendokrines Karzinom"
+              }
+            ]
+          },
+          {
+            "code": "9110/1",
+            "display": "Wolff´scher Tumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9110/1 - Wolff´scher Tumor"
+              }
+            ]
+          },
+          {
+            "code": "8409/3",
+            "display": "Porokarzinom o.n.A.C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8409/3 - Porokarzinom o.n.A.C44.-"
+              }
+            ]
+          },
+          {
+            "code": "9835/3",
+            "display": "Vorläuferzell-lymphoblastische Leukämie o.n.A. (siehe 9727/3)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9835/3 - Vorläuferzell-lymphoblastische Leukämie o.n.A. (siehe 9727/3)"
+              }
+            ]
+          },
+          {
+            "code": "8370/0",
+            "display": "Nebennierenrindenadenom o.n.A.C74.0",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8370/0 - Nebennierenrindenadenom o.n.A.C74.0"
+              }
+            ]
+          },
+          {
+            "code": "9993/3",
+            "display": "Myelodysplastisches Syndrom mit Ringsideroblasten und multilineärer Dysplasie",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9993/3 - Myelodysplastisches Syndrom mit Ringsideroblasten und multilineärer Dysplasie"
+              }
+            ]
+          },
+          {
+            "code": "8530/3",
+            "display": "Inflammatorisches KarzinomC50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8530/3 - Inflammatorisches KarzinomC50.-"
+              }
+            ]
+          },
+          {
+            "code": "8334/0",
+            "display": "Makrofollikuläres AdenomC73.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8334/0 - Makrofollikuläres AdenomC73.9"
+              }
+            ]
+          },
+          {
+            "code": "8514/3",
+            "display": "Desmoplastisches duktales Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8514/3 - Desmoplastisches duktales Karzinom"
+              }
+            ]
+          },
+          {
+            "code": "8832/1",
+            "display": "Dermatofibrosarcoma protuberans o.n.A.C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8832/1 - Dermatofibrosarcoma protuberans o.n.A.C44.-"
+              }
+            ]
+          },
+          {
+            "code": "8440/0",
+            "display": "Zystadenom o.n.A",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8440/0 - Zystadenom o.n.A"
+              }
+            ]
+          },
+          {
+            "code": "8728/1",
+            "display": "Meningeales MelanozytomC70.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8728/1 - Meningeales MelanozytomC70.9"
+              }
+            ]
+          },
+          {
+            "code": "9180/0",
+            "display": "Osteom o.n.A.C40.-C41.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9180/0 - Osteom o.n.A.C40.-C41.-"
+              }
+            ]
+          },
+          {
+            "code": "8078/3",
+            "display": "Plattenepithelkarzinom mit Hornbildung",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8078/3 - Plattenepithelkarzinom mit Hornbildung"
+              }
+            ]
+          },
+          {
+            "code": "8404/0",
+            "display": "HidrozystomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8404/0 - HidrozystomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8933/3",
+            "display": "Adenosarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8933/3 - Adenosarkom"
+              }
+            ]
+          },
+          {
+            "code": "8211/3",
+            "display": "Tubuläres Adenokarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8211/3 - Tubuläres Adenokarzinom"
+              }
+            ]
+          },
+          {
+            "code": "9141/0",
+            "display": "Angiokeratom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9141/0 - Angiokeratom"
+              }
+            ]
+          },
+          {
+            "code": "9011/0",
+            "display": "Intrakanalikuläres FibroadenomC50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9011/0 - Intrakanalikuläres FibroadenomC50.-"
+              }
+            ]
+          },
+          {
+            "code": "8002/3",
+            "display": "Kleinzelliger maligner Tumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8002/3 - Kleinzelliger maligner Tumor"
+              }
+            ]
+          },
+          {
+            "code": "8085/3",
+            "display": "Plattenepithelkarzinom, HPV-positiv",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8085/3 - Plattenepithelkarzinom, HPV-positiv"
+              }
+            ]
+          },
+          {
+            "code": "9654/3",
+            "display": "Hodgkin-Lymphom, lymphozytenarmer Typ, diffuse Fibrose",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9654/3 - Hodgkin-Lymphom, lymphozytenarmer Typ, diffuse Fibrose"
+              }
+            ]
+          },
+          {
+            "code": "8034/3",
+            "display": "Polygonalzelliges Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8034/3 - Polygonalzelliges Karzinom"
+              }
+            ]
+          },
+          {
+            "code": "8030/3",
+            "display": "Riesenzell- und Spindelzellkarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8030/3 - Riesenzell- und Spindelzellkarzinom"
+              }
+            ]
+          },
+          {
+            "code": "8623/1",
+            "display": "Keimstrangtumor mit anulären TubuliC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8623/1 - Keimstrangtumor mit anulären TubuliC56.9"
+              }
+            ]
+          },
+          {
+            "code": "9350/1",
+            "display": "KraniopharyngeomC75.2",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9350/1 - KraniopharyngeomC75.2"
+              }
+            ]
+          },
+          {
+            "code": "9362/3",
+            "display": "PineoblastomC75.3",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9362/3 - PineoblastomC75.3"
+              }
+            ]
+          },
+          {
+            "code": "9220/0",
+            "display": "Chondrom o.n.A.C40.-C41.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9220/0 - Chondrom o.n.A.C40.-C41.-"
+              }
+            ]
+          },
+          {
+            "code": "8470/2",
+            "display": "Muzinöse zystische Neoplasie mit hochgradiger DysplasieC25.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8470/2 - Muzinöse zystische Neoplasie mit hochgradiger DysplasieC25.-"
+              }
+            ]
+          },
+          {
+            "code": "8825/1",
+            "display": "Myofibroblastentumor o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8825/1 - Myofibroblastentumor o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "9662/3",
+            "display": "Hodgkin-Sarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9662/3 - Hodgkin-Sarkom"
+              }
+            ]
+          },
+          {
+            "code": "9251/1",
+            "display": "Riesenzelltumor der Weichteile o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9251/1 - Riesenzelltumor der Weichteile o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "9441/3",
+            "display": "Riesenzelliges GlioblastomC71.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9441/3 - Riesenzelliges GlioblastomC71.-"
+              }
+            ]
+          },
+          {
+            "code": "8842/3",
+            "display": "Maligner ossifizierender fibromyxoider Weichteiltumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8842/3 - Maligner ossifizierender fibromyxoider Weichteiltumor"
+              }
+            ]
+          },
+          {
+            "code": "8584/3",
+            "display": "Thymom vom Typ B2C37.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8584/3 - Thymom vom Typ B2C37.9"
+              }
+            ]
+          },
+          {
+            "code": "9673/3",
+            "display": "Mantelzell-Lymphom (Hinw.: Einschließlich aller Varianten (blastisch, pleomorph, kleinzellig))",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9673/3 - Mantelzell-Lymphom (Hinw.: Einschließlich aller Varianten (blastisch, pleomorph, kleinzellig))"
+              }
+            ]
+          },
+          {
+            "code": "8854/3",
+            "display": "Pleomorphes Liposarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8854/3 - Pleomorphes Liposarkom"
+              }
+            ]
+          },
+          {
+            "code": "9874/3",
+            "display": "Akute myeloische Leukämie mit Ausreifung",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9874/3 - Akute myeloische Leukämie mit Ausreifung"
+              }
+            ]
+          },
+          {
+            "code": "8015/3",
+            "display": "Glaszellkarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8015/3 - Glaszellkarzinom"
+              }
+            ]
+          },
+          {
+            "code": "8313/1",
+            "display": "Klarzelliger Borderline-TumorC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8313/1 - Klarzelliger Borderline-TumorC56.9"
+              }
+            ]
+          },
+          {
+            "code": "8091/3",
+            "display": "Superfizielles Basalzellkarzinom C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8091/3 - Superfizielles Basalzellkarzinom C44.-"
+              }
+            ]
+          },
+          {
+            "code": "9401/3",
+            "display": "Anaplastisches Astrozytom o.n.A.C71.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9401/3 - Anaplastisches Astrozytom o.n.A.C71.-"
+              }
+            ]
+          },
+          {
+            "code": "8350/3",
+            "display": "Nichtabgekapseltes sklerosierendes KarzinomC73.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8350/3 - Nichtabgekapseltes sklerosierendes KarzinomC73.9"
+              }
+            ]
+          },
+          {
+            "code": "9450/3",
+            "display": "Oligodendrogliom o.n.A.C71.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9450/3 - Oligodendrogliom o.n.A.C71.-"
+              }
+            ]
+          },
+          {
+            "code": "8333/0",
+            "display": "Mikrofollikuläres AdenomC73.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8333/0 - Mikrofollikuläres AdenomC73.9"
+              }
+            ]
+          },
+          {
+            "code": "9560/3",
+            "display": "Malignes Neurilemmom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9560/3 - Malignes Neurilemmom"
+              }
+            ]
+          },
+          {
+            "code": "9504/3",
+            "display": "Spongioneuroblastom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9504/3 - Spongioneuroblastom"
+              }
+            ]
+          },
+          {
+            "code": "8823/0",
+            "display": "Sklerotisches Fibrom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8823/0 - Sklerotisches Fibrom"
+              }
+            ]
+          },
+          {
+            "code": "8622/1",
+            "display": "Juveniler GranulosazelltumorC56.9(Exkl.: Hoden 8622/0)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8622/1 - Juveniler GranulosazelltumorC56.9(Exkl.: Hoden 8622/0)"
+              }
+            ]
+          },
+          {
+            "code": "8824/1",
+            "display": "Myofibromatose",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8824/1 - Myofibromatose"
+              }
+            ]
+          },
+          {
+            "code": "9946/3",
+            "display": "Juvenile myelomonozytäre Leukämie",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9946/3 - Juvenile myelomonozytäre Leukämie"
+              }
+            ]
+          },
+          {
+            "code": "8410/3",
+            "display": "TalgdrüsenkarzinomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8410/3 - TalgdrüsenkarzinomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8110/3",
+            "display": "Pilomatrikales KarzinomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8110/3 - Pilomatrikales KarzinomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "9390/3",
+            "display": "Plexus-chorioideus-KarzinomC71.5",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9390/3 - Plexus-chorioideus-KarzinomC71.5"
+              }
+            ]
+          },
+          {
+            "code": "8453/0",
+            "display": "Intraduktales papillär-muzinöses AdenomC25.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8453/0 - Intraduktales papillär-muzinöses AdenomC25.-"
+              }
+            ]
+          },
+          {
+            "code": "9538/3",
+            "display": "Papilläres Meningeom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9538/3 - Papilläres Meningeom"
+              }
+            ]
+          },
+          {
+            "code": "9330/0",
+            "display": "Ameloblastisches Fibrom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9330/0 - Ameloblastisches Fibrom"
+              }
+            ]
+          },
+          {
+            "code": "8983/3",
+            "display": "Adenomyoepitheliom mit KarzinomC50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8983/3 - Adenomyoepitheliom mit KarzinomC50.-"
+              }
+            ]
+          },
+          {
+            "code": "8727/0",
+            "display": "Dysplastischer NävusC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8727/0 - Dysplastischer NävusC44.-"
+              }
+            ]
+          },
+          {
+            "code": "9122/0",
+            "display": "Venöses Hämangiom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9122/0 - Venöses Hämangiom"
+              }
+            ]
+          },
+          {
+            "code": "8803/3",
+            "display": "Kleinzelliges Sarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8803/3 - Kleinzelliges Sarkom"
+              }
+            ]
+          },
+          {
+            "code": "9302/0",
+            "display": "Dentinogener Schattenzelltumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9302/0 - Dentinogener Schattenzelltumor"
+              }
+            ]
+          },
+          {
+            "code": "8857/0",
+            "display": "Spindelzell-Lipom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8857/0 - Spindelzell-Lipom"
+              }
+            ]
+          },
+          {
+            "code": "9055/0",
+            "display": "Peritoneale EinschlusszystenC48.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9055/0 - Peritoneale EinschlusszystenC48.-"
+              }
+            ]
+          },
+          {
+            "code": "9173/0",
+            "display": "Zystisches Lymphangiom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9173/0 - Zystisches Lymphangiom"
+              }
+            ]
+          },
+          {
+            "code": "8520/3",
+            "display": "Lobuläres Karzinom o.n.A.C50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8520/3 - Lobuläres Karzinom o.n.A.C50.-"
+              }
+            ]
+          },
+          {
+            "code": "9192/3",
+            "display": "Parossales OsteosarkomC40.-C41.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9192/3 - Parossales OsteosarkomC40.-C41.-"
+              }
+            ]
+          },
+          {
+            "code": "9698/3",
+            "display": "Follikuläres Lymphom, Grad 3",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9698/3 - Follikuläres Lymphom, Grad 3"
+              }
+            ]
+          },
+          {
+            "code": "8811/3",
+            "display": "Myxofibrosarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8811/3 - Myxofibrosarkom"
+              }
+            ]
+          },
+          {
+            "code": "8730/0",
+            "display": "Nichtpigmentierter NävusC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8730/0 - Nichtpigmentierter NävusC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8052/2",
+            "display": "Nichtinvasives papilläres Plattenepithelkarzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8052/2 - Nichtinvasives papilläres Plattenepithelkarzinom"
+              }
+            ]
+          },
+          {
+            "code": "8743/3",
+            "display": "Melanom nach geringem kumulativem SonnenschadenC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8743/3 - Melanom nach geringem kumulativem SonnenschadenC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8210/2",
+            "display": "Adenocarcinoma in situ in adenomatösem Polypen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8210/2 - Adenocarcinoma in situ in adenomatösem Polypen"
+              }
+            ]
+          },
+          {
+            "code": "8858/3",
+            "display": "Entdifferenziertes Liposarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8858/3 - Entdifferenziertes Liposarkom"
+              }
+            ]
+          },
+          {
+            "code": "9878/3",
+            "display": "Akute myeloische Leukämie mit biallelischer CEBPA-Mutation",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9878/3 - Akute myeloische Leukämie mit biallelischer CEBPA-Mutation"
+              }
+            ]
+          },
+          {
+            "code": "8202/0",
+            "display": "Mikrozystisches AdenomC25.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8202/0 - Mikrozystisches AdenomC25.-"
+              }
+            ]
+          },
+          {
+            "code": "8044/3",
+            "display": "Kleinzelliges Karzinom vom Intermediärtyp",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8044/3 - Kleinzelliges Karzinom vom Intermediärtyp"
+              }
+            ]
+          },
+          {
+            "code": "8780/0",
+            "display": "Blauer Nävus o.n.A.C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8780/0 - Blauer Nävus o.n.A.C44.-"
+              }
+            ]
+          },
+          {
+            "code": "9680/3",
+            "display": "Diffuses großzelliges B-Zell-Lymphom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9680/3 - Diffuses großzelliges B-Zell-Lymphom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8552/3",
+            "display": "Gemischtes azinär-duktales Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8552/3 - Gemischtes azinär-duktales Karzinom"
+              }
+            ]
+          },
+          {
+            "code": "8580/1",
+            "display": "Mikronoduläres Thymom mit lymphoidem StromaC37.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8580/1 - Mikronoduläres Thymom mit lymphoidem StromaC37.9"
+              }
+            ]
+          },
+          {
+            "code": "8273/3",
+            "display": "HypophysenblastomC75.1",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8273/3 - HypophysenblastomC75.1"
+              }
+            ]
+          },
+          {
+            "code": "8392/0",
+            "display": "SyringofibroadenomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8392/0 - SyringofibroadenomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8992/0",
+            "display": "Pulmonales HamartomC34.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8992/0 - Pulmonales HamartomC34.-"
+              }
+            ]
+          },
+          {
+            "code": "8730/3",
+            "display": "Amelanotisches malignes MelanomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8730/3 - Amelanotisches malignes MelanomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "9000/1",
+            "display": "Brenner-Tumor mit Borderline-MalignitätC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9000/1 - Brenner-Tumor mit Borderline-MalignitätC56.9"
+              }
+            ]
+          },
+          {
+            "code": "8257/3",
+            "display": "Muzinöses minimal-invasives AdenokarzinomC34.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8257/3 - Muzinöses minimal-invasives AdenokarzinomC34.-"
+              }
+            ]
+          },
+          {
+            "code": "9211/0",
+            "display": "Osteochondromyxom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9211/0 - Osteochondromyxom"
+              }
+            ]
+          },
+          {
+            "code": "9385/3",
+            "display": "Diffuses Mittelliniengliom, H3 K27M MutationC71.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9385/3 - Diffuses Mittelliniengliom, H3 K27M MutationC71.-"
+              }
+            ]
+          },
+          {
+            "code": "8280/3",
+            "display": "Azidophiles KarzinomC75.1",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8280/3 - Azidophiles KarzinomC75.1"
+              }
+            ]
+          },
+          {
+            "code": "8441/2",
+            "display": "Seröses intraepitheliales Karzinom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8441/2 - Seröses intraepitheliales Karzinom"
+              }
+            ]
+          },
+          {
+            "code": "8932/0",
+            "display": "Adenomyom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8932/0 - Adenomyom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "9690/3",
+            "display": "Follikuläres Lymphom o.n.A. (siehe 9675/3)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9690/3 - Follikuläres Lymphom o.n.A. (siehe 9675/3)"
+              }
+            ]
+          },
+          {
+            "code": "9280/0",
+            "display": "Odontom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9280/0 - Odontom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8323/0",
+            "display": "Gemischtzelliges Adenom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8323/0 - Gemischtzelliges Adenom"
+              }
+            ]
+          },
+          {
+            "code": "8221/3",
+            "display": "Adenokarzinom in multiplen adenomatösen Polypen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8221/3 - Adenokarzinom in multiplen adenomatösen Polypen"
+              }
+            ]
+          },
+          {
+            "code": "9987/3",
+            "display": "Therapiebedingtes myelodysplastisches Syndrom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9987/3 - Therapiebedingtes myelodysplastisches Syndrom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8213/0",
+            "display": "Serrated adenoma o.n.A.C18.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8213/0 - Serrated adenoma o.n.A.C18.-"
+              }
+            ]
+          },
+          {
+            "code": "9125/0",
+            "display": "Epitheloides Hämangiom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9125/0 - Epitheloides Hämangiom"
+              }
+            ]
+          },
+          {
+            "code": "8245/3",
+            "display": "Adenokarzinoidtumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8245/3 - Adenokarzinoidtumor"
+              }
+            ]
+          },
+          {
+            "code": "8086/3",
+            "display": "Plattenepithelkarzinom, HPV-negativ",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8086/3 - Plattenepithelkarzinom, HPV-negativ"
+              }
+            ]
+          },
+          {
+            "code": "9509/1",
+            "display": "Papillärer glioneuronaler Tumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9509/1 - Papillärer glioneuronaler Tumor"
+              }
+            ]
+          },
+          {
+            "code": "9735/3",
+            "display": "Plasmablastisches Lymphom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9735/3 - Plasmablastisches Lymphom"
+              }
+            ]
+          },
+          {
+            "code": "8263/2",
+            "display": "Adenocarcinoma in situ in tubulovillösem Adenom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8263/2 - Adenocarcinoma in situ in tubulovillösem Adenom"
+              }
+            ]
+          },
+          {
+            "code": "8823/1",
+            "display": "Desmoplastisches Fibrom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8823/1 - Desmoplastisches Fibrom"
+              }
+            ]
+          },
+          {
+            "code": "8711/3",
+            "display": "Maligner Glomustumor",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8711/3 - Maligner Glomustumor"
+              }
+            ]
+          },
+          {
+            "code": "9012/0",
+            "display": "Perikanalikuläres FibroadenomC50.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9012/0 - Perikanalikuläres FibroadenomC50.-"
+              }
+            ]
+          },
+          {
+            "code": "9500/3",
+            "display": "Neuroblastom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9500/3 - Neuroblastom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8930/3",
+            "display": "Stromasarkom des Endometriums o.n.A.C54.1",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8930/3 - Stromasarkom des Endometriums o.n.A.C54.1"
+              }
+            ]
+          },
+          {
+            "code": "9702/3",
+            "display": "Reifzelliges T-Zell-Lymphom o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9702/3 - Reifzelliges T-Zell-Lymphom o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "8248/1",
+            "display": "Apudom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8248/1 - Apudom"
+              }
+            ]
+          },
+          {
+            "code": "8011/0",
+            "display": "Benignes Epitheliom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8011/0 - Benignes Epitheliom"
+              }
+            ]
+          },
+          {
+            "code": "8151/3",
+            "display": "Insulinom o.n.A.C25.4",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8151/3 - Insulinom o.n.A.C25.4"
+              }
+            ]
+          },
+          {
+            "code": "8472/1",
+            "display": "Muzinöser zystischer Tumor mit Borderline-MalignitätC56.9",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8472/1 - Muzinöser zystischer Tumor mit Borderline-MalignitätC56.9"
+              }
+            ]
+          },
+          {
+            "code": "8402/0",
+            "display": "Hidradenom o.n.A.C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8402/0 - Hidradenom o.n.A.C44.-"
+              }
+            ]
+          },
+          {
+            "code": "8093/3",
+            "display": "Fibroepitheliales BasalzellkarzinomC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8093/3 - Fibroepitheliales BasalzellkarzinomC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8281/0",
+            "display": "Gemischtzelliges azidophil-basophiles AdenomC75.1",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8281/0 - Gemischtzelliges azidophil-basophiles AdenomC75.1"
+              }
+            ]
+          },
+          {
+            "code": "9015/1",
+            "display": "Muzinöses Adenofibrom mit Borderline-Malignität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9015/1 - Muzinöses Adenofibrom mit Borderline-Malignität"
+              }
+            ]
+          },
+          {
+            "code": "8903/0",
+            "display": "Fetales Rhabdomyom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8903/0 - Fetales Rhabdomyom"
+              }
+            ]
+          },
+          {
+            "code": "8250/1",
+            "display": "LungenadenomatoseC34.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8250/1 - LungenadenomatoseC34.-"
+              }
+            ]
+          },
+          {
+            "code": "8740/3",
+            "display": "Malignes Melanom in Junktions-NävusC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8740/3 - Malignes Melanom in Junktions-NävusC44.-"
+              }
+            ]
+          },
+          {
+            "code": "8148/0",
+            "display": "Glanduläre intraepitheliale Neoplasie, niedriggradig",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8148/0 - Glanduläre intraepitheliale Neoplasie, niedriggradig"
+              }
+            ]
+          },
+          {
+            "code": "9986/3",
+            "display": "Myelodysplastisches Syndrom mit isolierter del (5q)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9986/3 - Myelodysplastisches Syndrom mit isolierter del (5q)"
+              }
+            ]
+          },
+          {
+            "code": "8103/1",
+            "display": "Proliferierende TricholemmzysteC44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8103/1 - Proliferierende TricholemmzysteC44.-"
+              }
+            ]
+          },
+          {
+            "code": "9174/0",
+            "display": "Lymphangiomyom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9174/0 - Lymphangiomyom"
+              }
+            ]
+          },
+          {
+            "code": "8010/0",
+            "display": "Benigne epitheliale Neoplasie",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8010/0 - Benigne epitheliale Neoplasie"
+              }
+            ]
+          },
+          {
+            "code": "8264/0",
+            "display": "Glanduläre Papillomatose",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8264/0 - Glanduläre Papillomatose"
+              }
+            ]
+          },
+          {
+            "code": "8813/3",
+            "display": "Faszienfibrosarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8813/3 - Faszienfibrosarkom"
+              }
+            ]
+          },
+          {
+            "code": "8110/0",
+            "display": "Pilomatrikom, o.n.A.C44.-",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8110/0 - Pilomatrikom, o.n.A.C44.-"
+              }
+            ]
+          },
+          {
+            "code": "9755/3",
+            "display": "Histiozytäres Sarkom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9755/3 - Histiozytäres Sarkom"
+              }
+            ]
+          },
+          {
+            "code": "9073/1",
+            "display": "Gonadoblastom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9073/1 - Gonadoblastom"
+              }
+            ]
+          },
+          {
+            "code": "8163/3",
+            "display": "Karzinom vom pankreatobiliären TypC24.1",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8163/3 - Karzinom vom pankreatobiliären TypC24.1"
+              }
+            ]
+          },
+          {
+            "code": "8896/0",
+            "display": "Myxoides Leiomyom",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "8896/0 - Myxoides Leiomyom"
+              }
+            ]
+          },
+          {
+            "code": "9727/3",
+            "display": "Lymphoblastisches Lymphom der Vorläuferzellen o.n.A. (siehe 9835/3)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-short"
+                },
+                "value": "9727/3 - Lymphoblastisches Lymphom der Vorläuferzellen o.n.A. (siehe 9835/3)"
+              }
+            ]
           }
         ]
       },
