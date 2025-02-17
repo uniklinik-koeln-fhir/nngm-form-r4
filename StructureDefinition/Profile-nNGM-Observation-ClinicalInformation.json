@@ -1,6 +1,6 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "Observation-CustomProfile",
+    "id": "Profile-nNGM-Observation-ClinicalInformation",
     "url": "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/clinical-information",
     "version": "1.0.0",
     "name": "Profile_nNGM-Observation_ClinicalInformation",
