@@ -224,6 +224,52 @@
         "isModifier": false
       },
       {
+        "id": "Observation.value[x].extension:datumLetzterKontakt",
+        "path": "Observation.value[x].extension",
+        "sliceName": "datumLetzterKontakt",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/datumLetzterKontakt"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Observation.value[x].extension:informationsquelleLetzterKontakt",
+        "path": "Observation.value[x].extension",
+        "sliceName": "informationsquelleLetzterKontakt",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/iqlk"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+      "id": "Observation.value[x].extension:lostToFollowUp",
+      "path": "Observation.value[x].extension",
+      "sliceName": "lostToFollowUp",
+      "min": 0,
+      "type": [
+        {
+          "code": "Extension",
+          "profile": [
+            "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/lostToFollowUp"
+          ]
+        }
+      ]
+    },
+      {
         "id": "Observation.bodySite",
         "path": "Observation.bodySite",
         "max": "0"

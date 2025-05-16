@@ -1,0 +1,42 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Extension-nNGM-InformationsquelleLetzterKontakt-VitalStatus",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/iqlk",
+  "name": "Extension_nNGM_InformationsquelleTodesdatum-VitalStatus",
+  "status": "active",
+  "date": "2025-05-16",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeableConcept"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/iqlk"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/izt"
+        }
+      }
+    ]
+  }
+}

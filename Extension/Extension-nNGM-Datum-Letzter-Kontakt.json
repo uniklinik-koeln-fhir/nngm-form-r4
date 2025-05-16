@@ -1,0 +1,38 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Extension-nNGM-Datum-Letzter-Kontakt",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/datumLetzterKontakt",
+  "name": "Extension_nNGM_letzterKontakt",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeableConcept"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/datumLetzterKontakt"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}
