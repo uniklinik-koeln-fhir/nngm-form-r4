@@ -452,8 +452,475 @@
                 "value": "C77.0 - Lymphknoten des Kopfes, des Gesichtes und des Halses"
               }
             ]
+          },
+          {
+            "code": "C38.0",
+            "display": "Herz",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C38.0 - Herz"
+              }
+            ]
+          },
+          {
+            "code": "C38.3",
+            "display": "Mediastinum o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C38.3 - Mediastinum o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C38.4",
+            "display": "Pleura o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C38.4 - Pleura o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C40.0",
+            "display": "Lange Knochen von Arm und Schulter und zugehörige Gelenke",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C40.0 - Lange Knochen von Arm und Schulter und zugehörige Gelenke"
+              }
+            ]
+          },
+          {
+            "code": "C40.2",
+            "display": "Lange Knochen der unteren Extremitäten und zugehörige Gelenke",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C40.2 - Lange Knochen der unteren Extremitäten und zugehörige Gelenke"
+              }
+            ]
+          },
+          {
+            "code": "C41.2",
+            "display": "Wirbelsäule",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C41.2 - Wirbelsäule"
+              }
+            ]
+          },
+          {
+            "code": "C41.3",
+            "display": "Rippen, Sternum, Klavikula und zugehörige Gelenke",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C41.3 - Rippen, Sternum, Klavikula und zugehörige Gelenke"
+              }
+            ]
+          },
+          {
+            "code": "C41.4",
+            "display": "Beckenknochen, Kreuzbein, Steißbein und zugehörige Gelenke",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C41.4 - Beckenknochen, Kreuzbein, Steißbein und zugehörige Gelenke"
+              }
+            ]
+          },
+          {
+            "code": "C41.9",
+            "display": "Knochen und Gelenkknorpel, nicht näher bezeichnet",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C41.9 - Knochen und Gelenkknorpel, nicht näher bezeichnet"
+              }
+            ]
+          },
+          {
+            "code": "C42.1",
+            "display": "Knochenmarks",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C42.1 - Knochenmarks"
+              }
+            ]
+          },
+          {
+            "code": "C44.5",
+            "display": "Haut am Stamm",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C44.5 - Haut am Stamm"
+              }
+            ]
+          },
+          {
+            "code": "C44.9",
+            "display": "Haut o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C44.9 - Haut o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C48.1",
+            "display": "Näher bezeichnete Teile des Peritoneums",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C48.1 - Näher bezeichnete Teile des Peritoneums"
+              }
+            ]
+          },
+          {
+            "code": "C48.2",
+            "display": "Peritoneum o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C48.2 - Peritoneum o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C49.0",
+            "display": "Bindegewebe, Subkutangewebe und sonstige Weichteile des Kopfes, des Gesichtes und des Halses",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C49.0 - Bindegewebe, Subkutangewebe und sonstige Weichteile des Kopfes, des Gesichtes und des Halses"
+              }
+            ]
+          },
+          {
+            "code": "C49.1",
+            "display": "Bindegewebe, Subkutangewebe und sonst. Weichteile der oberen Extremität und der Schulter",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C49.1 - Bindegewebe, Subkutangewebe und sonst. Weichteile der oberen Extremität und der Schulter"
+              }
+            ]
+          },
+          {
+            "code": "C49.3",
+            "display": "Bindegewebe, Subkutangewebe und sonstige Weichteile des Thorax",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C49.3 - Bindegewebe, Subkutangewebe und sonstige Weichteile des Thorax"
+              }
+            ]
+          },
+          {
+            "code": "C49.9",
+            "display": "Bindegewebe, Subkutangewebe und sonstige Weichteile o.n.A.",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C49.9 - Bindegewebe, Subkutangewebe und sonstige Weichteile o.n.A."
+              }
+            ]
+          },
+          {
+            "code": "C56.9",
+            "display": "Ovar",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C56.9 - Ovar"
+              }
+            ]
+          },
+          {
+            "code": "C76.0",
+            "display": "Kopf, Gesicht und Hals",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.0 - Kopf, Gesicht und Hals"
+              }
+            ]
+          },
+          {
+            "code": "C76.1",
+            "display": "Thorax",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.1 - Thorax"
+              }
+            ]
+          },
+          {
+            "code": "C76.2",
+            "display": "Abdomen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.2 - Abdomen"
+              }
+            ]
+          },
+          {
+            "code": "C76.3",
+            "display": "Becken",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.3 - Becken"
+              }
+            ]
+          },
+          {
+            "code": "C76.4",
+            "display": "Obere Extremität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.4 - Obere Extremität"
+              }
+            ]
+          },
+          {
+            "code": "C76.5",
+            "display": "Untere Extremität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.5 - Untere Extremität"
+              }
+            ]
+          },
+          {
+            "code": "C76.7",
+            "display": "Sonstige ungenau bezeichnete Lokalisationen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.7 - Sonstige ungenau bezeichnete Lokalisationen"
+              }
+            ]
+          },
+          {
+            "code": "C76.8",
+            "display": "Sonstige und ungenau bezeichnete Lokalisationen, mehrere Teilbereiche überlappend",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C76.8 - Sonstige und ungenau bezeichnete Lokalisationen, mehrere Teilbereiche überlappend"
+              }
+            ]
+          },
+          {
+            "code": "C77.1",
+            "display": "Intrathorakale Lymphknoten",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.1 - Intrathorakale Lymphknoten"
+              }
+            ]
+          },
+          {
+            "code": "C77.2",
+            "display": "Intraabdominale Lymphknoten",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.2 - Intraabdominale Lymphknoten"
+              }
+            ]
+          },
+          {
+            "code": "C77.3",
+            "display": "Axilläre Lymphknoten und Lymphknoten der oberen Extremität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.3 - Axilläre Lymphknoten und Lymphknoten der oberen Extremität"
+              }
+            ]
+          },
+          {
+            "code": "C77.4",
+            "display": "Inguinale Lymphknoten und Lymphknoten der unteren Extremität",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.4 - Inguinale Lymphknoten und Lymphknoten der unteren Extremität"
+              }
+            ]
+          },
+          {
+            "code": "C77.5",
+            "display": "Intrapelvine Lymphknoten",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.5 - Intrapelvine Lymphknoten"
+              }
+            ]
+          },
+          {
+            "code": "C77.8",
+            "display": "Lymphknoten mehrerer Regionen",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.8 - Lymphknoten mehrerer Regionen"
+              }
+            ]
+          },
+          {
+            "code": "C77.9",
+            "display": "Lymphknoten, nicht näher bezeichnet",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C77.9 - Lymphknoten, nicht näher bezeichnet"
+              }
+            ]
+          },
+          {
+            "code": "C80.0",
+            "display": "Bösartige Neubildung, primäre Lokalisation unbekannt, so bezeichnet",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C80.0 - Bösartige Neubildung, primäre Lokalisation unbekannt, so bezeichnet"
+              }
+            ]
+          },
+          {
+            "code": "C80.9",
+            "display": "Bösartige Neubildung, nicht näher bezeichnet",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+                  "code": "nNGM-long-with-code"
+                },
+                "value": "C80.9 - Bösartige Neubildung, nicht näher bezeichnet"
+              }
+            ]
           }
-          
         ]
       }
     ]
@@ -936,6 +1403,510 @@
               "code": "nNGM-long-with-code"
             },
             "value": "C77.0 - Lymphknoten des Kopfes, des Gesichtes und des Halses"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C38.0",
+        "display": "Herz",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C38.0 - Herz"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C38.3",
+        "display": "Mediastinum o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C38.3 - Mediastinum o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C38.4",
+        "display": "Pleura o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C38.4 - Pleura o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C40.0",
+        "display": "Lange Knochen von Arm und Schulter und zugehörige Gelenke",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C40.0 - Lange Knochen von Arm und Schulter und zugehörige Gelenke"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C40.2",
+        "display": "Lange Knochen der unteren Extremitäten und zugehörige Gelenke",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C40.2 - Lange Knochen der unteren Extremitäten und zugehörige Gelenke"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C41.2",
+        "display": "Wirbelsäule",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C41.2 - Wirbelsäule"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C41.3",
+        "display": "Rippen, Sternum, Klavikula und zugehörige Gelenke",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C41.3 - Rippen, Sternum, Klavikula und zugehörige Gelenke"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C41.4",
+        "display": "Beckenknochen, Kreuzbein, Steißbein und zugehörige Gelenke",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C41.4 - Beckenknochen, Kreuzbein, Steißbein und zugehörige Gelenke"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C41.9",
+        "display": "Knochen und Gelenkknorpel, nicht näher bezeichnet",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C41.9 - Knochen und Gelenkknorpel, nicht näher bezeichnet"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C42.1",
+        "display": "Knochenmarks",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C42.1 - Knochenmarks"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C44.5",
+        "display": "Haut am Stamm",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C44.5 - Haut am Stamm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C44.9",
+        "display": "Haut o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C44.9 - Haut o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C48.1",
+        "display": "Näher bezeichnete Teile des Peritoneums",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C48.1 - Näher bezeichnete Teile des Peritoneums"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C48.2",
+        "display": "Peritoneum o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C48.2 - Peritoneum o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C49.0",
+        "display": "Bindegewebe, Subkutangewebe und sonstige Weichteile des Kopfes, des Gesichtes und des Halses",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C49.0 - Bindegewebe, Subkutangewebe und sonstige Weichteile des Kopfes, des Gesichtes und des Halses"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C49.1",
+        "display": "Bindegewebe, Subkutangewebe und sonst. Weichteile der oberen Extremität und der Schulter",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C49.1 - Bindegewebe, Subkutangewebe und sonst. Weichteile der oberen Extremität und der Schulter"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C49.3",
+        "display": "Bindegewebe, Subkutangewebe und sonstige Weichteile des Thorax",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C49.3 - Bindegewebe, Subkutangewebe und sonstige Weichteile des Thorax"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C49.9",
+        "display": "Bindegewebe, Subkutangewebe und sonstige Weichteile o.n.A.",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C49.9 - Bindegewebe, Subkutangewebe und sonstige Weichteile o.n.A."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C56.9",
+        "display": "Ovar",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C56.9 - Ovar"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.0",
+        "display": "Kopf, Gesicht und Hals",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.0 - Kopf, Gesicht und Hals"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.1",
+        "display": "Thorax",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.1 - Thorax"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.2",
+        "display": "Abdomen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.2 - Abdomen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.3",
+        "display": "Becken",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.3 - Becken"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.4",
+        "display": "Obere Extremität",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.4 - Obere Extremität"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.5",
+        "display": "Untere Extremität",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.5 - Untere Extremität"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.7",
+        "display": "Sonstige ungenau bezeichnete Lokalisationen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.7 - Sonstige ungenau bezeichnete Lokalisationen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C76.8",
+        "display": "Sonstige und ungenau bezeichnete Lokalisationen, mehrere Teilbereiche überlappend",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C76.8 - Sonstige und ungenau bezeichnete Lokalisationen, mehrere Teilbereiche überlappend"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.1",
+        "display": "Intrathorakale Lymphknoten",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.1 - Intrathorakale Lymphknoten"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.2",
+        "display": "Intraabdominale Lymphknoten",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.2 - Intraabdominale Lymphknoten"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.3",
+        "display": "Axilläre Lymphknoten und Lymphknoten der oberen Extremität",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.3 - Axilläre Lymphknoten und Lymphknoten der oberen Extremität"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.4",
+        "display": "Inguinale Lymphknoten und Lymphknoten der unteren Extremität",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.4 - Inguinale Lymphknoten und Lymphknoten der unteren Extremität"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.5",
+        "display": "Intrapelvine Lymphknoten",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.5 - Intrapelvine Lymphknoten"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.8",
+        "display": "Lymphknoten mehrerer Regionen",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.8 - Lymphknoten mehrerer Regionen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C77.9",
+        "display": "Lymphknoten, nicht näher bezeichnet",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C77.9 - Lymphknoten, nicht näher bezeichnet"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C80.0",
+        "display": "Bösartige Neubildung, primäre Lokalisation unbekannt, so bezeichnet",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C80.0 - Bösartige Neubildung, primäre Lokalisation unbekannt, so bezeichnet"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code": "C80.9",
+        "display": "Bösartige Neubildung, nicht näher bezeichnet",
+        "designation": [
+          {
+            "use": {
+              "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/designation-use",
+              "code": "nNGM-long-with-code"
+            },
+            "value": "C80.9 - Bösartige Neubildung, nicht näher bezeichnet"
           }
         ]
       }
