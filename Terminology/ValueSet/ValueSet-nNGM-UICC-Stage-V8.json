@@ -81,6 +81,12 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
         "version": "1.0.0",
+        "code": "IV",
+        "display": "IV"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8",
+        "version": "1.0.0",
         "code": "IVA",
         "display": "IVA"
       },

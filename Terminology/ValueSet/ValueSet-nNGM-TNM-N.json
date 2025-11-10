@@ -24,18 +24,6 @@
             "display": "N1"
           },
           {
-            "code": "N1a",
-            "display": "N1a"
-          },
-          {
-            "code": "N1b",
-            "display": "N1b"
-          },
-          {
-            "code": "N1c",
-            "display": "N1c"
-          },
-          {
             "code": "N2",
             "display": "N2"
           },
@@ -48,24 +36,8 @@
             "display": "N2b"
           },
           {
-            "code": "N2c",
-            "display": "N2c"
-          },
-          {
             "code": "N3",
             "display": "N3"
-          },
-          {
-            "code": "N3a",
-            "display": "N3"
-          },
-          {
-            "code": "N3b",
-            "display": "N3b"
-          },
-          {
-            "code": "N3c",
-            "display": "N3c"
           }
         ]
       }
@@ -74,7 +46,7 @@
   "expansion": {
     "identifier": "urn:uuid:080c56c0-d09c-4d40-92d9-3c6714f35b60",
     "timestamp": "2022-08-23T15:20:31.6535752+02:00",
-    "total": 14,
+    "total": 7,
     "contains": [
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
@@ -93,21 +65,6 @@
       },
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N1a",
-        "display": "N1a"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N1b",
-        "display": "N1b"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N1c",
-        "display": "N1c"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
         "code": "N2",
         "display": "N2"
       },
@@ -123,28 +80,8 @@
       },
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N2c",
-        "display": "N2c"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
         "code": "N3",
         "display": "N3"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N3a",
-        "display": "N3"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N3b",
-        "display": "N3b"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "N3c",
-        "display": "N3c"
       }
     ]
   }

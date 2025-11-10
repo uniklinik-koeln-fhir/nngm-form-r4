@@ -27,6 +27,10 @@
     {
       "display": "Ablehnung seitens Patient(in)",
       "code": "AP"
+    },
+    {
+      "display": "Keine Angabe",
+      "code": "noInformation"
     }
   ]
 }

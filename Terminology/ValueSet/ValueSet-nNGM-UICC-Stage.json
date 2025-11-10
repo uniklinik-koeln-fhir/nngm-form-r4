@@ -36,20 +36,8 @@
             "display": "IIB"
           },
           {
-            "code": "IIIA1",
-            "display": "IIIA1"
-          },
-          {
-            "code": "IIIA2",
-            "display": "IIIA2"
-          },
-          {
-            "code": "IIIA3",
-            "display": "IIIA3"
-          },
-          {
-            "code": "IIIA4",
-            "display": "IIIA4"
+            "code": "IIIA",
+            "display": "IIIA"
           },
           {
             "code": "IIIB",
@@ -108,23 +96,8 @@
       },
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "IIIA1",
-        "display": "IIIA1"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "IIIA2",
-        "display": "IIIA2"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "IIIA3",
-        "display": "IIIA3"
-      },
-      {
-        "system": "urn:oid:2.16.840.1.113883.15.16",
-        "code": "IIIA4",
-        "display": "IIIA4"
+        "code": "IIIA",
+        "display": "IIIA"
       },
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
