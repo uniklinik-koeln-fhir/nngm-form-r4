@@ -701,7 +701,17 @@
         "id": "Observation.component:TNM-prefix.referenceRange",
         "path": "Observation.component.referenceRange",
         "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
-      }
+      },      
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "label": "Lokalisation",
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-topologie"
+        }
+      },
     ]
   }
 }
