@@ -112,6 +112,38 @@
         "id": "Condition.stage.summary:uicc8.coding.system",
         "path": "Condition.stage.summary.coding.system",
         "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV8"
+      },
+      {
+        "id": "Condition.stage.summary:uicc9",
+        "path": "Condition.stage.summary",
+        "sliceName": "uicc9",
+        "label": "UICC Stage v9",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-v9"
+        }
+      },
+      {
+        "id": "Condition.stage.summary:uicc9.coding.system",
+        "path": "Condition.stage.summary.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingV9"
+      },
+      {
+        "id": "Condition.stage.summary:uiccU",
+        "path": "Condition.stage.summary",
+        "sliceName": "uiccU",
+        "label": "UICC Stage vU",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-vU"
+        }
+      },
+      {
+        "id": "Condition.stage.summary:uiccU.coding.system",
+        "path": "Condition.stage.summary.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingVU"
       }
     ]
   }

@@ -1,0 +1,75 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CodeSystem-nNGM-uiccStagingVU",
+    "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/uiccStagingVU",
+    "version": "1.0.0",
+    "name": "CodeSystem_nNGM_uiccStagingVU",
+    "title": "CodeSystem - nNGM - uiccStagingVU",
+    "status": "active",
+    "caseSensitive": true,
+    "compositional": false, 
+    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/uiccStagingVU",
+    "content": "complete",
+    "concept":  [
+        {
+            "code": "0",
+            "display": "0"
+        },
+        {
+            "code": "IA",
+            "display": "IA"
+        },
+        {
+            "code": "IA1",
+            "display": "IA1"
+        },
+        {
+            "code": "IA2",
+            "display": "IA2"
+        },
+        {
+            "code": "IA3",
+            "display": "IA3"
+        },
+        {
+            "code": "IB",
+            "display": "IB"
+        },
+        {
+            "code": "IIA",
+            "display": "IIA"
+        },
+        {
+            "code": "IIB",
+            "display": "IIB"
+        },
+        {
+            "code": "IIIA",
+            "display": "IIIA"
+        },
+        {
+            "code": "IIIB",
+            "display": "IIIB"
+        },
+        {
+            "code": "IIIC",
+            "display": "IIIC"
+        },
+        {
+            "code": "IV",
+            "display": "IV"
+        },
+        {
+            "code": "IVA",
+            "display": "IVA"
+        },
+        {
+            "code": "IVB",
+            "display": "IVB"
+        },
+        {
+            "code": "unknown",
+            "display": "unknown"
+        }
+    ]
+}
