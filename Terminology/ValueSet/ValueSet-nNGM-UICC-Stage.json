@@ -12,6 +12,10 @@
         "system": "urn:oid:2.16.840.1.113883.15.16",
         "concept": [
           {
+            "code": "IA",
+            "display": "IA"
+          },
+          {
             "code": "IA1",
             "display": "IA1"
           },
@@ -62,8 +66,13 @@
   "expansion": {
     "identifier": "urn:uuid:abad8ba0-ebb8-4f8a-98af-e283d26e4f67",
     "timestamp": "2022-08-23T15:20:31.7490121+02:00",
-    "total": 14,
+    "total": 12,
     "contains": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.15.16",
+        "code": "IA",
+        "display": "IA"
+      },
       {
         "system": "urn:oid:2.16.840.1.113883.15.16",
         "code": "IA1",
