@@ -1,0 +1,40 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Observation-ClinicalInformation",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/clinical-information"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "55752-0",
+        "display": "Clinical information"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
+    }
+  },
+  "effectiveDateTime": "2022-07-19T00:00:00+02:00",
+  "note": [
+    {
+      "text": "Patient mit bekanntem NSCLC, Stadium IV. Vorbehandlung mit Erlotinib. Aktuell Progress unter laufender Therapie."
+    }
+  ]
+}

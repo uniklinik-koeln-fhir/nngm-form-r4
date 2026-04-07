@@ -1,0 +1,131 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-MII-PR-MolGen-Variante",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_Variante"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/completlyEvaluable",
+      "valueBoolean": true
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "GE",
+          "display": "Genetics"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "69548-6",
+        "display": "Genetic variant assessment"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
+    }
+  },
+  "effectiveDateTime": "2022-07-19",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9633-4",
+        "display": "Present"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "48018-6",
+            "display": "Gene studied [ID]"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.genenames.org/geneId",
+            "code": "HGNC:3236",
+            "display": "EGFR"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "48004-6",
+            "display": "DNA change (c.HGVS)"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://varnomen.hgvs.org",
+            "code": "NM_005228.5:c.2573T>G",
+            "display": "NM_005228.5:c.2573T>G"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "48005-3",
+            "display": "Amino acid change (pHGVS)"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://varnomen.hgvs.org",
+            "code": "NP_005219.2:p.Leu858Arg",
+            "display": "NP_005219.2:p.Leu858Arg"
+          }
+        ]
+      }
+    }
+  ]
+}

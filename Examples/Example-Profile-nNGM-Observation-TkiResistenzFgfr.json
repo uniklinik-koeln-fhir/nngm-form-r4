@@ -1,0 +1,72 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Observation-TKI-Resistenz-FGFR",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-fgfr"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code": "C1967"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code": "C132244"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
+    }
+  },
+  "effectiveDateTime": "2022-07-19",
+  "dataAbsentReason": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "code": "not-applicable"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+            "code": "C62721"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/SystemischeTherapieMedikament",
+            "code": "Erdafitinib"
+          }
+        ]
+      }
+    }
+  ]
+}

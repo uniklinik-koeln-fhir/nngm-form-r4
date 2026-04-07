@@ -1,0 +1,38 @@
+{
+  "resourceType": "Coverage",
+  "id": "Example-Coverage-VersicherungsverhaeltnisPseudonymisiert",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Coverage/nNGM/pseudonymisiert"
+    ]
+  },
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "system": "http://fhir.de/CodeSystem/versicherungsart-de-basis",
+        "code": "GKV"
+      }
+    ]
+  },
+  "beneficiary": {
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
+    }
+  },
+  "payor": [
+    {
+      "display": "AOK Rheinland/Hamburg"
+    }
+  ]
+}

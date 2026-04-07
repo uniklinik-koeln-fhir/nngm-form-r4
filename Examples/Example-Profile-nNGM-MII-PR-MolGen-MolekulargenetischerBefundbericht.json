@@ -1,0 +1,73 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "Example-MII-PR-MolGen-MolekulargenetischerBefundbericht",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_MolekulargenetischerBefundbericht"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ngspanelversion",
+      "valueString": "v2.1"
+    },
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/analysispossible",
+      "valueBoolean": true
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "GE",
+          "display": "Genetics"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "81247-9",
+        "display": "Master HL7 genetic variant reporting panel"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example_Patient_Patient-567314-Pseudonym",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient-pseudonym",
+      "value": "567314"
+    }
+  },
+  "effectiveDateTime": "2022-07-19",
+  "issued": "2022-07-25T10:00:00+02:00",
+  "performer": [
+    {
+      "reference": "Organization/Example-Organization-Organisation"
+    }
+  ],
+  "specimen": [
+    {
+      "reference": "Specimen/Example-Specimen-Tumormaterial"
+    }
+  ],
+  "result": [
+    {
+      "reference": "Observation/Example-MII-PR-MolGen-Variante"
+    }
+  ],
+  "conclusion": "Nachweis einer EGFR-Mutation (p.Leu858Arg) im Exon 21. Keine weiteren pathogenen Varianten detektiert."
+}

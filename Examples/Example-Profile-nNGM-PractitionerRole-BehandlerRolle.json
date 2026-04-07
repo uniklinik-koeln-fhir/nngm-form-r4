@@ -1,0 +1,37 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Example-PractitionerRole-BehandlerRolle",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/nNGM"
+    ]
+  },
+  "practitioner": {
+    "reference": "Practitioner/Example-Practitioner-Behandler"
+  },
+  "organization": {
+    "reference": "Organization/Example-Organization-Organisation"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "309343006",
+          "display": "Physician"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "394593009",
+          "display": "Medical oncology"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "resourceType": "Consent",
+  "id": "Example-Consent-Einwilligungserklaerung-Local",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent-Local"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ValidityDuration",
+      "valueDuration": {
+        "value": 5,
+        "unit": "Jahre",
+        "system": "http://unitsofmeasure.org",
+        "code": "a"
+      }
+    },
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/LocalConsentName",
+      "valueString": "Lokale Einwilligung Universitätsklinikum Köln"
+    }
+  ],
+  "status": "active",
+  "scope": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "code": "patient-privacy"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59284-0"
+        }
+      ]
+    }
+  ],
+  "patient": {
+    "reference": "Patient/Example_Patient_MagdalaMüller",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/identifier-type",
+            "code": "P"
+          }
+        ]
+      },
+      "system": "http://uk-koeln.de/fhir/sid/nNGM/patient",
+      "value": "467314"
+    }
+  },
+  "dateTime": "2022-07-19T00:00:00+02:00",
+  "provision": {
+    "type": "permit"
+  }
+}
