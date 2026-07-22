@@ -1,0 +1,49 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="nngm-ex-systemischetherapie-therapyline" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline" />
+  <version value="0.1.0" />
+  <name value="nngm_ex_systemischetherapie_therapyline" />
+  <title value="nngm-ex-systemischetherapie-therapyline" />
+  <status value="draft" />
+  <publisher value="nNGM" />
+  <description value="nngm-ex-systemischetherapie-therapyline" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Procedure" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="MII EX Onko Strahlentherapie Bestrahlung Einzeldosis" />
+      <definition value="Strahlentherapie: Einzeldosis einer Bestrahlung" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyLine" />
+        <comment value="therapyLine" />
+      </mapping>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <short value="Nummer der Therapie Linie" />
+      <definition value="Gibt an, Nummer der Therapie Linie." />
+      <type>
+        <code value="positiveInt" />
+      </type>
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyLine" />
+        <comment value="therapyLine" />
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>

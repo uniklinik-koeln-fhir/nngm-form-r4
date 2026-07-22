@@ -1,0 +1,74 @@
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="Example_Operation_Erstdiagnose_001" />
+  <meta>
+    <profile value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-Operation" />
+  </meta>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-ex-onko-operation-intention">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-onko-intention" />
+        <code value="K" />
+        <display value="kurativ" />
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-operation-lymphadenectomy">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-onko-intention" />
+        <code value="J" />
+        <display value="Ja" />
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="completed" />
+  <code>
+    <coding>
+      <system value="http://fhir.de/CodeSystem/bfarm/ops" />
+      <version value="2025" />
+      <code value="5-402.00" />
+      <display value="Regionale Lymphadenektomie (Ausräumung mehrerer Lymphknoten einer Region) als selbständiger Eingriff: Zervikal" />
+      <extension url="http://fhir.de/StructureDefinition/seitenlokalisation">
+        <valueCoding>
+          <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION" />
+          <value value="B" />
+          <display value="beiderseits" />
+        </valueCoding>
+      </extension>
+    </coding>
+    <display value="Pneumonektomie" />
+    <text value="Lobektomie mit Lymphadenektomie" />
+  </code>
+  <subject>
+    <reference value="Patient/example-patient-001" />
+  </subject>
+  <performedDateTime value="2024-01-15" />
+  <reasonReference>
+    <reference value="Condition/Example_Condition_Erstdiagnose" />
+  </reasonReference>
+  <bodySite>
+    <coding>
+      <system value="http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-lokalisation" />
+      <code value="C34.1" />
+      <display value="Lung, upper lobe" />
+    </coding>
+    <text value="Oberlappen links" />
+  </bodySite>
+  <outcome>
+    <coding>
+      <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-onko-residualstatus" />
+      <code value="R0" />
+      <display value="R0 = kein Residualtumor" />
+    </coding>
+  </outcome>
+  <complication>
+    <coding>
+      <system value="http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu" />
+      <code value="N" />
+      <display value="Nein" />
+    </coding>
+  </complication>
+  <note>
+    <text value="OP-Bericht: Komplikationslos verlaufen" />
+  </note>
+</Procedure>

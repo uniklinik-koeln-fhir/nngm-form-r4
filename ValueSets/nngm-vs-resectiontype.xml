@@ -1,0 +1,16 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nngm-vs-resectiontype" />
+  <url value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-resectiontype" />
+  <version value="0.1.0" />
+  <name value="nngm_vs_resectiontype" />
+  <title value="nNGM ValueSet OP-resectiontype" />
+  <status value="draft" />
+  <date value="2025-11-28T00:00:00+00:00" />
+  <publisher value="nNGM" />
+  <description value="Art der Resektion (Alternativ zum OPS-Code)" />
+  <compose>
+    <include>
+      <system value="http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-resectiontype" />
+    </include>
+  </compose>
+</ValueSet>

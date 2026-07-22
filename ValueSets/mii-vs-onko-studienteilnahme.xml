@@ -1,0 +1,19 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mii-vs-onko-studienteilnahme" />
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+  </meta>
+  <url value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-jnu" />
+  <version value="0.1.0" />
+  <name value="nngm_vs_operation_lymphadenectomy" />
+  <title value="nngm-vs-operation-lymphadenectomy" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="nNGM" />
+  <description value="Lymphadenectomy" />
+  <compose>
+    <include>
+      <system value="http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu" />
+    </include>
+  </compose>
+</ValueSet>
