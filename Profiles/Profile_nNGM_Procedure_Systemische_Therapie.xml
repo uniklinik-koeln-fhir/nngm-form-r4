@@ -1,13 +1,15 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-nNGM-Procedure-Systemische-Therapie" />
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie" />
+  <url
+    value="http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie" />
   <version value="0.1.0" />
   <name value="Profile_nNGM_Procedure_Systemische_Therapie" />
   <title value="Profile - nNGM - Procedure - Systemische Therapie (Therapielinie)" />
   <status value="draft" />
   <date value="2025-12-01" />
   <publisher value="nNGM Konsortium" />
-  <description value="Systemische Therapie(Therapielinie) Profil für das nNGM-Projekt, basierend auf der MII. Systemische Therapie." />
+  <description
+    value="Systemische Therapie(Therapielinie) Profil für das nNGM-Projekt, basierend auf der MII. Systemische Therapie." />
   <fhirVersion value="4.0.1" />
   <mapping>
     <identity value="nNGM-Schema" />
@@ -16,7 +18,8 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Procedure" />
-  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/ext/modul-mtb/StructureDefinition/mii-pr-mtb-systemische-therapie" />
+  <baseDefinition
+    value="https://www.medizininformatik-initiative.de/fhir/ext/modul-mtb/StructureDefinition/mii-pr-mtb-systemische-therapie" />
   <derivation value="constraint" />
   <differential>
     <element id="Procedure">
@@ -122,7 +125,8 @@
       <definition value="Nummer der Therapie Linie" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline" />
+        <profile
+          value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline" />
       </type>
       <mapping>
         <identity value="nNGM-Schema" />
@@ -159,11 +163,12 @@
       <definition value="Auf Basis einer Therapieempfehlung durchgeführt" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-basedonrecommendation" />
+        <profile
+          value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-basedonrecommendation" />
       </type>
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="positionSurgicalTherapy" />
+        <map value="basedOnRecommendation" />
         <comment value="Auf Basis einer Therapieempfehlung durchgeführt" />
       </mapping>
     </element>
@@ -178,17 +183,27 @@
       </slicing>
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet
+          value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation" />
+      </binding>
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="basedOnRecommendation" />
         <comment value="Auf Basis einer Therapieempfehlung durchgeführt" />
       </mapping>
     </element>
-    <element id="Procedure.extension:BasedOnRecommendation.value[x]:valueBoolean">
+    <element id="Procedure.extension:BasedOnRecommendation.value[x]:valueCodeableConcept">
       <path value="Procedure.extension.value[x]" />
-      <sliceName value="valueBoolean" />
+      <sliceName value="valueCodeableConcept" />
       <min value="1" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet
+          value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation" />
+      </binding>
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="basedOnRecommendation" />
@@ -199,7 +214,8 @@
       <path value="Procedure.partOf" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-ResearchStudy-TherapyLineStudy" />
+        <targetProfile
+          value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-ResearchStudy-TherapyLineStudy" />
       </type>
       <mapping>
         <identity value="nNGM-Schema" />
@@ -216,7 +232,8 @@
       <sliceName value="systemische_therapie_art" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-therapieart" />
+        <valueSet
+          value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-therapieart" />
       </binding>
       <mapping>
         <identity value="nNGM-Schema" />
@@ -242,8 +259,10 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient" />
+        <targetProfile
+          value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert" />
+        <targetProfile
+          value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient" />
       </type>
     </element>
     <element id="Procedure.subject.reference">
@@ -279,6 +298,11 @@
     <element id="Procedure.performer">
       <path value="Procedure.performer" />
       <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="executionCenter" />
+        <comment value="Durchführende Einrichtung" />
+      </mapping>
     </element>
     <element id="Procedure.performer.actor">
       <path value="Procedure.performer.actor" />
@@ -291,18 +315,28 @@
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="executionCenter" />
-        <comment value="Durchführende Einrichtung" />
+        <comment
+          value="Durchführende Einrichtung; falls keine eindeutige Organisations-ID vorliegt, kann eine referenzierte Organization ohne Identifier und mit Organization.name als Freitextname verwendet werden." />
       </mapping>
     </element>
     <element id="Procedure.performer.actor.reference">
       <path value="Procedure.performer.actor.reference" />
       <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="executionCenter" />
+        <comment
+          value="Falls die ID der Organisation nicht vorhanden ist, kann der Freitextname Organization.name als Referenz der Darstellung dienen" />
+      </mapping>
     </element>
     <element id="Procedure.reasonReference">
       <path value="Procedure.reasonReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis" />
+        <targetProfile
+          value="http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis" />
+        <targetProfile
+          value="http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog" />
       </type>
     </element>
     <element id="Procedure.reasonReference.reference">

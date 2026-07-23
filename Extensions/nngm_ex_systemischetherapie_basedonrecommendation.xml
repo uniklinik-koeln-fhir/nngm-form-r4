@@ -1,12 +1,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="nngm-ex-onko-systherapie-basedonrecommendation" />
+  <id value="nngm-ex-systemischetherapie-basedonrecommendation" />
   <url value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-basedonrecommendation" />
   <version value="0.1.0" />
   <name value="nngm_ex_systemischetherapie_basedonrecommendation" />
   <title value="nNGM Extension: Systemische Therapie, Auf Basis Therapieempfehlung" />
   <status value="draft" />
   <publisher value="nNGM" />
-  <description value="Zeigt an, ob die systemische Therapie auf Basis einer (Molekularen) Therapieempfehlung erfolgte (boolean)." />
+  <description value="Gibt an, ob und auf welcher Grundlage die systemische Therapie auf Basis einer Therapieempfehlung durchgefuehrt wurde." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -24,11 +24,16 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="Empfehlung ja/nein" />
-      <definition value="true, wenn auf Basis einer (Molekularen) Therapieempfehlung; sonst false." />
+      <short value="Grundlage der Therapieempfehlung" />
+      <definition value="Gibt an, ob und auf welcher Grundlage die systemische Therapie auf Basis einer Therapieempfehlung durchgefuehrt wurde." />
       <type>
-        <code value="boolean" />
+        <code value="CodeableConcept" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSet
+          value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
