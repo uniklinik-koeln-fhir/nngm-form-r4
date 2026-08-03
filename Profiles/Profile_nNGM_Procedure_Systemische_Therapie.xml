@@ -300,8 +300,8 @@
       <mustSupport value="true" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="executionCenter" />
-        <comment value="Durchführende Einrichtung" />
+        <map value="therapyExecutionCenter" />
+        <comment value="Durchführende Einrichtung (Therapieempfehlung)" />
       </mapping>
     </element>
     <element id="Procedure.performer.actor">
@@ -314,9 +314,9 @@
       <mustSupport value="true" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="executionCenter" />
+        <map value="therapyExecutionCenter" />
         <comment
-          value="Durchführende Einrichtung; falls keine eindeutige Organisations-ID vorliegt, kann eine referenzierte Organization ohne Identifier und mit Organization.name als Freitextname verwendet werden." />
+          value="Durchführende Einrichtung (Therapieempfehlung); falls keine eindeutige Organisations-ID vorliegt, kann eine referenzierte Organization ohne Identifier und mit Organization.name als Freitextname verwendet werden." />
       </mapping>
     </element>
     <element id="Procedure.performer.actor.reference">
@@ -324,7 +324,7 @@
       <mustSupport value="true" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="executionCenter" />
+        <map value="therapyExecutionCenter" />
         <comment
           value="Falls die ID der Organisation nicht vorhanden ist, kann der Freitextname Organization.name als Referenz der Darstellung dienen" />
       </mapping>
@@ -376,7 +376,7 @@
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="furtherDetails" />
-        <comment value="Weitere Angaben" />
+        <comment value="Weitere Angaben (Therapieempfehlung)" />
       </mapping>
     </element>
   </differential>

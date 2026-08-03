@@ -39,6 +39,7 @@
     <element id="Observation.effective[x]:effectiveDateTime">
       <path value="Observation.effective[x]" />
       <sliceName value="effectiveDateTime" />
+      <min value="0" />
       <short value="Bestes Ansprechen Datum" />
       <definition value="Bestes Ansprechen Datum" />
       <mapping>

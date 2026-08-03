@@ -193,37 +193,42 @@
     <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe">
       <path value="MedicationStatement.medication[x].coding" />
       <sliceName value="atcClassDe" />
+      <short value="Therapieschema" />
+      <definition
+        value="Vollstaendiger ATC-Katalog Version 2026 mit Einzelwirkstoffen (7-stellige Codes) und Wirkstoffklassen (3-stellige Codes)." />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026" />
+      </binding>
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="therapyName" />
-        <comment value="Therapieschema?" />
+        <comment value="Therapieschema" />
       </mapping>
     </element>
     <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe.code">
       <path value="MedicationStatement.medication[x].coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026" />
+      </binding>
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="therapyName" />
         <comment value="Therapieschema der systemischen Therapie" />
       </mapping>
     </element>
-    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding:unii">
-      <path value="MedicationStatement.medication[x].coding" />
-      <sliceName value="unii" />
-      <mapping>
-        <identity value="otherTherapyName" />
-        <map value="Falls kein ATC-Code existiert: Wirkstoff-Name" />
-      </mapping>
-    </element>
-    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding:unii.code">
-      <path value="MedicationStatement.medication[x].coding.code" />
-      <short value="Falls kein ATC-Code existiert: Wirkstoff-Name" />
-      <definition value="Falls kein ATC-Code existiert: Wirkstoff-Name" />
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.text">
+      <path value="MedicationStatement.medication[x].text" />
+      <short value="Wirkstoff" />
+      <definition
+        value="Freitext zur Spezifikation der Wirkstoffe bei Verwendung von 3-stelligen ATC-Codes (Wirkstoffklassen) im Therapieschema." />
+      <maxLength value="200" />
       <mustSupport value="true" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="otherTherapyName" />
-        <comment value="Falls kein ATC-Code existiert: Wirkstoff-Name" />
+        <map value="wirkstoff" />
+        <comment value="Wirkstoff" />
       </mapping>
     </element>
     <element id="MedicationStatement.subject">
