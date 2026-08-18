@@ -67,7 +67,7 @@
       <mapping>
         <identity value="nNGM-Schema" />
         <map value="therapyExecutionCenter" />
-        <comment value="Durchführende Einrichtung" />
+        <comment value="Durchführende Einrichtung (Therapieempfehlung)" />
       </mapping>
     </element>
     <element id="Organization.telecom">

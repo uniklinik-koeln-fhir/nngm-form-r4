@@ -29,6 +29,11 @@
         <map value="systemTherapy" />
         <comment value="Systemische Therapie" />
       </mapping>
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="completedTherapy" />
+        <comment value="Durchgeführte Therapie" />
+      </mapping>
     </element>
     <element id="Procedure.extension:Dokumentationsdatum">
       <path value="Procedure.extension" />
@@ -210,6 +215,49 @@
         <comment value="Auf Basis einer Therapieempfehlung durchgeführt" />
       </mapping>
     </element>
+    <element id="Procedure.extension:TherapyDate">
+      <path value="Procedure.extension" />
+      <sliceName value="TherapyDate" />
+      <short value="Datum (Therapieempfehlung)" />
+      <definition value="Datum der Therapieempfehlung im Rahmen der systemischen Therapie." />
+      <type>
+        <code value="Extension" />
+        <profile
+          value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-therapydate" />
+      </type>
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyDate" />
+        <comment value="Datum (Therapieempfehlung)" />
+      </mapping>
+    </element>
+    <element id="Procedure.extension:TherapyDate.value[x]">
+      <path value="Procedure.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyDate" />
+        <comment value="Datum (Therapieempfehlung)" />
+      </mapping>
+    </element>
+    <element id="Procedure.extension:TherapyDate.value[x]:valueDateTime">
+      <path value="Procedure.extension.value[x]" />
+      <sliceName value="valueDateTime" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyDate" />
+        <comment value="Datum (Therapieempfehlung)" />
+      </mapping>
+    </element>
     <element id="Procedure.partOf">
       <path value="Procedure.partOf" />
       <type>
@@ -275,24 +323,24 @@
       <mustSupport value="true" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="therapyStart" />
-        <comment value="Systemische Therapie Beginn" />
+        <map value="therapyLineStart" />
+        <comment value="Beginn der Therapielinie" />
       </mapping>
     </element>
     <element id="Procedure.performed[x]:performedPeriod.start">
       <path value="Procedure.performed[x].start" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="therapyStart" />
-        <comment value="Systemische Therapie Beginn" />
+        <map value="therapyLineStart" />
+        <comment value="Beginn der Therapielinie" />
       </mapping>
     </element>
     <element id="Procedure.performed[x]:performedPeriod.end">
       <path value="Procedure.performed[x].end" />
       <mapping>
         <identity value="nNGM-Schema" />
-        <map value="therapyEnd" />
-        <comment value="Systemische Therapie Ende" />
+        <map value="therapyLineEnd" />
+        <comment value="Ende der Therapielinie" />
       </mapping>
     </element>
     <element id="Procedure.performer">
