@@ -16,7 +16,7 @@
   "expansion": {
     "identifier": "urn:uuid:e05ac094-cfbc-4496-88c1-cf3df98654ea",
     "timestamp": "2022-08-23T15:20:31.3425948+02:00",
-    "total": 196,
+    "total": 198,
     "contains": [
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
@@ -789,6 +789,12 @@
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
         "version": "1.0.0",
+        "code": "Generali",
+        "display": "Generali"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+        "version": "1.0.0",
         "code": "Gothaer Krankenversicherung",
         "display": "Gothaer Krankenversicherung"
       },
@@ -857,6 +863,12 @@
         "version": "1.0.0",
         "code": "IKK Südwest",
         "display": "IKK Südwest"
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",
+        "version": "1.0.0",
+        "code": "IKK – Die Innovationskasse",
+        "display": "IKK – Die Innovationskasse"
       },
       {
         "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/krankenkasse",

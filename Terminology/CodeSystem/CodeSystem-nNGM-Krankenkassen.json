@@ -10,7 +10,7 @@
   "compositional": false,
   "caseSensitive": true,
   "content": "complete",
-  "count": "201",
+  "count": "203",
   "concept": [
     {
       "code": "actimonda krankenkasse",
@@ -525,6 +525,10 @@
       "display": "GBK Köln"
     },
     {
+      "code": "Generali",
+      "display": "Generali"
+    },
+    {
       "code": "Gothaer Krankenversicherung",
       "display": "Gothaer Krankenversicherung"
     },
@@ -571,6 +575,10 @@
     {
       "code": "IKK Südwest",
       "display": "IKK Südwest"
+    },
+    {
+      "code": "IKK – Die Innovationskasse",
+      "display": "IKK – Die Innovationskasse"
     },
     {
       "code": "Inter Krankenversicherung",
