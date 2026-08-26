@@ -82,7 +82,7 @@
         "short": "Ob es sich um die Erstdiagnose handelt",
         "mustSupport": true
       },
-	  {
+      {
         "id": "Observation.extension:uicc-version",
         "path": "Observation.extension",
         "sliceName": "uicc-version",
@@ -202,25 +202,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ]
-      },
-      {
-        "id": "Observation.value[x]:valueCodeableConcept",
-        "path": "Observation.value[x]",
-        "sliceName": "valueCodeableConcept",
         "label": "UICC-Stadium",
         "short": "Klassifikation des Tumorstadiums nach UICC",
         "type": [
@@ -255,20 +236,6 @@
         "max": "1"
       },
       {
-        "id": "Observation.component:T.extension",
-        "path": "Observation.component.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
-      },
-      {
         "id": "Observation.component:T.extension:suffix",
         "path": "Observation.component.extension",
         "sliceName": "suffix",
@@ -286,15 +253,6 @@
         "id": "Observation.component:T.extension:suffix.value[x]",
         "path": "Observation.component.extension.value[x]",
         "label": "T - Suffix",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "short": "Suffix bezogen auf die 'T'-Angabe innerhalb des TNM",
         "mustSupport": true
       },
@@ -333,66 +291,21 @@
         }
       },
       {
-        "id": "Observation.component:T.code.coding",
-        "path": "Observation.component.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Observation.component:T.code.coding:sct",
-        "path": "Observation.component.code.coding",
-        "sliceName": "sct",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "system": "http://snomed.info/sct",
-          "code": "78873005"
-        }
-      },
-      {
-		  "id": "Observation.component:T.value[x]",
-		  "path": "Observation.component.value[x]",
-		  "label": "Tumor (T)",
-		  "short": "Dokumentation der Größe und Ausdehnung des Tumors nach TNM-Klassifikation",
-		  "min": 1,
-		  "type": [
-		    {
-		      "code": "CodeableConcept"
-		    }
-		  ],
-		  "mustSupport": true,
-		  "binding": {
-		    "strength": "required",
-		    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-t"
-		  }
-      },
-      {
-        "id": "Observation.component:T.value[x]:valueCodeableConcept",
+        "id": "Observation.component:T.value[x]",
         "path": "Observation.component.value[x]",
-        "sliceName": "valueCodeableConcept",
+        "label": "Tumor (T)",
+        "short": "Dokumentation der Größe und Ausdehnung des Tumors nach TNM-Klassifikation",
         "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
           }
         ],
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-t"
         }
-      },
-      {
-        "id": "Observation.component:T.referenceRange",
-        "path": "Observation.component.referenceRange",
-        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       },
       {
         "id": "Observation.component:N",
@@ -400,20 +313,6 @@
         "sliceName": "N",
         "label": "Lymphknoten (N)",
         "max": "1"
-      },
-      {
-        "id": "Observation.component:N.extension",
-        "path": "Observation.component.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
       },
       {
         "id": "Observation.component:N.extension:praefix",
@@ -449,43 +348,9 @@
         }
       },
       {
-        "id": "Observation.component:N.code.coding",
-        "path": "Observation.component.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Observation.component:N.code.coding:sct",
-        "path": "Observation.component.code.coding",
-        "sliceName": "sct",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "system": "http://snomed.info/sct",
-          "code": "277206009"
-        }
-      },
-      {
         "id": "Observation.component:N.value[x]",
         "path": "Observation.component.value[x]",
         "label": "Lymphknoten (N)",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "short": "Dokumentation der Zahl und Lage der befallenen Lymphknoten nach TNM-Klassifikation",
         "min": 1,
         "type": [
@@ -493,27 +358,11 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:N.value[x]:valueCodeableConcept",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueCodeableConcept",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-n"
         }
-      },
-      {
-        "id": "Observation.component:N.referenceRange",
-        "path": "Observation.component.referenceRange",
-        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       },
       {
         "id": "Observation.component:M",
@@ -521,20 +370,6 @@
         "sliceName": "M",
         "label": "Metastasen (M)",
         "max": "1"
-      },
-      {
-        "id": "Observation.component:M.extension",
-        "path": "Observation.component.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 0
       },
       {
         "id": "Observation.component:M.extension:praefix",
@@ -570,43 +405,9 @@
         }
       },
       {
-        "id": "Observation.component:M.code.coding",
-        "path": "Observation.component.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Observation.component:M.code.coding:sct",
-        "path": "Observation.component.code.coding",
-        "sliceName": "sct",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "system": "http://snomed.info/sct",
-          "code": "277208005"
-        }
-      },
-      {
         "id": "Observation.component:M.value[x]",
         "path": "Observation.component.value[x]",
         "label": "Metastasen (M)",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "short": "Dokumentation der Abwesenheit oder Vorhandensein von Metastasen nach TNM-Klassifikation",
         "min": 1,
         "type": [
@@ -614,27 +415,11 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:M.value[x]:valueCodeableConcept",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueCodeableConcept",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-m"
         }
-      },
-      {
-        "id": "Observation.component:M.referenceRange",
-        "path": "Observation.component.referenceRange",
-        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       },
       {
         "id": "Observation.component:TNM-prefix",
@@ -659,15 +444,6 @@
         "id": "Observation.component:TNM-prefix.value[x]",
         "path": "Observation.component.value[x]",
         "label": "Präfix",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "short": "TNM - Präfix y-Symbol und r-Symbol",
         "min": 1,
         "type": [
@@ -675,28 +451,12 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:TNM-prefix.value[x]:valueCodeableConcept",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueCodeableConcept",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-ry-praefix"
         }
       },
-      {
-        "id": "Observation.component:TNM-prefix.referenceRange",
-        "path": "Observation.component.referenceRange",
-        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
-      },      
       {
         "id": "Observation.bodySite",
         "path": "Observation.bodySite",
