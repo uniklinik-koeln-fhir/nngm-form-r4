@@ -711,7 +711,7 @@
           "strength": "extensible",
           "valueSet": "http://uk-koeln.de/fhir/ValueSet/icd-o-3-topologie"
         }
-      },
+      }
     ]
   }
 }
