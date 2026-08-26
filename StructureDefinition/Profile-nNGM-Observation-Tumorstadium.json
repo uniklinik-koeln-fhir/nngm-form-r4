@@ -358,26 +358,21 @@
         }
       },
       {
-        "id": "Observation.component:T.value[x]",
-        "path": "Observation.component.value[x]",
-        "label": "Tumor (T)",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "short": "Dokumentation der Größe und Ausdehnung des Tumors nach TNM-Klassifikation",
-        "min": 1,
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "mustSupport": true
+		  "id": "Observation.component:T.value[x]",
+		  "path": "Observation.component.value[x]",
+		  "label": "Tumor (T)",
+		  "short": "Dokumentation der Größe und Ausdehnung des Tumors nach TNM-Klassifikation",
+		  "min": 1,
+		  "type": [
+		    {
+		      "code": "CodeableConcept"
+		    }
+		  ],
+		  "mustSupport": true,
+		  "binding": {
+		    "strength": "required",
+		    "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-t"
+		  }
       },
       {
         "id": "Observation.component:T.value[x]:valueCodeableConcept",
