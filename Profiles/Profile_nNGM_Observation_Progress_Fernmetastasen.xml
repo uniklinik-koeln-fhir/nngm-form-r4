@@ -1,0 +1,126 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Profile-nNGM-Observation-Fernmetastasen" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Observation-Fernmetastasen" />
+  <version value="0.1.0" />
+  <name value="Profile_nNGM_Observation_Progress_Fernmetastasen" />
+  <title value="Profile - nNGM - Observation - Progress - Fernmetastasen" />
+  <status value="draft" />
+  <publisher value="nNGM Konsortium" />
+  <description value="Beschreibung vom Progress und Fernmetastasen (Lokalisation und Datum)" />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="nNGM-Schema" />
+    <name value="progressList" />
+    <comment value="progressList" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-fernmetastasen" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation">
+      <path value="Observation" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="progressList" />
+        <comment value="progressList" />
+      </mapping>
+    </element>
+    <element id="Observation.partOf">
+      <path value="Observation.partOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie" />
+      </type>
+    </element>
+    <element id="Observation.subject">
+      <path value="Observation.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient" />
+      </type>
+    </element>
+    <element id="Observation.focus">
+      <path value="Observation.focus" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis" />
+      </type>
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="diagnosis" />
+        <comment value="Referenz auf die Diagnosen-Ressource" />
+      </mapping>
+    </element>
+    <element id="Observation.effective[x]">
+      <path value="Observation.effective[x]" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="progressDate" />
+        <comment value="Progress innerhalb dieser Line" />
+      </mapping>
+    </element>
+    <element id="Observation.effective[x]">
+      <path value="Observation.effectiveDateTime" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="progressDate" />
+        <comment value="Progress innerhalb dieser Line" />
+      </mapping>
+    </element>
+    <element id="Observation.bodySite.coding">
+      <path value="Observation.bodySite.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="metastasisLocalization" />
+        <comment value="Metastasenlokalisationen" />
+      </mapping>
+    </element>
+    <element id="Observation.bodySite.coding:icd-o-3">
+      <path value="Observation.bodySite.coding" />
+      <sliceName value="icd-o-3" />
+      <short value="Metastasenlokalisationen in ICD-O-3" />
+      <definition value="Metastasenlokalisationen ICD-O-3" />
+      <patternCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/icd-o-3" />
+      </patternCoding>
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="Metastasenlokalisationen" />
+        <comment value="Metastasenlokalisationen" />
+      </mapping>
+    </element>
+    <element id="Observation.bodySite.coding:icd-o-3.system">
+      <path value="Observation.bodySite.coding.system" />
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/icd-o-3" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Observation.bodySite.coding:icd-o-3.code">
+      <path value="Observation.bodySite.coding.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-icdo3-topographie" />
+      </binding>
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="metastasisLocalization" />
+        <comment value="Metastasenlokalisationen" />
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>

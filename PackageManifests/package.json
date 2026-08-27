@@ -1,0 +1,14 @@
+{
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "name": "de.uk-koeln.nngm.therapie",
+  "version": "0.1.0",
+  "description": "nNGM Therapie test",
+  "author": "mohamedlambarki",
+  "dependencies": {
+    "de.medizininformatikinitiative.kerndatensatz.onkologie": "2026.0.0-ballot",
+    "de.medizininformatikinitiative.kerndatensatz.mtb": "2025.0.0-ballot"
+  },
+  "jurisdiction": "urn:iso:std:iso:3166#DE"
+}

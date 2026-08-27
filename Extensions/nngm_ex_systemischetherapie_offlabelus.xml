@@ -1,0 +1,45 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="nngm-ex-onko-systherapie-offlabeluse" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-offlabeluse" />
+  <version value="0.1.0" />
+  <name value="nngm_ex_systemischetherapie_offlabelus" />
+  <title value="nNGM Extension: Systemische Therapie, Off-Label-Use" />
+  <status value="draft" />
+  <publisher value="nNGM" />
+  <description value="Zeigt an, ob die systemische Therapie auf Basis einer (Molekularen) Therapieempfehlung erfolgte (boolean)." />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Procedure" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Off-Label-Use" />
+      <definition value="Off-Label-Use false/true" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-offlabeluse" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <short value="Empfehlung ja/nein" />
+      <definition value="true, wenn Off-Label-Use; sonst false." />
+      <type>
+        <code value="boolean" />
+      </type>
+      <mustSupport value="false" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="offLabelUse" />
+        <comment value="Off-Label-Use" />
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>

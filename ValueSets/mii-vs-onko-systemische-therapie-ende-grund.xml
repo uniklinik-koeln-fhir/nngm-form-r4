@@ -1,0 +1,44 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="mii-vs-onko-systemische-therapie-ende-grund-therapiefrei-bsc" />
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+    </meta>
+    <url
+        value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-systemische-therapie-ende-grund" />
+    <version value="2026.0.0-ballot" />
+    <name value="MII_VS_Onko_Systemische_Therapie_Ende_Grund_Therapiefrei_BSC" />
+    <title value="MII VS Onkologie Grund Therapiefreie Zeit / Best Supportive Care" />
+    <status value="active" />
+    <experimental value="false" />
+    <publisher value="Medizininformatik Initiative" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="https://www.medizininformatik-initiative.de" />
+        </telecom>
+    </contact>
+    <description
+        value="ValueSet für die vier Antwortausprägungen zum Grund für Therapiefreie Zeit / Best Supportive Care; bestehende MII-Codes werden wiederverwendet, wo fachlich passend." />
+    <compose>
+        <include>
+            <system
+                value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-therapie-grund-ende" />
+            <concept>
+                <code value="V" />
+                <display value="Patientenwunsch" />
+            </concept>
+            <concept>
+                <code value="AZ" />
+                <display value="Allgemeinzustand" />
+            </concept>
+            <concept>
+                <code value="S" />
+                <display value="Anderer" />
+            </concept>
+            <concept>
+                <code value="U" />
+                <display value="unbekannt" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

@@ -1,0 +1,17 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nngm-cs-systemische-therapieart" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-systemischetherapie-therapieart" />
+  <version value="0.1.0" />
+  <name value="nngm_cs_systemischetherapie_therapieart" />
+  <title value="nNGM Erweiterung Systemische Therapieart" />
+  <status value="draft" />
+  <date value="2025-11-28T00:00:00+00:00" />
+  <publisher value="nNGM" />
+  <description value="Erweitertes CodeSystem für Systemische Therapiearten, ergänzt um 'Best supportive care'." />
+  <content value="supplement" />
+  <concept>
+    <code value="BSC" />
+    <display value="Best supportive care" />
+    <definition value="Best supportive care" />
+  </concept>
+</CodeSystem>

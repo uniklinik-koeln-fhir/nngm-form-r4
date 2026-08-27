@@ -1,0 +1,54 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="nngm-ex-operation-lymphadenectomy" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-operation-lymphadenectomy" />
+  <version value="0.1.0" />
+  <name value="nngm_ex_operation_lymphadenectomy" />
+  <title value="nngm-ex-operation-lymphadenectomy" />
+  <status value="draft" />
+  <publisher value="nNGM" />
+  <description value="nngm-ex-operation-lymphadenectomy" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Procedure" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Lymphadenectomy" />
+      <definition value="lymphadenectomy" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-operation-lymphadenectomy" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-jnu" />
+      </binding>
+    </element>
+    <element id="Extension.value[x].coding.system">
+      <path value="Extension.value[x].coding.system" />
+      <min value="1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu" />
+    </element>
+    <element id="Extension.value[x].coding.code">
+      <path value="Extension.value[x].coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Extension.value[x].text">
+      <path value="Extension.value[x].text" />
+      <mustSupport value="false" />
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,277 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Profile-nNGM-MedicationStatement-Medication" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-MedicationStatement-Medication" />
+  <version value="0.1.0" />
+  <name value="Profile_nNGM_MedicationStatement_Medication" />
+  <title value="Profile - nNGM - MedicationStatement - Medikation" />
+  <status value="draft" />
+  <date value="2025-10-31" />
+  <publisher value="nNGM Konsortium" />
+  <description value="Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medikationen/Schemata, die im Rahmen der systemischen Therapie dokumentiert wurden. Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medikationen/Schemata, die im Rahmen der systemischen Therapie dokumentiert wurden. " />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="nNGM-Schema" />
+    <name value="systemTherapy" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="MedicationStatement" />
+  <baseDefinition value="https://www.medizininformatik-initiative.de/fhir/ext/modul-mtb/StructureDefinition/mii-pr-mtb-systemtherapie-medication-statement" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="MedicationStatement">
+      <path value="MedicationStatement" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="systemTherapyLine" />
+        <comment value="Systemische Therapielinie" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:CyclesCount">
+      <path value="MedicationStatement.extension" />
+      <sliceName value="CyclesCount" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-cyclescount" />
+      </type>
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="cyclesCount" />
+        <comment value="Anzahl der Zyklen" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:CyclesCount.value[x]">
+      <path value="MedicationStatement.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="cyclesCount" />
+        <comment value="Anzahl der Zyklen" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:CyclesCount.value[x]:valueDecimal">
+      <path value="MedicationStatement.extension.value[x]" />
+      <sliceName value="valueDecimal" />
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="cyclesCount" />
+        <comment value="Anzahl der Zyklen" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:MaintainceTherapy">
+      <path value="MedicationStatement.extension" />
+      <sliceName value="MaintainceTherapy" />
+      <short value="Ist Erhaltungstherapie" />
+      <definition value="Ist Erhaltungstherapie" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-ismaintaincetherapy" />
+      </type>
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="MaintainceTherapy" />
+        <comment value="Ist Erhaltungstherapie" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:MaintainceTherapy.value[x]">
+      <path value="MedicationStatement.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="MaintainceTherapy" />
+        <comment value="Ist Erhaltungstherapie" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:MaintainceTherapy.value[x]:valueBoolean">
+      <path value="MedicationStatement.extension.value[x]" />
+      <sliceName value="valueBoolean" />
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="MaintainceTherapy" />
+        <comment value="Ist Erhaltungstherapie" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:offLabelUse">
+      <path value="MedicationStatement.extension" />
+      <sliceName value="offLabelUse" />
+      <short value="Ist Off-Label-Use" />
+      <definition value="Ist Off-Label-Use" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-offlabeluse" />
+      </type>
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="offLabelUse" />
+        <comment value="Ist Off-Label-Use" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:offLabelUse.value[x]">
+      <path value="MedicationStatement.extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="offLabelUse" />
+        <comment value="Ist Off-Label-Use" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.extension:offLabelUse.value[x]:valueBoolean">
+      <path value="MedicationStatement.extension.value[x]" />
+      <sliceName value="valueBoolean" />
+      <min value="1" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="offLabelUse" />
+        <comment value="Ist Off-Label-Use" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.partOf:systemischeTherapie">
+      <path value="MedicationStatement.partOf" />
+      <sliceName value="systemischeTherapie" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie" />
+        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-systemische-therapie" />
+      </type>
+    </element>
+    <element id="MedicationStatement.partOf:systemischeTherapie.reference">
+      <path value="MedicationStatement.partOf.reference" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="systemTherapyLine" />
+        <comment value="Referenz auf Systemische Therapielinie" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept">
+      <path value="MedicationStatement.medication[x]" />
+      <sliceName value="medicationCodeableConcept" />
+    </element>
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding">
+      <path value="MedicationStatement.medication[x].coding" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe">
+      <path value="MedicationStatement.medication[x].coding" />
+      <sliceName value="atcClassDe" />
+      <short value="Therapieschema" />
+      <definition
+        value="Vollstaendiger ATC-Katalog Version 2026 mit Einzelwirkstoffen (7-stellige Codes) und Wirkstoffklassen (3-stellige Codes)." />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026" />
+      </binding>
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyName" />
+        <comment value="Therapieschema" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe.code">
+      <path value="MedicationStatement.medication[x].coding.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026" />
+      </binding>
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyName" />
+        <comment value="Therapieschema der systemischen Therapie" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept.text">
+      <path value="MedicationStatement.medication[x].text" />
+      <short value="Wirkstoff" />
+      <definition
+        value="Freitext zur Spezifikation der Wirkstoffe bei Verwendung von 3-stelligen ATC-Codes (Wirkstoffklassen) im Therapieschema." />
+      <maxLength value="200" />
+      <mustSupport value="true" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="wirkstoff" />
+        <comment value="Wirkstoff" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.subject">
+      <path value="MedicationStatement.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient" />
+      </type>
+    </element>
+    <element id="MedicationStatement.subject.reference">
+      <path value="MedicationStatement.subject.reference" />
+      <mustSupport value="true" />
+    </element>
+    <element id="MedicationStatement.effective[x]:effectivePeriod">
+      <path value="MedicationStatement.effective[x]" />
+      <sliceName value="effectivePeriod" />
+    </element>
+    <element id="MedicationStatement.effective[x]:effectivePeriod.start">
+      <path value="MedicationStatement.effective[x].start" />
+      <min value="1" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyStart; noTherapyStart" />
+        <comment value="Systemische Therapie Beginn" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.effective[x]:effectivePeriod.end">
+      <path value="MedicationStatement.effective[x].end" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="therapyEnd; noTherapyEnd" />
+        <comment value="Systemische Therapie Ende" />
+      </mapping>
+    </element>
+    <element id="MedicationStatement.note.text">
+      <path value="MedicationStatement.note.text" />
+      <mapping>
+        <identity value="nNGM-Schema" />
+        <map value="note" />
+        <comment value="Bermerkungen" />
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>
