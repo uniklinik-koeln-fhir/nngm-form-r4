@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_ex_systemischetherapie_therapydate" />
   <title value="nNGM Extension: Systemische Therapie, Datum der Therapieempfehlung" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM" />
   <description value="Datum der Therapieempfehlung im Rahmen der systemischen Therapie." />
   <fhirVersion value="4.0.1" />

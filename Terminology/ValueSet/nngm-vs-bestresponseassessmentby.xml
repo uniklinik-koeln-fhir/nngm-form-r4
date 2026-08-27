@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_vs_bestresponseassessmentby" />
   <title value="nNGM ValueSet Beurteilung nach: RECIST oder Behandelnder Arzt" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2025-11-28T00:00:00+00:00" />
   <publisher value="nNGM" />
   <description value="Dieses ValueSet enthält alle Codes aus dem MII-Onko ValueSet sowie Behandelnder Arzt" />

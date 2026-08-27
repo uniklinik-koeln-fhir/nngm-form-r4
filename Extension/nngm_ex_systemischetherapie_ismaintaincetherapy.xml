@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_ex_systemischetherapie_ismaintaincetherapy" />
   <title value="nNGM Extension: Systemische Therapie, Auf Basis Therapieempfehlung" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM" />
   <description value="Zeigt an, ob die systemische Therapie auf Basis einer (Molekularen) Therapieempfehlung erfolgte (boolean)." />
   <fhirVersion value="4.0.1" />

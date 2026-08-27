@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="Profile_nNGM_ResearchStudy_TherapyLineStudy" />
   <title value="Profile - nNGM - ResearchStudy - TherapyLineStudy" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM" />
   <description value="Onkologische Studie" />
   <fhirVersion value="4.0.1" />

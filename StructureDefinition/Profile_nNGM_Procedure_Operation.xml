@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="Profile_nNGM_Procedure_Operation" />
   <title value="Profile - nNGM - Procedure - Operation" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2025-10-29" />
   <publisher value="nNGM Konsortium" />
   <description value="Procedure-Profil OP für das nNGM-Projekt basierend auf MII-PR_Onko_Operation. Enthält alle Profile-nNGM-Procedure-Operation-Felder und erforderliche Erweiterungen." />

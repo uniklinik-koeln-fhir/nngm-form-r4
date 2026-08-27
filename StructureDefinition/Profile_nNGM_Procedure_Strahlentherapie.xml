@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="Profile_nNGM_Procedure_Strahlentherapie" />
   <title value="Profile - nNGM - Procedure - Strahlentherapie" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2025-10-31" />
   <publisher value="nNGM Konsortium" />
   <description value="Strahlentherapie-Profil für das nNGM-Projekt, basierend auf MII_PR_Onko_Strahlentherapie. Mapping zu nNGM-Schema radioTherapy." />

@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="Profile_nNGM_Observation_Progress_Fernmetastasen" />
   <title value="Profile - nNGM - Observation - Progress - Fernmetastasen" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM Konsortium" />
   <description value="Beschreibung vom Progress und Fernmetastasen (Lokalisation und Datum)" />
   <fhirVersion value="4.0.1" />

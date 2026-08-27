@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="Profile_nNGM_MedicationStatement_Medication" />
   <title value="Profile - nNGM - MedicationStatement - Medikation" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2025-10-31" />
   <publisher value="nNGM Konsortium" />
   <description value="Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medikationen/Schemata, die im Rahmen der systemischen Therapie dokumentiert wurden. Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medikationen/Schemata, die im Rahmen der systemischen Therapie dokumentiert wurden. " />

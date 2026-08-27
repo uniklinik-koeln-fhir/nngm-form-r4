@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_ex_operation_lymphadenectomy" />
   <title value="nngm-ex-operation-lymphadenectomy" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM" />
   <description value="nngm-ex-operation-lymphadenectomy" />
   <fhirVersion value="4.0.1" />

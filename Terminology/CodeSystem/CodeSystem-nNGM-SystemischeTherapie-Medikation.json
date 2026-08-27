@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "name": "CodeSystem_nNGM_SystemischeTherapie_Medikation",
   "title": "CodeSystem - nNGM - Systemische Therapie - Medikation",
-  "status": "draft",
+  "status":"active",
   "content": "complete",
   "count": 88,
   "concept": [

@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nNGM_PR_Response_Befund" />
   <title value="Profile - nNGM - Observation - Response Befund" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM Konsortium" />
   <description value="Response Beurteilung nach MTB/DNPM/nNGM" />
   <fhirVersion value="4.0.1" />

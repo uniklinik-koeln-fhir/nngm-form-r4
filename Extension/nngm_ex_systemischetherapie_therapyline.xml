@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_ex_systemischetherapie_therapyline" />
   <title value="nngm-ex-systemischetherapie-therapyline" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="nNGM" />
   <description value="nngm-ex-systemischetherapie-therapyline" />
   <fhirVersion value="4.0.1" />

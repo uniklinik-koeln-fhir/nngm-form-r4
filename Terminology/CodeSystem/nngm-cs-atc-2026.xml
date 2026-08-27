@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_cs_atc_2026" />
   <title value="nNGM CodeSystem ATC 2026" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2026-07-30T00:00:00+00:00" />
   <publisher value="nNGM" />
   <description value="Referenz auf den vollstaendigen ATC-Katalog Version 2026 nach WIdO fuer Therapieschemata, einschliesslich 7-stelliger Einzelwirkstoffe und 3-stelliger Wirkstoffklassen. Quelle: https://www.wido.de/publikationen-produkte/analytik/arzneimittel-klassifikation/" />

@@ -4,7 +4,7 @@
   <version value="0.1.0" />
   <name value="nngm_vs_Lokalisation" />
   <title value="nNGM ValueSet OP-Lokalisation" />
-  <status value="draft" />
+  <status value="active" />
   <date value="2025-11-28T00:00:00+00:00" />
   <publisher value="nNGM" />
   <description value="Angepasstes oBDS-Codesystem für Lokalisation der OP" />
