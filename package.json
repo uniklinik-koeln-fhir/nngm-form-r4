@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "dependencies": {
     "de.basisprofil.r4": "1.2.0",
-    "de.medizininformatikinitiative.kerndatensatz.molgen": "1.0.0"
+    "de.medizininformatikinitiative.kerndatensatz.molgen": "1.0.0",
+	"de.medizininformatikinitiative.kerndatensatz.onkologie": "2026.0.0-ballot",
+    "de.medizininformatikinitiative.kerndatensatz.mtb": "2025.0.0-ballot"
   },
+  "jurisdiction": "urn:iso:std:iso:3166#DE",
   "fhirVersions": [
     "4.0.1"
   ]
