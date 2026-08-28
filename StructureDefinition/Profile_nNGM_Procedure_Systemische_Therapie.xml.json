@@ -1,0 +1,554 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Procedure-Systemische-Therapie",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie",
+  "version": "0.1.0",
+  "name": "Profile_nNGM_Procedure_Systemische_Therapie",
+  "title": "Profile - nNGM - Procedure - Systemische Therapie (Therapielinie)",
+  "status": "active",
+  "date": "2025-12-01",
+  "publisher": "nNGM Konsortium",
+  "description": "Systemische Therapie(Therapielinie) Profil für das nNGM-Projekt, basierend auf der MII. Systemische Therapie.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "systemTherapy"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-mtb/StructureDefinition/mii-pr-mtb-systemische-therapie",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "systemTherapy",
+            "comment": "Systemische Therapie"
+          },
+          {
+            "identity": "nNGM-Schema",
+            "map": "completedTherapy",
+            "comment": "Durchgeführte Therapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Dokumentationsdatum",
+        "path": "Procedure.extension",
+        "sliceName": "Dokumentationsdatum"
+      },
+      {
+        "id": "Procedure.extension:Dokumentationsdatum.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLineDocumentation",
+            "comment": "Therapiedokumentation bis (Datum)"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Dokumentationsdatum.value[x]:valueDateTime",
+        "path": "Procedure.extension.value[x]",
+        "sliceName": "valueDateTime",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLineDocumentation",
+            "comment": "Therapiedokumentation bis (Datum)"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Intention",
+        "path": "Procedure.extension",
+        "sliceName": "Intention",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapeuticIntention",
+            "comment": "Therapeutische Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].coding",
+        "path": "Procedure.extension.value[x].coding",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapeuticIntention",
+            "comment": "Therapeutische Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapeuticIntention",
+            "comment": "Therapeutische Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp",
+        "path": "Procedure.extension",
+        "sliceName": "StellungZurOp",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "positionSurgicalTherapy",
+            "comment": "Stellung zu operativer Therapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp.value[x].coding",
+        "path": "Procedure.extension.value[x].coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "positionSurgicalTherapy",
+            "comment": "Stellung zu operativer Therapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Therapyline",
+        "path": "Procedure.extension",
+        "sliceName": "Therapyline",
+        "short": "Nummer der Therapie Linie",
+        "definition": "Nummer der Therapie Linie",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyline",
+            "comment": "Nummer der Therapie Linie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Therapyline.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Therapyline.value[x]:valuePositiveInt",
+        "path": "Procedure.extension.value[x]",
+        "sliceName": "valuePositiveInt",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyline",
+            "comment": "Nummer der Therapie Linie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:BasedOnRecommendation",
+        "path": "Procedure.extension",
+        "sliceName": "BasedOnRecommendation",
+        "short": "Auf Basis einer Therapieempfehlung durchgeführt",
+        "definition": "Auf Basis einer Therapieempfehlung durchgeführt",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-basedonrecommendation"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "basedOnRecommendation",
+            "comment": "Auf Basis einer Therapieempfehlung durchgeführt"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:BasedOnRecommendation.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "basedOnRecommendation",
+            "comment": "Auf Basis einer Therapieempfehlung durchgeführt"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:BasedOnRecommendation.value[x]:valueCodeableConcept",
+        "path": "Procedure.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "basedOnRecommendation",
+            "comment": "Auf Basis einer Therapieempfehlung durchgeführt"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:TherapyDate",
+        "path": "Procedure.extension",
+        "sliceName": "TherapyDate",
+        "short": "Datum (Therapieempfehlung)",
+        "definition": "Datum der Therapieempfehlung im Rahmen der systemischen Therapie.",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-therapydate"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyDate",
+            "comment": "Datum (Therapieempfehlung)"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:TherapyDate.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyDate",
+            "comment": "Datum (Therapieempfehlung)"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:TherapyDate.value[x]:valueDateTime",
+        "path": "Procedure.extension.value[x]",
+        "sliceName": "valueDateTime",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyDate",
+            "comment": "Datum (Therapieempfehlung)"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.partOf",
+        "path": "Procedure.partOf",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-ResearchStudy-TherapyLineStudy"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLineStudyParticipation",
+            "comment": "Therapie innerhalb einer klinischen Studie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.partOf.reference",
+        "path": "Procedure.partOf.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code.coding:systemische_therapie_art",
+        "path": "Procedure.code.coding",
+        "sliceName": "systemische_therapie_art",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-therapieart"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "noTherapy",
+            "comment": "Therapiefreie Zeit / Best Supportive Care"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.coding:systemische_therapie_art.system",
+        "path": "Procedure.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code.coding:systemische_therapie_art.code",
+        "path": "Procedure.code.coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "noTherapy",
+            "comment": "Therapiefreie Zeit / Best Supportive Care"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject.reference",
+        "path": "Procedure.subject.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod",
+        "path": "Procedure.performed[x]",
+        "sliceName": "performedPeriod",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLineStart",
+            "comment": "Beginn der Therapielinie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod.start",
+        "path": "Procedure.performed[x].start",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLineStart",
+            "comment": "Beginn der Therapielinie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod.end",
+        "path": "Procedure.performed[x].end",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLineEnd",
+            "comment": "Ende der Therapielinie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer",
+        "path": "Procedure.performer",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyExecutionCenter",
+            "comment": "Durchführende Einrichtung (Therapieempfehlung)"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer.actor",
+        "path": "Procedure.performer.actor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM",
+              "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyExecutionCenter",
+            "comment": "Durchführende Einrichtung (Therapieempfehlung); falls keine eindeutige Organisations-ID vorliegt, kann eine referenzierte Organization ohne Identifier und mit Organization.name als Freitextname verwendet werden."
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer.actor.reference",
+        "path": "Procedure.performer.actor.reference",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyExecutionCenter",
+            "comment": "Falls die ID der Organisation nicht vorhanden ist, kann der Freitextname Organization.name als Referenz der Darstellung dienen"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonReference",
+        "path": "Procedure.reasonReference",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis",
+              "http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/ecog"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonReference.reference",
+        "path": "Procedure.reasonReference.reference",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "diagnosis",
+            "comment": "Referenz auf Erstdiagnose"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.outcome.coding",
+        "path": "Procedure.outcome.coding",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.outcome.coding.code",
+        "path": "Procedure.outcome.coding.code",
+        "min": 1,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "reasonForChangeOfTherapy",
+            "comment": "Grund für die Änderung der Therapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "note",
+            "comment": "Bemerkungen"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note.text",
+        "path": "Procedure.note.text",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "furtherDetails",
+            "comment": "Weitere Angaben (Therapieempfehlung)"
+          }
+        ]
+      }
+    ]
+  }
+}
