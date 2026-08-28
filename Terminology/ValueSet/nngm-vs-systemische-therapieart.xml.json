@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nngm-vs-systemische-therapieart",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-therapieart",
+  "version": "0.1.0",
+  "name": "nngm_vs_systemische_therapieart",
+  "title": "nNGM ValueSet Systemische Therapieart (inkl. BSC)",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Dieses ValueSet enthält alle Codes aus dem MII-Onko ValueSet sowie 'Best supportive care' als eigenen Code.",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-systemische-therapie-art"
+        ]
+      },
+      {
+        "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-systemischetherapie-therapieart",
+        "concept": [
+          {
+            "code": "BSC",
+            "display": "Best supportive care"
+          }
+        ]
+      }
+    ]
+  }
+}

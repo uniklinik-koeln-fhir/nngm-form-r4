@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nngm-ex-systemischetherapie-therapyline",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline",
+  "version": "0.1.0",
+  "name": "nngm_ex_systemischetherapie_therapyline",
+  "title": "nngm-ex-systemischetherapie-therapyline",
+  "status": "active",
+  "publisher": "nNGM",
+  "description": "nngm-ex-systemischetherapie-therapyline",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Onko Strahlentherapie Bestrahlung Einzeldosis",
+        "definition": "Strahlentherapie: Einzeldosis einer Bestrahlung",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLine",
+            "comment": "therapyLine"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-therapyline"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Nummer der Therapie Linie",
+        "definition": "Gibt an, Nummer der Therapie Linie.",
+        "type": [
+          {
+            "code": "positiveInt"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyLine",
+            "comment": "therapyLine"
+          }
+        ]
+      }
+    ]
+  }
+}

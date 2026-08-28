@@ -1,0 +1,57 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nngm-ex-onko-systherapie-offlabeluse",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-offlabeluse",
+  "version": "0.1.0",
+  "name": "nngm_ex_systemischetherapie_offlabelus",
+  "title": "nNGM Extension: Systemische Therapie, Off-Label-Use",
+  "status": "active",
+  "publisher": "nNGM",
+  "description": "Zeigt an, ob die systemische Therapie auf Basis einer (Molekularen) Therapieempfehlung erfolgte (boolean).",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Off-Label-Use",
+        "definition": "Off-Label-Use false/true"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-offlabeluse"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Empfehlung ja/nein",
+        "definition": "true, wenn Off-Label-Use; sonst false.",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "mustSupport": false,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "offLabelUse",
+            "comment": "Off-Label-Use"
+          }
+        ]
+      }
+    ]
+  }
+}

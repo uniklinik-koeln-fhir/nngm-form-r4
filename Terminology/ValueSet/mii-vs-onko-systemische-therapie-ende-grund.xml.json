@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mii-vs-onko-systemische-therapie-ende-grund-therapiefrei-bsc",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-systemische-therapie-ende-grund",
+  "version": "2026.0.0-ballot",
+  "name": "MII_VS_Onko_Systemische_Therapie_Ende_Grund_Therapiefrei_BSC",
+  "title": "MII VS Onkologie Grund Therapiefreie Zeit / Best Supportive Care",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "ValueSet für die vier Antwortausprägungen zum Grund für Therapiefreie Zeit / Best Supportive Care; bestehende MII-Codes werden wiederverwendet, wo fachlich passend.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-therapie-grund-ende",
+        "concept": [
+          {
+            "code": "V",
+            "display": "Patientenwunsch"
+          },
+          {
+            "code": "AZ",
+            "display": "Allgemeinzustand"
+          },
+          {
+            "code": "S",
+            "display": "Anderer"
+          },
+          {
+            "code": "U",
+            "display": "unbekannt"
+          }
+        ]
+      }
+    ]
+  }
+}

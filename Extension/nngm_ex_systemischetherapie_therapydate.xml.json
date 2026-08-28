@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nngm-ex-systemischetherapie-therapydate",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-therapydate",
+  "version": "0.1.0",
+  "name": "nngm_ex_systemischetherapie_therapydate",
+  "title": "nNGM Extension: Systemische Therapie, Datum der Therapieempfehlung",
+  "status": "active",
+  "publisher": "nNGM",
+  "description": "Datum der Therapieempfehlung im Rahmen der systemischen Therapie.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Datum (Therapieempfehlung)",
+        "definition": "Datum der Therapieempfehlung im Rahmen der systemischen Therapie.",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyDate",
+            "comment": "Datum (Therapieempfehlung)"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-therapydate"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Datum (Therapieempfehlung)",
+        "definition": "Datum der Therapieempfehlung im Rahmen der systemischen Therapie.",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyDate",
+            "comment": "Datum (Therapieempfehlung)"
+          }
+        ]
+      }
+    ]
+  }
+}

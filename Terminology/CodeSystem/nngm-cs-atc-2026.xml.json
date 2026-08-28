@@ -1,0 +1,15 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nngm-cs-atc-2026",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-atc-2026",
+  "version": "0.1.0",
+  "name": "nngm_cs_atc_2026",
+  "title": "nNGM CodeSystem ATC 2026",
+  "status": "active",
+  "date": "2026-07-30T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Referenz auf den vollstaendigen ATC-Katalog Version 2026 nach WIdO fuer Therapieschemata, einschliesslich 7-stelliger Einzelwirkstoffe und 3-stelliger Wirkstoffklassen. Quelle: https://www.wido.de/publikationen-produkte/analytik/arzneimittel-klassifikation/",
+  "caseSensitive": true,
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026",
+  "content": "not-present"
+}

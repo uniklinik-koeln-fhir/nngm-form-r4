@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nngm-vs-lokalisation",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-lokalisation",
+  "version": "0.1.0",
+  "name": "nngm_vs_Lokalisation",
+  "title": "nNGM ValueSet OP-Lokalisation",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Angepasstes oBDS-Codesystem für Lokalisation der OP",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-lokalisation"
+      }
+    ]
+  }
+}

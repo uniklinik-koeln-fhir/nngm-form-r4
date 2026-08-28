@@ -1,0 +1,47 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nngm-ex-systemischetherapie-basedonrecommendation",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-basedonrecommendation",
+  "version": "0.1.0",
+  "name": "nngm_ex_systemischetherapie_basedonrecommendation",
+  "title": "nNGM Extension: Systemische Therapie, Auf Basis Therapieempfehlung",
+  "status": "active",
+  "publisher": "nNGM",
+  "description": "Gibt an, ob und auf welcher Grundlage die systemische Therapie auf Basis einer Therapieempfehlung durchgefuehrt wurde.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-basedonrecommendation"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Grundlage der Therapieempfehlung",
+        "definition": "Gibt an, ob und auf welcher Grundlage die systemische Therapie auf Basis einer Therapieempfehlung durchgefuehrt wurde.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation"
+        }
+      }
+    ]
+  }
+}

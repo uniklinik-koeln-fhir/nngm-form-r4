@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nngm-vs-systemischetherapie-basedonrecommendation",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation",
+  "version": "0.1.0",
+  "name": "nNGM_VS_SystemischeTherapie_BasedOnRecommendation",
+  "title": "nNGM ValueSet Systemische Therapie Based On Recommendation",
+  "status": "active",
+  "date": "2025-12-01",
+  "publisher": "nNGM Konsortium",
+  "description": "ValueSet zur Angabe, ob und auf welcher Grundlage eine systemische Therapie auf Basis einer Therapieempfehlung durchgeführt wurde.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-cs-systemischetherapie-basedonrecommendation",
+        "concept": [
+          {
+            "code": "yesTumorBoard",
+            "display": "Ja, Tumorboard"
+          },
+          {
+            "code": "yesMolecularTumorBoard",
+            "display": "Ja, Molekulares Tumorboard"
+          },
+          {
+            "code": "yesMuripedia",
+            "display": "Ja, Muripedia"
+          },
+          {
+            "code": "yesPathologyFindings",
+            "display": "Ja, Pathologiebefund"
+          },
+          {
+            "code": "no",
+            "display": "Nein"
+          }
+        ]
+      }
+    ]
+  }
+}

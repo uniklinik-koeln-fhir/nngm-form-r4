@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nngm-cs-operation-lymphadenectomy",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu",
+  "version": "0.1.0",
+  "name": "nngm_cs_operation_lymphadenectomy",
+  "title": "lymphadenectomy",
+  "status": "active",
+  "experimental": false,
+  "publisher": "nNGM",
+  "description": "Lymphadenectomy",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "J",
+      "display": "Ja"
+    },
+    {
+      "code": "N",
+      "display": "Nein"
+    },
+    {
+      "code": "U",
+      "display": "Unbekannt"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Procedure-Operation",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-Operation",
+  "version": "0.1.0",
+  "name": "Profile_nNGM_Procedure_Operation",
+  "title": "Profile - nNGM - Procedure - Operation",
+  "status": "active",
+  "date": "2025-10-29",
+  "publisher": "nNGM Konsortium",
+  "description": "Procedure-Profil OP für das nNGM-Projekt basierend auf MII-PR_Onko_Operation. Enthält alle Profile-nNGM-Procedure-Operation-Felder und erforderliche Erweiterungen.",
+  "fhirVersion": "4.3.0",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "operationTherapy",
+      "comment": "Operation"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-operation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.extension:Dokumentationsdatum",
+        "path": "Procedure.extension",
+        "sliceName": "Dokumentationsdatum"
+      },
+      {
+        "id": "Procedure.extension:Dokumentationsdatum.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "mustSupport": false
+      },
+      {
+        "id": "Procedure.extension:Intention",
+        "path": "Procedure.extension",
+        "sliceName": "Intention",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "operationIntention",
+            "comment": "Operative Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].coding.system",
+        "path": "Procedure.extension.value[x].coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "operationIntention",
+            "comment": "Operative Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Lymphadenektomie",
+        "path": "Procedure.extension",
+        "sliceName": "Lymphadenektomie",
+        "short": "Lymphadenektomie",
+        "definition": "Lymphadenektomie",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-operation-lymphadenectomy"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "lymphadenectomy",
+            "comment": "Lymphadenektomie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Lymphadenektomie.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "lymphadenectomy",
+            "comment": "Lymphadenektomie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Lymphadenektomie.value[x].coding.system",
+        "path": "Procedure.extension.value[x].coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Lymphadenektomie.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "lymphadenectomy",
+            "comment": "Lymphadenektomie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.coding:ops",
+        "path": "Procedure.code.coding",
+        "sliceName": "ops"
+      },
+      {
+        "id": "Procedure.code.coding:ops.extension",
+        "path": "Procedure.code.coding.extension",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code.coding:ops.extension:Seitenlokalisation",
+        "path": "Procedure.code.coding.extension",
+        "sliceName": "Seitenlokalisation"
+      },
+      {
+        "id": "Procedure.code.coding:ops.extension:Seitenlokalisation.value[x]",
+        "path": "Procedure.code.coding.extension.value[x]",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "sideLocalisation",
+            "comment": "Seitenlokalisation"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.coding:ops.extension:Seitenlokalisation.value[x].code",
+        "path": "Procedure.code.coding.extension.value[x].code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "sideLocalisation",
+            "comment": "Seitenlokalisation"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.coding:ops.code",
+        "path": "Procedure.code.coding.code",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "typeOfResection",
+            "comment": "Art der Resektion"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.coding:resectionType",
+        "path": "Procedure.code.coding",
+        "sliceName": "resectionType",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "description": "Art der Resektion",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-resectiontype"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "resectionType",
+            "comment": "Art der Resektion"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.coding:resectionType.system",
+        "path": "Procedure.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code.coding:resectionType.code",
+        "path": "Procedure.code.coding.code",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "typeOfResection",
+            "comment": "Art der Resektion"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.code.text",
+        "path": "Procedure.code.text",
+        "short": "Sonstige Resektionsart.",
+        "definition": "Sonstige Resektionsart. Bitte spezifizieren Sie \"Sonstiges\"",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "otherTypeOfResection",
+            "comment": "Bitte spezifizieren Sie \"Sonstiges\""
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedDateTime",
+        "path": "Procedure.performed[x]",
+        "sliceName": "performedDateTime",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "executionDate",
+            "comment": "Operationsdatum"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer.actor",
+        "path": "Procedure.performer.actor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM",
+              "http://hl7.org/fhir/StructureDefinition/Organization",
+              "http://hl7.org/fhir/StructureDefinition/Practitioner"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "executionCenter",
+            "comment": "Durchführende Einrichtung"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonReference",
+        "path": "Procedure.reasonReference",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "short": "Anatomische Lokalisation",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "localisation",
+            "comment": "Andere"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.bodySite.coding:oBDS-Lokalisation",
+        "path": "Procedure.bodySite.coding",
+        "sliceName": "oBDS-Lokalisation",
+        "short": "Lokalisation der OP nach oBDS",
+        "definition": "Lokalisation der OP nach oBDS",
+        "max": "1",
+        "binding": {
+          "strength": "extensible",
+          "description": "Lokalisation der OP nach oBDS",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-lokalisation"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "localisation",
+            "comment": "Lokalisation"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.bodySite.coding:oBDS-Lokalisation.system",
+        "path": "Procedure.bodySite.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-lokalisation",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.bodySite.coding:oBDS-Lokalisation.code",
+        "path": "Procedure.bodySite.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.bodySite.text",
+        "path": "Procedure.bodySite.text",
+        "short": "Lokalisation (Freitext)",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "localisationOther",
+            "comment": "Andere Lokalisation"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.outcome",
+        "path": "Procedure.outcome",
+        "short": "Resektionsstatus",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "resectionStatus",
+            "comment": "Resektionsstatus"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.outcome.coding",
+        "path": "Procedure.outcome.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.outcome.coding.code",
+        "path": "Procedure.outcome.coding.code",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "resectionStatus",
+            "comment": "Resektionsstatus"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.complication:outcomeDeath",
+        "path": "Procedure.complication",
+        "sliceName": "outcomeDeath",
+        "short": "Ausgang mit Todesfolge",
+        "definition": "Ausgang mit Todesfolge (Ja/Nein/Unbekannt)"
+      },
+      {
+        "id": "Procedure.complication:outcomeDeath.coding",
+        "path": "Procedure.complication.coding",
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "description": "Ausgang mit Todesfolge (Ja, Nein, Unbekannt)",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-jnu"
+        }
+      },
+      {
+        "id": "Procedure.complication:outcomeDeath.coding.system",
+        "path": "Procedure.complication.coding.system",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.complication:outcomeDeath.coding.code",
+        "path": "Procedure.complication.coding.code",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "outcomeDeath",
+            "comment": "Ausgang mit Todesfolge"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "short": "Bemerkung",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "note",
+            "comment": "Bemerkungen"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note.text",
+        "path": "Procedure.note.text",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "note",
+            "comment": "Bemerkungen"
+          }
+        ]
+      }
+    ]
+  }
+}

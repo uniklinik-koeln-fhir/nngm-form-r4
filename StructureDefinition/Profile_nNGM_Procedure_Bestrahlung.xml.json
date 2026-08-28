@@ -1,0 +1,271 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Procedure-Bestrahlung",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-Bestrahlung",
+  "version": "0.1.0",
+  "name": "Profile_nNGM_Procedure_Bestrahlung",
+  "title": "Profile - nNGM - Procedure - Bestrahlung",
+  "status": "active",
+  "date": "2025-10-31",
+  "publisher": "nNGM Konsortium",
+  "description": "Bestrahlungs-Profil für das nNGM-Projekt, basierend auf MII_PR_Onko_Strahlentherapie_Bestrahlung_Strahlentherapie. Mapping zu nNGM-Schema radiotherapyList/radiotherapy.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "radioTherapy",
+      "comment": "Strahlentherapie"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-strahlentherapie-bestrahlung-strahlentherapie",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.extension:Gesamtdosis",
+        "path": "Procedure.extension",
+        "sliceName": "Gesamtdosis",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "totalDose"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Gesamtdosis.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Gesamtdosis.value[x].value",
+        "path": "Procedure.extension.value[x].value",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "totalDose",
+            "comment": "Gesamtdosis"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Gesamtdosis.value[x].unit",
+        "path": "Procedure.extension.value[x].unit",
+        "fixedString": "Gy",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Einzeldosis",
+        "path": "Procedure.extension",
+        "sliceName": "Einzeldosis",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "singleDose",
+            "comment": "Strahlentherapie Einzeldosis pro Tag"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Einzeldosis.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Einzeldosis.value[x].value",
+        "path": "Procedure.extension.value[x].value",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "singleDose",
+            "comment": "Strahlentherapie Einzeldosis pro Tag"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Einzeldosis.value[x].unit",
+        "path": "Procedure.extension.value[x].unit",
+        "fixedString": "Gy",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Boost",
+        "path": "Procedure.extension",
+        "sliceName": "Boost"
+      },
+      {
+        "id": "Procedure.extension:Boost.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Boost.value[x].coding",
+        "path": "Procedure.extension.value[x].coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Boost.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "min": 1,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "boostExecuted",
+            "comment": "Boost durchgeführt"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject.reference",
+        "path": "Procedure.subject.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod",
+        "path": "Procedure.performed[x]",
+        "sliceName": "performedPeriod",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "executionGroup"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod.start",
+        "path": "Procedure.performed[x].start",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyStart"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod.end",
+        "path": "Procedure.performed[x].end",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyEnd"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonReference",
+        "path": "Procedure.reasonReference",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "radiationTargetSide",
+            "comment": "Seite Zielgebiet"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.bodySite.extension:Seitenlokalisation",
+        "path": "Procedure.bodySite.extension",
+        "sliceName": "Seitenlokalisation"
+      },
+      {
+        "id": "Procedure.bodySite.extension:Seitenlokalisation.value[x]",
+        "path": "Procedure.bodySite.extension.value[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.bodySite.extension:Seitenlokalisation.value[x].coding.system",
+        "path": "Procedure.bodySite.extension.value[x].coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.bodySite.extension:Seitenlokalisation.value[x].coding.code",
+        "path": "Procedure.bodySite.extension.value[x].coding.code",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "radiationTargetSide",
+            "comment": "Seite Zielgebiet"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.bodySite.coding",
+        "path": "Procedure.bodySite.coding",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-zielgebiet"
+        }
+      },
+      {
+        "id": "Procedure.bodySite.coding.code",
+        "path": "Procedure.bodySite.coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "radiationTarget",
+            "comment": "Zielgebiet"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.usedCode:Strahlenart",
+        "path": "Procedure.usedCode",
+        "sliceName": "Strahlenart"
+      },
+      {
+        "id": "Procedure.usedCode:Strahlenart.coding.code",
+        "path": "Procedure.usedCode.coding.code",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "typeOfRadiation",
+            "comment": "Strahlentherapie Strahlenart"
+          }
+        ]
+      }
+    ]
+  }
+}

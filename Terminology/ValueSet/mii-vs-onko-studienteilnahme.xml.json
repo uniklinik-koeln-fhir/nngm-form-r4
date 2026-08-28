@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mii-vs-onko-studienteilnahme",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-jnu",
+  "version": "0.1.0",
+  "name": "nngm_vs_operation_lymphadenectomy",
+  "title": "nngm-vs-operation-lymphadenectomy",
+  "status": "active",
+  "experimental": false,
+  "publisher": "nNGM",
+  "description": "Lymphadenectomy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nngm-cs-systemischetherapie-basedonrecommendation",
+  "url": "http://uk-koeln.de/fhir/CodeSystem/nNGM/nngm-cs-systemischetherapie-basedonrecommendation",
+  "version": "0.1.0",
+  "name": "nNGM_CS_SystemischeTherapie_BasedOnRecommendation",
+  "title": "nNGM CodeSystem Systemische Therapie Based On Recommendation",
+  "status": "active",
+  "date": "2025-12-01",
+  "publisher": "nNGM Konsortium",
+  "description": "CodeSystem zur Angabe, ob und auf welcher Grundlage eine systemische Therapie auf Basis einer Therapieempfehlung durchgefuehrt wurde.",
+  "caseSensitive": true,
+  "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-systemischetherapie-basedonrecommendation",
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "yesTumorBoard",
+      "display": "Ja, Tumorboard"
+    },
+    {
+      "code": "yesMolecularTumorBoard",
+      "display": "Ja, Molekulares Tumorboard"
+    },
+    {
+      "code": "yesMuripedia",
+      "display": "Ja, Muripedia"
+    },
+    {
+      "code": "yesPathologyFindings",
+      "display": "Ja, Pathologiebefund"
+    },
+    {
+      "code": "no",
+      "display": "Nein"
+    }
+  ]
+}

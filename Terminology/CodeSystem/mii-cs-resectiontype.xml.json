@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "mii-cs-resectiontype",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-resectionType",
+  "version": "0.1.0",
+  "name": "nngm_cs_resectionType",
+  "title": "nNGM CS ResectionType",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Art der Resektion (Alternativ zum OPS-Code)",
+  "caseSensitive": true,
+  "valueSet": "http://uk-koeln.de/fhir/StructureDefinition/ValueSet/nNGM/nngm-vs-resectiontype",
+  "content": "complete",
+  "count": 8,
+  "concept": [
+    {
+      "code": "wedgeResection",
+      "display": "Keilresektion"
+    },
+    {
+      "code": "segmentalResection",
+      "display": "Segmentresektion"
+    },
+    {
+      "code": "lobectomy",
+      "display": "Lobektomie"
+    },
+    {
+      "code": "bilobectomy",
+      "display": "Bilobektomie"
+    },
+    {
+      "code": "pneumectomy",
+      "display": "Pneumektomie"
+    },
+    {
+      "code": "metastasectomy",
+      "display": "Metastasenresektion"
+    },
+    {
+      "code": "other",
+      "display": "Sonstiges"
+    },
+    {
+      "code": "unknown",
+      "display": "Unbekannt"
+    }
+  ]
+}

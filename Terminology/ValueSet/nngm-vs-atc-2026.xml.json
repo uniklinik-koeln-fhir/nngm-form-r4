@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nngm-vs-atc-2026",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026",
+  "version": "0.1.0",
+  "name": "nngm_vs_atc_2026",
+  "title": "nNGM ValueSet ATC 2026",
+  "status": "active",
+  "date": "2026-07-30T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Vollstaendiger ATC-Katalog Version 2026 nach WIdO fuer Therapieschemata, einschliesslich 7-stelliger Einzelwirkstoffe und 3-stelliger Wirkstoffklassen. Die vorherige Auswahl 'Other - Anderer' wird nicht gefuehrt. Quelle: https://www.wido.de/publikationen-produkte/analytik/arzneimittel-klassifikation/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-atc-2026"
+      }
+    ]
+  }
+}

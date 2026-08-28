@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nngm-ex-onko-systherapie-ismaintaincetherapy",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-ismaintaincetherapy",
+  "version": "0.1.0",
+  "name": "nngm_ex_systemischetherapie_ismaintaincetherapy",
+  "title": "nNGM Extension: Systemische Therapie, Auf Basis Therapieempfehlung",
+  "status": "active",
+  "publisher": "nNGM",
+  "description": "Zeigt an, ob die systemische Therapie auf Basis einer (Molekularen) Therapieempfehlung erfolgte (boolean).",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-ismaintaincetherapy"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Empfehlung ja/nein",
+        "definition": "true, wenn auf Basis einer (Molekularen) Therapieempfehlung; sonst false.",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "mustSupport": false
+      }
+    ]
+  }
+}

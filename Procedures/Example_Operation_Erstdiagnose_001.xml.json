@@ -1,0 +1,104 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example_Operation_Erstdiagnose_001",
+  "meta": {
+    "profile": [
+      "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-Operation"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-ex-onko-operation-intention",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-onko-intention",
+            "code": "K",
+            "display": "kurativ"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-operation-lymphadenectomy",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-onko-intention",
+            "code": "J",
+            "display": "Ja"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed",
+  "code": {
+    "display": "Pneumonektomie",
+    "coding": [
+      {
+        "extension": [
+          {
+            "url": "http://fhir.de/StructureDefinition/seitenlokalisation",
+            "valueCoding": {
+              "value": "B",
+              "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION",
+              "display": "beiderseits"
+            }
+          }
+        ],
+        "system": "http://fhir.de/CodeSystem/bfarm/ops",
+        "version": "2025",
+        "code": "5-402.00",
+        "display": "Regionale Lymphadenektomie (Ausräumung mehrerer Lymphknoten einer Region) als selbständiger Eingriff: Zervikal"
+      }
+    ],
+    "text": "Lobektomie mit Lymphadenektomie"
+  },
+  "subject": {
+    "reference": "Patient/example-patient-001"
+  },
+  "performedDateTime": "2024-01-15",
+  "reasonReference": [
+    {
+      "reference": "Condition/Example_Condition_Erstdiagnose"
+    }
+  ],
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-lokalisation",
+          "code": "C34.1",
+          "display": "Lung, upper lobe"
+        }
+      ],
+      "text": "Oberlappen links"
+    }
+  ],
+  "outcome": {
+    "coding": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/CodeSystem/mii-cs-onko-residualstatus",
+        "code": "R0",
+        "display": "R0 = kein Residualtumor"
+      }
+    ]
+  },
+  "complication": [
+    {
+      "coding": [
+        {
+          "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-jnu",
+          "code": "N",
+          "display": "Nein"
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "text": "OP-Bericht: Komplikationslos verlaufen"
+    }
+  ]
+}

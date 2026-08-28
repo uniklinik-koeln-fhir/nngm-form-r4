@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nngm-vs-resectiontype",
+  "url": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-resectiontype",
+  "version": "0.1.0",
+  "name": "nngm_vs_resectiontype",
+  "title": "nNGM ValueSet OP-resectiontype",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Art der Resektion (Alternativ zum OPS-Code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-resectiontype"
+      }
+    ]
+  }
+}

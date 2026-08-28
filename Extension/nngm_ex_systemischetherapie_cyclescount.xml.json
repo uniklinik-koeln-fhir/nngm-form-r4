@@ -1,0 +1,64 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nngm-ex-systemischetherapie-cyclescount",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-cyclescount",
+  "version": "0.1.0",
+  "name": "nngm_ex_systemischetherapie_cyclescount",
+  "title": "nngm-ex-systemischetherapie-cyclescount",
+  "status": "active",
+  "publisher": "nNGM",
+  "description": "nngm-ex-systemischetherapie-cyclescount",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationStatement"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Anzahl der Zyklen",
+        "definition": "Anzahl der Zyklen",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "CyclesCount",
+            "comment": "CyclesCount"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-cyclescount"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "Anzahl der Zyklen",
+        "definition": "Anzahl der Zyklen",
+        "type": [
+          {
+            "code": "decimal"
+          }
+        ],
+        "mustSupport": false,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "CyclesCount",
+            "comment": "CyclesCount"
+          }
+        ]
+      }
+    ]
+  }
+}

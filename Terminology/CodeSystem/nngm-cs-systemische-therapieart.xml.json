@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nngm-cs-systemische-therapieart",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-systemischetherapie-therapieart",
+  "version": "0.1.0",
+  "name": "nngm_cs_systemischetherapie_therapieart",
+  "title": "nNGM Erweiterung Systemische Therapieart",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Erweitertes CodeSystem für Systemische Therapiearten, ergänzt um 'Best supportive care'.",
+  "content": "supplement",
+  "concept": [
+    {
+      "code": "BSC",
+      "display": "Best supportive care",
+      "definition": "Best supportive care"
+    }
+  ]
+}

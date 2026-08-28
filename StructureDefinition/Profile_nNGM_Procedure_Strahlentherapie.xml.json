@@ -1,0 +1,277 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Procedure-Strahlentherapie",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/nNGM/Profile-nNGM-Procedure-Strahlentherapie",
+  "version": "0.1.0",
+  "name": "Profile_nNGM_Procedure_Strahlentherapie",
+  "title": "Profile - nNGM - Procedure - Strahlentherapie",
+  "status": "active",
+  "date": "2025-10-31",
+  "publisher": "nNGM Konsortium",
+  "description": "Strahlentherapie-Profil für das nNGM-Projekt, basierend auf MII_PR_Onko_Strahlentherapie. Mapping zu nNGM-Schema radioTherapy.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "radioTherapy",
+      "comment": "Strahlentherapie"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-strahlentherapie",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.extension:Intention",
+        "path": "Procedure.extension",
+        "sliceName": "Intention",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyIntent",
+            "comment": "Therapeutische Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].coding.system",
+        "path": "Procedure.extension.value[x].coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyIntent",
+            "comment": "Therapeutische Intention"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:Intention.value[x].text",
+        "path": "Procedure.extension.value[x].text",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "otherTherapeuticIntention",
+            "comment": "Sonstige Intention der Strahlentherapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp",
+        "path": "Procedure.extension",
+        "sliceName": "StellungZurOp",
+        "short": "Geplant nach OP (adjuvant, neoadjuvant, geplant)",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "positionSurgicalTherapy",
+            "comment": "Stellung zu operativer Therapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp.value[x]",
+        "path": "Procedure.extension.value[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp.value[x].coding.system",
+        "path": "Procedure.extension.value[x].coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.extension:StellungZurOp.value[x].coding.code",
+        "path": "Procedure.extension.value[x].coding.code",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "positionSurgicalTherapy",
+            "comment": "Stellung zu operativer Therapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject.reference",
+        "path": "Procedure.subject.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod",
+        "path": "Procedure.performed[x]",
+        "sliceName": "performedPeriod",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod.start",
+        "path": "Procedure.performed[x].start",
+        "short": "Therapiestart",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyStart",
+            "comment": "Therapiebeginn"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod.end",
+        "path": "Procedure.performed[x].end",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyEnd",
+            "comment": "Therapieende"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer",
+        "path": "Procedure.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performer.actor",
+        "path": "Procedure.performer.actor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM",
+              "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "executionCenter",
+            "comment": "Durchführende Einrichtung"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer.actor.reference",
+        "path": "Procedure.performer.actor.reference",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "executionCenter",
+            "comment": "Referenz zur durchführenden Einrichtung"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonReference",
+        "path": "Procedure.reasonReference",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonReference.reference",
+        "path": "Procedure.reasonReference.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.outcome",
+        "path": "Procedure.outcome",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "endOfRadiotherapy",
+            "comment": "Grund für Ende der Strahlentherapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.outcome.coding",
+        "path": "Procedure.outcome.coding",
+        "min": 1,
+        "max": "1",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "endOfRadiotherapy",
+            "comment": "Grund für Ende der Strahlentherapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.outcome.coding.code",
+        "path": "Procedure.outcome.coding.code",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-ende-grund"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "endOfRadiotherapy",
+            "comment": "Grund für Ende der Strahlentherapie"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "short": "Zusätzliche Hinweise/Informationen",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "note",
+            "comment": "Bemerkungen"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.note.text",
+        "path": "Procedure.note.text",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "note",
+            "comment": "Bemerkungen"
+          }
+        ]
+      }
+    ]
+  }
+}

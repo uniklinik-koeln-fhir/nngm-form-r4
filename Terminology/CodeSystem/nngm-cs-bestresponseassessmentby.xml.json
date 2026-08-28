@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nngm-cs-bestresponseassessmentby",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-response-befund-bestresponseassessmentby",
+  "version": "0.1.0",
+  "name": "nngm_cs_bestresponseassessmentby",
+  "title": "nNGM Erweiterung Beurteilung nach: RECIST oder Behandelnder Arzt",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Erweitertes CodeSystem Beurteilung nach RECIST , ergänzt um 'Behandelnder Arzt'.",
+  "content": "supplement",
+  "concept": [
+    {
+      "code": "AttendingPhysician",
+      "display": "Behandelnder Arzt",
+      "definition": "Behandelnder Arzt"
+    }
+  ]
+}

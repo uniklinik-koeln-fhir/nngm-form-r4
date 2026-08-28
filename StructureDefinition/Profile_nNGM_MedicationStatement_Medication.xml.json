@@ -1,0 +1,365 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-MedicationStatement-Medication",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-MedicationStatement-Medication",
+  "version": "0.1.0",
+  "name": "Profile_nNGM_MedicationStatement_Medication",
+  "title": "Profile - nNGM - MedicationStatement - Medikation",
+  "status": "active",
+  "date": "2025-10-31",
+  "publisher": "nNGM Konsortium",
+  "description": "Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medikationen/Schemata, die im Rahmen der systemischen Therapie dokumentiert wurden. Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medikationen/Schemata, die im Rahmen der systemischen Therapie dokumentiert wurden.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "systemTherapy"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationStatement",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-mtb/StructureDefinition/mii-pr-mtb-systemtherapie-medication-statement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationStatement",
+        "path": "MedicationStatement",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "systemTherapyLine",
+            "comment": "Systemische Therapielinie"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:CyclesCount",
+        "path": "MedicationStatement.extension",
+        "sliceName": "CyclesCount",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/nngm-ex-systemischetherapie-cyclescount"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "cyclesCount",
+            "comment": "Anzahl der Zyklen"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:CyclesCount.value[x]",
+        "path": "MedicationStatement.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "cyclesCount",
+            "comment": "Anzahl der Zyklen"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:CyclesCount.value[x]:valueDecimal",
+        "path": "MedicationStatement.extension.value[x]",
+        "sliceName": "valueDecimal",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "cyclesCount",
+            "comment": "Anzahl der Zyklen"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:MaintainceTherapy",
+        "path": "MedicationStatement.extension",
+        "sliceName": "MaintainceTherapy",
+        "short": "Ist Erhaltungstherapie",
+        "definition": "Ist Erhaltungstherapie",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-ismaintaincetherapy"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "MaintainceTherapy",
+            "comment": "Ist Erhaltungstherapie"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:MaintainceTherapy.value[x]",
+        "path": "MedicationStatement.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "MaintainceTherapy",
+            "comment": "Ist Erhaltungstherapie"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:MaintainceTherapy.value[x]:valueBoolean",
+        "path": "MedicationStatement.extension.value[x]",
+        "sliceName": "valueBoolean",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "MaintainceTherapy",
+            "comment": "Ist Erhaltungstherapie"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:offLabelUse",
+        "path": "MedicationStatement.extension",
+        "sliceName": "offLabelUse",
+        "short": "Ist Off-Label-Use",
+        "definition": "Ist Off-Label-Use",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/nNGM/nngm-ex-systemischetherapie-offlabeluse"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "offLabelUse",
+            "comment": "Ist Off-Label-Use"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:offLabelUse.value[x]",
+        "path": "MedicationStatement.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "offLabelUse",
+            "comment": "Ist Off-Label-Use"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.extension:offLabelUse.value[x]:valueBoolean",
+        "path": "MedicationStatement.extension.value[x]",
+        "sliceName": "valueBoolean",
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "offLabelUse",
+            "comment": "Ist Off-Label-Use"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.partOf:systemischeTherapie",
+        "path": "MedicationStatement.partOf",
+        "sliceName": "systemischeTherapie",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie",
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-systemische-therapie"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.partOf:systemischeTherapie.reference",
+        "path": "MedicationStatement.partOf.reference",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "systemTherapyLine",
+            "comment": "Referenz auf Systemische Therapielinie"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept",
+        "path": "MedicationStatement.medication[x]",
+        "sliceName": "medicationCodeableConcept"
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept.coding",
+        "path": "MedicationStatement.medication[x].coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe",
+        "path": "MedicationStatement.medication[x].coding",
+        "sliceName": "atcClassDe",
+        "short": "Therapieschema",
+        "definition": "Vollstaendiger ATC-Katalog Version 2026 mit Einzelwirkstoffen (7-stellige Codes) und Wirkstoffklassen (3-stellige Codes).",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyName",
+            "comment": "Therapieschema"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe.code",
+        "path": "MedicationStatement.medication[x].coding.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-atc-2026"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyName",
+            "comment": "Therapieschema der systemischen Therapie"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept.text",
+        "path": "MedicationStatement.medication[x].text",
+        "short": "Wirkstoff",
+        "definition": "Freitext zur Spezifikation der Wirkstoffe bei Verwendung von 3-stelligen ATC-Codes (Wirkstoffklassen) im Therapieschema.",
+        "maxLength": 200,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "wirkstoff",
+            "comment": "Wirkstoff"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.subject",
+        "path": "MedicationStatement.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.subject.reference",
+        "path": "MedicationStatement.subject.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.effective[x]:effectivePeriod",
+        "path": "MedicationStatement.effective[x]",
+        "sliceName": "effectivePeriod"
+      },
+      {
+        "id": "MedicationStatement.effective[x]:effectivePeriod.start",
+        "path": "MedicationStatement.effective[x].start",
+        "min": 1,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyStart; noTherapyStart",
+            "comment": "Systemische Therapie Beginn"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.effective[x]:effectivePeriod.end",
+        "path": "MedicationStatement.effective[x].end",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "therapyEnd; noTherapyEnd",
+            "comment": "Systemische Therapie Ende"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.note.text",
+        "path": "MedicationStatement.note.text",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "note",
+            "comment": "Bermerkungen"
+          }
+        ]
+      }
+    ]
+  }
+}

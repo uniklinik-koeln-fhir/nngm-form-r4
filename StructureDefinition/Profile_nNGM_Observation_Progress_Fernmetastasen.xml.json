@@ -1,0 +1,169 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-nNGM-Observation-Fernmetastasen",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Observation-Fernmetastasen",
+  "version": "0.1.0",
+  "name": "Profile_nNGM_Observation_Progress_Fernmetastasen",
+  "title": "Profile - nNGM - Observation - Progress - Fernmetastasen",
+  "status": "active",
+  "publisher": "nNGM Konsortium",
+  "description": "Beschreibung vom Progress und Fernmetastasen (Lokalisation und Datum)",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "progressList",
+      "comment": "progressList"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-fernmetastasen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "progressList",
+            "comment": "progressList"
+          }
+        ]
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/pseudonymisiert",
+              "http://uk-koeln.de/fhir/StructureDefinition/Patient/nNGM/patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+            ]
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "diagnosis",
+            "comment": "Referenz auf die Diagnosen-Ressource"
+          }
+        ]
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "progressDate",
+            "comment": "Progress innerhalb dieser Line"
+          }
+        ]
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effectiveDateTime",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "progressDate",
+            "comment": "Progress innerhalb dieser Line"
+          }
+        ]
+      },
+      {
+        "id": "Observation.bodySite.coding",
+        "path": "Observation.bodySite.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "metastasisLocalization",
+            "comment": "Metastasenlokalisationen"
+          }
+        ]
+      },
+      {
+        "id": "Observation.bodySite.coding:icd-o-3",
+        "path": "Observation.bodySite.coding",
+        "sliceName": "icd-o-3",
+        "short": "Metastasenlokalisationen in ICD-O-3",
+        "definition": "Metastasenlokalisationen ICD-O-3",
+        "patternCoding": {
+          "system": "http://terminology.hl7.org/CodeSystem/icd-o-3"
+        },
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "Metastasenlokalisationen",
+            "comment": "Metastasenlokalisationen"
+          }
+        ]
+      },
+      {
+        "id": "Observation.bodySite.coding:icd-o-3.system",
+        "path": "Observation.bodySite.coding.system",
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite.coding:icd-o-3.code",
+        "path": "Observation.bodySite.coding.code",
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-icdo3-topographie"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "metastasisLocalization",
+            "comment": "Metastasenlokalisationen"
+          }
+        ]
+      }
+    ]
+  }
+}

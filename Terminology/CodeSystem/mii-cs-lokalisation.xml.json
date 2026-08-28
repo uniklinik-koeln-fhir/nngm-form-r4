@@ -1,0 +1,70 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "mii-cs-lokalisation",
+  "url": "http://uk-koeln.de/fhir/StructureDefinition/CodeSystem/nNGM/nngm-cs-lokalisation",
+  "version": "0.1.0",
+  "name": "nngm_cs_lokalisation",
+  "title": "nNGM CS Lokalisation (Organe)",
+  "status": "active",
+  "date": "2025-11-28T00:00:00+00:00",
+  "publisher": "nNGM",
+  "description": "Angepasstes oBDS-Codesystem für Lokalisation der OP",
+  "caseSensitive": true,
+  "valueSet": "http://uk-koeln.de/fhir/StructureDefinition/ValueSet/nNGM/nngm-vs-lokalisation",
+  "content": "complete",
+  "count": 13,
+  "concept": [
+    {
+      "code": "Lunge",
+      "display": "Lunge"
+    },
+    {
+      "code": "Leber",
+      "display": "Leber"
+    },
+    {
+      "code": "Gehirn",
+      "display": "Gehirn"
+    },
+    {
+      "code": "Nebenniere",
+      "display": "Nebenniere"
+    },
+    {
+      "code": "C17649",
+      "display": "Andere Organe"
+    },
+    {
+      "code": "unknown",
+      "display": "Unbekannt"
+    },
+    {
+      "code": "OSS",
+      "display": "Knochen"
+    },
+    {
+      "code": "LYM",
+      "display": "Lymphknoten"
+    },
+    {
+      "code": "MAR",
+      "display": "Knochenmark"
+    },
+    {
+      "code": "PLE",
+      "display": "Pleura"
+    },
+    {
+      "code": "PER",
+      "display": "Peritoneum"
+    },
+    {
+      "code": "SKI",
+      "display": "Haut"
+    },
+    {
+      "code": "GEN",
+      "display": "generalisierte Metastasierung"
+    }
+  ]
+}

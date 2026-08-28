@@ -1,0 +1,143 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nNGM-PR-Response-Befund",
+  "url": "https://ngnm.de/fhir/StructureDefinition/nNGM-PR-Response-Befund",
+  "version": "0.1.0",
+  "name": "nNGM_PR_Response_Befund",
+  "title": "Profile - nNGM - Observation - Response Befund",
+  "status": "active",
+  "publisher": "nNGM Konsortium",
+  "description": "Response Beurteilung nach MTB/DNPM/nNGM",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "nNGM-Schema",
+      "name": "Response"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-mtb/StructureDefinition/mii-pr-mtb-response-befund",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM-Procedure-Systemische-Therapie"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.focus.reference",
+        "path": "Observation.focus.reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]:effectiveDateTime",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectiveDateTime",
+        "short": "Bestes Ansprechen Datum",
+        "definition": "Bestes Ansprechen Datum",
+        "min": 0,
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "bestResponseDate",
+            "comment": "bestResponseDate"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept",
+        "path": "Observation.value[x]",
+        "sliceName": "valueCodeableConcept"
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept.coding",
+        "path": "Observation.value[x].coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept.coding:oBDS",
+        "path": "Observation.value[x].coding",
+        "sliceName": "oBDS",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "BestResponse",
+            "comment": "Bestes Ansprechen"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept.coding:oBDS.code",
+        "path": "Observation.value[x].coding.code",
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "BestResponse",
+            "comment": "Bestes Ansprechen"
+          }
+        ]
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-response-befund-bestresponseassessmentby"
+        }
+      },
+      {
+        "id": "Observation.method.coding",
+        "path": "Observation.method.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method.coding.code",
+        "path": "Observation.method.coding.code",
+        "short": "Beurteilungsmethode",
+        "definition": "Beurteilungsmethode RECIST oder RANO",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-vs-response-befund-bestresponseassessmentby"
+        },
+        "mapping": [
+          {
+            "identity": "nNGM-Schema",
+            "map": "AssessmentBy",
+            "comment": "Beurteilung nach"
+          }
+        ]
+      }
+    ]
+  }
+}
