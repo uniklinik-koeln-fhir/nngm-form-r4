@@ -1,0 +1,28 @@
+- name: Patient (Patient)
+  filename: PatientPatient.guide.md
+- name: Patient - Pseudonymisiert (Patient)
+  filename: Patient-PseudonymisiertPatient.guide.md
+- name: Versicherungsverhältnis (Coverage)
+  filename: VersicherungsverhltnisCoverage.guide.md
+- name: Versicherungsverhältnis - Pseudonymisiert (Coverage)
+  filename: Versicherungsverhltnis-PseudonymisiertCoverage.guide.md
+- name: Einwilligungserklärung (Consent)
+  filename: EinwilligungserklrungConsent.guide.md
+- name: Einwilligungserklärung V4 (Consent)
+  filename: Einwilligungserklärung-V4--Consent.page.md
+- name: Einwilligungserklärung V4.1 (Consent)
+  filename: Einwilligungserklärung-V4.1-Consent.page.md
+- name: Broad Consent 1.6d (Consent)
+  filename: Broad-Consent-1.6d-Consent.page.md
+- name: Broad Consent 1.7.2 (Consent)
+  filename: Broad-Consent-1.7.2-Consent.page.md
+- name: Einwilligungserklärung Local (Consent)
+  filename: Einwilligungserklärung-Local-Consent.page.md
+- name: Erstdiagnose (Condition)
+  filename: ErstdiagnoseCondition.guide.md
+- name: Behander (Practioner)
+  filename: BehanderPractioner.guide.md
+- name: Behandlerrolle (PractionerRole)
+  filename: BehandlerrollePractionerRole.guide.md
+- name: Organisation (Organization)
+  filename: Organisation--Organization.guide.md

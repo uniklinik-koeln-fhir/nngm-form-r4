@@ -1,0 +1,6 @@
+- name: NMS - nNGM Management System
+  filename: Index.page.md
+- name: NMS - Endpunkt für Personen
+  filename: NMS---Endpunkt-für-Personen.page.md
+- name: NMS - Endpunkt für Organisationen
+  filename: NMS---Endpunkt-für-Organisationen.page.md

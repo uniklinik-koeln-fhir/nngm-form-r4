@@ -1,0 +1,24 @@
+- name: Anforderung der Diagnostik (ServiceRequest)
+  filename: AnforderungderDiagnostikServiceRequest.guide.md
+- name: Tumormaterial (Specimen)
+  filename: TumormaterialSpecimen.guide.md
+- name: ECOG (Observation)
+  filename: ECOGObservation-duplicate-2.guide.md
+- name: Raucherstatus (Observation)
+  filename: RaucherstatusObservation.guide.md
+- name: Progress/Rezidiv (Observation)
+  filename: ProgressRezidivObservation.guide.md
+- name: Vitalstatus (Observation)
+  filename: VitalstatusObservation.guide.md
+- name: TKI-Resistenz (Observation)
+  filename: TKI-ResistenzObservation
+- name: Histologie (Observation)
+  filename: HistologieObservation.guide.md
+- name: Tumorstadium (Observation)
+  filename: TumorstadiumObservation.guide.md
+- name: Molekulargenetischer Befundbericht (DiagnosticReport)
+  filename: Molekulargenetischer-Befundbericht-DiagnosticReport.page.md
+- name: Variante (Observation)
+  filename: Variante-Observation.page.md
+- name: Klinische Information (Observation)
+  filename: Klinische-Information-Observation.page.md

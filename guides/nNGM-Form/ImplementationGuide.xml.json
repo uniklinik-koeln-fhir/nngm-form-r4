@@ -1,0 +1,192 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "/guide/nNGM-Form?version=current",
+  "version": "1.0.0",
+  "name": "nNGM - Form - Implementierungsleitfaden",
+  "status": "draft",
+  "fhirVersion": [
+    "4.0.0"
+  ],
+  "definition": {
+    "page": {
+      "nameUrl": "Home",
+      "title": "Home",
+      "generation": "generated",
+      "page": [
+        {
+          "nameUrl": "Home/Einleitung.guide.md",
+          "title": "Einleitung",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Home/KompatibilittzuanderenInitiativen.guide.md",
+          "title": "Kompatibilität zu anderen Initiativen",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Home/Informationsmodell",
+          "title": "Informationsmodell",
+          "generation": "generated"
+        },
+        {
+          "nameUrl": "Home/FHIR-Profile",
+          "title": "FHIR-Profile",
+          "generation": "generated",
+          "page": [
+            {
+              "nameUrl": "Home/FHIR-Profile/FallComposition.guide.md",
+              "title": "Fall (Composition)",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "Home/FHIR-Profile/Basisangaben",
+              "title": "Basisangaben",
+              "generation": "generated",
+              "page": [
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/PatientPatient.guide.md",
+                  "title": "Patient (Patient)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/Patient-PseudonymisiertPatient.guide.md",
+                  "title": "Patient - Pseudonymisiert (Patient)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/VersicherungsverhltnisCoverage.guide.md",
+                  "title": "Versicherungsverhältnis (Coverage)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/Versicherungsverhltnis-PseudonymisiertCoverage.guide.md",
+                  "title": "Versicherungsverhältnis - Pseudonymisiert (Coverage)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/EinwilligungserklrungConsent.guide.md",
+                  "title": "Einwilligungserklärung (Consent)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/Einwilligungserklärung-V4--Consent.page.md",
+                  "title": "Einwilligungserklärung V4 (Consent)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/ErstdiagnoseCondition.guide.md",
+                  "title": "Erstdiagnose (Condition)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/BehanderPractioner.guide.md",
+                  "title": "Behander (Practioner)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/BehandlerrollePractionerRole.guide.md",
+                  "title": "Behandlerrolle (PractionerRole)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Basisangaben/OrganisationOrganization.guide.md",
+                  "title": "Organisation (Organization)",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "Home/FHIR-Profile/Anforderung",
+              "title": "Anforderung",
+              "generation": "generated",
+              "page": [
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/AnforderungderDiagnostikServiceRequest.guide.md",
+                  "title": "Anforderung der Diagnostik (ServiceRequest)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/TumormaterialSpecimen.guide.md",
+                  "title": "Tumormaterial (Specimen)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/ECOGObservation-duplicate-2.guide.md",
+                  "title": "ECOG (Observation)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/RaucherstatusObservation.guide.md",
+                  "title": "Raucherstatus (Observation)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/ProgressRezidivObservation.guide.md",
+                  "title": "Progress/Rezidiv (Observation)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/VitalstatusObservation.guide.md",
+                  "title": "Vitalstatus (Observation)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation",
+                  "title": "TKI-Resistenz (Observation)",
+                  "generation": "generated",
+                  "page": [
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzALKObservation.guide.md",
+                      "title": "TKI-Resistenz ALK (Observation)",
+                      "generation": "markdown"
+                    },
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzBRAFObservation.guide.md",
+                      "title": "TKI-Resistenz BRAF (Observation)",
+                      "generation": "markdown"
+                    },
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzEGFRObservation.guide.md",
+                      "title": "TKI-Resistenz EGFR (Observation)",
+                      "generation": "markdown"
+                    },
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzFGFRObservation.guide.md",
+                      "title": "TKI-Resistenz FGFR (Observation)",
+                      "generation": "markdown"
+                    },
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzKRASObservation.guide.md",
+                      "title": "TKI-Resistenz KRAS (Observation)",
+                      "generation": "markdown"
+                    },
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzMETObservation.guide.md",
+                      "title": "TKI-Resistenz MET (Observation)",
+                      "generation": "markdown"
+                    },
+                    {
+                      "nameUrl": "Home/FHIR-Profile/Anforderung/TKI-ResistenzObservation/TKI-ResistenzROS1Observation.guide.md",
+                      "title": "TKI-Resistenz ROS1 (Observation)",
+                      "generation": "markdown"
+                    }
+                  ]
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/HistologieObservation.guide.md",
+                  "title": "Histologie (Observation)",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "Home/FHIR-Profile/Anforderung/TumorstadiumObservation.guide.md",
+                  "title": "Tumorstadium (Observation)",
+                  "generation": "markdown"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

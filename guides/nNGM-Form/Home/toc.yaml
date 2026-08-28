@@ -1,0 +1,10 @@
+- name: Index
+  filename: Index.guide.md
+- name: Einleitung
+  filename: Einleitung.guide.md
+- name: Kompatibilität zu anderen Initiativen
+  filename: KompatibilittzuanderenInitiativen.guide.md
+- name: FHIR-Profile
+  filename: FHIR-Profile
+- name: NMS
+  filename: NMS

@@ -1,0 +1,16 @@
+- name: Index
+  filename: Index.guide.md
+- name: TKI-Resistenz ALK (Observation)
+  filename: TKI-ResistenzALKObservation.guide.md
+- name: TKI-Resistenz BRAF (Observation)
+  filename: TKI-Resistenz-BRAF-Observation.guide.md
+- name: TKI-Resistenz EGFR (Observation)
+  filename: TKI-ResistenzEGFRObservation.guide.md
+- name: TKI-Resistenz FGFR (Observation)
+  filename: TKI-ResistenzFGFRObservation.guide.md
+- name: TKI-Resistenz KRAS (Observation)
+  filename: TKI-ResistenzKRASObservation.guide.md
+- name: TKI-Resistenz MET (Observation)
+  filename: TKI-ResistenzMETObservation.guide.md
+- name: TKI-Resistenz ROS1 (Observation)
+  filename: TKI-ResistenzROS1Observation.guide.md
