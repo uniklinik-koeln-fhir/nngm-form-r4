@@ -1,0 +1,14 @@
+- name: Systemische Therapie (Procedure)
+  filename: SystemischeTherapieProcedure.guide.md
+- name: Medikation (MedicationStatement)
+  filename: MedikationMedicationStatement.guide.md
+- name: Strahlentherapie (Procedure)
+  filename: StrahlentherapieProcedure.guide.md
+- name: Bestrahlung (Procedure)
+  filename: BestrahlungProcedure.guide.md
+- name: Operation (Procedure)
+  filename: OperationProcedure.guide.md
+- name: Progress - Fernmetastasen (Observation)
+  filename: ProgressFernmetastasenObservation.guide.md
+- name: Response-Befund (Observation)
+  filename: ResponseBefundObservation.guide.md
