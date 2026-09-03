@@ -14,6 +14,10 @@ Diese Profile beschreiben das eingereichte Tumormaterial innerhalb des nNGM-Proj
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Specimen.type|Tumormaterial|Materialtyp|
@@ -22,7 +26,6 @@ Diese Profile beschreiben das eingereichte Tumormaterial innerhalb des nNGM-Proj
 |Specimen.extension:entnahmeKontext.value[x]|Tumormaterial|Entnahmekontext|
 |Specimen.extension:tumorzellgehalt|Tumormaterial|Tumorzellgehalt in %|
 |Specimen.extension:tumormaterialLagertBei|Tumormaterial|Tumormaterial lagert bei|
-
 
 <br>
 
@@ -33,7 +36,6 @@ Diese Profile beschreiben das eingereichte Tumormaterial innerhalb des nNGM-Proj
 |Extension.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/aufenthaltsart}}|
 |Specimen.type.coding:ncit|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/MaterialTyp}}|
 
-
 <br>
 
 **Extensions**
@@ -43,7 +45,6 @@ Diese Profile beschreiben das eingereichte Tumormaterial innerhalb des nNGM-Proj
 |Specimen.extension:entnahmeKontext|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/aufenthaltsart}}|
 |Specimen.extension:tumormaterialLagertBei|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/specimen-tumormaterial-lagert-bei}}|
 |Specimen.extension:tumorzellgehalt|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tumorzellgehalt}}|
-
 
 <br>
 

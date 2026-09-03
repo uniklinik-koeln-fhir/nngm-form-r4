@@ -14,21 +14,14 @@ Dieses Profil beschreibt die Dokumentation der klinischen Information innerhalb 
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.note|MURIPEDIA Therapie Information|Archivierungscode (MURIPEDIA) für nNGM-Datenbank|
-|Observation|MURIPEDIA Therapie Information|Erstelldatum|
-
-
-<br>
-
-**Bindings**
-
-| FHIR-Element-Id | ValueSets|
-|-----------------|----------|
-
-
-
+|Observation.effective|MURIPEDIA Therapie Information|Erstelldatum|
 
 <br>
 

@@ -14,11 +14,14 @@ Dieses Profil beschreibt den ECOG-Status des Patienten zum Zeitpunkt der Diagnos
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.value[x]|ECOG|ECOG|
 |Observation.value[x]|Systemische Therapie|ECOG Performance Status bei Therapiebeginn|
-
 
 <br>
 
@@ -28,9 +31,6 @@ Dieses Profil beschreibt den ECOG-Status des Patienten zum Zeitpunkt der Diagnos
 |-----------------|----------|
 |Observation.status|Fixed Value - final - ([http://hl7.org/fhir/ValueSet/observation-status](http://hl7.org/fhir/ValueSet/observation-status))|
 |Observation.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/ecog}}|
-
-
-
 
 <br>
 

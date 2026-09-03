@@ -7,7 +7,7 @@ Im Folgenden werden die Use-Case des Moduls sowie die dazuhegörigen FHIR-Profil
 |---------|---|
 | Datum   | 11.03.2021  |
 | Letzte Änderung   | 28.08.2026  |
-| Version | 1.3.18         |
+| Version | 1.3.28         |
 | Status  | Active       |
 | Realm   | DE          | 
 

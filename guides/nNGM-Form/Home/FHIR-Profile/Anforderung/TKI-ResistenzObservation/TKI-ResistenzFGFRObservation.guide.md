@@ -1,7 +1,5 @@
 ## {{page-title}}
 
-None
-
 **Name**: "Profile_nNGM_Observation_TkiResistenzFgfr" ({{link:http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-fgfr}})
 
 **Canonical**: ```http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tki-resistenz-fgfr```
@@ -14,11 +12,14 @@ None
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.effective[x]|Rezidiv/Progress + Resistenztestung|Datum|
 |Observation.component:tkiTherapie.value[x]|Rezidiv/Progress + Resistenztestung|Therapie|
-
 
 <br>
 
@@ -30,9 +31,6 @@ None
 |Observation.code|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tki-resistenz}}|
 |Observation.component:tkiTherapie.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/SystemischeTherapieMedikament}}|
 |Observation.code.coding.code|Fixed Value - C132244 - ([http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl](http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl))|
-
-
-
 
 <br>
 

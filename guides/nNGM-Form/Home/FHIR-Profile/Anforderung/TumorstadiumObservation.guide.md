@@ -1,7 +1,5 @@
 ## {{page-title}}
 
-None
-
 **Name**: "Profile_nNGM_Observation_Tumorstadium" ({{link:http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium}})
 
 **Canonical**: ```http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium```
@@ -13,6 +11,10 @@ None
 <br>
 
 **Erläuterungen**
+
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
 
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
@@ -28,10 +30,9 @@ None
 |Observation.component:N.extension:praefix.value[x]|Tumorstadium|Präfix|
 |Observation.component:M.value[x]|Tumorstadium|Abwesenheit oder Vorhandensein von Metastasen|
 |Observation.component:M.extension:praefix.value[x]|Tumorstadium|Präfix|
-|Observation|Tumorstadium|Lokalisation|
+|Observation.bodySite|Tumorstadium|Lokalisation|
 |Observation.value[x]|Tumorstadium|UICC-Stadium|
 |Observation.value[x]|Tumorstadium|Stadium der Diagnose|
-
 
 <br>
 
@@ -45,12 +46,12 @@ None
 |Extension.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-cpu-praefix}}|
 |Extension.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-cpu-praefix}}|
 |Observation.status|Fixed Value - final - ([http://hl7.org/fhir/ValueSet/observation-status](http://hl7.org/fhir/ValueSet/observation-status))|
-|Observation.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage}}|
-|Observation.component:T.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-t}}|
-|Observation.component:N.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-n}}|
-|Observation.component:M.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-m}}|
-|Observation.component:TNM-prefix.value[x]:valueCodeableConcept|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-ry-praefix}}|
-
+|Observation.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage}}|
+|Observation.component:T.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-t}}|
+|Observation.component:N.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-n}}|
+|Observation.component:M.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-m}}|
+|Observation.component:TNM-prefix.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tnm-ry-praefix}}|
+|Observation.bodySite|{{link:http://uk-koeln.de/fhir/ValueSet/icd-o-3-topologie}}|
 
 <br>
 
@@ -65,7 +66,6 @@ None
 |Observation.component:T.extension:praefix|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix}}|
 |Observation.component:N.extension:praefix|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix}}|
 |Observation.component:M.extension:praefix|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/tnm-cpu-praefix}}|
-
 
 <br>
 

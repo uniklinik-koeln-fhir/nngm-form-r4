@@ -14,6 +14,10 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Consent.provision.type|Zustimmungen nNGM|Alle vorgesehenen Kreuze wurden mit "Ja" beantwortet.|
@@ -21,7 +25,6 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 |Consent.extension:revokeDate|Zustimmungen nNGM|Datum des Widerrufs|
 |Consent.extension:localConsentName|Zustimmungen nNGM|Bezeichnung (+Version) der (lokalen) Einwilligungserklärung|
 |Consent.extension:validityDuration|Zustimmungen nNGM|Geltungsdauer|
-
 
 <br>
 
@@ -33,7 +36,6 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 |Consent.scope.coding.code|Fixed Value - patient-privacy - ([http://terminology.hl7.org/CodeSystem/consentscope](http://terminology.hl7.org/CodeSystem/consentscope))|
 |Consent.category.coding.code|Fixed Value - 59284-0 - ([http://loinc.org](http://loinc.org))|
 
-
 <br>
 
 **Extensions**
@@ -43,7 +45,6 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 |Consent.extension:validityDuration|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/ValidityDuration}}|
 |Consent.extension:revokeDate|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/RevokeDate}}|
 |Consent.extension:localConsentName|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/LocalConsentName}}|
-
 
 <br>
 

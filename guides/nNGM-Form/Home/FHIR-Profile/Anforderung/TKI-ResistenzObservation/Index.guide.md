@@ -12,16 +12,6 @@ Diese Profile sind die Basis-Profile für die TKI-Resistenztestungen innerhalb d
 
 <br>
 
-**Erläuterungen**
-
-| FHIR-Element-Id | EDC-Label | Beschreibung |
-|-----------------|-----------|--------------|
-|Observation.effective[x]|Datum||
-|Observation.component:tkiTherapie.value[x]|Therapie||
-
-
-<br>
-
 **Bindings**
 
 | FHIR-Element-Id | ValueSets|
@@ -29,9 +19,6 @@ Diese Profile sind die Basis-Profile für die TKI-Resistenztestungen innerhalb d
 |Observation.status|Fixed Value - final - ([http://hl7.org/fhir/ValueSet/observation-status](http://hl7.org/fhir/ValueSet/observation-status))|
 |Observation.code|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/tki-resistenz}}|
 |Observation.component:tkiTherapie.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/SystemischeTherapieMedikament}}|
-
-
-
 
 <br>
 

@@ -14,6 +14,10 @@ Diese Profile beschreibt Erstdiagnose einer spezfischen Tumorerkrankung innerhal
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Condition.onset[x]|Diagnosen|Diagnosedatum|
@@ -21,7 +25,6 @@ Diese Profile beschreibt Erstdiagnose einer spezfischen Tumorerkrankung innerhal
 |Condition.code|Diagnosen|Klassifikation|
 |Condition.stage.summary|Diagnosen|genutzte UICC Version|
 |Condition.stage.summary|Diagnosen|Stadium der Diagnose|
-
 
 <br>
 
@@ -33,9 +36,8 @@ Diese Profile beschreibt Erstdiagnose einer spezfischen Tumorerkrankung innerhal
 |Condition.bodySite|{{link:http://uk-koeln.de/fhir/ValueSet/icd-o-3-topologie}}|
 |Condition.stage.summary:uicc7|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-v7}}|
 |Condition.stage.summary:uicc8|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-v8}}|
-
-
-
+|Condition.stage.summary:uicc9|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-v9}}|
+|Condition.stage.summary:uiccU|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/uicc-stage-vU}}|
 
 <br>
 

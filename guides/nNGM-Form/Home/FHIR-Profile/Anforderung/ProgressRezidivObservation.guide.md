@@ -14,11 +14,14 @@ Dieses Profil beschreibt einen die Dokumentation eines Rezidiv/Progress innerhal
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.effective[x]|Rezidiv/Progress + Resistenztestung|Datum|
 |Observation.value[x]|Rezidiv/Progress + Resistenztestung|Rezidiv/Progress|
-
 
 <br>
 
@@ -27,9 +30,6 @@ Dieses Profil beschreibt einen die Dokumentation eines Rezidiv/Progress innerhal
 | FHIR-Element-Id | ValueSets|
 |-----------------|----------|
 |Observation.status|Fixed Value - final - ([http://hl7.org/fhir/ValueSet/observation-status](http://hl7.org/fhir/ValueSet/observation-status))|
-
-
-
 
 <br>
 

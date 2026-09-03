@@ -14,6 +14,10 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Type | Instrument | Label |
 |-----------------|------|------------|-------|
 |Consent.provision.type|EVND|Zustimmungen nNGM|1.1 - 1.3 Der Patient willigt in die Erhebung, Verarbeitung, Speicherung und wissenschaftliche Nutzung seiner Patientendaten wie in Punkt 1.1 bis 1.3 dieser Einwilligungserklärung und in der Patienteninformation beschrieben, ein.|
@@ -36,7 +40,6 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 |Consent.dateTime|1|Zustimmungen nNGM|Datum der Patientenunterschrift / gesetzlicher Vertreter (Vorsorgebevollmächtigter)|
 |Consent.provision.type|PBVU|Zustimmungen nNGM|Der Patient hat einen Behandlungsvertrag unterschrieben.|
 
-
 <br>
 
 **Bindings**
@@ -47,9 +50,6 @@ Dieses Profil beschreibt die Einwilligungserklärung innerhalb des nNGM-Projekte
 |Consent.scope.coding.code|Fixed Value - patient-privacy - ([http://terminology.hl7.org/CodeSystem/consentscope](http://terminology.hl7.org/CodeSystem/consentscope))|
 |Consent.category.coding.code|Fixed Value - 59284-0 - ([http://loinc.org](http://loinc.org))|
 |Consent.policyRule|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/nngm-consent-policy-v4-1}}|
-
-
-
 
 <br>
 

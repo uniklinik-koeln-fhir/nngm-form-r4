@@ -12,21 +12,6 @@ Dieses Profil beschreibt ein Versicherungsverhältnis eines Patienten innerhalb 
 
 <br>
 
-**Erläuterungen**
-
-| FHIR-Element-Id | EDC-Label | Beschreibung |
-|-----------------|-----------|--------------|
-|Coverage.identifier:GKV-Identifier.type|GKV||
-|Coverage.identifier:GKV-Identifier.value|KV-Nummer||
-|Coverage.identifier:PKV-Identifier.type|PKV||
-|Coverage.identifier:PKV-Identifier.value|KV-Nummer||
-|Coverage.type|Versicherungsart|Ob es sich um eine GKV oder PKV Krankenversicherung handelt|
-|Coverage.beneficiary|Patient|Eine Verknüpfung mit dem Patienten muss stets gegeben sein|
-|Coverage.payor.display|Versicherer|Nur zugelassene Krankenkassen dürfen übermittelt werden. Die Liste kann auf Anfrage bei der nNGM Geschäfststelle erweitert werden|
-
-
-<br>
-
 **Bindings**
 
 | FHIR-Element-Id | ValueSets|
@@ -34,9 +19,6 @@ Dieses Profil beschreibt ein Versicherungsverhältnis eines Patienten innerhalb 
 |Coverage.status|Fixed Value - active - ([http://hl7.org/fhir/ValueSet/fm-status](http://hl7.org/fhir/ValueSet/fm-status))|
 |Coverage.type|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkassentypen}}|
 |Coverage.payor.display|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkasse}}|
-
-
-
 
 <br>
 

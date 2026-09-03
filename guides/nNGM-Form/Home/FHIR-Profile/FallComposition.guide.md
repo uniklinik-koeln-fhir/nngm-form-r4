@@ -19,7 +19,7 @@ Dieses Profil beschreibt einen nNGM-Fall mit allen seinen zugehörigen Daten
 |Einwilligungserklärungen (V2.2)|{{link:http://uk-koeln.de/fhir/StructureDefinition/nNGM/Consent}}|
 |Einwilligungserklärungen (V4)|{{link:http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4}}|
 |Einwilligungserklärungen (V4.1)|{{link:http://uk-koeln.de/fhir/StructureDefinition/nNGM/ConsentV4-1}}|
-|Einwilligungserklärungen (Broad Consent)|https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung|
+|Einwilligungserklärungen (Broad Consent)|{{link:https://www.medizininformatik-initiative.de/fhir/modul-consent/StructureDefinition/mii-pr-consent-einwilligung}}|
 |Erstdiagnose - Tumorerkrankung|{{link:http://uk-koeln.de/fhir/StructureDefinition/Condition/nNGM/FirstDiagnosis}}|
 |Versicherungsverhältnis (pseudonymisiert)|{{link:http://uk-koeln.de/fhir/StructureDefinition/Coverage/nNGM/pseudonymisiert}}|
 |Versicherungsverhältnis (nicht pseudonymisiert)|{{link:http://uk-koeln.de/fhir/StructureDefinition/nNGM/Coverage}}|
@@ -38,11 +38,6 @@ Dieses Profil beschreibt einen nNGM-Fall mit allen seinen zugehörigen Daten
 |Histologie|{{link:http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/histologie}}|
 |Tumorstadium|{{link:http://uk-koeln.de/fhir/StructureDefinition/Observation/nNGM/tumorstadium}}|
 |Molekulargenetischer Befundbericht|{{link:http://uk-koeln.de/fhir/StructureDefinition/Profile-nNGM_MII_PR_MolGen_MolekulargenetischerBefundbericht}}|
-
-
-
-
-
 
 <br>
 

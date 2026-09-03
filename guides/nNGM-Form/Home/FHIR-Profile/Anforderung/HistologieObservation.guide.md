@@ -14,6 +14,10 @@ Dieses Profil beschreibt die Klassifikation (Morphologie), Topographie und die H
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.specimen|Histologie|Tumormaterial|
@@ -27,7 +31,6 @@ Dieses Profil beschreibt die Klassifikation (Morphologie), Topographie und die H
 |Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom mikropapillär|
 |Observation.component:growthPatternInAdenocarcinomaSolid.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom solide|
 |Observation.component:percentageOfSignetRingCellCarcinoma.value[x]|Histologie|Anteil an Siegelringzellkarzinomen|
-
 
 <br>
 
@@ -46,9 +49,6 @@ Dieses Profil beschreibt die Klassifikation (Morphologie), Topographie und die H
 |Observation.component:growthPatternInAdenocarcinomaMicropapillary.code.coding.code|Fixed Value - 450895005 - ([http://snomed.info/sct](http://snomed.info/sct))|
 |Observation.component:growthPatternInAdenocarcinomaSolid.code.coding.code|Fixed Value - 81920005 - ([http://snomed.info/sct](http://snomed.info/sct))|
 |Observation.component:percentageOfSignetRingCellCarcinoma.code.coding.code|Fixed Value - 87737001 - ([http://snomed.info/sct](http://snomed.info/sct))|
-
-
-
 
 <br>
 

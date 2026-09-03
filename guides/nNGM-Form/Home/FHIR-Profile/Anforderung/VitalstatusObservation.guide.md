@@ -14,6 +14,10 @@ Dieses Profil beschreibt den Vitalstatus eines Patienten innerhalb des nNGM-Proj
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.value[x]|Vitalstatus|Ist Verstorben|
@@ -24,7 +28,6 @@ Dieses Profil beschreibt den Vitalstatus eines Patienten innerhalb des nNGM-Proj
 |Observation.value[x].extension:lostToFollowUp|Vitalstatus|lost to follow up|
 |Observation.effective[x]|Vitalstatus|Erhebungsdatum|
 |Observation.value[x]|Vitalstatus|Vitalstatus|
-
 
 <br>
 
@@ -37,7 +40,6 @@ Dieses Profil beschreibt den Vitalstatus eines Patienten innerhalb des nNGM-Proj
 |Observation.status|Fixed Value - final - ([http://hl7.org/fhir/ValueSet/observation-status](http://hl7.org/fhir/ValueSet/observation-status))|
 |Observation.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/Vitalstatus}}|
 
-
 <br>
 
 **Extensions**
@@ -49,7 +51,6 @@ Dieses Profil beschreibt den Vitalstatus eines Patienten innerhalb des nNGM-Proj
 |Observation.value[x].extension:datumLetzterKontakt|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/datumLetzterKontakt}}|
 |Observation.value[x].extension:informationsquelleLetzterKontakt|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/iqlk}}|
 |Observation.value[x].extension:lostToFollowUp|{{link:http://uk-koeln.de/fhir/StructureDefinition/Extension/nNGM/lostToFollowUp}}|
-
 
 <br>
 

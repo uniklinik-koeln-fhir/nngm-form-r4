@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-Dieses Profil stellt die Verknüpfung zu ein Netzwerkzentrum, Krankenhaus, Praxis und Pathologie innerhalb des nNGM-Projektes dar.
+Dieses Profil beschreibt ein Netzwerkzentrum, die Organisationszugehörigkeit (Organisation oder Abteilung) eines Behandlers und die Pathologien innerhalb des nNGM-Projektes.
 
 **Name**: "Profile_nNGM_Organization_Organisation" ({{link:http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM}})
 
@@ -9,23 +9,6 @@ Dieses Profil stellt die Verknüpfung zu ein Netzwerkzentrum, Krankenhaus, Praxi
 **Differential**
 
 {{tree:http://uk-koeln.de/fhir/StructureDefinition/Organisation/nNGM, diff}}
-
-<br>
-
-**Erläuterungen**
-
-| FHIR-Element-Id | EDC-Label | Beschreibung |
-|-----------------|-----------|--------------|
-|Organization.identifier.value|-|NMS-Organisations-Id siehe {{pagelink:Home/NMS/NMS---Endpunkt-für-Organisationen.page.md}}|
-|Organization.name|Name|Name|
-
-<br>
-
-**Bindings**
-
-| FHIR-Element-Id | ValueSets|
-|-----------------|----------|
-|Organization.identifier.type|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/IdentifierType}}|
 
 <br>
 

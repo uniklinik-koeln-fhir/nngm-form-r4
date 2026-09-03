@@ -14,12 +14,14 @@ Dieses Profil beschreibt ein pseudonymisiertes Versicherungsverhältnis eines Pa
 
 **Erläuterungen**
 
-| FHIR-Element-Id | EDC-Label | Beschreibung |
-|-----------------|-----------|--------------|
-|Coverage.type|Versicherungsart|Ob es sich um eine GKV oder PKV Krankenversicherung handelt|
-|Coverage.beneficiary|Patient|Begünstigter Patient|
-|Coverage.payor.display|Versicherer|Nur zugelassene Krankenkassen dürfen übermittelt werden. Die Liste kann auf Anfrage bei der nNGM Geschäfststelle erweitert werden|
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
 
+| FHIR-Element-Id | Instrument | Label |
+|-----------------|------------|-------|
+|Coverage.payor.display|Krankenkasse|Krankenkasse|
+|Coverage.type|Krankenkasse|Versicherungsart|
 
 <br>
 
@@ -30,9 +32,6 @@ Dieses Profil beschreibt ein pseudonymisiertes Versicherungsverhältnis eines Pa
 |Coverage.status|Fixed Value - active - ([http://hl7.org/fhir/ValueSet/fm-status](http://hl7.org/fhir/ValueSet/fm-status))|
 |Coverage.type|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkassentypen}}|
 |Coverage.payor.display|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/krankenkasse}}|
-
-
-
 
 <br>
 

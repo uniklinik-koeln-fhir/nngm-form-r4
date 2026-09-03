@@ -14,12 +14,15 @@ Dieses Profil beschreibt den Raucherstatus des Patienten zum Zeitpunkt der Diagn
 
 **Erläuterungen**
 
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
 | FHIR-Element-Id | Instrument | Label |
 |-----------------|------------|-------|
 |Observation.value[x]|Raucherstatus|Raucherstatus|
 |Observation.component:nichtraucherSeit.value[x]|Raucherstatus|Nichtraucher seit|
 |Observation.component:packYears.value[x]|Raucherstatus|Pack years|
-
 
 <br>
 
@@ -31,9 +34,6 @@ Dieses Profil beschreibt den Raucherstatus des Patienten zum Zeitpunkt der Diagn
 |Observation.value[x]|{{link:http://uk-koeln.de/fhir/ValueSet/nNGM/raucherstatus}}|
 |Observation.component:packYears.value[x]:valueQuantity.code|Fixed Value - {PackYears} - ([http://unitsofmeasure.org](http://unitsofmeasure.org))|
 |Observation.component:nichtraucherSeit.value[x]:valueQuantity.code|Fixed Value - a - ([http://unitsofmeasure.org](http://unitsofmeasure.org))|
-
-
-
 
 <br>
 
