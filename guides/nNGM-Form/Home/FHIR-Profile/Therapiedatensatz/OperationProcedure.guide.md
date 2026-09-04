@@ -28,8 +28,8 @@ Procedure-Profil OP für das nNGM-Projekt basierend auf MII-PR_Onko_Operation. E
 |Procedure.complication.coding.code|Operation|Ausgang mit Todesfolge|
 |Procedure.bodySite|Operation|Lokalisation|
 |Procedure.bodySite.text|Operation|Andere|
-|Procedure.code.coding:http://fhir.de/StructureDefinition/seitenlokalisation|Operation|Seitenlokalisation|
-|Procedure.extension:Lymphadenektomie.value[x]|Operation|Lymphadenektomie|
+|Procedure.code.coding:ops.extension:Seitenlokalisation.value[x].code|Operation|Seitenlokalisation|
+|Procedure.extension:Lymphadenektomie.value[x].coding.code|Operation|Lymphadenektomie|
 |Procedure.note.text|Operation|Bemerkungen|
 |Procedure.performer.actor|Operation|Durchführende Einrichtung|
 

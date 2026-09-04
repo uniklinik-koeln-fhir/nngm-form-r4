@@ -25,12 +25,12 @@ Dieses Profil beschreibt die Klassifikation (Morphologie), Topographie und die H
 |Observation.value[x]|Histologie|Klassifikation|
 |Observation.bodySite|Histologie|Lokalisation|
 |Observation.component:grading.value[x]|Histologie|Grading|
-|Observation.component:growthPatternInAdenocarcinomaLepidic.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom lepidisch|
-|Observation.component:growthPatternInAdenocarcinomaAcinar.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom azinär|
-|Observation.component:growthPatternInAdenocarcinomaPapillary.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom papillär|
-|Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom mikropapillär|
-|Observation.component:growthPatternInAdenocarcinomaSolid.value[x]|Histologie|Wachstumsmuster bei Adenokarzinom solide|
-|Observation.component:percentageOfSignetRingCellCarcinoma.value[x]|Histologie|Anteil an Siegelringzellkarzinomen|
+|Observation.component:growthPatternInAdenocarcinomaLepidic.value[x].value|Histologie|Wachstumsmuster bei Adenokarzinom lepidisch|
+|Observation.component:growthPatternInAdenocarcinomaAcinar.value[x].value|Histologie|Wachstumsmuster bei Adenokarzinom azinär|
+|Observation.component:growthPatternInAdenocarcinomaPapillary.value[x].value|Histologie|Wachstumsmuster bei Adenokarzinom papillär|
+|Observation.component:growthPatternInAdenocarcinomaMicropapillary.value[x].value|Histologie|Wachstumsmuster bei Adenokarzinom mikropapillär|
+|Observation.component:growthPatternInAdenocarcinomaSolid.value[x].value|Histologie|Wachstumsmuster bei Adenokarzinom solide|
+|Observation.component:percentageOfSignetRingCellCarcinoma.value[x].value|Histologie|Anteil an Siegelringzellkarzinomen|
 
 <br>
 

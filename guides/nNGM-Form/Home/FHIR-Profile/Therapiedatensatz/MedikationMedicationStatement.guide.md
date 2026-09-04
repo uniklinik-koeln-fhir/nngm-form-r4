@@ -12,6 +12,25 @@ Medikation der Systemische Therapie. Dieses Profil beschreibt die konkreten Medi
 
 <br>
 
+**Erläuterungen**
+
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
+| FHIR-Element-Id | Instrument | Label |
+|-----------------|------------|-------|
+|MedicationStatement.extension:offLabelUse.value[x]|Systemische Therapie|Off-Label-Use|
+|MedicationStatement.effective.start|Systemische Therapie|Therapiebeginn|
+|MedicationStatement.effective.end|Systemische Therapie|Therapieende|
+|MedicationStatement.extension:CyclesCount.value[x]|Systemische Therapie|Anzahl der Zyklen|
+|MedicationStatement.extension:MaintainceTherapy.value[x]|Systemische Therapie|Ist Erhaltungstherapie|
+|MedicationStatement.note.text|Systemische Therapie|Bemerkungen|
+|MedicationStatement.medication.coding.code|Systemische Therapie|Therapieschema|
+|MedicationStatement.medication.coding.code|Systemische Therapie|Wirkstoff|
+
+<br>
+
 **Bindings**
 
 | FHIR-Element-Id | ValueSets|

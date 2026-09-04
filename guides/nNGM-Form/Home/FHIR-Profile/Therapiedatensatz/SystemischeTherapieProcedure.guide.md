@@ -30,27 +30,14 @@ Systemische Therapie(Therapielinie) Profil für das nNGM-Projekt, basierend auf 
 |Procedure.extension.value.coding.code|Systemische Therapie|Therapeutische Intention|
 |Procedure.extension.value.coding.code|Systemische Therapie|Stellung zu operativer Therapie|
 |Procedure.extension:Therapyline.value[x]|Systemische Therapie|Line|
-|Procedure.extension.value|Systemische Therapie|Therapiedokumentation bis|
+|Procedure.extension:Dokumentationsdatum.value[x]|Systemische Therapie|Therapiedokumentation bis|
 |Procedure.partOf|Systemische Therapie|Therapie innerhalb einer klinischen Studie|
 |Procedure.title|Systemische Therapie|Studienname / Kurztitel|
 |Procedure.identifier.value|Systemische Therapie|Studien-ID|
 |Procedure.identifier.value|Systemische Therapie|Studien-Register|
 |Procedure.keyword.text|Systemische Therapie|Einschlusskriterium<br>genetische Variante(n)|
-|Procedure.extension.value|Systemische Therapie|Off-Label-Use|
 |Procedure.outcome.coding.code|Systemische Therapie|Grund für Therapieende/Therapiewechsel|
-|Procedure.effective.start|Systemische Therapie|Therapiebeginn|
-|Procedure.effective.end|Systemische Therapie|Therapieende|
-|Procedure.extension.value|Systemische Therapie|Anzahl der Zyklen|
-|Procedure.extension.value|Systemische Therapie|Ist Erhaltungstherapie|
-|Procedure.value.coding.code|Systemische Therapie||
-|Procedure.effective|Systemische Therapie|Bestes Ansprechen Datum|
-|Procedure.method.coding.code|Systemische Therapie||
-|Procedure.effective|Systemische Therapie|Datum des Progresses|
-|Procedure.bodySite|Systemische Therapie|Metastasenlokalisationen|
-|Procedure.note.text|Systemische Therapie|Bemerkungen|
 |Procedure.performer.actor|Systemische Therapie|Durchführende Einrichtung|
-|Procedure.medication.coding.code|Systemische Therapie|Therapieschema|
-|Procedure.medication.coding.code|Systemische Therapie|Wirkstoff|
 
 <br>
 

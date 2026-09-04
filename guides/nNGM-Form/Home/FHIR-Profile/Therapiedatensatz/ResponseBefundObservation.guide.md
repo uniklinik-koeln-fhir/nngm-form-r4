@@ -12,6 +12,20 @@ Response Beurteilung nach MTB/DNPM/nNGM
 
 <br>
 
+**Erläuterungen**
+
+> Hinweis: Die folgende Tabelle listet ausschließlich die Felder auf, die vom
+> Zielsystem tatsächlich eingelesen werden. Alle übrigen im Profil erlaubten
+> Elemente werden beim Import ignoriert.
+
+| FHIR-Element-Id | Instrument | Label |
+|-----------------|------------|-------|
+|Observation.value.coding.code|Systemische Therapie|Bestes Ansprechen|
+|Observation.effective|Systemische Therapie|Bestes Ansprechen Datum|
+|Observation.method.coding.code|Systemische Therapie|Beurteilung nach|
+
+<br>
+
 **Bindings**
 
 | FHIR-Element-Id | ValueSets|

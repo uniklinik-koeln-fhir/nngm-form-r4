@@ -23,7 +23,7 @@ Strahlentherapie-Profil für das nNGM-Projekt, basierend auf MII_PR_Onko_Strahle
 |Procedure.performed.start|Strahlentherapie|Therapiebeginn|
 |Procedure.performed.end|Strahlentherapie|Therapieende|
 |Procedure.bodySite.coding.code|Strahlentherapie|Zielgebiet|
-|Procedure.bodySite:http://fhir.de/StructureDefinition/seitenlokalisation|Strahlentherapie|Seite Zielgebiet|
+|Procedure.bodySite.extension.value.code|Strahlentherapie|Seite Zielgebiet|
 |Procedure.extension.value.coding.code|Strahlentherapie|Intention der Strahlentherapie|
 |Procedure.extension.value.text|Strahlentherapie|Sonstiges|
 |Procedure.extension.value.coding.code|Strahlentherapie|Stellung zu operativer Therapie|
@@ -40,7 +40,7 @@ Strahlentherapie-Profil für das nNGM-Projekt, basierend auf MII_PR_Onko_Strahle
 
 | FHIR-Element-Id | ValueSets|
 |-----------------|----------|
-|Procedure.outcome.coding.code|([https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-ende-grund](https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-ende-grund))|
+|Procedure.outcome.coding.code|{{link:https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-ende-grund}}|
 
 <br>
 

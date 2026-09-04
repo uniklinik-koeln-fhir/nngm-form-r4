@@ -16,7 +16,7 @@ Bestrahlungs-Profil für das nNGM-Projekt, basierend auf MII_PR_Onko_Strahlenthe
 
 | FHIR-Element-Id | ValueSets|
 |-----------------|----------|
-|Procedure.bodySite.coding|([https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-zielgebiet](https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-zielgebiet))|
+|Procedure.bodySite.coding|{{link:https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-strahlentherapie-zielgebiet}}|
 
 <br>
 
